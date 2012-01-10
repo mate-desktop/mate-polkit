@@ -2,7 +2,7 @@
 
 	* el.po: Updated Greek translation by Evgenia Petoumenou.
 
-2008-12-29  Gabor Kelemen  <kelemeng@mate.hu>
+2008-12-29  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Translation updated.
 
@@ -168,7 +168,7 @@
 	* ja.po: Added Japanese translation.
 	* LINGUAS: Added 'ja' (Japanese).
 
-2008-04-09  Gabor Kelemen  <kelemeng@mate.hu>
+2008-04-09  Gabor Kelemen  <kelemeng@gnome.hu>
 
 	* hu.po: Translation added by Máté Őry
 	* LINGUAS: Added hu
