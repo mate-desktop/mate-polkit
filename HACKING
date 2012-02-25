@@ -1,16 +1,3 @@
-SCM
-===
-
-PolicyKit-mate is now at MATE's SVN at
-
- http://svn.gnome.org/viewvc/policykit-mate/
-
-The old git repository at
-
- http://gitweb.freedesktop.org/?p=users/david/PolicyKit-mate.git;a=summary
-
-is no longer used.
-
 Coding Style
 ===
 

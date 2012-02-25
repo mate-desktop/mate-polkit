@@ -7,9 +7,8 @@ documentation, mailing lists, etc. about PolicyKit.
 See also the file HACKING for notes of interest to developers working
 on PolicyKit-mate.
 
-Report bugs against PolicyKit-mate at the MATE bugzilla
+Report bugs against PolicyKit-mate at github
 
- http://bugzilla.gnome.org/
+ https://github.com/mate-desktop/mate-polkit/issues
 
-against the policykit-mate product.
-
+MATE polkit is a fork of GNOME polkit.
