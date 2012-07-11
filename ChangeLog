@@ -1,3 +1,45 @@
+commit d642e37bacaccc1225692071de04b5d598b7617a
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jul 10 00:26:45 2012 +0200
+
+    fix gettext package name
+
+ configure.ac |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d12357043a050fb6095420f16dc0e7bbdae45b58
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Tue Jul 10 00:22:05 2012 +0200
+
+    add gnome po copyrights file
+
+ po/gnome-copyrights.txt |  437 +++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 437 insertions(+)
+
+commit a80b9796e26c8649af9761a692015978d0122f71
+Author: Stefano Karapetsas <stefano@karapetsas.com>
+Date:   Sat Feb 25 20:08:22 2012 +0100
+
+    some fixes on doc files
+
+ HACKING |   13 -------------
+ README  |    7 +++----
+ TODO    |    3 ---
+ 3 files changed, 3 insertions(+), 20 deletions(-)
+
+commit 4123e2e96d2eccd2598327952c486fd82a835a56
+Author: Steve Zesch <stevezesch2@gmail.com>
+Date:   Thu Feb 23 21:21:28 2012 -0500
+
+    Preparing for 1.2 release
+
+ AUTHORS             |    9 ++-
+ ChangeLog           |  166 +++++++++++++++++++++++++++++++++++++++++++++++++++
+ autogen.sh          |    4 +-
+ configure.ac        |    2 +-
+ distro/ubuntu/build |   25 --------
+ 5 files changed, 176 insertions(+), 30 deletions(-)
+
 commit e0bd0522713ef64e5506e6c14299cea079d716d2
 Author: Perberos <perberos@gmail.com>
 Date:   Mon Jan 30 13:01:02 2012 -0300
@@ -5,7 +47,7 @@ Date:   Mon Jan 30 13:01:02 2012 -0300
     set patch on archlinux script
 
  distro/archlinux/PKGBUILD |   10 +++++-----
- 1 files changed, 5 insertions(+), 5 deletions(-)
+ 1 file changed, 5 insertions(+), 5 deletions(-)
 
 commit ca0a1d4873fa6faa9e1452781ef47cfdbfbe09c6
 Author: Steve Zesch <stevezesch2@gmail.com>
@@ -31,7 +73,7 @@ Date:   Sat Dec 10 17:55:35 2011 +0100
  config.sub                | 1705 --------
  configure.ac              |    2 +-
  depcomp                   |  630 ---
- docs/Makefile.in          |  729 ---
+ docs/Makefile.in          |  729 ----
  gtk-doc.make              |  230 -
  install-sh                |  520 ---
  missing                   |  376 --
@@ -103,7 +145,7 @@ Date:   Thu Dec 1 23:00:56 2011 -0300
  po/Makefile.in.in                                  |  217 +
  po/POTFILES.in                                     |    8 +
  po/POTFILES.skip                                   |    1 +
- po/ar.po                                           |  563 +
+ po/ar.po                                           |  563 ++
  po/be.po                                           |  104 +
  po/bn_IN.po                                        |  243 +
  po/ca.po                                           |  666 ++
@@ -163,4 +205,4 @@ Date:   Thu Dec 1 23:00:56 2011 -0300
  src/polkitmateauthenticator.h                      |   56 +
  src/polkitmatelistener.c                           |  253 +
  src/polkitmatelistener.h                           |   48 +
- 94 files changed, 52674 insertions(+), 0 deletions(-)
+ 94 files changed, 52674 insertions(+)
