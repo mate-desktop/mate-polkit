@@ -680,9 +680,9 @@ polkit_lock_button_new (const gchar *action_id)
 static void
 update_state (PolkitLockButton *button)
 {
-  const gchar *text;
-  const gchar *tooltip;
-  gboolean sensitive;
+  const gchar *text = NULL;
+  const gchar *tooltip = NULL;
+  gboolean sensitive = FALSE;
   gboolean old_hidden;
   GtkWidget *image;
 
@@ -735,11 +735,19 @@ update_state (PolkitLockButton *button)
   image = gtk_image_new_from_icon_name (button->priv->authorized ? "changes-allow" : "changes-prevent",
                                         GTK_ICON_SIZE_SMALL_TOOLBAR);
   gtk_button_set_image (GTK_BUTTON (button->priv->button), image);
-  gtk_label_set_text (GTK_LABEL (button->priv->label), text);
+
+  if (text != NULL)
+    {
+      gtk_label_set_text (GTK_LABEL (button->priv->label), text);
+    }
+
   gtk_widget_set_sensitive (button->priv->button, sensitive);
 
-  gtk_widget_set_tooltip_markup (GTK_WIDGET (button->priv->label), tooltip);
-  gtk_widget_set_tooltip_markup (GTK_WIDGET (button->priv->button), tooltip);
+  if (tooltip != NULL)
+    {
+      gtk_widget_set_tooltip_markup (GTK_WIDGET (button->priv->label), tooltip);
+      gtk_widget_set_tooltip_markup (GTK_WIDGET (button->priv->button), tooltip);
+    }
 
   if (button->priv->hidden)
     {
