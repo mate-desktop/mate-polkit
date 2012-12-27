@@ -273,6 +273,7 @@ get_image (PolkitMateAuthenticationDialog *dialog)
   pixbuf = NULL;
   copy_pixbuf = NULL;
   vendor_pixbuf = NULL;
+  image = NULL;
 
   if (dialog->priv->icon_name == NULL || strlen (dialog->priv->icon_name) == 0)
     {
