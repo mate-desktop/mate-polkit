@@ -1,5 +1,6 @@
 # please keep this list sorted alphabetically
 #
+am
 ar
 be
 bn_IN
@@ -8,6 +9,7 @@ cs
 da
 de
 el
+en_AU
 en_GB
 es
 eu
@@ -18,13 +20,18 @@ gu
 he
 hi
 hu
+id
 it
 ja
 kn
+ky
 lt
+lv
 ml
 mr
+ms
 nb
+nl
 or
 pa
 pl
@@ -34,10 +41,12 @@ ro
 ru
 sk
 sl
+sq
 sv
 ta
 te
 th
+tr
 uk
 zh_CN
 zh_HK
