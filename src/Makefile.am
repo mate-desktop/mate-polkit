@@ -24,7 +24,6 @@ polkit_mate_authentication_agent_1_CPPFLAGS = 		\
 	-DDATADIR=\""$(pkgdatadir)"\"			\
 	-DMATELOCALEDIR=\""$(datadir)/locale"\"	\
 	-DPOLKIT_AGENT_I_KNOW_API_IS_SUBJECT_TO_CHANGE	\
-	$(DISABLE_DEPRECATED)				\
 	$(AM_CPPFLAGS)
 
 polkit_mate_authentication_agent_1_CFLAGS = 		\
