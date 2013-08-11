@@ -1,4 +1,4 @@
-AC_INIT([polkit-mate],[1.6.0],[http://www.mate-desktop.org/],[polkit-mate])
+AC_INIT([polkit-mate],[1.7.0],[http://www.mate-desktop.org/],[polkit-mate])
 
 AM_INIT_AUTOMAKE([1.9 foreign dist-xz no-dist-gzip])
 
