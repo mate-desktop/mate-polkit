@@ -1,6 +1,6 @@
 AC_INIT([polkit-mate],[1.6.0],[http://www.mate-desktop.org/],[polkit-mate])
 
-AM_INIT_AUTOMAKE([1.9 foreign dist-bzip2 no-dist-gzip])
+AM_INIT_AUTOMAKE([1.9 foreign dist-xz no-dist-gzip])
 
 AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
@@ -140,13 +140,11 @@ case "$with_gtk" in
 esac
 
 PKG_CHECK_MODULES(GTK, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED)
-
+AC_SUBST(GTK_CFLAGS)
+AC_SUBST(GTK_LIBS)
 
 POLKIT_AGENT_REQUIRED=0.97
 POLKIT_GOBJECT_REQUIRED=0.97
-
-AC_SUBST(GTK_CFLAGS)
-AC_SUBST(GTK_LIBS)
 
 PKG_CHECK_MODULES(POLKIT_AGENT, polkit-agent-1 >= $POLKIT_AGENT_REQUIRED)
 AC_SUBST(POLKIT_AGENT_CFLAGS)
@@ -229,8 +227,9 @@ echo "
         compiler:                   ${CC}
         cflags:                     ${CFLAGS}
         cppflags:                   ${CPPFLAGS}
-	introspection:		    ${enable_introspection}
 
+        Gtk+ version:               ${GTK_API_VERSION}
         Maintainer mode:            ${USE_MAINTAINER_MODE}
         Building api docs:          ${enable_gtk_doc}
+        GObject Introspection:      ${enable_introspection}
 "
