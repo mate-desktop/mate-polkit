@@ -25,7 +25,7 @@ IGNORE_HFILES= \
 
 # CFLAGS and LDFLAGS for compiling scan program. Only needed
 # if $(DOC_MODULE).types is non-empty.
-INCLUDES = \
+AM_CPPFLAGS = \
 	$(POLKIT_GOBJECT_CFLAGS)				\
 	$(GTK_CFLAGS)						\
 	-I$(top_srcdir)/polkitgtkmate 				\
