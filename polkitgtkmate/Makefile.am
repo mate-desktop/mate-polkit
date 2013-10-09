@@ -80,12 +80,12 @@ PolkitGtkMate-1.0.gir: libpolkit-gtk-mate-1.la $(G_IR_SCANNER) Makefile.am
 		--namespace PolkitGtkMate 				\
 		--strip-prefix=Polkit				\
 		--nsversion=1.0 				\
-		--include=Gtk-2.0 				\
+		--include=Gtk-${GTK_API_VERSION}	\
 		--include=Polkit-1.0 				\
 		--library=polkit-gtk-mate-1 				\
 		--output $@ 					\
 		--pkg=polkit-gobject-1				\
-		--pkg=gtk+-2.0 					\
+		--pkg=gtk+-${GTK_API_VERSION} 					\
 		--libtool=$(top_builddir)/libtool		\
                 -I$(top_srcdir)		 			\
 	        -DPOLKIT_GTK_MATE_COMPILATION                   	\
