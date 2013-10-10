@@ -206,7 +206,9 @@ main (int argc, char **argv)
   PolkitAgentListener *listener;
   GError *error;
 
+#if !GLIB_CHECK_VERSION (2, 36, 0)
   g_type_init ();
+#endif
   gtk_init (&argc, &argv);
 
   loop = NULL;
