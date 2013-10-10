@@ -6,8 +6,10 @@ desktop_DATA = polkit-mate-authentication-agent-1.desktop
 
 @INTLTOOL_DESKTOP_RULE@
 
-polkit-mate-authentication-agent-1.desktop.in : polkit-mate-authentication-agent-1.desktop.in.in
-	cat polkit-mate-authentication-agent-1.desktop.in.in | sed 's,@FULL_LIBEXECDIR@,$(FULL_LIBEXECDIR),' > $@
+polkit-mate-authentication-agent-1.desktop.in : polkit-mate-authentication-agent-1.desktop.in.in Makefile
+	$(AM_V_GEN)sed \
+		-e "s|\@FULL_LIBEXECDIR\@|$(FULL_LIBEXECDIR)|" \
+		$< > $@
 
 libexec_PROGRAMS = polkit-mate-authentication-agent-1
 
@@ -44,7 +46,9 @@ polkit_mate_authentication_agent_1_LDADD = 		\
 	$(POLKIT_GOBJECT_LIBS)				\
 	$(INTLLIBS)
 
-EXTRA_DIST = polkit-mate-authentication-agent-1.desktop.in.in
+EXTRA_DIST = \
+	polkit-mate-authentication-agent-1.desktop.in \
+	polkit-mate-authentication-agent-1.desktop.in.in
 
 clean-local :
 	rm -f *~ polkit-mate-authentication-agent-1.desktop polkit-mate-authentication-agent-1.desktop.in
