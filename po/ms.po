@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Puretech <terjemahan.puretech@gmail.com>, 2012.
+# abuyop <abuyop@gmail.com>, 2013
+# Puretech <terjemahan.puretech@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
 "POT-Creation-Date: 2012-07-10 00:27+0200\n"
-"PO-Revision-Date: 2012-07-12 22:42+0000\n"
-"Last-Translator: Puretech <terjemah.puretech@gmail.com>\n"
+"PO-Revision-Date: 2013-08-10 17:02+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -28,61 +29,61 @@ msgstr "Pengecam tindakan untuk digunakan oleh butang"
 
 #: ../polkitgtkmate/polkitlockbutton.c:468
 msgid "Is Authorized"
-msgstr "Dibenarkan"
+msgstr "Diizinkan"
 
 #: ../polkitgtkmate/polkitlockbutton.c:469
 msgid "Whether the process is authorized"
-msgstr "Sama ada proses ini dibenarkan"
+msgstr "Sama ada proses ini diizinkan"
 
 #: ../polkitgtkmate/polkitlockbutton.c:484
 msgid "Is Visible"
-msgstr "Dapat dilihat"
+msgstr "Adalah Kelihatan"
 
 #: ../polkitgtkmate/polkitlockbutton.c:485
 msgid "Whether the widget is visible"
-msgstr "Sama ada wiget boleh dilihat"
+msgstr "Sama ada widget adalah kelihatan"
 
 #: ../polkitgtkmate/polkitlockbutton.c:500
 msgid "Can Obtain"
-msgstr "Boleh didapati"
+msgstr "Boleh Didapati"
 
 #: ../polkitgtkmate/polkitlockbutton.c:501
 msgid "Whether authorization can be obtained"
-msgstr "Sama ada pengesahan boleh didapati"
+msgstr "Sama ada keizinan boleh didapati"
 
 #: ../polkitgtkmate/polkitlockbutton.c:516
 #: ../polkitgtkmate/polkitlockbutton.c:618
 msgid "Unlock Text"
-msgstr "Teks membuka kunci"
+msgstr "Nyahkunci Teks"
 
 #: ../polkitgtkmate/polkitlockbutton.c:517
 msgid "The text to display when prompting the user to unlock."
-msgstr "Teks yang dipaparkan apabila memberitahu pengguna untuk membuka kunci."
+msgstr "Teks yang dipaparkan apabila memaklumkan pengguna untuk dinyahkunci."
 
 #: ../polkitgtkmate/polkitlockbutton.c:518
 msgid "Click to make changes"
-msgstr "Klik untuk membuat perubahan"
+msgstr "Klik untuk buat perubahan"
 
 #: ../polkitgtkmate/polkitlockbutton.c:533
 #: ../polkitgtkmate/polkitlockbutton.c:635
 msgid "Unlock Tooltip"
-msgstr "Buka kunci tip alatan"
+msgstr "Nyahkunci Tip Alat"
 
 #: ../polkitgtkmate/polkitlockbutton.c:534
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr "Teks yang dipaparkan apabila memberitahu pengguna untuk membuka kunci tip alatan."
+msgstr "Teks yang dipaparkan apabila memaklumkan pengguna untuk dinyahkunci."
 
 #: ../polkitgtkmate/polkitlockbutton.c:535
 msgid "Authentication is needed to make changes."
-msgstr "Pengesahan diperlukan untuk membuat perubahan."
+msgstr "Pengesahihan diperlukan untuk membuat perubahan."
 
 #: ../polkitgtkmate/polkitlockbutton.c:550
 msgid "Lock Text"
-msgstr "Teks mengunci"
+msgstr "Teks Kunci"
 
 #: ../polkitgtkmate/polkitlockbutton.c:551
 msgid "The text to display when prompting the user to lock."
-msgstr "Teks yang dipaparkan apabila memberitahu pengguna untuk mengunci."
+msgstr "Teks yang dipaparkan apabila memaklumkan pengguna untuk dikunci."
 
 #: ../polkitgtkmate/polkitlockbutton.c:552
 msgid "Click to prevent changes"
@@ -90,11 +91,11 @@ msgstr "Klik untuk mencegah perubahan"
 
 #: ../polkitgtkmate/polkitlockbutton.c:567
 msgid "Lock Tooltip"
-msgstr "Kunci tip alatan"
+msgstr "Kunci Tip Alat"
 
 #: ../polkitgtkmate/polkitlockbutton.c:568
 msgid "The tooltip to display when prompting the user to lock."
-msgstr "Tip alatan yang dipaparkan apabila memberitahu pengguna untuk mengunci."
+msgstr "Tip alat yang dipaparkan apabila memaklumkan pengguna untuk dikunci."
 
 #: ../polkitgtkmate/polkitlockbutton.c:569
 msgid "To prevent further changes, click the lock."
@@ -102,13 +103,13 @@ msgstr "Untuk menghalang perubahan selanjutnya, klik kunci."
 
 #: ../polkitgtkmate/polkitlockbutton.c:584
 msgid "Lock Down Text"
-msgstr "Teks mengunci"
+msgstr "Kunci Teks"
 
 #: ../polkitgtkmate/polkitlockbutton.c:585
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr "Teks yang dipaparkan apabila memberitahu pengguna untuk mengunci tindakan dari semua pengguna."
+msgstr "Teks yang dipaparkan apabila memaklumkan pengguna untuk kuncikan tindakan dari semua pengguna."
 
 #: ../polkitgtkmate/polkitlockbutton.c:586
 msgid "Click to lock down"
@@ -116,35 +117,35 @@ msgstr "Klik untuk mengunci"
 
 #: ../polkitgtkmate/polkitlockbutton.c:601
 msgid "Lock Down Tooltip"
-msgstr "Tip alatan mengunci"
+msgstr "Tip Alat Mengunci"
 
 #: ../polkitgtkmate/polkitlockbutton.c:602
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr "Teks yang dipaparkan apabila memberitahu pengguna untuk mengunci tindakan dari semua pengguna."
+msgstr "Tip alat yang dipaparkan apabila memaklumkan pengguna untuk mengunci tindakan dari semua pengguna."
 
 #: ../polkitgtkmate/polkitlockbutton.c:603
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr "Untuk menghalang pengguna tanpa kuasa pentadbiran daripada membuat perubahan, klik kunci."
+msgstr "Untuk menghalang pengguna tanpa kelayakan pentadbiran membuat perubahan, klik kunci."
 
 #: ../polkitgtkmate/polkitlockbutton.c:619
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "Teks yang dipaparkan apabila pengguna tidak boleh mendapatkan kebenaran melalui pengesahan."
+msgstr "Teks yang dipaparkan apabila pengguna tidak boleh dapatkan keizinan melalui pengesahihan."
 
 #: ../polkitgtkmate/polkitlockbutton.c:620
 msgid "Not authorized to make changes"
-msgstr "Tidak dibenarkan untuk membuat perubahan"
+msgstr "Tidak diizinkan untuk membuat perubahan"
 
 #: ../polkitgtkmate/polkitlockbutton.c:636
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "Teks yang dipaparkan apabila pengguna tidak boleh mendapatkan kebenaran melalui pengesahan."
+msgstr "Tip alat yang dipaparkan apabila pengguna tidak boleh mendapatkan keizinan melalui pengesahihan."
 
 #: ../polkitgtkmate/polkitlockbutton.c:637
 msgid "System policy prevents changes. Contact your system administator."
@@ -152,7 +153,7 @@ msgstr "Polisi sistem menghalang perubahan. Hubungi pentadbir sistem anda."
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Klik pada ikon untuk menggugurkan semua keistimewaan tertinggi"
+msgstr "Klik pada ikon untuk menggugurkan semua kelayakan tertinggi"
 
 #: ../src/polkitmateauthenticationdialog.c:159
 msgid "Select user..."
@@ -165,39 +166,39 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:531
 msgid "_Authenticate"
-msgstr "Penges_ahan"
+msgstr "S_ahihkan"
 
 #: ../src/polkitmateauthenticationdialog.c:571
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Aplikasi sedang cuba melakukan suatu tindakan yang memerlukan keistimewaan. Pengesahan sebagai salah satu daripada pengguna di bawah diperlukan untuk melakukan tindakan ini."
+msgstr "Satu aplikasi cuba membuat tindakan yang memerlukan kelayakan. Pengesahihan adalah salah satu dari pengguna di bawah diperlukan untuk membuat tindakan ini."
 
 #: ../src/polkitmateauthenticationdialog.c:579
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Aplikasi sedang cuba melakukan tindakan yang memerlukan keistimewaan. Pengesahan diperlukan untuk melakukan tindakan ini."
+msgstr "Satu aplikasi cuba membuat tindakan yang memerlukan kelayakan. Pengesahihan diperlukan untuk membuat tindakan ini."
 
 #: ../src/polkitmateauthenticationdialog.c:585
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Aplikasi sedang cuba melakukan tindakan yang memerlukan keistimewaan. Pengesahan daripada pengguna yang mempunyai kuasa diperlukan untuk melakukan tindakan ini."
+msgstr "Satu aplikasi cuba membuat tindakan yang memerlukan kelayakan. Pengesahihan dari pengguna sebagai pengguna super diperlukan untuk membuat tindakan ini."
 
 #: ../src/polkitmateauthenticationdialog.c:620
 #: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
-msgstr "_Katalaluan:"
+msgstr "_Kata Laluan:"
 
 #. Details
 #: ../src/polkitmateauthenticationdialog.c:638
 msgid "<small><b>_Details</b></small>"
-msgstr "<small><b>_Butiran</b></small>"
+msgstr "<small><b>_Perincian</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:691
 msgid "<small><b>Action:</b></small>"
-msgstr "<small><b>Tindakan</b></small>"
+msgstr "<small><b>Tindakan:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:694
 #, c-format
@@ -215,17 +216,17 @@ msgstr "Klik untuk buka %s"
 
 #: ../src/polkitmateauthenticationdialog.c:873
 msgid "Authenticate"
-msgstr "Pengesahan"
+msgstr "Sahihkan"
 
 #: ../src/polkitmateauthenticator.c:294
 #, c-format
 msgid "_Password for %s:"
-msgstr "_Katalaluan untuk %s:"
+msgstr "_Kata laluan untuk %s:"
 
 #: ../src/polkitmateauthenticator.c:454
 msgid "Authentication Failure"
-msgstr "Pengesahan gagal"
+msgstr "Pengesahihan Gagal"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "Ejen pengesahan PolicyKit"
+msgstr "Ejen Pengesahihan PolicyKit"
