@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# ibnu daru aji <teratower8@gmail.com>, 2013.
+# andjeng, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-07-10 00:27+0200\n"
-"PO-Revision-Date: 2013-03-11 06:52+0000\n"
-"Last-Translator: andjeng <teratower8@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-15 11:29+0100\n"
+"PO-Revision-Date: 2014-01-15 10:30+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/MATE/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,135 +18,135 @@ msgstr ""
 "Language: id\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:451
+#: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
 msgstr "Aksi Identifair"
 
-#: ../polkitgtkmate/polkitlockbutton.c:452
+#: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
 msgstr "Aksi identifair untuk penggunaan pada tombol"
 
-#: ../polkitgtkmate/polkitlockbutton.c:468
+#: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
 msgstr "Diotorisasi"
 
-#: ../polkitgtkmate/polkitlockbutton.c:469
+#: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
 msgstr "menentukan apakah proses sudah diotorisasi"
 
-#: ../polkitgtkmate/polkitlockbutton.c:484
+#: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
 msgstr "Tampak"
 
-#: ../polkitgtkmate/polkitlockbutton.c:485
+#: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
 msgstr "Apakah widget terlihat"
 
-#: ../polkitgtkmate/polkitlockbutton.c:500
+#: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
 msgstr "Didapati"
 
-#: ../polkitgtkmate/polkitlockbutton.c:501
+#: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
 msgstr "Menentukan wewenang dapat diperoleh"
 
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
+#: ../polkitgtkmate/polkitlockbutton.c:520
+#: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
 msgstr "Buka teks"
 
-#: ../polkitgtkmate/polkitlockbutton.c:517
+#: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
 msgstr "Teks yang ditampilkan ketika user berusaha membuka."
 
-#: ../polkitgtkmate/polkitlockbutton.c:518
+#: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
 msgstr "Klik untuk merubah"
 
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
+#: ../polkitgtkmate/polkitlockbutton.c:537
+#: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
 msgstr "Buka Tooltip"
 
-#: ../polkitgtkmate/polkitlockbutton.c:534
+#: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "Tooltip yang ditampilkan kepada user untuk membuka."
 
-#: ../polkitgtkmate/polkitlockbutton.c:535
+#: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
 msgstr "Otentikasi dibutuhkan untuk membuat perubahan."
 
-#: ../polkitgtkmate/polkitlockbutton.c:550
+#: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
 msgstr "Kunci Teks"
 
-#: ../polkitgtkmate/polkitlockbutton.c:551
+#: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
 msgstr "Teks yang ditampilkan ke pengguna ketika mengunci."
 
-#: ../polkitgtkmate/polkitlockbutton.c:552
+#: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
 msgstr "Klik untuk mencegah perubahan"
 
-#: ../polkitgtkmate/polkitlockbutton.c:567
+#: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
 msgstr "Kunci Tooltip"
 
-#: ../polkitgtkmate/polkitlockbutton.c:568
+#: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "Tooltip yang ditampilkan ke pengguna ketika mengunci."
 
-#: ../polkitgtkmate/polkitlockbutton.c:569
+#: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
 msgstr "Untuk mencegah perubahan lebih lanjut, klik kunci."
 
-#: ../polkitgtkmate/polkitlockbutton.c:584
+#: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
 msgstr "Kunci Teks"
 
-#: ../polkitgtkmate/polkitlockbutton.c:585
+#: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
 msgstr "Teks yang ditampilkan ke pengguna ketika mengunci aksi untuk semua pengguna."
 
-#: ../polkitgtkmate/polkitlockbutton.c:586
+#: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
 msgstr "Klik untuk mengunci."
 
-#: ../polkitgtkmate/polkitlockbutton.c:601
+#: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
 msgstr "Kunci Tooltip"
 
-#: ../polkitgtkmate/polkitlockbutton.c:602
+#: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
 msgstr "Tooltip yang ditampilkan ke pengguna ketika mengunci aksi dari semua pengguna"
 
-#: ../polkitgtkmate/polkitlockbutton.c:603
+#: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
 msgstr "Untuk mencegah pengguna tanpa hak akses administratif melakukan perubahan, klik kunci."
 
-#: ../polkitgtkmate/polkitlockbutton.c:619
+#: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "Teks yang ditampilkan ke pengguna ketika tidak memperoleh otorisasi lewat otentikasi."
 
-#: ../polkitgtkmate/polkitlockbutton.c:620
+#: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
 msgstr "Tidak terotorisasi untuk melakukan perubahan."
 
-#: ../polkitgtkmate/polkitlockbutton.c:636
+#: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "Tooltip yang ditampilkan ke pengguna ketika tidak dapat terotorisasi melalui otorisasi."
 
-#: ../polkitgtkmate/polkitlockbutton.c:637
+#: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "Kebijakan sistem mencegah perubahan. Hubungi sistem administrator anda."
 
@@ -163,57 +163,57 @@ msgstr "Pilih Pengguna....."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:531
+#: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
 msgstr "Otentik_asi"
 
-#: ../src/polkitmateauthenticationdialog.c:571
+#: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr "Sebuah aplikasi berusaha melakukan aksi yang membutuhkan hak khusus. Otentikasi sebagai salah satu pengguna dibawah dibutuhkan untuk melakukan aksi ini."
 
-#: ../src/polkitmateauthenticationdialog.c:579
+#: ../src/polkitmateauthenticationdialog.c:582
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "Sebuah aplikasi berusaha melakukan aksi yang membutuhkan wewenang khusus. Otentikasi dibutuhkan untuk melakukan aksi ini."
 
-#: ../src/polkitmateauthenticationdialog.c:585
+#: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr "Sebuah aplikasi berusaha melakukan aksi yang membutuhkan wewenang khusus. Otentikasi sebagai super user dibutuhkan untuk melakukan aksi ini."
 
-#: ../src/polkitmateauthenticationdialog.c:620
+#: ../src/polkitmateauthenticationdialog.c:623
 #: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
 msgstr "_Password:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:638
+#: ../src/polkitmateauthenticationdialog.c:641
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detail</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:691
+#: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Aksi:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:694
+#: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
 msgid "Click to edit %s"
 msgstr "Klik untuk menyunting %s"
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Vendor:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:710
+#: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
 msgid "Click to open %s"
 msgstr "Klik untuk membuka %s"
 
-#: ../src/polkitmateauthenticationdialog.c:873
+#: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
 msgstr "Mengautentikasi"
 
@@ -229,3 +229,7 @@ msgstr "Autentikasi gagal"
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
 msgstr "PolicyKit Authentication Agent"
+
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr ""

@@ -1,170 +1,155 @@
-# Lithuanian translation for PolicyKit-mate package.
-# Copyright (C) 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the PolicyKit-mate package.
-# Žygimantas Beručka <zygis@gnome.org>, 2009.
-# Aurimas Černius <aurisc4@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# aurisc4 <aurisc4@gmail.com>, 2010
+# Žygimantas Beručka <zygis@gnome.org>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: PolicyKit-mate master\n"
+"Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-12 00:50+0300\n"
-"PO-Revision-Date: 2010-04-11 21:53+0300\n"
-"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
-"Language-Team: Lietuvių <mate-lt@lists.akl.lt>\n"
+"POT-Creation-Date: 2014-01-15 11:29+0100\n"
+"PO-Revision-Date: 2014-01-15 10:30+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/projects/p/MATE/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:460
+#: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
 msgstr "Veiksmo identifikatorius"
 
-#: ../polkitgtkmate/polkitlockbutton.c:461
+#: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
 msgstr "Veiksmo identifikatorius, naudotinas mygtukui"
 
-#: ../polkitgtkmate/polkitlockbutton.c:477
+#: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
 msgstr "Autorizuotas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:478
+#: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
 msgstr "Ar procesas yra autorizuotas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:493
+#: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
 msgstr "Matomas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:494
+#: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
 msgstr "Ar valdymo elementas yra matomas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:509
+#: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
 msgstr "Gali gauti"
 
-#: ../polkitgtkmate/polkitlockbutton.c:510
+#: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
 msgstr "Ar galima gauti autorizaciją"
 
-#: ../polkitgtkmate/polkitlockbutton.c:525 ../polkitgtkmate/polkitlockbutton.c:627
+#: ../polkitgtkmate/polkitlockbutton.c:520
+#: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
 msgstr "Atrakinti tekstą"
 
-#: ../polkitgtkmate/polkitlockbutton.c:526
+#: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
 msgstr "Tekstas, rodytinas prašant naudotojo atrakinti."
 
-#: ../polkitgtkmate/polkitlockbutton.c:527
+#: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
 msgstr "Spustelėję galite atlikti pakeitimus"
 
-#: ../polkitgtkmate/polkitlockbutton.c:542 ../polkitgtkmate/polkitlockbutton.c:644
+#: ../polkitgtkmate/polkitlockbutton.c:537
+#: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
 msgstr "Atrakinimo patarimas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:543
+#: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "Patarimas, rodomas prašant naudotojo atrakinti."
 
-#: ../polkitgtkmate/polkitlockbutton.c:544
+#: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
 msgstr "Pakeitimų atlikimui reikalinga autentikacija"
 
-#: ../polkitgtkmate/polkitlockbutton.c:559
+#: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
 msgstr "Užrakinti tekstą"
 
-#: ../polkitgtkmate/polkitlockbutton.c:560
+#: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
 msgstr "Tekstas, rodytinas prašant naudotojo užrakinti."
 
-#: ../polkitgtkmate/polkitlockbutton.c:561
+#: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
 msgstr "Spustelėkite, norėdami neleisti pakeitimų"
 
-#: ../polkitgtkmate/polkitlockbutton.c:576
+#: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
 msgstr "Užrakinimo patarimas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:577
+#: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "Patarimas, rodomas prašant naudotojo užrakinti."
 
-#: ../polkitgtkmate/polkitlockbutton.c:578
+#: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
 msgstr "Norėdami uždrausti tolesnius pakeitimus, spauskite užrakinti."
 
-#: ../polkitgtkmate/polkitlockbutton.c:593
+#: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
 msgstr "Užrakinimo tekstas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:594
+#: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr ""
-"Tekstas, rodomas prašant naudotojo užrakinti veiksmą visiems naudotojams."
+msgstr "Tekstas, rodomas prašant naudotojo užrakinti veiksmą visiems naudotojams."
 
-#: ../polkitgtkmate/polkitlockbutton.c:595
+#: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
 msgstr "Spauskite, norėdami užrakinti"
 
-#: ../polkitgtkmate/polkitlockbutton.c:610
+#: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
 msgstr "Užrakinimo patarimas"
 
-#: ../polkitgtkmate/polkitlockbutton.c:611
+#: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr ""
-"Patarimas, rodomas prašant naudotojo užrakinti veiksmą visiems naudotojams."
+msgstr "Patarimas, rodomas prašant naudotojo užrakinti veiksmą visiems naudotojams."
 
-#: ../polkitgtkmate/polkitlockbutton.c:612
+#: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr ""
-"Norėdami uždrausti naudotojams be administravimo teisių daryti pakeitimus, "
-"spauskite užrakinti."
+msgstr "Norėdami uždrausti naudotojams be administravimo teisių daryti pakeitimus, spauskite užrakinti."
 
-#: ../polkitgtkmate/polkitlockbutton.c:628
+#: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
-"Tekstas, rodytinas, kai naudotojas negali gauti privilegijų "
-"patvirtindamassavo tapatybę."
+msgstr "Tekstas, rodytinas, kai naudotojas negali gauti privilegijų patvirtindamassavo tapatybę."
 
-#: ../polkitgtkmate/polkitlockbutton.c:629
+#: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
 msgstr "Neturi teisių, reikiamų pakeitimų atlikimui"
 
-#: ../polkitgtkmate/polkitlockbutton.c:645
+#: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
-"Patarimas, rodomas, kai naudotojas negali gauti privilegijų patvirtindamas "
-"savo tapatybę."
+msgstr "Patarimas, rodomas, kai naudotojas negali gauti privilegijų patvirtindamas savo tapatybę."
 
-#: ../polkitgtkmate/polkitlockbutton.c:646
+#: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr ""
-"Sistemos politika neleidžia pakeitimų. Susisiekite su sistemos "
-"administratoriumi."
-
-#. Translators: this string is appended to the tooltip if the action is
-#. * currently locked down
-#: ../polkitgtkmate/polkitlockbutton.c:767
-msgid ""
-"This button is locked down so only users with administrative privileges can "
-"unlock it. Right-click the button to remove the lock down."
-msgstr ""
-"Šis mygtukas yra užrakintas ir tik naudotojai su administravimo teisėmis "
-"gali jį atrakinti. Spauskite dešinį klavišą virš mygtuko užrakinimui "
-"pašalinti."
+msgstr "Sistemos politika neleidžia pakeitimų. Susisiekite su sistemos administratoriumi."
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
@@ -179,75 +164,73 @@ msgstr "Pasirinkite naudotoją..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:529
+#: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
 msgstr "_Patvirtinti tapatybę"
-
-#: ../src/polkitmateauthenticationdialog.c:566
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as one of the users below is required to perform this action."
-msgstr ""
-"Programa siekia atlikti veiksmą, kuriam reikia privilegijų. Norint atlikti "
-"šį veiksmą reikia patvirtinti vieno iš žemiau pateiktų naudotojų tapatybę."
 
 #: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
-"Authentication is required to perform this action."
-msgstr ""
-"Programa siekia atlikti veiksmą, kuriam reikia privilegijų. Norint atlikti "
-"šį veiksmą reikia patvirtinti tapatybę."
+"Authentication as one of the users below is required to perform this action."
+msgstr "Programa siekia atlikti veiksmą, kuriam reikia privilegijų. Norint atlikti šį veiksmą reikia patvirtinti vieno iš žemiau pateiktų naudotojų tapatybę."
 
-#: ../src/polkitmateauthenticationdialog.c:580
+#: ../src/polkitmateauthenticationdialog.c:582
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr "Programa siekia atlikti veiksmą, kuriam reikia privilegijų. Norint atlikti šį veiksmą reikia patvirtinti tapatybę."
+
+#: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr ""
-"Programa siekia atlikti veiksmą, kuriam reikia privilegijų. Norint atlikti "
-"šį veiksmą reikia patvirtinti administratoriaus tapatybę."
+msgstr "Programa siekia atlikti veiksmą, kuriam reikia privilegijų. Norint atlikti šį veiksmą reikia patvirtinti administratoriaus tapatybę."
 
-#: ../src/polkitmateauthenticationdialog.c:615
-#: ../src/polkitmateauthenticator.c:289
+#: ../src/polkitmateauthenticationdialog.c:623
+#: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
 msgstr "_Slaptažodis:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:633
+#: ../src/polkitmateauthenticationdialog.c:641
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Išsamiau</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:686
+#: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Veiksmas:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:689
+#: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
 msgid "Click to edit %s"
 msgstr "Spustelėkite norėdami taisyti %s"
 
-#: ../src/polkitmateauthenticationdialog.c:703
+#: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Pardavėjas:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:705
+#: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
 msgid "Click to open %s"
 msgstr "Spustelėkite norėdami atverti %s"
 
-#: ../src/polkitmateauthenticationdialog.c:868
+#: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
 msgstr "Nustatyti tapatybę"
 
-#: ../src/polkitmateauthenticator.c:285
+#: ../src/polkitmateauthenticator.c:294
 #, c-format
 msgid "_Password for %s:"
 msgstr "Naudotojo %s _slaptažodis:"
 
-#: ../src/polkitmateauthenticator.c:445
+#: ../src/polkitmateauthenticator.c:454
 msgid "Authentication Failure"
 msgstr "Nepavyko nustatyti tapatybės"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
 msgstr "PolicyKit tapatybės nustatymo agentas"
+
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr ""

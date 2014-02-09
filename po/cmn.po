@@ -3,8 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2009
-# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010
+# Chao-Hsiung Liao  <j_h_liau@yahoo.com.tw>, 2008,2010
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2012-2013
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
@@ -12,152 +12,152 @@ msgstr ""
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
 "PO-Revision-Date: 2014-01-15 10:30+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Romanian (http://www.transifex.com/projects/p/MATE/language/ro/)\n"
+"Language-Team: Chinese (Mandarin) (http://www.transifex.com/projects/p/MATE/language/cmn/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
+"Language: cmn\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
-msgstr "Identificator acțiune"
+msgstr "動作識別碼"
 
 #: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
-msgstr "Identificatorul de acțiune folosit pentru acest buton"
+msgstr "要用在這個按鈕的動作識別碼"
 
 #: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
-msgstr "Este autorizat"
+msgstr "是否已驗證"
 
 #: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
-msgstr "Dacă procesul este autorizat"
+msgstr "這個程序是否經過驗證"
 
 #: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
-msgstr "Este vizibil"
+msgstr "是否顯示"
 
 #: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
-msgstr "Dacă widgetul este vizibil"
+msgstr "這個元件是否要顯示"
 
 #: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
-msgstr "Poate fi obținută"
+msgstr "是否可獲得"
 
 #: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
-msgstr "Dacă autorizația poate fi obținută"
+msgstr "是否可獲得驗證"
 
 #: ../polkitgtkmate/polkitlockbutton.c:520
 #: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
-msgstr "Text deblocare"
+msgstr "解鎖時文字"
 
 #: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
-msgstr "Textul afișat la interogarea utilizatorului pentru deblocare."
+msgstr "當提示使用者進行解鎖時顯示的文字。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
-msgstr "Clic pentru a efectua modificări"
+msgstr "請按這裡進行改變"
 
 #: ../polkitgtkmate/polkitlockbutton.c:537
 #: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
-msgstr "Indiciu pentru deblocare"
+msgstr "解鎖時工具提示"
 
 #: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr "Indiciul care va fi afișat când i se solicită utilizatorului deblocarea."
+msgstr "當提示使用者進行解鎖時顯示的工具提示。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
-msgstr "Pentru a face schimbări, este necesară autentificarea"
+msgstr "需要驗證才能進行改變。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
-msgstr "Text blocaj"
+msgstr "鎖上時文字"
 
 #: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
-msgstr "Textul afișat la interogarea utilizatorului pentru blocare."
+msgstr "當提示使用者進行鎖上時顯示的文字。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
-msgstr "Clic pentru a preveni modificările"
+msgstr "請按這裡防止改變"
 
 #: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
-msgstr "Indiciu pentru blocare"
+msgstr "鎖上時工具提示"
 
 #: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
-msgstr "Indiciul care va fi afișat când i se solicită utilizatorului blocarea."
+msgstr "當提示使用者進行鎖上時顯示的工具提示。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
-msgstr "Pentru a preveni viitoare schimbări, dați clic pe lacăt."
+msgstr "要防止進一步的改變，請按這個鎖。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
-msgstr "Text pentru blocare"
+msgstr "鎖定時文字"
 
 #: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr "Textul care va fi afișat când i se solicită utilizatorului să blocheze acțiunea pentru toți utilizatorii."
+msgstr "當提示使用者鎖定所有使用者的動作時顯示的文字。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
-msgstr "Dați clic pentru a bloca"
+msgstr "按這裡鎖定"
 
 #: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
-msgstr "Indiciu pentru blocare"
+msgstr "鎖定時工具提示"
 
 #: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr "Indiciul care va fi afișat când i se solicită utilizatorului să blocheze acțiunea pentru toți utilizatorii."
+msgstr "當提示使用者鎖定所有使用者的動作時顯示的工具提示。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr "Pentru a împiedica utilizatorii fără drepturi administrative să efectueze modificări, dați clic pe lacăt."
+msgstr "要防止沒有管理者權限的使用者進行變更，請按這個鎖。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "Textul afișat când utilizatorul nu poate obține autorizarea prin autentificare."
+msgstr "當使用者不能透過驗證取得授權時要顯示的文字。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
-msgstr "Nu sunteți autorizați să efectuați modificări"
+msgstr "未獲授權進行改變"
 
 #: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "Indiciul care va fi afișat atunci când utilizatorul nu poate obține autorizare prin autentificare."
+msgstr "當使用者不能透過驗證取得授權時要顯示的工具提示。"
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr "Politica sistemului împiedică modificările. Contactați administratorul de sistem."
+msgstr "系統原則阻止了這個變更。請聯絡您的系統管理者。"
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Clic pe iconiță pentru a renunța la toate privilegiile ridicate"
+msgstr "按下這個圖示放棄所有已提升的權限"
 
 #: ../src/polkitmateauthenticationdialog.c:159
 msgid "Select user..."
-msgstr "Alegere utilizator..."
+msgstr "選擇使用者…"
 
 #: ../src/polkitmateauthenticationdialog.c:194
 #, c-format
@@ -166,70 +166,70 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
-msgstr "_Autentifică"
+msgstr "驗證(_A)"
 
 #: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "O aplicație încearcă să efectueze o acțiune ce necesită privilegii. Pentru a efectua această acțiune este necesară autentificarea ca unul din utilizatorii de mai jos."
+msgstr "有應用程式試圖進行需要權限的動作。必須授權為下列使用者之一才能進行這個動作。"
 
 #: ../src/polkitmateauthenticationdialog.c:582
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "O aplicație încearcă să efectueze o acțiune ce necesită privilegii. Pentru a efectua această acțiune este necesară autentificarea."
+msgstr "有應用程式試圖進行需要權限的動作。必須獲得授權才能進行這個動作。"
 
 #: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "O aplicație încearcă să efectueze o acțiune ce necesită privilegii. Pentru a efectua această acțiune este necesară autentificarea ca administrator."
+msgstr "有應用程式試圖進行需要權限的動作。必須授權為超級使用者才能進行這個動作。"
 
 #: ../src/polkitmateauthenticationdialog.c:623
 #: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
-msgstr "_Parola:"
+msgstr "密碼(_P):"
 
 #. Details
 #: ../src/polkitmateauthenticationdialog.c:641
 msgid "<small><b>_Details</b></small>"
-msgstr "<small><b>_Detalii</b></small>"
+msgstr "<small><b>詳細資料(_D)</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
-msgstr "<small><b>Acțiune:</b></small>"
+msgstr "<small><b>動作:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
 msgid "Click to edit %s"
-msgstr "Clic pentru a edita %s"
+msgstr "按下這裡編輯 %s"
 
 #: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
-msgstr "<small><b>Producător:</b></small>"
+msgstr "<small><b>廠商:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
 msgid "Click to open %s"
-msgstr "Clic pentru a deschide %s"
+msgstr "按一下來開啟 %s"
 
 #: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
-msgstr "Autentifică"
+msgstr "驗證"
 
 #: ../src/polkitmateauthenticator.c:294
 #, c-format
 msgid "_Password for %s:"
-msgstr "_Parolă pentru %s:"
+msgstr "%s 的密碼(_P):"
 
 #: ../src/polkitmateauthenticator.c:454
 msgid "Authentication Failure"
-msgstr "Autentificare eșuată"
+msgstr "驗證失敗"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "Agent de autentificare PolicyKit"
+msgstr "PolicyKit 驗證代理程式"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"

@@ -4,14 +4,15 @@
 # 
 # Translators:
 # António Lima <amrlima@gmail.com>, 2009
+# Carlos <crolidge@gmail.com>, 2014
 # Sérgio Marques <smarquespt@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://github.com/mate-desktop/\n"
-"POT-Creation-Date: 2012-07-10 00:27+0200\n"
-"PO-Revision-Date: 2012-10-04 13:48+0000\n"
-"Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-15 11:29+0100\n"
+"PO-Revision-Date: 2014-01-18 15:47+0000\n"
+"Last-Translator: Carlos <crolidge@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/projects/p/MATE/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,135 +20,135 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:451
+#: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
 msgstr "Identificador de ações"
 
-#: ../polkitgtkmate/polkitlockbutton.c:452
+#: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
 msgstr "O identificador da ação a utilizar para o botão"
 
-#: ../polkitgtkmate/polkitlockbutton.c:468
+#: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
 msgstr "É autorizado"
 
-#: ../polkitgtkmate/polkitlockbutton.c:469
+#: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
 msgstr "Se o processo é autorizado"
 
-#: ../polkitgtkmate/polkitlockbutton.c:484
+#: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
 msgstr "É visível"
 
-#: ../polkitgtkmate/polkitlockbutton.c:485
+#: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
 msgstr "Se o widget é visível"
 
-#: ../polkitgtkmate/polkitlockbutton.c:500
+#: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
 msgstr "Pode obter"
 
-#: ../polkitgtkmate/polkitlockbutton.c:501
+#: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
 msgstr "Se a autorização pode ser obtida"
 
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
+#: ../polkitgtkmate/polkitlockbutton.c:520
+#: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
 msgstr "Texto de desbloqueio"
 
-#: ../polkitgtkmate/polkitlockbutton.c:517
+#: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
 msgstr "O texto a exibir ao pedir ao utilizador para desbloquear"
 
-#: ../polkitgtkmate/polkitlockbutton.c:518
+#: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
 msgstr "Clique para realizar as alterações"
 
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
+#: ../polkitgtkmate/polkitlockbutton.c:537
+#: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
 msgstr "Ajuda de desbloqueio"
 
-#: ../polkitgtkmate/polkitlockbutton.c:534
+#: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "A ajuda a exibir ao pedir ao utilizador para desbloquear"
 
-#: ../polkitgtkmate/polkitlockbutton.c:535
+#: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
 msgstr "Requer autenticação para realizar alterações"
 
-#: ../polkitgtkmate/polkitlockbutton.c:550
+#: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
 msgstr "Texto de bloqueio"
 
-#: ../polkitgtkmate/polkitlockbutton.c:551
+#: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
 msgstr "O texto a exibir ao pedir ao utilizador para bloquear"
 
-#: ../polkitgtkmate/polkitlockbutton.c:552
+#: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
 msgstr "Clique para impedir alterações"
 
-#: ../polkitgtkmate/polkitlockbutton.c:567
+#: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
 msgstr "Ajuda de bloqueio"
 
-#: ../polkitgtkmate/polkitlockbutton.c:568
+#: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "A ajuda a exibir ao pedir ao utilizador para bloquear"
 
-#: ../polkitgtkmate/polkitlockbutton.c:569
+#: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
 msgstr "Para impedir mais alterações, clique no cadeado"
 
-#: ../polkitgtkmate/polkitlockbutton.c:584
+#: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
 msgstr "Texto de bloqueio total"
 
-#: ../polkitgtkmate/polkitlockbutton.c:585
+#: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
 msgstr "O texto a exibir ao pedir ao utilizador para bloquear a ação para todos os utilizadores"
 
-#: ../polkitgtkmate/polkitlockbutton.c:586
+#: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
 msgstr "Clique para bloquear"
 
-#: ../polkitgtkmate/polkitlockbutton.c:601
+#: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
 msgstr "Ajuda de bloqueio total"
 
-#: ../polkitgtkmate/polkitlockbutton.c:602
+#: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
 msgstr "A ajuda a exibir ao pedir ao utilizador para bloquear a ação para todos os utilizadores"
 
-#: ../polkitgtkmate/polkitlockbutton.c:603
+#: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
 msgstr "Para impedir que os utilizadores sem privilégios de administrador façam alterações, clique no cadeado"
 
-#: ../polkitgtkmate/polkitlockbutton.c:619
+#: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "O texto a exibir quando o utilizador não consegue obter autorização através de autenticação"
 
-#: ../polkitgtkmate/polkitlockbutton.c:620
+#: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
 msgstr "Não autorizado para realizar alterações"
 
-#: ../polkitgtkmate/polkitlockbutton.c:636
+#: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "A ajuda a exibir quando o utilizador não consegue obter autorização através de autenticação"
 
-#: ../polkitgtkmate/polkitlockbutton.c:637
+#: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "As políticas do sistema proíbem as alterações. Contacte o administrador  de sistemas"
 
@@ -164,57 +165,57 @@ msgstr "Escolha o utilizador..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:531
+#: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
 msgstr "_Autenticar"
 
-#: ../src/polkitmateauthenticationdialog.c:571
+#: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr "Uma aplicação está a tentar executar uma ação que requer privilégios. É necessária uma autenticação como um dos utilizadores para executar esta ação."
 
-#: ../src/polkitmateauthenticationdialog.c:579
+#: ../src/polkitmateauthenticationdialog.c:582
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "Uma aplicação está a tentar executar uma ação que requer privilégios. É necessária autenticação para executar esta ação."
 
-#: ../src/polkitmateauthenticationdialog.c:585
+#: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr "Uma aplicação está a tentar executar uma ação que requer privilégios. É necessária autenticação como super utilizador para executar esta acção."
 
-#: ../src/polkitmateauthenticationdialog.c:620
+#: ../src/polkitmateauthenticationdialog.c:623
 #: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
 msgstr "_Senha:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:638
+#: ../src/polkitmateauthenticationdialog.c:641
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detalhes</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:691
+#: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Ação:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:694
+#: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
 msgid "Click to edit %s"
 msgstr "Clique para editar %s"
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Fornecedor:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:710
+#: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
 msgid "Click to open %s"
 msgstr "Clique para abrir %s"
 
-#: ../src/polkitmateauthenticationdialog.c:873
+#: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
 msgstr "Autenticar"
 
@@ -230,3 +231,7 @@ msgstr "Falha de autenticação"
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
 msgstr "Agente de autenticação PolicyKit"
+
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr "Agente de Autenticação PolicyKit do Ambiente MATE"

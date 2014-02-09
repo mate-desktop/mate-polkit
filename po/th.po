@@ -1,160 +1,154 @@
-# Thai translation for PolicyKit-mate.
-# Copyright (C) 2010 PolicyKit-mate's COPYRIGHT HOLDER
-# This file is distributed under the same license as the PolicyKit-mate package.
-# Sira Nokyoongtong <gumaraa@gmail.com>, 2010.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Sira Nokyoongtong <gumaraa@gmail.com>, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: PolicyKit-mate master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=policykit-mate&component=general\n"
-"POT-Creation-Date: 2010-06-01 14:54+0000\n"
-"PO-Revision-Date: 2010-06-14 12:37+0700\n"
-"Last-Translator: Sira Nokyoongtong <gumaraa@gmail.com>\n"
-"Language-Team: Thai <thai-l10n@googlegroups.com>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-15 11:29+0100\n"
+"PO-Revision-Date: 2014-01-15 10:30+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Thai (http://www.transifex.com/projects/p/MATE/language/th/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:460
+#: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
 msgstr "ชื่อเรียกปฏิบัติการ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:461
+#: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
 msgstr "ชื่อเรียกของปฏิบัติการที่จะใช้กับปุ่ม"
 
-#: ../polkitgtkmate/polkitlockbutton.c:477
+#: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
 msgstr "ได้รับสิทธิ์แล้ว"
 
-#: ../polkitgtkmate/polkitlockbutton.c:478
+#: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
 msgstr "ระบุว่าโพรเซสได้รับสิทธิ์หรือไม่"
 
-#: ../polkitgtkmate/polkitlockbutton.c:493
+#: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
 msgstr "ปรากฏ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:494
+#: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
 msgstr "ระบุว่าวิดเจ็ตปรากฏให้เห็นหรือไม่"
 
-#: ../polkitgtkmate/polkitlockbutton.c:509
+#: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
 msgstr "สามารถขอสิทธิ์ได้"
 
-#: ../polkitgtkmate/polkitlockbutton.c:510
+#: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
 msgstr "ระบุว่าสามารถขอสิทธิ์ได้หรือไม่"
 
-#: ../polkitgtkmate/polkitlockbutton.c:525 ../polkitgtkmate/polkitlockbutton.c:627
+#: ../polkitgtkmate/polkitlockbutton.c:520
+#: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
 msgstr "ข้อความปลดล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:526
+#: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
 msgstr "ข้อความที่จะแสดงเมื่อจะบอกให้ผู้ใช้ปลดล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:527
+#: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
 msgstr "คลิกเพื่อเปลี่ยนแปลง"
 
-#: ../polkitgtkmate/polkitlockbutton.c:542 ../polkitgtkmate/polkitlockbutton.c:644
+#: ../polkitgtkmate/polkitlockbutton.c:537
+#: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
 msgstr "คำแนะนำการปลดล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:543
+#: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "คำแนะนำที่จะแสดงเมื่อจะบอกให้ผู้ใช้ปลดล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:544
+#: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
 msgstr "ต้องได้รับสิทธิ์ก่อนที่จะเปลี่ยนแปลง"
 
-#: ../polkitgtkmate/polkitlockbutton.c:559
+#: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
 msgstr "ข้อความล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:560
+#: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
 msgstr "ข้อความที่จะแสดงเมื่อจะบอกให้ผู้ใช้ล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:561
+#: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
 msgstr "คลิกเพื่อป้องกันการเปลี่ยนแปลง"
 
-#: ../polkitgtkmate/polkitlockbutton.c:576
+#: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
 msgstr "คำแนะนำการล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:577
+#: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "คำแนะนำที่จะแสดงเมื่อจะบอกให้ผู้ใช้ล็อค"
 
-#: ../polkitgtkmate/polkitlockbutton.c:578
+#: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
 msgstr "คลิกล็อคเพื่อป้องกันการเปลี่ยนแปลงนอกเหนือจากนี้"
 
-#: ../polkitgtkmate/polkitlockbutton.c:593
+#: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
 msgstr "ข้อความจำกัดการใช้งาน"
 
-#: ../polkitgtkmate/polkitlockbutton.c:594
+#: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
 msgstr "ข้อความที่จะแสดงเมื่อจะบอกให้ผู้ใช้จำกัดการใช้งานการกระทำสำหรับผู้ใช้ทุกคน"
 
-#: ../polkitgtkmate/polkitlockbutton.c:595
+#: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
 msgstr "คลิกเพื่อจำกัดการใช้งาน"
 
-#: ../polkitgtkmate/polkitlockbutton.c:610
+#: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
 msgstr "คำแนะนำการจำกัดการใช้งาน"
 
-#: ../polkitgtkmate/polkitlockbutton.c:611
+#: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
 msgstr "คำแนะนำที่จะแสดงเมื่อจะบอกให้ผู้ใช้จำกัดการใช้งานการกระทำสำหรับผู้ใช้ทุกคน"
 
-#: ../polkitgtkmate/polkitlockbutton.c:612
+#: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
 msgstr "คลิกล็อคเพื่อป้องกันไม่ให้ผู้ใช้ที่ไม่มีสิทธิ์ผู้ดูแลระบบเปลี่ยนแปลงนอกเหนือจากนี้"
 
-#: ../polkitgtkmate/polkitlockbutton.c:628
+#: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "ข้อความที่จะแสดงเมื่อผู้ใช้ไม่สามารถขอใช้สิทธิ์ผ่านการยืนยันตัวบุคคลได้"
 
-#: ../polkitgtkmate/polkitlockbutton.c:629
+#: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
 msgstr "ไม่ได้รับสิทธิ์ให้เปลี่ยนแปลง"
 
-#: ../polkitgtkmate/polkitlockbutton.c:645
+#: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "คำแนะนำที่จะแสดงเมื่อผู้ใช้ไม่สามารถขอใช้สิทธิ์ผ่านการยืนยันตัวบุคคลได้"
 
-#: ../polkitgtkmate/polkitlockbutton.c:646
+#: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "นโยบายของระบบป้องกันการเปลี่ยนแปลงไว้ กรุณาติดต่อผู้ดูแลระบบของคุณ"
-
-#. Translators: this string is appended to the tooltip if the action is
-#. * currently locked down
-#: ../polkitgtkmate/polkitlockbutton.c:767
-msgid ""
-"This button is locked down so only users with administrative privileges can "
-"unlock it. Right-click the button to remove the lock down."
-msgstr ""
-"ปุ่มนี้ถูกจำกัดการใช้งานไว้ มีเพียงผู้ใช้ที่มีสิทธิ์ดูแลระบบเท่านั้นที่สามารถปลดล็อคได้ "
-"กรุณาคลิกขวาที่ปุ่มเพื่อถอนการจำกัดการใช้งานนี้"
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
@@ -169,73 +163,73 @@ msgstr "เลือกผู้ใช้..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:529
+#: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
 msgstr "_ยืนยันตัวบุคคล"
 
-#: ../src/polkitmateauthenticationdialog.c:569
+#: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr ""
-"มีโปรแกรมพยายามจะทำปฏิบัติการที่ต้องอาศัยสิทธิ์พิเศษ "
-"ซึ่งต้องยืนยันตัวบุคคลว่าเป็นผู้ใช้คนใดคนหนึ่งต่อไปนี้ก่อนที่จะทำได้"
+msgstr "มีโปรแกรมพยายามจะทำปฏิบัติการที่ต้องอาศัยสิทธิ์พิเศษ ซึ่งต้องยืนยันตัวบุคคลว่าเป็นผู้ใช้คนใดคนหนึ่งต่อไปนี้ก่อนที่จะทำได้"
 
-#: ../src/polkitmateauthenticationdialog.c:577
+#: ../src/polkitmateauthenticationdialog.c:582
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "มีโปรแกรมพยายามจะทำปฏิบัติการที่ต้องอาศัยสิทธิ์พิเศษ ซึ่งต้องยืนยันตัวบุคคลก่อนที่จะทำได้"
 
-#: ../src/polkitmateauthenticationdialog.c:583
+#: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr ""
-"มีโปรแกรมพยายามจะทำปฏิบัติการที่ต้องอาศัยสิทธิ์พิเศษ "
-"ซึ่งต้องยืนยันตัวบุคคลว่าเป็นผู้ดูแลระบบก่อนที่จะทำได้"
+msgstr "มีโปรแกรมพยายามจะทำปฏิบัติการที่ต้องอาศัยสิทธิ์พิเศษ ซึ่งต้องยืนยันตัวบุคคลว่าเป็นผู้ดูแลระบบก่อนที่จะทำได้"
 
-#: ../src/polkitmateauthenticationdialog.c:618
-#: ../src/polkitmateauthenticator.c:289
+#: ../src/polkitmateauthenticationdialog.c:623
+#: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
 msgstr "_รหัสผ่าน:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:636
+#: ../src/polkitmateauthenticationdialog.c:641
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_รายละเอียด</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:689
+#: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>การกระทำ:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:692
+#: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
 msgid "Click to edit %s"
 msgstr "คลิกเพื่อแก้ไข %s"
 
-#: ../src/polkitmateauthenticationdialog.c:706
+#: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>ผู้จำหน่าย:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
 msgid "Click to open %s"
 msgstr "คลิกเพื่อเปิด %s"
 
-#: ../src/polkitmateauthenticationdialog.c:871
+#: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
 msgstr "ยืนยันตัวบุคคล"
 
-#: ../src/polkitmateauthenticator.c:285
+#: ../src/polkitmateauthenticator.c:294
 #, c-format
 msgid "_Password for %s:"
 msgstr "_รหัสผ่านสำหรับ %s:"
 
-#: ../src/polkitmateauthenticator.c:445
+#: ../src/polkitmateauthenticator.c:454
 msgid "Authentication Failure"
 msgstr "ยืนยันตัวบุคคลไม่สำเร็จ"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
 msgstr "ตัวกลางสำหรับยืนยันตัวบุคคล PolicyKit"
+
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr ""

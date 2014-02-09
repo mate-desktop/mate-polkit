@@ -1,168 +1,154 @@
-# Punjabi translation of policykit-mate.
-# Copyright (C) 2009 policykit-mate's COPYRIGHT HOLDER
-# This file is distributed under the same license as the policykit-mate package.
-#
-# A S Alam <aalam@users.sf.net>, 2009, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# A S Alam <aalam@users.sf.net>, 2009, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: policykit-mate master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=policykit-mate&component=general\n"
-"POT-Creation-Date: 2009-09-12 20:13+0000\n"
-"PO-Revision-Date: 2010-04-30 07:57+0530\n"
-"Last-Translator: A S Alam <aalam@users.sf.net>\n"
-"Language-Team: Punjabi/Panjabi <punjabi-users@lists.sf.net>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-15 11:29+0100\n"
+"PO-Revision-Date: 2014-01-15 10:30+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Panjabi (Punjabi) (http://www.transifex.com/projects/p/MATE/language/pa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: pa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:460
+#: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
 msgstr "ਐਕਸ਼ਨ ਪਛਾਣਕਰਤਾ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:461
+#: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
 msgstr "ਬਟਨ ਲਈ ਵਰਤਣ ਵਾਸਤੇ ਐਕਸ਼ਨ ਪਛਾਣਕਰਤਾ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:477
+#: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
 msgstr "ਪਰਮਾਣਿਤ ਹੈ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:478
+#: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
 msgstr "ਕੀ ਪਰੋਸੈਸ ਪਰਮਾਣਿਤ ਹੈ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:493
+#: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
 msgstr "ਦਿੱਖ ਹੈ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:494
+#: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
 msgstr "ਕੀ ਵਿਦਗੈਟ ਵੇਖਣਯੋਗ ਹੈ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:509
+#: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
 msgstr "ਲਿਆ ਜਾ ਸਕਦਾ ਹੈ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:510
+#: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
 msgstr "ਕੀ ਪਰਮਾਣਕਿਤਾ ਲਈ ਜਾ ਸਕਦੀ ਹੈ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:525 ../polkitgtkmate/polkitlockbutton.c:627
+#: ../polkitgtkmate/polkitlockbutton.c:520
+#: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
 msgstr "ਅਣ-ਲਾਕ ਟੈਕਸਟ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:526
+#: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
 msgstr "ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਅਣਲਾਕ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੈਕਸਟ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:527
-#| msgid "Click to edit %s"
+#: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
 msgstr "ਬਦਲਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:542 ../polkitgtkmate/polkitlockbutton.c:644
+#: ../polkitgtkmate/polkitlockbutton.c:537
+#: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
 msgstr "ਅਣਲਾਕ ਟੂਲ-ਟਿੱਪ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:543
+#: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਅਣਲਾਕ ਲਈ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੂਲ-ਟਿੱਪ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:544
+#: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
 msgstr "ਬਦਲਾਅ ਕਰਨ ਲਈ ਪਰਮਾਣਕਿਤਾ ਦੀ ਲੋੜ ਹੈ।"
 
-#: ../polkitgtkmate/polkitlockbutton.c:559
+#: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
 msgstr "ਲਾਕ ਟੈਕਸਟ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:560
+#: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
 msgstr "ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਲਾਕ ਕਰਨ ਲਈ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੈਕਸਟ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:561
-#| msgid "Click to open %s"
+#: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
 msgstr "ਬਦਲਾਅ ਰੋਕਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:576
+#: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
 msgstr "ਲਾਕ ਟੂਲ-ਟਿੱਪ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:577
+#: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਲਾਕ ਕਰਨ ਲਈ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੂਲ-ਟਿੱਪ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:578
+#: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
 msgstr "ਹੋਰ ਬਦਲਾਅ ਰੋਕਣ ਲਈ, ਲਾਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
-#: ../polkitgtkmate/polkitlockbutton.c:593
+#: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
 msgstr "ਲਾਕ ਲਾਉਣ ਟੈਕਸਟ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:594
+#: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr ""
-"ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਸਭ ਯੂਜ਼ਰਾਂ ਲਈ ਐਕਸ਼ਨ ਲਾਕ ਕਰਨ ਜਾ ਰਿਹਾ ਹੋਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੈਕਸਟ ਹੈ।"
+msgstr "ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਸਭ ਯੂਜ਼ਰਾਂ ਲਈ ਐਕਸ਼ਨ ਲਾਕ ਕਰਨ ਜਾ ਰਿਹਾ ਹੋਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੈਕਸਟ ਹੈ।"
 
-#: ../polkitgtkmate/polkitlockbutton.c:595
-#| msgid "Click to open %s"
+#: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
 msgstr "ਲਾਕ ਲਾਉਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:610
+#: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
 msgstr "ਲਾਕ ਲਾਉਣ ਟੂਲ-ਟਿੱਪ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:611
+#: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr ""
-"ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਸਭ ਯੂਜ਼ਰਾਂ ਲਈ ਐਕਸ਼ਨ ਲਾਕ ਕਰਨ ਜਾ ਰਿਹਾ ਹੋਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੂਲ-ਟਿੱਪ ਹੈ।"
+msgstr "ਜਦੋਂ ਯੂਜ਼ਰ ਨੂੰ ਸਭ ਯੂਜ਼ਰਾਂ ਲਈ ਐਕਸ਼ਨ ਲਾਕ ਕਰਨ ਜਾ ਰਿਹਾ ਹੋਵੇ ਤਾਂ ਵੇਖਾਉਣ ਲਈ ਟੂਲ-ਟਿੱਪ ਹੈ।"
 
-#: ../polkitgtkmate/polkitlockbutton.c:612
+#: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr ""
-"ਬਿਨਾਂ ਪਰਸ਼ਾਸ਼ਕੀ ਅਧਿਕਾਰਾਂ ਵਾਲੇ ਯੂਜ਼ਰਾਂ ਨੂੰ ਬਦਲਾਅ ਕਰਨ ਤੋਂ ਰੋਕਣ ਲਈ, ਲਾਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
+msgstr "ਬਿਨਾਂ ਪਰਸ਼ਾਸ਼ਕੀ ਅਧਿਕਾਰਾਂ ਵਾਲੇ ਯੂਜ਼ਰਾਂ ਨੂੰ ਬਦਲਾਅ ਕਰਨ ਤੋਂ ਰੋਕਣ ਲਈ, ਲਾਕ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ।"
 
-#: ../polkitgtkmate/polkitlockbutton.c:628
+#: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "ਟੈਕਸਟ ਵੇਖਾਇਆ ਜਾਵੇਗਾ, ਜਦੋਂ ਯੂਜ਼ਰ ਪਰਮਾਣਿਕਤਾ ਰਾਹੀਂ ਅਧਿਕਾਰ ਨਹੀਂ ਲੈ ਸਕਦਾ ਹੈ।"
 
-#: ../polkitgtkmate/polkitlockbutton.c:629
+#: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
 msgstr "ਬਦਲਾਅ ਕਰਨ ਲਈ ਪਰਮਾਣਿਤ ਨਹੀਂ"
 
-#: ../polkitgtkmate/polkitlockbutton.c:645
+#: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "ਟੂਲ-ਟਿੱਪ ਵੇਖਾਇਆ ਜਾਵੇਗਾ, ਜਦੋਂ ਯੂਜ਼ਰ ਪਰਮਾਣਿਕਤਾ ਰਾਹੀਂ ਅਧਿਕਾਰ ਨਹੀਂ ਲੈ ਸਕਦਾ ਹੈ।"
 
-#: ../polkitgtkmate/polkitlockbutton.c:646
+#: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "ਸਿਸਟਮ ਪਾਲਸੀ ਬਦਲਣ ਤੋਂ ਰੋਕਦੀ ਹੈ। ਆਪਣੇ ਸਿਸਟਮ ਪਰਸ਼ਾਸ਼ਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"
-
-#. Translators: this string is appended to the tooltip if the action is
-#. * currently locked down
-#: ../polkitgtkmate/polkitlockbutton.c:767
-msgid ""
-"This button is locked down so only users with administrative privileges can "
-"unlock it. Right-click the button to remove the lock down."
-msgstr ""
-"ਇਹ ਬਟਨ ਨੂੰ ਲਾਕ ਲਗਾਇਆ ਗਿਆ ਹੈ ਤਾਂ ਕਿ ਕੇਵਲ ਪਰਸ਼ਾਸ਼ਨਿਕ ਅਧਿਕਾਰਾਂ ਵਾਲੇ ਯੂਜ਼ਰ ਹੀ ਅਣ-ਲਾਕ ਕਰ "
-"ਸਕਣ। ਲਾਕ ਹਟਾਉਣ ਲਈ ਬਟਨ ਉੱਤੇ ਸੱਜਾ ਕਲਿੱਕ ਕਰੋ।"
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
@@ -177,72 +163,66 @@ msgstr "ਯੂਜ਼ਰ ਚੁਣੋ..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:529
+#: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
 msgstr "ਪਰਮਾਣਕਿਤਾ(_A)"
-
-#: ../src/polkitmateauthenticationdialog.c:566
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as one of the users below is required to perform this action."
-msgstr ""
-"ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। ਕਾਰਵਾਈ ਕਰਨ "
-"ਲਈ ਹੇਠ ਦਿੱਤੇ ਯੂਜ਼ਰਾਂ ਵਿੱਚੋਂ ਇੱਕ ਵਾਂਗ ਪਰਮਾਣਿਤ ਹੋਵੋ।"
 
 #: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
-"Authentication is required to perform this action."
-msgstr ""
-"ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। ਕਾਰਵਾਈ ਕਰਨ "
-"ਲਈ ਪਰਮਾਣਿਤ ਹੋਣ ਦੀ ਲੋੜ ਹੈ।"
+"Authentication as one of the users below is required to perform this action."
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਹੇਠ ਦਿੱਤੇ ਯੂਜ਼ਰਾਂ ਵਿੱਚੋਂ ਇੱਕ ਵਾਂਗ ਪਰਮਾਣਿਤ ਹੋਵੋ।"
 
-#: ../src/polkitmateauthenticationdialog.c:580
+#: ../src/polkitmateauthenticationdialog.c:582
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਪਰਮਾਣਿਤ ਹੋਣ ਦੀ ਲੋੜ ਹੈ।"
+
+#: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr ""
-"ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। ਕਾਰਵਾਈ ਕਰਨ "
-"ਲਈ ਸੁਪਰ ਯੂਜ਼ਰਾਂ ਵਾਂਗ ਪਰਮਾਣਿਤ ਹੋਵੋ।"
+msgstr "ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਸੁਪਰ ਯੂਜ਼ਰਾਂ ਵਾਂਗ ਪਰਮਾਣਿਤ ਹੋਵੋ।"
 
-#: ../src/polkitmateauthenticationdialog.c:615
-#: ../src/polkitmateauthenticator.c:289
+#: ../src/polkitmateauthenticationdialog.c:623
+#: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
 msgstr "ਪਾਸਵਰਡ(_P):"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:633
+#: ../src/polkitmateauthenticationdialog.c:641
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>ਵੇਰਵਾ(_D)</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:686
+#: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>ਐਕਸ਼ਨ:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:689
+#: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
 msgid "Click to edit %s"
 msgstr "%s ਸੋਧਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../src/polkitmateauthenticationdialog.c:703
+#: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>ਵੇਂਡਰ:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:705
+#: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
 msgid "Click to open %s"
 msgstr "%s ਖੋਲ੍ਹਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: ../src/polkitmateauthenticationdialog.c:868
+#: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
 msgstr "ਪਰਮਾਣਿਤ"
 
-#: ../src/polkitmateauthenticator.c:285
+#: ../src/polkitmateauthenticator.c:294
 #, c-format
 msgid "_Password for %s:"
 msgstr "%s ਲਈ ਪਾਸਵਰਡ(_P):"
 
-#: ../src/polkitmateauthenticator.c:445
+#: ../src/polkitmateauthenticator.c:454
 msgid "Authentication Failure"
 msgstr "ਪਰਮਾਣਕਿਤਾ ਫੇਲ੍ਹ ਹੋਈ"
 
@@ -250,3 +230,6 @@ msgstr "ਪਰਮਾਣਕਿਤਾ ਫੇਲ੍ਹ ਹੋਈ"
 msgid "PolicyKit Authentication Agent"
 msgstr "ਪਾਲਸੀਕਿੱਟ ਪਰਮਾਣਕਿਤਾ ਏਜੰਟ"
 
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr ""

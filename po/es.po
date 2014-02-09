@@ -1,185 +1,156 @@
-# translation of policykit-mate.HEAD.po to Español
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
 # Copyright (C) 2007, 2008
-# This file is distributed under the same license as the PolicyKit-mate package.
-#
-# Jorge González <jorgegonz@svn.gnome.org>, 2008.
-# Juanje Ojeda <jojeda@emergya.es>, 2008.
-# Jorge González <jorgegonz@svn.gnome.org>, 2009.
+# Jorge González <jorgegonz@svn.gnome.org>, 2008, 2009
+# Juanje Ojeda <jojeda@emergya.es>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: policykit-mate.HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=policykit-mate&component=general\n"
-"POT-Creation-Date: 2009-09-29 12:28+0000\n"
-"PO-Revision-Date: 2009-12-22 08:45+0100\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
-"Language-Team: Español <mate-es-list@gnome.org>\n"
+"Project-Id-Version: MATE Desktop Environment\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-15 11:29+0100\n"
+"PO-Revision-Date: 2014-01-15 10:30+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:460
+#: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
 msgstr "Identificador de acción"
 
-#: ../polkitgtkmate/polkitlockbutton.c:461
+#: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
 msgstr "El identificador de acción que usar para el botón"
 
-#: ../polkitgtkmate/polkitlockbutton.c:477
+#: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
 msgstr "Está autorizado"
 
-#: ../polkitgtkmate/polkitlockbutton.c:478
+#: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
 msgstr "Indica si el proceso está autorizado"
 
-#: ../polkitgtkmate/polkitlockbutton.c:493
+#: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
 msgstr "Es visible"
 
-#: ../polkitgtkmate/polkitlockbutton.c:494
+#: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
 msgstr "Indica si el widget es visible"
 
-#: ../polkitgtkmate/polkitlockbutton.c:509
+#: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
 msgstr "Puede obtener"
 
-#: ../polkitgtkmate/polkitlockbutton.c:510
+#: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
 msgstr "Indica si se puede obtener la autorización"
 
-#: ../polkitgtkmate/polkitlockbutton.c:525 ../polkitgtkmate/polkitlockbutton.c:627
+#: ../polkitgtkmate/polkitlockbutton.c:520
+#: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
 msgstr "Texto de desbloqueo"
 
-#: ../polkitgtkmate/polkitlockbutton.c:526
+#: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
 msgstr "El texto que mostrar al preguntar al usuario para desbloquear."
 
-#: ../polkitgtkmate/polkitlockbutton.c:527
+#: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
 msgstr "Pulse para realizar los cambios"
 
-#: ../polkitgtkmate/polkitlockbutton.c:542 ../polkitgtkmate/polkitlockbutton.c:644
+#: ../polkitgtkmate/polkitlockbutton.c:537
+#: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
 msgstr "Desbloquear consejo"
 
-#: ../polkitgtkmate/polkitlockbutton.c:543
-#| msgid "The text to display when prompting the user to unlock."
+#: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "El consejo que mostrar al preguntar al usuario para desbloquear."
 
-#: ../polkitgtkmate/polkitlockbutton.c:544
-#| msgid "Not authorized to make changes"
+#: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
 msgstr "Se necesita autenticación para realizar los cambios."
 
-#: ../polkitgtkmate/polkitlockbutton.c:559
+#: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
 msgstr "Texto de bloqueo"
 
-#: ../polkitgtkmate/polkitlockbutton.c:560
+#: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
 msgstr "El texto que mostrar al preguntar al usuario para bloquear."
 
-#: ../polkitgtkmate/polkitlockbutton.c:561
+#: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
 msgstr "Pulse para prevenir los cambios"
 
-#: ../polkitgtkmate/polkitlockbutton.c:576
+#: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
 msgstr "Bloquear consejo"
 
-#: ../polkitgtkmate/polkitlockbutton.c:577
-#| msgid "The text to display when prompting the user to lock."
+#: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "El consejo que mostrar al preguntar al usuario para bloquear."
 
-#: ../polkitgtkmate/polkitlockbutton.c:578
+#: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
 msgstr "Pulse el botón para impedir cambios futuros."
 
-#: ../polkitgtkmate/polkitlockbutton.c:593
+#: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
 msgstr "Bloquear texto"
 
-#: ../polkitgtkmate/polkitlockbutton.c:594
-#| msgid "The text to display when prompting the user to lock."
+#: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr ""
-"El texto que mostrar al preguntar al usuario para bloquear la acción para "
-"todos los usuariosk."
+msgstr "El texto que mostrar al preguntar al usuario para bloquear la acción para todos los usuariosk."
 
-#: ../polkitgtkmate/polkitlockbutton.c:595
+#: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
 msgstr "Pulsar para bloquear"
 
-#: ../polkitgtkmate/polkitlockbutton.c:610
+#: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
 msgstr "Bloquear consejo"
 
-#: ../polkitgtkmate/polkitlockbutton.c:611
-#| msgid "The text to display when prompting the user to lock."
+#: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr ""
-"El consejo que mostrar al preguntar al usuario para bloquear la acción para "
-"todos los usuarios."
+msgstr "El consejo que mostrar al preguntar al usuario para bloquear la acción para todos los usuarios."
 
-#: ../polkitgtkmate/polkitlockbutton.c:612
+#: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr ""
-"Pulse el candado para impedir que los usuarios sin privilegios "
-"administrativos realicen cambios."
+msgstr "Pulse el candado para impedir que los usuarios sin privilegios administrativos realicen cambios."
 
-#: ../polkitgtkmate/polkitlockbutton.c:628
+#: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
-"El texto que mostrar cuando el usuario no puede obtener autorización a "
-"través de la autenticación."
+msgstr "El texto que mostrar cuando el usuario no puede obtener autorización a través de la autenticación."
 
-#: ../polkitgtkmate/polkitlockbutton.c:629
+#: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
 msgstr "No está autorizado para realizar cambios"
 
-#: ../polkitgtkmate/polkitlockbutton.c:645
-#| msgid ""
-#| "The text to display when the user cannot obtain authorization through "
-#| "authentication."
+#: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
-"El texto que mostrar cuando el usuario no puede obtener autorización a "
-"través de la autenticación."
+msgstr "El texto que mostrar cuando el usuario no puede obtener autorización a través de la autenticación."
 
-#: ../polkitgtkmate/polkitlockbutton.c:646
+#: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr ""
-"La política del sistema impide los cambios. Contacte con su administrador de "
-"sistemas."
-
-#. Translators: this string is appended to the tooltip if the action is
-#. * currently locked down
-#: ../polkitgtkmate/polkitlockbutton.c:767
-msgid ""
-"This button is locked down so only users with administrative privileges can "
-"unlock it. Right-click the button to remove the lock down."
-msgstr ""
-"Este botón está bloqueado de tal forma que sólo los usuarios con permisos "
-"administrativos pueden desbloquearlo. Pulse con el botón derecho del ratón "
-"sobre el botón para quitar el bloqueo."
+msgstr "La política del sistema impide los cambios. Contacte con su administrador de sistemas."
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
@@ -194,74 +165,66 @@ msgstr "Seleccione usuario…"
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:529
+#: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
 msgstr "_Autenticar"
-
-#: ../src/polkitmateauthenticationdialog.c:566
-msgid ""
-"An application is attempting to perform an action that requires privileges. "
-"Authentication as one of the users below is required to perform this action."
-msgstr ""
-"Una aplicación está intentando realizar una acción que necesita permisos "
-"especiales. Es necesario autenticarse como uno de los usuarios siguientes "
-"para realizar dicha acción."
 
 #: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
-"Authentication is required to perform this action."
-msgstr ""
-"Una aplicación está intentando realizar una acción que necesita permisos "
-"especiales. Es necesario autenticarse para realizar dicha acción."
+"Authentication as one of the users below is required to perform this action."
+msgstr "Una aplicación está intentando realizar una acción que necesita permisos especiales. Es necesario autenticarse como uno de los usuarios siguientes para realizar dicha acción."
 
-#: ../src/polkitmateauthenticationdialog.c:580
+#: ../src/polkitmateauthenticationdialog.c:582
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr "Una aplicación está intentando realizar una acción que necesita permisos especiales. Es necesario autenticarse para realizar dicha acción."
+
+#: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr ""
-"Una aplicación está intentando realizar una acción que necesita permisos "
-"especiales. Es necesario autenticarse como super usuario para realizar dicha "
-"acción."
+msgstr "Una aplicación está intentando realizar una acción que necesita permisos especiales. Es necesario autenticarse como super usuario para realizar dicha acción."
 
-#: ../src/polkitmateauthenticationdialog.c:615
-#: ../src/polkitmateauthenticator.c:289
+#: ../src/polkitmateauthenticationdialog.c:623
+#: ../src/polkitmateauthenticator.c:298
 msgid "_Password:"
 msgstr "Contrase_ña:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:633
+#: ../src/polkitmateauthenticationdialog.c:641
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detalles</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:686
+#: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Acción:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:689
+#: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
 msgid "Click to edit %s"
 msgstr "Pulse para editar %s"
 
-#: ../src/polkitmateauthenticationdialog.c:703
+#: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Proveedor:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:705
+#: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
 msgid "Click to open %s"
 msgstr "Pulse para abrir %s"
 
-#: ../src/polkitmateauthenticationdialog.c:868
+#: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
 msgstr "Autenticar"
 
-#: ../src/polkitmateauthenticator.c:285
+#: ../src/polkitmateauthenticator.c:294
 #, c-format
 msgid "_Password for %s:"
 msgstr "Contrase_ña para %s:"
 
-#: ../src/polkitmateauthenticator.c:445
+#: ../src/polkitmateauthenticator.c:454
 msgid "Authentication Failure"
 msgstr "Fallo de autenticación"
 
@@ -269,420 +232,6 @@ msgstr "Fallo de autenticación"
 msgid "PolicyKit Authentication Agent"
 msgstr "Agente de autenticación de PolicyKit"
 
-#~ msgid "Authorizations"
-#~ msgstr "Autorizaciones"
-
-#~ msgid "Configure authorizations"
-#~ msgstr "Configure sus autorizaciones"
-
-#~ msgid ""
-#~ "A list of actions where the \"retain authorization\" checkbox isn't "
-#~ "checked by default"
-#~ msgstr ""
-#~ "Lista de acciones en las que la opción «guardar autorización» no está "
-#~ "seleccionada de forma predeterminada"
-
-#~ msgid "Whether the authentication dialog should grab the keyboard"
-#~ msgstr ""
-#~ "Indica si el diálogo de autenticación debería apoderarse del teclado"
-
-#~ msgid "Whether the retain authorization check box is checked by default"
-#~ msgstr ""
-#~ "Indica si la opción de guardar la autorización debería estar seleccionada "
-#~ "de forma predeterminada"
-
-#~ msgid "Copyright © 2007 David Zeuthen"
-#~ msgstr "Copyright © 2007 David Zeuthen"
-
-#~ msgid "PolicyKit-mate Website"
-#~ msgstr "Página web de PolicyKit-mate"
-
-#~ msgid "PolicyKit-mate demo"
-#~ msgstr "Demostración de PolicyKit-mate"
-
-#~ msgid "PolicyKit for the MATE desktop"
-#~ msgstr "PolicyKit para el escritorio MATE"
-
-#~ msgid "_File"
-#~ msgstr "_Archivo"
-
-#~ msgid "_Actions"
-#~ msgstr "_Acciones"
-
-#~ msgid "_Help"
-#~ msgstr "Ay_uda"
-
-#~ msgid "_Quit"
-#~ msgstr "_Salir"
-
-#~ msgid "Quit"
-#~ msgstr "Salir"
-
-#~ msgid "_About"
-#~ msgstr "Acerca _de"
-
-#~ msgid "About"
-#~ msgstr "Acerca de"
-
-#~ msgid ""
-#~ "Making the helper <b>Frobnicate</b> requires the user to authenticate. "
-#~ "The authorization is kept for the life time of the process"
-#~ msgstr ""
-#~ "Hacer que la acción <b>Modificar</b> necesite que el usuario se "
-#~ "autentique. La autorización se guardará mientras dure la acción"
-
-#~ msgid "Frobnicate!"
-#~ msgstr "Frobnicate"
-
-#~ msgid ""
-#~ "Making the helper <b>Jump</b> requires the user to authenticate. This is "
-#~ "a one-shot authorization."
-#~ msgstr ""
-#~ "Hacer que la acción <b>Salta</b> necesite que el usuario se autentique. "
-#~ "Esto es una autorización de una sola vez."
-
-#~ msgid "Jump!"
-#~ msgstr "Salta"
-
-#~ msgid "Tweak!"
-#~ msgstr "Ajusta"
-
-#~ msgid "Tweak"
-#~ msgstr "Ajustar"
-
-#~ msgid "Tweak (long)"
-#~ msgstr "Ajusta (largo)"
-
-#~ msgid "If your admin wasn't annoying, you could do this"
-#~ msgstr ""
-#~ "Si su administrador no le estuviera molestando, podría realizar esta "
-#~ "acción"
-
-#~ msgid "Tweak..."
-#~ msgstr "Ajustar..."
-
-#~ msgid "Tweak... (long)"
-#~ msgstr "Ajustar... (largo)"
-
-#~ msgid "Tweak! (long)"
-#~ msgstr "Ajusta (largo)"
-
-#~ msgid "Go ahead, tweak tweak tweak!"
-#~ msgstr "¡Adelante, ajusta, ajusta, ajusta!"
-
-#~ msgid "Punch!"
-#~ msgstr "Golpea"
-
-#~ msgid ""
-#~ "<i>Tip: try editing /etc/PolicyKit/Policy.conf and see the proxy widgets "
-#~ "update in real-time.</i>."
-#~ msgstr ""
-#~ "<i>Consejo: intente editar /etc/PolicyKit/Policy.conf y vea cómo se "
-#~ "actualizan los controles en tiempo real.</i>"
-
-#~ msgid "Jump"
-#~ msgstr "Saltar"
-
-#~ msgid "Punch"
-#~ msgstr "Golpea"
-
-#~ msgid "Toggle"
-#~ msgstr "Conmutar"
-
-#~ msgid "Authenticating..."
-#~ msgstr "Autenticando…"
-
-#~ msgid "Don't exit after 30 seconds of inactivity"
-#~ msgstr "No salir tras 30 segundos de inactividad"
-
-#~ msgid "PolicyKit MATE session daemon"
-#~ msgstr "Demonio de sesión PoliciKit MATE"
-
-#~ msgid "Starting PolicyKit MATE session daemon version %s"
-#~ msgstr "Iniciando el demonio de sesión PolicyKit MATE versión %s"
-
-#~ msgid "_Remember authorization for this session"
-#~ msgstr "_Recordar la autorización durante esta sesión"
-
-#~ msgid "_Remember authorization"
-#~ msgstr "_Recordar la autorización"
-
-#~ msgid "For this _session only"
-#~ msgstr "Sólo para esta _sesión"
-
-#~ msgid "<small><b>Application:</b></small>"
-#~ msgstr "<small><b>Aplicación:</b></small>"
-
-#~ msgid "(unknown"
-#~ msgstr "(desconocido"
-
-#~ msgid "_Password for root:"
-#~ msgstr "_Contraseña para el superusuario:"
-
-#~ msgid "_Password or swipe finger for %s:"
-#~ msgstr "_Contraseña o huella dactilar para %s:"
-
-#~ msgid "_Password or swipe finger for root:"
-#~ msgstr "_Contraseña o huella dactilar para el administrador:"
-
-#~ msgid "_Password or swipe finger:"
-#~ msgstr "_Contraseña o huella dactilar:"
-
-#~ msgid "No"
-#~ msgstr "No"
-
-#~ msgid "Admin Authentication (one shot)"
-#~ msgstr "Autenticación como administrador (una vez)"
-
-#~ msgid "Admin Authentication (keep session)"
-#~ msgstr "Autenticación como administrador (mantener durante esta sesión)"
-
-#~ msgid "Admin Authentication (keep indefinitely)"
-#~ msgstr "Autenticación como administrador (mantener indefinidamente)"
-
-#~ msgid "Authentication (one shot)"
-#~ msgstr "Autenticación (una vez)"
-
-#~ msgid "Authentication (keep session)"
-#~ msgstr "Autenticación (mantener durante esta la sesión)"
-
-#~ msgid "Authentication (keep indefinitely)"
-#~ msgstr "Autenticación (mantener indefinidamente)"
-
-#~ msgid "Yes"
-#~ msgstr "Sí"
-
-#~ msgid ", "
-#~ msgstr ", "
-
-#~ msgid "Must be on console"
-#~ msgstr "Debe estar en una consola"
-
-#~ msgid "Must be in active session"
-#~ msgstr "Debe estar en una sesión activa"
-
-#~ msgid "Must be program %s"
-#~ msgstr "Debe ser el programa %s"
-
-#~ msgid "Must be SELinux Context %s"
-#~ msgstr "Debe estar en el contexto %s de SELinux"
-
-#~ msgid "A moment ago"
-#~ msgstr "Hace un momento"
-
-#~ msgid "1 minute ago"
-#~ msgstr "Hace 1 minuto"
-
-#~ msgid "%d minutes ago"
-#~ msgstr "Hace %d minutos"
-
-#~ msgid "1 hour ago"
-#~ msgstr "Hace 1 hora"
-
-#~ msgid "%d hours ago"
-#~ msgstr "Hace %d horas"
-
-#~ msgid "1 day ago"
-#~ msgstr "Hace 1 día"
-
-#~ msgid "%d days ago"
-#~ msgstr "Hace %d días"
-
-#~ msgid "Auth as %s (uid %d)"
-#~ msgstr "Autenticado como %s (uid %d)"
-
-#~ msgid "Auth as uid %d"
-#~ msgstr "Autenticado como %d"
-
-#~ msgid "Blocked by %s (uid %d)"
-#~ msgstr "Bloqueado por %s (uid %d)"
-
-#~ msgid "Blocked by uid %d"
-#~ msgstr "Bloqueado por el uid %d"
-
-#~ msgid "Granted by %s (uid %d)"
-#~ msgstr "Autorizado por %s (uid %d)"
-
-#~ msgid "Granted by uid %d"
-#~ msgstr "Autorizado por uid %d"
-
-#~ msgid "Single shot pid %d (%s)"
-#~ msgstr "Intento único pid %d (%s)"
-
-#~ msgid "pid %d (%s)"
-#~ msgstr "pid %d (%s)"
-
-#~ msgid "This session"
-#~ msgstr "Esta sesión"
-
-#~ msgid "Always"
-#~ msgstr "Siempre"
-
-#~ msgid "None"
-#~ msgstr "Ninguna"
-
-#~ msgid "Grant Negative Authorization"
-#~ msgstr "Añadir una prohibición"
-
-#~ msgid "Grant Authorization"
-#~ msgstr "Conceder autorización"
-
-#~ msgid ""
-#~ "<b><big>Granting a negative authorization for the <i>%s</i> action "
-#~ "requires more information</big></b>"
-#~ msgstr ""
-#~ "<b><big>Prohibir la acción <i>%s</i> require más información</big></b>"
-
-#~ msgid ""
-#~ "<b><big>Granting an authorization for the <i>%s</i> action requires more "
-#~ "information</big></b>"
-#~ msgstr ""
-#~ "<b><big>Conceder una autorización para la acción <i>%s</i> requiere más "
-#~ "información</big></b>"
-
-#~ msgid ""
-#~ "Select the user to block for the action and, optionally, any constraints "
-#~ "on the negative authorization that you are about to grant."
-#~ msgstr ""
-#~ "Seleccione el usuario al que va a bloquear para esa acción y, "
-#~ "opcionalmente, cualquier restricción sobre la prohibición que va a "
-#~ "aplicar."
-
-#~ msgid ""
-#~ "Select the beneficiary and, optionally, how to constrain the "
-#~ "authorization that you are about to grant."
-#~ msgstr ""
-#~ "Seleccione el beneficiario y, opcionalmente, cómo restringir la "
-#~ "autorización que va a conceder."
-
-#~ msgid "<b>Beneficiary</b>"
-#~ msgstr "<b>Beneficiario</b>"
-
-#~ msgid "Select the user that will receive the negative authorization."
-#~ msgstr "Seleccione el usuario que recibirá la prohibición."
-
-#~ msgid "Select the user that will receive the authorization."
-#~ msgstr "Seleccione el usuario que recibirá la autorización."
-
-#~ msgid "_Show system users"
-#~ msgstr "_Mostrar los usuarios del sistema"
-
-#~ msgid "<b>Constraints</b>"
-#~ msgstr "<b>Restricciones</b>"
-
-#~ msgid ""
-#~ "Constraints limits the authorization such that it only applies under "
-#~ "certain circumstances."
-#~ msgstr ""
-#~ "Las restricciones limitan la autorización de manera que sólo se apliquen "
-#~ "bajo ciertas circunstancias."
-
-#~ msgid "_None"
-#~ msgstr "_Ninguna"
-
-#~ msgid "Must be _in active session"
-#~ msgstr "Debe estar en una _sesión activa"
-
-#~ msgid "Must be on _local console"
-#~ msgstr "Debe estar en una consola _local"
-
-#~ msgid "Must be in _active session on local console"
-#~ msgstr "Debe estar en una sesión _activa en una consola local"
-
-#~ msgid "_Block..."
-#~ msgstr "_Bloquear…"
-
-#~ msgid "_Grant..."
-#~ msgstr "_Conceder…"
-
-#~ msgid "Edit Implicit Authorizations"
-#~ msgstr "Editar las autorizaciones implícitas"
-
-#~ msgid "<b><big>Choose new implicit authorizations</big></b>"
-#~ msgstr "<b><big>Elija autorizaciones implícitas nuevas</big></b>"
-
-#~ msgid ""
-#~ "Implicit authorizations are authorizations that are granted automatically "
-#~ "to users under certain circumstances. Choose what is required for the "
-#~ "action <i>%s</i>."
-#~ msgstr ""
-#~ "Las autorizaciones implícitas son las que se conceden a los usuarios "
-#~ "automáticamente bajo ciertas circunstancias. Seleccione los requisitos "
-#~ "para la acción <i>%s</i>."
-
-#~ msgid "<i>Anyone:</i>"
-#~ msgstr "<i>Cualquiera:</i>"
-
-#~ msgid "<i>Console:</i>"
-#~ msgstr "<i>Consola:</i>"
-
-#~ msgid "<i>Active Console:</i>"
-#~ msgstr "<i>Consola activa:</i>"
-
-#~ msgid "_Modify..."
-#~ msgstr "_Modificar..."
-
-#~ msgid "<b>Action</b>"
-#~ msgstr "<b>Acción</b>"
-
-#~ msgid "<i>Description:</i>"
-#~ msgstr "<i>Descripción:</i>"
-
-#~ msgid "<i>Vendor:</i>"
-#~ msgstr "<i>Proveedor:</i>"
-
-#~ msgid "<b>Implicit Authorizations</b>"
-#~ msgstr "<b>Autorizaciones implícitas</b>"
-
-#~ msgid ""
-#~ "Implicit authorizations are authorizations automatically given to users "
-#~ "based on certain criteria such as if they are on the local console."
-#~ msgstr ""
-#~ "Las autorizaciones implícitas son aquellas que se conceden "
-#~ "automáticamente a los usuarios basándose en ciertos criterios como, por "
-#~ "ejemplo, si se encuentran en una consola local."
-
-#~ msgid "_Edit..."
-#~ msgstr "_Editar…"
-
-#~ msgid "Revert To _Defaults..."
-#~ msgstr "_Reestablecer los valores predeterminados..."
-
-#~ msgid "<b>Explicit Authorizations</b>"
-#~ msgstr "<b>Autorizaciones explícitas</b>"
-
-#~ msgid ""
-#~ "This list displays authorizations that are either obtained through "
-#~ "authentication or specifically given to the entity in question. Blocked "
-#~ "authorizations are marked with a STOP sign."
-#~ msgstr ""
-#~ "Esta lista muestra las autorizaciones obtenidas tanto a través de "
-#~ "autenticación, como las específicamente otorgadas a la entidad en "
-#~ "cuestión. Las autorizaciones bloqueadas se marcan con una signo de STOP."
-
-#~ msgid "Entity"
-#~ msgstr "Entidad"
-
-#~ msgid "Scope"
-#~ msgstr "Ámbito"
-
-#~ msgid "How"
-#~ msgstr "Cómo"
-
-#~ msgid "Constraints"
-#~ msgstr "Restricciones"
-
-#~ msgid "_Revoke"
-#~ msgstr "_Revocar"
-
-#~ msgid "_Revoke..."
-#~ msgstr "_Revocar…"
-
-#~ msgid "_Show authorizations from all users..."
-#~ msgstr "_Mostrar las autorizaciones de todos los usuarios…"
-
-#~ msgid "_Show authorizations from all users"
-#~ msgstr "_Mostrar las autorizaciones de todos los usuarios"
-
-#~ msgid "Select an action"
-#~ msgstr "Seleccionar una acción"
+#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr ""
