@@ -1,6 +1,7 @@
 SUBDIRS = polkitgtkmate src po docs
 
 EXTRA_DIST = \
+	autogen.sh \
 	HACKING
 
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
