@@ -6,13 +6,14 @@
 # Copyright (C) 2007, 2008
 # Jorge González <jorgegonz@svn.gnome.org>, 2008, 2009
 # Juanje Ojeda <jojeda@emergya.es>, 2008
+# Lluís Tusquellas <lutusq@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-15 10:30+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-02-15 14:00+0000\n"
+"Last-Translator: Lluís Tusquellas <lutusq@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/MATE/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -234,4 +235,4 @@ msgstr "Agente de autenticación de PolicyKit"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "Agente de autenticación de PolicyKit para escritorio MATE"
