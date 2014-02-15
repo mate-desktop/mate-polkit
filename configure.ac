@@ -1,6 +1,6 @@
 AC_INIT([polkit-mate],[1.7.2],[http://www.mate-desktop.org/],[mate-polkit])
 
-AM_INIT_AUTOMAKE([1.9 foreign dist-xz no-dist-gzip])
+AM_INIT_AUTOMAKE([1.9 foreign dist-xz no-dist-gzip check-news])
 
 AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
