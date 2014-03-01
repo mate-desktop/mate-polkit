@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009
+# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009,2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-15 10:30+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-02-27 14:15+0000\n"
+"Last-Translator: meequz <meequz@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,85 +20,85 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
-msgstr ""
+msgstr "Ідэнтыфікатар дзеяння"
 
 #: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
-msgstr ""
+msgstr "Ідэнтыфікатар дзеяння для кнопкі"
 
 #: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
-msgstr ""
+msgstr "Ці аўтарызаваны"
 
 #: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
-msgstr ""
+msgstr "Ці працэс аўтарызаваны"
 
 #: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
-msgstr ""
+msgstr "Ці бачны"
 
 #: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
-msgstr ""
+msgstr "Ці віджэт бачны"
 
 #: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
-msgstr ""
+msgstr "Можна атрымаць"
 
 #: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
-msgstr ""
+msgstr "Ці аўтарызацыя можа быць атрымана"
 
 #: ../polkitgtkmate/polkitlockbutton.c:520
 #: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
-msgstr ""
+msgstr "Тэкст падчас разблакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
-msgstr ""
+msgstr "Тэкст, які паказваецца карыстальніку падчас разблакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
-msgstr ""
+msgstr "Пстрыкніце, каб унесці змены"
 
 #: ../polkitgtkmate/polkitlockbutton.c:537
 #: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
-msgstr ""
+msgstr "Падказка падчас разблакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr ""
+msgstr "Падказка, якая паказваецца карыстальніку падчас разблакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
-msgstr ""
+msgstr "Каб унесці змены, патрабуецца аўтэнтыфікацыія."
 
 #: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
-msgstr ""
+msgstr "Тэкст падчас блакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
-msgstr ""
+msgstr "Тэкст, які паказваецца карыстальніку падчас блакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
-msgstr ""
+msgstr "Пстрыкніце, каб не даць адбыцца зменам"
 
 #: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
-msgstr ""
+msgstr "Падказка падчас блакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
-msgstr ""
+msgstr "Падказка, якая паказваецца карыстальніку падчас блакавання"
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
-msgstr ""
+msgstr "Каб не дапусціць далейшыя змены, пстрыкніце па замку."
 
 #: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
@@ -152,11 +152,11 @@ msgstr ""
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Пстрыкніце значку, каб скасаваць усе ўзьнятыя прывілеі"
+msgstr "Пстрыкніце па значку, каб скасаваць усе ўзнятыя прывілеі"
 
 #: ../src/polkitmateauthenticationdialog.c:159
 msgid "Select user..."
-msgstr "Вылучыце карыстальніка…"
+msgstr "Вылучце карыстальніка…"
 
 #: ../src/polkitmateauthenticationdialog.c:194
 #, c-format
@@ -171,19 +171,19 @@ msgstr "_Аўтэнтыфікацыя"
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Дастасаваньне спрабуе выканаць дзеяньне, якое патрабуе дадатковых прывілей. Аўтэнтыфікацыя ў якасьці аднаго з пералічаных карыстальнікаў патрабуецца каб выканаць гэтае дзеяньне."
+msgstr "Праграма спрабуе выканаць дзеянне, якое патрабуе дадатковых прывілеяў. Аўтэнтыфікацыя ў якасці аднаго з пералічаных карыстальнікаў патрабуецца, каб выканаць гэтае дзеянне."
 
 #: ../src/polkitmateauthenticationdialog.c:582
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Дастасаваньне спрабуе выканаць дзеяньне, якое патрабуе дадатковых прывілей. Аўтэнтыфікацыя патрабуецца каб выканаць гэтае дзеяньне."
+msgstr "Праграма спрабуе выканаць дзеянне, якое патрабуе дадатковых прывілеяў. Аўтэнтыфікацыя патрабуецца, каб выканаць гэтае дзеянне."
 
 #: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Дастасаваньне спрабуе выканаць дзеяньне, якое патрабуе дадатковых прывілей. Аўтэнтыфікацыя ў якасьці адміністратара (root) патрабуецца каб выканаць гэтае дзеяньне."
+msgstr "Праграма спрабуе выканаць дзеянне, якое патрабуе дадатковых прывілеяў. Аўтэнтыфікацыя ў якасці адміністратара (root) патрабуецца, каб выканаць гэтае дзеянне."
 
 #: ../src/polkitmateauthenticationdialog.c:623
 #: ../src/polkitmateauthenticator.c:298
@@ -197,7 +197,7 @@ msgstr "<small><b>Д_эталі</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:694
 msgid "<small><b>Action:</b></small>"
-msgstr "<small><b>Дзеяньне:</b></small>"
+msgstr "<small><b>Дзеянне:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:697
 #, c-format
@@ -228,8 +228,8 @@ msgstr "Збой аўтэнтыфікацыі"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "PolicyKit - аґент аўтэнтыфікацыі"
+msgstr "PolicyKit, агент аўтэнтыфікацыі"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "PolicyKit, агент аўтэнтыфікацыі для асяроддзя MATE"
