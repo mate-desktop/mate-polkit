@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-02-27 14:15+0000\n"
+"PO-Revision-Date: 2014-03-28 14:04+0000\n"
 "Last-Translator: meequz <meequz@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/projects/p/MATE/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgstr "Пстрыкніце, каб адкрыць %s"
 
 #: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
-msgstr "Аўтэнтфікацыя"
+msgstr "Аўтэнтыфікацыя"
 
 #: ../src/polkitmateauthenticator.c:294
 #, c-format

@@ -4,13 +4,14 @@
 # 
 # Translators:
 # sandeeps <sshedmak@redhat.com>, 2010
+# vaibhav.dlv <vaibhav.dlv@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-15 10:30+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2014-03-24 06:06+0000\n"
+"Last-Translator: vaibhav.dlv <vaibhav.dlv@gmail.com>\n"
 "Language-Team: Marathi (http://www.transifex.com/projects/p/MATE/language/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -232,4 +233,4 @@ msgstr "PolicyKit ऑथेंटीकेशन एजेंट"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "MATE डेस्कटाॅपसाठी PolicyKit ऑथेंटीकेशन एजेंट"
