@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Mislav E. Lukšić <meluksic@yahoo.com>, 2014
 # Ivica  Kolić <ikoli@yahoo.com>, 2013
-# CroatianFan <meluksic@yahoo.com>, 2014
+# Mislav E. Lukšić <meluksic@yahoo.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-02-15 12:21+0000\n"
-"Last-Translator: CroatianFan <meluksic@yahoo.com>\n"
+"PO-Revision-Date: 2014-05-18 10:39+0000\n"
+"Last-Translator: Mislav E. Lukšić <meluksic@yahoo.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/MATE/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,44 +22,44 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
-msgstr "Identifikator radnje"
+msgstr "Označivač radnje"
 
 #: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
-msgstr "Identifikator radnje koji se ima koristiti za tipku"
+msgstr "Označivač radnje koji treba koristiti umjesto gumba"
 
 #: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
-msgstr ""
+msgstr "Ovjeren je"
 
 #: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
-msgstr ""
+msgstr "Je li postupak ovjeren"
 
 #: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
-msgstr "Vidljivo je"
+msgstr "Vidljiv je"
 
 #: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
-msgstr ""
+msgstr "Je li pomoćni programčić vidljiv"
 
 #: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
-msgstr ""
+msgstr "Može se dobiti"
 
 #: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
-msgstr ""
+msgstr "Može li se dobiti ovlaštenje"
 
 #: ../polkitgtkmate/polkitlockbutton.c:520
 #: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
-msgstr "Otključaj tekst"
+msgstr "Napis otključavanja"
 
 #: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
-msgstr ""
+msgstr "Napis koji treba prikazati kada se korisniku daje odzivna poruka za otključavanje."
 
 #: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
@@ -67,23 +68,23 @@ msgstr "Klikni za promjene"
 #: ../polkitgtkmate/polkitlockbutton.c:537
 #: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
-msgstr ""
+msgstr "Pomoćna obavijest otključavanja"
 
 #: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr ""
+msgstr "Pomoćna obavijest koju treba prikazati kada se korisniku daje odzivna poruka za otključavanje."
 
 #: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
-msgstr ""
+msgstr "Potrebna je ovjera za izvođenje promjena."
 
 #: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
-msgstr "Zaključaj napis"
+msgstr "Napis zaključavanja"
 
 #: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
-msgstr ""
+msgstr "Napis koji treba prikazati kada se korisniku daje odzivna poruka za zaključavanje."
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
@@ -91,25 +92,25 @@ msgstr "Klikni za sprječavanje promjena"
 
 #: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
-msgstr ""
+msgstr "Pomoćna obavijest zaključavanja"
 
 #: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
-msgstr ""
+msgstr "Pomoćna obavijest koju treba prikazati kada se korisniku daje odzivna poruka za zaključavanje."
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
-msgstr ""
+msgstr "Za sprječavanje daljnjih promjena, klikni zaključavanje."
 
 #: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
-msgstr ""
+msgstr "Napis zaključavanja"
 
 #: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr ""
+msgstr "Napis koji treba prikazati kada se korisniku daje odzivna poruka za zaključavanje radnje za sve korisnike."
 
 #: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
@@ -117,43 +118,43 @@ msgstr "Klikni za zaključavanje"
 
 #: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
-msgstr ""
+msgstr "Pomoćna obavijest zaključavanja"
 
 #: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr ""
+msgstr "Pomoćna obavijest koju treba prikazati kada se korisniku daje odzivna poruka za zaključavanje radnje za sve korisnike."
 
 #: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr ""
+msgstr "Za sprječavanje korisnika bez upraviteljskih povlastica u izvođenju promjena, klikni zaključavanje."
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "Napis koji treba prikazati kada korisnik ne može dobiti ovlaštenje putem ovjere."
 
 #: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
-msgstr ""
+msgstr "Nedostaje ovjera za izvođenje promjena"
 
 #: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "Pomoćna obavijest koju treba prikazati kada korisnik ne može dobiti ovlaštenje putem ovjere."
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr ""
+msgstr "Pravilo sustava sprječava promjene. Obrati se svome upravitelju sustava."
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
-msgstr ""
+msgstr "Klikni sličicu za ispuštanje svih povišenih povlastica"
 
 #: ../src/polkitmateauthenticationdialog.c:159
 msgid "Select user..."
@@ -166,25 +167,25 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:532
 msgid "_Authenticate"
-msgstr ""
+msgstr "_Ovjeri"
 
 #: ../src/polkitmateauthenticationdialog.c:574
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr ""
+msgstr "Program pokušava izvesti radnju koja zahtijeva povlastice. Potrebno je niže izvršiti ovjeru u svojstvu jednog od korisnika za izvođenje te radnje."
 
 #: ../src/polkitmateauthenticationdialog.c:582
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr ""
+msgstr "Program pokušava izvesti radnju koja zahtijeva povlastice. Potrebna je ovjera za izvođenje te radnje."
 
 #: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr ""
+msgstr "Program pokušava izvesti radnju koja zahtijeva povlastice. Potrebna je ovjera u svojstvu natkorisnika za izvođenje te radnje."
 
 #: ../src/polkitmateauthenticationdialog.c:623
 #: ../src/polkitmateauthenticator.c:298
@@ -207,7 +208,7 @@ msgstr "Klikni za uređivanje %s"
 
 #: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
-msgstr ""
+msgstr "<small><b>Isporučitelj:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
@@ -216,7 +217,7 @@ msgstr "Klikni za otvaranje %s"
 
 #: ../src/polkitmateauthenticationdialog.c:876
 msgid "Authenticate"
-msgstr ""
+msgstr "Ovjeri"
 
 #: ../src/polkitmateauthenticator.c:294
 #, c-format
@@ -225,12 +226,12 @@ msgstr "_Zaporka za %s:"
 
 #: ../src/polkitmateauthenticator.c:454
 msgid "Authentication Failure"
-msgstr ""
+msgstr "Neuspješna ovjera"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr ""
+msgstr "Programski izvršitelj pravila ovjere"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "Programski izvršitelj pravila ovjere za radno okruženje MATE"
