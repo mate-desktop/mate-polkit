@@ -121,6 +121,10 @@ MATE_MAINTAINER_MODE_DEFINES
 # Check for required packages
 # ***************************
 
+GLIB_REQUIRED=2.36.0
+POLKIT_AGENT_REQUIRED=0.97
+POLKIT_GOBJECT_REQUIRED=0.97
+
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
   [AS_HELP_STRING([--with-gtk=2.0|3.0],[which gtk+ version to compile against (default: 2.0)])],
@@ -141,12 +145,11 @@ case "$with_gtk" in
 esac
 AC_SUBST(GTK_API_VERSION)
 
+PKG_CHECK_MODULES(GLIB, glib-2.0 >= $GLIB_REQUIRED)
+
 PKG_CHECK_MODULES(GTK, gtk+-$GTK_API_VERSION >= $GTK_REQUIRED)
 AC_SUBST(GTK_CFLAGS)
 AC_SUBST(GTK_LIBS)
-
-POLKIT_AGENT_REQUIRED=0.97
-POLKIT_GOBJECT_REQUIRED=0.97
 
 PKG_CHECK_MODULES(POLKIT_AGENT, polkit-agent-1 >= $POLKIT_AGENT_REQUIRED)
 AC_SUBST(POLKIT_AGENT_CFLAGS)
