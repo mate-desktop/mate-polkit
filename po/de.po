@@ -6,14 +6,14 @@
 # Christian <Christian.Kirbach@googlemail.com>, 2009
 # Denis Washington <denisw@svn.gnome.org>, 2008
 # Mario Blättermann <mariobl@gnome.org>, 2009
-# Tobias Bannert, 2014
+# Tobias Bannert <tobannert@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-05-19 11:52+0000\n"
-"Last-Translator: Tobias Bannert\n"
+"PO-Revision-Date: 2015-01-15 13:20+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -131,7 +131,7 @@ msgstr "Die Minihilfe, mit der der Benutzer beim Sperren des Vorgangs für alle 
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr "Um zu verhindern, dass Benutzer ohne administrative Rechte Änderungen durchführen können, bitte auf das Schloss klicken."
+msgstr "Um zu verhindern, dass Benutzer ohne Systemverwaltungsrechten Änderungen durchführen können, bitte auf das Schloss klicken."
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
@@ -151,7 +151,7 @@ msgstr "Die Minihilfe, wenn ein Benutzer keine Berechtigung durch Legitimation e
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr "Die Systemrichtlinien verhindern Änderungen. Bitte kontaktieren Sie Ihren Systemadministrator."
+msgstr "Die Systemrichtlinien verhindern Änderungen. Bitte kontaktieren Sie Ihren Systemverwalter."
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
@@ -186,7 +186,7 @@ msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Privilegien erford
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Privilegien erfordert. Eine Legitimation als Administrator ist erforderlich, um diese Aktion auszuführen."
+msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Privilegien erfordert. Eine Legitimation als Systemverwalter ist erforderlich, um diese Aktion auszuführen."
 
 #: ../src/polkitmateauthenticationdialog.c:623
 #: ../src/polkitmateauthenticator.c:298
