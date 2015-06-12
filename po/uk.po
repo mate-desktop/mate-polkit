@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2010
-# Koljan1970 <Stuartlittle1970@gmail.com>, 2013-2014
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-16 19:14+0000\n"
-"Last-Translator: Koljan1970 <Stuartlittle1970@gmail.com>\n"
+"PO-Revision-Date: 2015-05-08 17:53+0000\n"
+"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -123,13 +123,13 @@ msgstr "Підказка повного блокування"
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr "Підказка, що виводиться при запиті на повне блокування дії усіх користувачів."
+msgstr "Підказка, що виводиться при запиті на повне блокування дій усіх користувачів."
 
 #: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr "Для запобігання подальшим змінам користувачам без адміністративних привілей, клацніть на блокування."
+msgstr "Для запобігання подальшим змінам користувачам без адміністративних привілеїв, клацніть на блокування."
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
@@ -149,11 +149,11 @@ msgstr "Підказка, що виводиться коли користува�
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr "Системна політика запобігає змінами. Зверніться до системного адміністратора."
+msgstr "Системна політика запобігає змінам. Зверніться до системного адміністратора."
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Клацніть на значку для скидання усіх підвищених привілей"
+msgstr "Клацніть на піктограмі для скидання усіх підвищених привілеїв"
 
 #: ../src/polkitmateauthenticationdialog.c:159
 msgid "Select user..."
@@ -172,19 +172,19 @@ msgstr "_Автентифікація"
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Програма намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація від імені одного з перелічених нижче користувачів."
+msgstr "Проґрама намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація від імені одного з перелічених нижче користувачів."
 
 #: ../src/polkitmateauthenticationdialog.c:582
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Програма намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація."
+msgstr "Проґрама намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація."
 
 #: ../src/polkitmateauthenticationdialog.c:588
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Програма намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація користувача root."
+msgstr "Проґрама намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація користувача root."
 
 #: ../src/polkitmateauthenticationdialog.c:623
 #: ../src/polkitmateauthenticator.c:298
@@ -229,8 +229,8 @@ msgstr "Помилка при автентифікації"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "Аґент автентифікації PolicyKit"
+msgstr "Агент автентифікації PolicyKit"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr "Аґент автентифікації PolicyKit для стільниці MATE"
+msgstr "Агент автентифікації PolicyKit для стільниці MATE"

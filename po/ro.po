@@ -3,15 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Daniel <danny34ever@yahoo.com>, 2015
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2009
 # Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010
+# sidro <slacky2005@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-15 10:30+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
+"PO-Revision-Date: 2015-04-20 19:54+0000\n"
+"Last-Translator: Daniel <danny34ever@yahoo.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/projects/p/MATE/language/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -153,7 +155,7 @@ msgstr "Politica sistemului împiedică modificările. Contactați administrator
 
 #: ../src/main.c:128
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Clic pe iconiță pentru a renunța la toate privilegiile ridicate"
+msgstr "Clic pe pictogramă pentru a renunța la toate privilegiile ridicate"
 
 #: ../src/polkitmateauthenticationdialog.c:159
 msgid "Select user..."
@@ -233,4 +235,4 @@ msgstr "Agent de autentificare PolicyKit"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "Agent de autentificare PolicyKit"
