@@ -536,9 +536,6 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   content_area = gtk_dialog_get_content_area (GTK_DIALOG (dialog));
   action_area = gtk_dialog_get_action_area (GTK_DIALOG (dialog));
 
-  #if !GTK_CHECK_VERSION(3, 0, 0)
-  gtk_dialog_set_has_separator (GTK_DIALOG (dialog), FALSE);
-  #endif
   gtk_container_set_border_width (GTK_CONTAINER (dialog), 5);
   gtk_box_set_spacing (GTK_BOX (content_area), 2); /* 2 * 5 + 2 = 12 */
   gtk_container_set_border_width (GTK_CONTAINER (action_area), 5);
@@ -999,11 +996,7 @@ polkit_mate_authentication_dialog_run_until_response_for_prompt (PolkitMateAuthe
 
   response = gtk_dialog_run (GTK_DIALOG (dialog));
 
-  #if GTK_CHECK_VERSION(3, 0, 0)
   gtk_widget_hide (dialog->priv->table_alignment);
-  #else
-  gtk_widget_hide_all (dialog->priv->table_alignment);
-  #endif
   gtk_widget_set_no_show_all (dialog->priv->table_alignment, TRUE);
 
   dialog->priv->is_running = FALSE;
