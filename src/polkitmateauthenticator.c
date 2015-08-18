@@ -26,6 +26,7 @@
 #include <sys/types.h>
 #include <pwd.h>
 #include <glib/gi18n.h>
+#include <gdk/gdkx.h>
 
 #include <polkit/polkit.h>
 #include <polkitagent/polkitagent.h>
@@ -304,7 +305,8 @@ session_request (PolkitAgentSession *session,
     }
 
   gtk_widget_show_all (GTK_WIDGET (authenticator->dialog));
-  gtk_window_present (GTK_WINDOW (authenticator->dialog));
+  gtk_window_present_with_time (GTK_WINDOW (authenticator->dialog),
+                                gdk_x11_get_server_time (gtk_widget_get_window (GTK_WIDGET (authenticator->dialog))));
   password = polkit_mate_authentication_dialog_run_until_response_for_prompt (POLKIT_MATE_AUTHENTICATION_DIALOG (authenticator->dialog),
                                                                                modified_request,
                                                                                echo_on,
