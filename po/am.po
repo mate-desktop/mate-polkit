@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# samson <sambelet@yahoo.com>, 2013
+# samson <sambelet@yahoo.com>, 2013,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-15 10:30+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Amharic (http://www.transifex.com/projects/p/MATE/language/am/)\n"
+"PO-Revision-Date: 2015-08-27 00:38+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
-msgstr ""
+msgstr "ፍቃድ አለው"
 
 #: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
@@ -36,7 +36,7 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
-msgstr ""
+msgstr "የሚታይ "
 
 #: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
@@ -53,7 +53,7 @@ msgstr ""
 #: ../polkitgtkmate/polkitlockbutton.c:520
 #: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
-msgstr ""
+msgstr "ጽሁፍ መክፈቻ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
-msgstr ""
+msgstr "ይጫኑ ለውጡን ለመፈጸም"
 
 #: ../polkitgtkmate/polkitlockbutton.c:537
 #: ../polkitgtkmate/polkitlockbutton.c:639
@@ -74,11 +74,11 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
-msgstr ""
+msgstr "ለመቀየር ማረጋገጫ ያስፈልጋል"
 
 #: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
-msgstr ""
+msgstr "ጽሁፍ መቆለፊያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
@@ -86,11 +86,11 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
-msgstr ""
+msgstr "ይጫኑ ለውጦቹን ለመከልከል"
 
 #: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
-msgstr ""
+msgstr "የ መጠቆሚያውን ጫፍ መቆለፊያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
@@ -98,11 +98,11 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
-msgstr ""
+msgstr "ለውጦችን ለመከልከል ይጫኑ መቆለፊያውን"
 
 #: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
-msgstr ""
+msgstr "ጽሁፍ መቆለፊያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
@@ -112,11 +112,11 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
-msgstr ""
+msgstr "ይጫኑ ለ መቆለፍ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
-msgstr ""
+msgstr "የ መጠቆሚያውን ጫፍ መቆለፊያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
@@ -138,7 +138,7 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
-msgstr ""
+msgstr "ለመቀየር ፍቃድ የለውም"
 
 #: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
@@ -206,7 +206,7 @@ msgstr "ለማረም ይጫኑ %s"
 
 #: ../src/polkitmateauthenticationdialog.c:711
 msgid "<small><b>Vendor:</b></small>"
-msgstr ""
+msgstr "<small><b>ሻጭ:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:713
 #, c-format
