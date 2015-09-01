@@ -1,3 +1,9 @@
+1.10.1
+
+  - Fix losing focus when displaying password prompt dialog.
+  - Drop some deprecated GTK code and obsolete build marco.
+  - Update translations.
+
 1.10.0
 
   - Translations updates
