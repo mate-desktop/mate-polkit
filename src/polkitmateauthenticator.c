@@ -455,7 +455,7 @@ do_initiate (gpointer user_data)
         {
           gchar *s;
 
-          s = g_strconcat ("<b>", _("Authentication Failure"), "</b>", NULL);
+          s = g_strconcat ("<b>", _("Your authentication attempt was unsuccessful. Please try again."), "</b>", NULL);
           polkit_mate_authentication_dialog_set_info_message (
                                   POLKIT_MATE_AUTHENTICATION_DIALOG (authenticator->dialog),
                                   s);
