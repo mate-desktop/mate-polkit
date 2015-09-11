@@ -123,6 +123,7 @@ MATE_MAINTAINER_MODE_DEFINES
 GLIB_REQUIRED=2.36.0
 POLKIT_AGENT_REQUIRED=0.97
 POLKIT_GOBJECT_REQUIRED=0.97
+APPINDICATOR_REQUIRED=0.0.13
 
 AC_MSG_CHECKING([which gtk+ version to compile against])
 AC_ARG_WITH([gtk],
@@ -163,6 +164,29 @@ AC_ARG_ENABLE([accountsservice],
 	      [enable_accountsservice=yes])
 
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
+
+# Application indicator
+AC_ARG_ENABLE([appindicator],
+	      AS_HELP_STRING([--enable-appindicator[=@<:@no/auto/yes@:>@]],[Build support for application indicators]),
+	      [enable_appindicator=$enableval],
+	      [enable_appindicator="auto"])
+
+
+if test "x$enable_appindicator" = "xauto"; then
+	PKG_CHECK_EXISTS(appindicator-0.1 >= $APPINDICATOR_REQUIRED,
+			 [enable_appindicator="yes"],
+			 [enable_appindicator="no"])
+fi
+
+if test "x$enable_appindicator" = "xyes"; then
+	PKG_CHECK_MODULES(APPINDICATOR,
+			  [appindicator-0.1 >= $APPINDICATOR_REQUIRED],
+			  [AC_DEFINE(HAVE_APPINDICATOR, 1, [Have AppIndicator])])
+fi
+
+AM_CONDITIONAL(HAVE_APPINDICATOR, test "x$enable_appindicator" = "xyes")
+AC_SUBST(APPINDICATOR_CFLAGS)
+AC_SUBST(APPINDICATOR_LIBS)
 
 AC_ARG_ENABLE([examples],
               AC_HELP_STRING([--enable-examples], [Build the example programs]),,
@@ -240,6 +264,7 @@ echo "
 
         Gtk+ version:               ${GTK_API_VERSION}
         Accountsservice:            ${enable_accountsservice}
+        Application indciator:      ${enable_appindicator}
         Maintainer mode:            ${USE_MAINTAINER_MODE}
         Building api docs:          ${enable_gtk_doc}
         GObject Introspection:      ${enable_introspection}

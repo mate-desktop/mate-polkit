@@ -29,6 +29,10 @@
 #include <glib/gi18n.h>
 #include <polkitagent/polkitagent.h>
 
+#ifdef HAVE_APPINDICATOR
+#include <libappindicator/app-indicator.h>
+#endif
+
 #include "polkitmatelistener.h"
 
 /* session management support for auto-restart */
@@ -47,7 +51,11 @@ static PolkitSubject *session = NULL;
 /* the current set of temporary authorizations */
 static GList *current_temporary_authorizations = NULL;
 
+#ifdef HAVE_APPINDICATOR
+static AppIndicator *app_indicator = NULL;
+#else
 static GtkStatusIcon *status_icon = NULL;
+#endif
 
 static GDBusProxy      *sm_proxy;
 static GDBusProxy      *client_proxy = NULL;
@@ -82,6 +90,14 @@ revoke_tmp_authz (void)
                                                     NULL);
 }
 
+#ifdef HAVE_APPINDICATOR
+static void
+on_menu_item_activate (GtkMenuItem *menu_item,
+                       gpointer     user_data)
+{
+  revoke_tmp_authz ();
+}
+#else
 static void
 on_status_icon_activate (GtkStatusIcon *status_icon,
                          gpointer       user_data)
@@ -97,6 +113,7 @@ on_status_icon_popup_menu (GtkStatusIcon *status_icon,
 {
   revoke_tmp_authz ();
 }
+#endif
 
 static void
 update_temporary_authorization_icon_real (void)
@@ -134,6 +151,31 @@ update_temporary_authorization_icon_real (void)
   if (current_temporary_authorizations != NULL)
     {
       /* show icon */
+#ifdef HAVE_APPINDICATOR
+      if (app_indicator == NULL)
+        {
+          GtkWidget *item, *menu;
+
+          app_indicator = app_indicator_new ("mate-polkit",
+                                             "gtk-dialog-authentication",
+                                             APP_INDICATOR_CATEGORY_SYSTEM_SERVICES);
+
+          item = gtk_menu_item_new_with_label (_("Drop all elevated privileges"));
+          g_signal_connect (item,
+                            "activate",
+                            G_CALLBACK (on_menu_item_activate),
+                            NULL);
+          menu = gtk_menu_new ();
+          gtk_menu_shell_append (GTK_MENU_SHELL (menu), item);
+          gtk_widget_show_all (menu);
+
+          app_indicator_set_menu (app_indicator,
+                                  GTK_MENU (menu));
+          app_indicator_set_status (app_indicator,
+                                    APP_INDICATOR_STATUS_ACTIVE);
+        }
+
+#else
       if (status_icon == NULL)
         {
           status_icon = gtk_status_icon_new_from_stock (GTK_STOCK_DIALOG_AUTHENTICATION);
@@ -148,16 +190,27 @@ update_temporary_authorization_icon_real (void)
                             G_CALLBACK (on_status_icon_popup_menu),
                             NULL);
         }
+#endif
     }
   else
     {
       /* hide icon */
+#ifdef HAVE_APPINDICATOR
+      if (app_indicator != NULL)
+        {
+          app_indicator_set_status (app_indicator,
+				    APP_INDICATOR_STATUS_PASSIVE);
+          g_object_unref (app_indicator);
+          app_indicator = NULL;
+        }
+#else
       if (status_icon != NULL)
         {
           gtk_status_icon_set_visible (status_icon, FALSE);
           g_object_unref (status_icon);
           status_icon = NULL;
         }
+#endif
     }
 }
 
