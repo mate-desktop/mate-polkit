@@ -561,6 +561,9 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   g_free (s);
   gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
   gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
+#if GTK_CHECK_VERSION (3, 0, 0)
+  gtk_label_set_max_width_chars (GTK_LABEL (label), 50);
+#endif
   gtk_box_pack_start (GTK_BOX (main_vbox), label, FALSE, FALSE, 0);
 
   /* secondary message */
@@ -588,6 +591,9 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
     }
   gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
   gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
+#if GTK_CHECK_VERSION (3, 0, 0)
+  gtk_label_set_max_width_chars (GTK_LABEL (label), 50);
+#endif
   gtk_box_pack_start (GTK_BOX (main_vbox), label, FALSE, FALSE, 0);
 
   /* user combobox */
