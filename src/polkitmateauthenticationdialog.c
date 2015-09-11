@@ -135,6 +135,122 @@ user_combobox_changed (GtkComboBox *widget,
     }
 }
 
+#if HAVE_ACCOUNTSSERVICE
+static GdkPixbuf *
+get_user_icon (char *username)
+{
+  GError *error;
+  GDBusConnection *connection;
+  GVariant *find_user_result;
+  GVariant *get_icon_result;
+  GVariant *icon_result_variant;
+  const gchar *user_path;
+  const gchar *icon_filename;
+  GdkPixbuf *pixbuf = NULL;
+
+  error = NULL;
+  connection = g_bus_get_sync (G_BUS_TYPE_SYSTEM, NULL, &error);
+
+  if (connection == NULL)
+    {
+      g_warning ("Unable to connect to system bus: %s", error->message);
+      g_error_free (error);
+      return NULL;
+    }
+
+  find_user_result = g_dbus_connection_call_sync (connection,
+                                          "org.freedesktop.Accounts",
+                                          "/org/freedesktop/Accounts",
+                                          "org.freedesktop.Accounts",
+                                          "FindUserByName",
+                                          g_variant_new ("(s)",
+                                          username),
+                                          G_VARIANT_TYPE ("(o)"),
+                                          G_DBUS_CALL_FLAGS_NONE,
+                                          -1,
+                                          NULL,
+                                          &error);
+
+  if (find_user_result == NULL)
+    {
+      g_warning ("Accounts couldn't find user: %s", error->message);
+      g_error_free (error);
+      return NULL;
+    }
+
+  user_path = g_variant_get_string (g_variant_get_child_value (find_user_result, 0),
+                                    NULL);
+
+  get_icon_result = g_dbus_connection_call_sync (connection,
+                                                 "org.freedesktop.Accounts",
+                                                 user_path,
+                                                 "org.freedesktop.DBus.Properties",
+                                                 "Get",
+                                                 g_variant_new ("(ss)",
+                                                                "org.freedesktop.Accounts.User",
+                                                                "IconFile"),
+                                                 G_VARIANT_TYPE ("(v)"),
+                                                 G_DBUS_CALL_FLAGS_NONE,
+                                                 -1,
+                                                 NULL,
+                                                 &error);
+
+  g_variant_unref (find_user_result);
+
+  if (get_icon_result == NULL)
+    {
+      g_warning ("Accounts couldn't find user icon: %s", error->message);
+      g_error_free (error);
+      return NULL;
+    }
+
+  g_variant_get_child (get_icon_result, 0, "v", &icon_result_variant);
+  icon_filename = g_variant_get_string (icon_result_variant, NULL);
+
+  if (icon_filename == NULL)
+    {
+      g_warning ("Accounts didn't return a valid filename for user icon");
+    }
+  else
+    {
+      /* TODO: we probably shouldn't hard-code the size to 16x16 */
+      pixbuf = gdk_pixbuf_new_from_file_at_size (icon_filename,
+                                                 16,
+                                                 16,
+                                                 &error);
+      if (pixbuf == NULL)
+        {
+          g_warning ("Couldn't open user icon: %s", error->message);
+          g_error_free (error);
+        }
+    }
+
+  g_variant_unref (icon_result_variant);
+  g_variant_unref (get_icon_result);
+
+  return pixbuf;
+}
+#else
+static GdkPixbuf *
+get_user_icon (char *username)
+{
+  GdkPixbuf *pixbuf = NULL;
+  struct passwd *passwd;
+
+  passwd = getpwnam (username);
+  if (passwd->pw_dir != NULL)
+    {
+      gchar *path;
+      path = g_strdup_printf ("%s/.face", passwd->pw_dir);
+      /* TODO: we probably shouldn't hard-code the size to 16x16 */
+      pixbuf = gdk_pixbuf_new_from_file_at_scale (path, 16, 16, TRUE, NULL);
+      g_free (path);
+    }
+
+  return pixbuf;
+}
+#endif /* HAVE_ACCOUNTSSERVICE */
+
 static void
 create_user_combobox (PolkitMateAuthenticationDialog *dialog)
 {
@@ -166,7 +282,7 @@ create_user_combobox (PolkitMateAuthenticationDialog *dialog)
     {
       gchar *gecos;
       gchar *real_name;
-      GdkPixbuf *pixbuf;
+      GdkPixbuf *pixbuf = NULL;
       struct passwd *passwd;
 
       /* we're single threaded so this is fine */
@@ -197,15 +313,7 @@ create_user_combobox (PolkitMateAuthenticationDialog *dialog)
       g_free (gecos);
 
       /* Load users face */
-      pixbuf = NULL;
-      if (passwd->pw_dir != NULL)
-        {
-          gchar *path;
-          path = g_strdup_printf ("%s/.face", passwd->pw_dir);
-          /* TODO: we probably shouldn't hard-code the size to 16x16 */
-          pixbuf = gdk_pixbuf_new_from_file_at_scale (path, 16, 16, TRUE, NULL);
-          g_free (path);
-        }
+      pixbuf = get_user_icon (dialog->priv->users[n]);
 
       /* fall back to stock_person icon */
       if (pixbuf == NULL)

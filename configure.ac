@@ -158,6 +158,12 @@ PKG_CHECK_MODULES(POLKIT_GOBJECT, polkit-gobject-1 >= $POLKIT_GOBJECT_REQUIRED)
 AC_SUBST(POLKIT_GOBJECT_CFLAGS)
 AC_SUBST(POLKIT_GOBJECT_LIBS)
 
+AC_ARG_ENABLE([accountsservice],
+	      AC_HELP_STRING([--enable-accountsservice], [Enable accountsservice]),,
+	      [enable_accountsservice=yes])
+
+AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
+
 AC_ARG_ENABLE([examples],
               AC_HELP_STRING([--enable-examples], [Build the example programs]),,
               [enable_examples=yes])
@@ -233,6 +239,7 @@ echo "
         cppflags:                   ${CPPFLAGS}
 
         Gtk+ version:               ${GTK_API_VERSION}
+        Accountsservice:            ${enable_accountsservice}
         Maintainer mode:            ${USE_MAINTAINER_MODE}
         Building api docs:          ${enable_gtk_doc}
         GObject Introspection:      ${enable_introspection}
