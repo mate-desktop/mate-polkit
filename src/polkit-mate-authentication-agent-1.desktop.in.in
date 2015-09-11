@@ -7,3 +7,4 @@ Type=Application
 Categories=
 NoDisplay=true
 OnlyShowIn=MATE;
+X-MATE-AutoRestart=true
