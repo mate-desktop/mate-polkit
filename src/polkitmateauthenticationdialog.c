@@ -254,7 +254,7 @@ get_user_icon (char *username)
 static void
 create_user_combobox (PolkitMateAuthenticationDialog *dialog)
 {
-  int n;
+  int n, i, selected_index = 0;
   GtkComboBox *combo;
   GtkTreeIter iter;
   GtkCellRenderer *renderer;
@@ -278,8 +278,8 @@ create_user_combobox (PolkitMateAuthenticationDialog *dialog)
 
 
   /* For each user */
-  for (n = 0; dialog->priv->users[n] != NULL; n++)
-    {
+  for (i = 0, n = 0; dialog->priv->users[n] != NULL; n++)
+  {
       gchar *gecos;
       gchar *real_name;
       GdkPixbuf *pixbuf = NULL;
@@ -332,6 +332,14 @@ create_user_combobox (PolkitMateAuthenticationDialog *dialog)
                           USERNAME_COL, dialog->priv->users[n],
                           -1);
 
+      i++;
+      if (passwd->pw_uid == getuid ())
+        {
+          selected_index = i;
+          g_free (dialog->priv->selected_user);
+          dialog->priv->selected_user = g_strdup (dialog->priv->users[n]);
+        }
+
       g_free (real_name);
       g_object_unref (pixbuf);
     }
@@ -360,8 +368,8 @@ create_user_combobox (PolkitMateAuthenticationDialog *dialog)
                                       user_combobox_set_sensitive,
                                       NULL, NULL);
 
-  /* Initially select the "Select user..." ... */
-  gtk_combo_box_set_active (GTK_COMBO_BOX (combo), 0);
+  /* Select the default user */
+  gtk_combo_box_set_active (GTK_COMBO_BOX (combo), selected_index);
 
   /* Listen when a new user is selected */
   g_signal_connect (GTK_WIDGET (combo),
@@ -825,15 +833,12 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   gtk_widget_set_tooltip_markup (label, s);
   g_free (s);
 
-  if (have_user_combobox)
+  /* Disable password entry and authenticate until have a user selected */
+  if (have_user_combobox && gtk_combo_box_get_active (GTK_COMBO_BOX (dialog->priv->user_combobox)) == 0)
     {
-      /* ... and make the password entry and "Authenticate" button insensitive */
       gtk_widget_set_sensitive (dialog->priv->prompt_label, FALSE);
       gtk_widget_set_sensitive (dialog->priv->password_entry, FALSE);
       gtk_widget_set_sensitive (dialog->priv->auth_button, FALSE);
-    }
-  else
-    {
     }
 
   gtk_widget_realize (GTK_WIDGET (dialog));
