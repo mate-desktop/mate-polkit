@@ -28,12 +28,6 @@
 #include "polkitmatelistener.h"
 #include "polkitmateauthenticator.h"
 
-#ifdef __GNUC__
-#define UNUSED_VARIABLE __attribute__ ((unused))
-#else
-#define UNUSED_VARIABLE
-#endif
-
 struct _PolkitMateListener
 {
   PolkitAgentListener parent_instance;
@@ -74,10 +68,6 @@ polkit_mate_listener_init (PolkitMateListener *listener)
 static void
 polkit_mate_listener_finalize (GObject *object)
 {
-  PolkitMateListener UNUSED_VARIABLE *listener;
-
-  listener = POLKIT_MATE_LISTENER (object);
-
   if (G_OBJECT_CLASS (polkit_mate_listener_parent_class)->finalize != NULL)
     G_OBJECT_CLASS (polkit_mate_listener_parent_class)->finalize (object);
 }
