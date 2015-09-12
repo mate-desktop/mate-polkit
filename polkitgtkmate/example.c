@@ -147,7 +147,7 @@ int main(int argc, char* argv[])
 
 
 	system_bus_name_subject = polkit_system_bus_name_new(g_dbus_connection_get_unique_name(bus));
-	unix_process_subject = polkit_unix_process_new(getpid());
+	unix_process_subject = polkit_unix_process_new_for_owner(getpid(), 0, -1);
 
 	error = NULL;
 	authority = polkit_authority_get_sync(NULL /* GCancellable* */, &error);

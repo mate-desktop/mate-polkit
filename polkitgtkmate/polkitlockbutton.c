@@ -418,7 +418,7 @@ polkit_lock_button_constructed (GObject *object)
 
   if (button->priv->subject == NULL)
     {
-      button->priv->subject = polkit_unix_process_new (getpid ());
+      button->priv->subject = polkit_unix_process_new_for_owner (getpid (), 0, -1);
     }
 
   /* synchronously check on construction - TODO: we could implement GAsyncInitable
