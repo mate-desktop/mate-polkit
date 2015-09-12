@@ -30,6 +30,7 @@ polkit_mate_authentication_agent_1_CPPFLAGS = 		\
 
 polkit_mate_authentication_agent_1_CFLAGS = 		\
 	$(GTK_CFLAGS)					\
+	$(GLIB_CFLAGS)					\
 	$(POLKIT_AGENT_CFLAGS)				\
 	$(POLKIT_GOBJECT_CFLAGS)			\
 	$(WARN_CFLAGS)					\
@@ -40,6 +41,7 @@ polkit_mate_authentication_agent_1_LDFLAGS = 		\
 
 polkit_mate_authentication_agent_1_LDADD = 		\
 	$(GTK_LIBS)					\
+	$(GLIB_LIBS)					\
 	$(POLKIT_AGENT_LIBS)				\
 	$(POLKIT_GOBJECT_LIBS)				\
 	$(INTLLIBS)

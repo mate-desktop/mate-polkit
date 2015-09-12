@@ -23,6 +23,7 @@
 #include "config.h"
 
 #include <string.h>
+#include <glib/gi18n.h>
 
 #include "polkitmatelistener.h"
 #include "polkitmateauthenticator.h"
@@ -153,8 +154,9 @@ maybe_initiate_next_authenticator (PolkitMateListener *listener)
 
 static void
 authenticator_completed (PolkitMateAuthenticator *authenticator,
-                         gboolean                  gained_authorization,
-                         gpointer                  user_data)
+                         gboolean                 gained_authorization,
+                         gboolean                 dismissed,
+                         gpointer                 user_data)
 {
   AuthData *data = user_data;
 
@@ -163,6 +165,14 @@ authenticator_completed (PolkitMateAuthenticator *authenticator,
     data->listener->active_authenticator = NULL;
 
   g_object_unref (authenticator);
+
+  if (dismissed)
+    {
+      g_simple_async_result_set_error (data->simple,
+                                       POLKIT_ERROR,
+                                       POLKIT_ERROR_CANCELLED,
+                                       _("Authentication dialog was dismissed by the user"));
+    }
 
   g_simple_async_result_complete (data->simple);
   g_object_unref (data->simple);
