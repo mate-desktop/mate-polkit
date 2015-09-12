@@ -127,6 +127,7 @@ polkit_mate_authenticator_class_init (PolkitMateAuthenticatorClass *klass)
    * PolkitMateAuthenticator::completed:
    * @authenticator: A #PolkitMateAuthenticator.
    * @gained_authorization: Whether the authorization was gained.
+   * @dismissed: Whether the dialog was dismissed.
    *
    * Emitted when the authentication is completed. The user is supposed to dispose of @authenticator
    * upon receiving this signal.
@@ -137,9 +138,10 @@ polkit_mate_authenticator_class_init (PolkitMateAuthenticatorClass *klass)
                                             0,                      /* class offset     */
                                             NULL,                   /* accumulator      */
                                             NULL,                   /* accumulator data */
-                                            g_cclosure_marshal_VOID__BOOLEAN,
+                                            g_cclosure_marshal_generic,
                                             G_TYPE_NONE,
-                                            1,
+                                            2,
+					    G_TYPE_BOOLEAN,
                                             G_TYPE_BOOLEAN);
 }
 
@@ -473,7 +475,10 @@ do_initiate (gpointer user_data)
     }
 
  out:
-  g_signal_emit_by_name (authenticator, "completed", authenticator->gained_authorization);
+  g_signal_emit_by_name (authenticator,
+                         "completed",
+                         authenticator->gained_authorization,
+                         authenticator->was_cancelled);
 
   g_object_unref (authenticator);
 
