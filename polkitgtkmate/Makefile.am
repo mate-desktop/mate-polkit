@@ -50,6 +50,7 @@ libpolkit_gtk_mate_1_la_LDFLAGS = -version-info $(LT_CURRENT):$(LT_REVISION):$(L
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = polkit-gtk-mate-1.pc
 
+if BUILD_EXAMPLES
 noinst_PROGRAMS = example
 
 example_SOURCES = example.c
@@ -68,6 +69,7 @@ example_LDADD = 					\
 	$(INTLLIBS)					\
 	libpolkit-gtk-mate-1.la				\
 	$(NULL)
+endif
 
 if ENABLE_INTROSPECTION
 girdir = $(GIRDIR)

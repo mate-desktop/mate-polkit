@@ -165,7 +165,11 @@ AC_ARG_ENABLE([accountsservice],
 
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
 
+AC_ARG_ENABLE([examples],
+              AC_HELP_STRING([--enable-examples], [Build the example programs]),,
+              [enable_examples=yes])
 
+AM_CONDITIONAL(BUILD_EXAMPLES, test "x$enable_examples" = "xyes")
 
 # GObject introspection
 #
