@@ -6,7 +6,7 @@ AC_CONFIG_SRCDIR([src])
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 
-AM_MAINTAINER_MODE
+AM_MAINTAINER_MODE([enable])
 
 m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
@@ -23,7 +23,10 @@ AC_SUBST(LT_AGE)
 
 AC_PROG_CC
 AC_HEADER_STDC
-AC_PROG_LIBTOOL
+
+# Initialize libtool
+LT_PREREQ([2.2.6])
+LT_INIT
 
 GTK_DOC_CHECK([1.3])
 
@@ -111,10 +114,8 @@ fi
 # MATE
 # *****
 
-MATE_COMMON_INIT
 MATE_DEBUG_CHECK
 MATE_COMPILE_WARNINGS([maximum])
-MATE_MAINTAINER_MODE_DEFINES
 
 # ***************************
 # Check for required packages
@@ -164,11 +165,7 @@ AC_ARG_ENABLE([accountsservice],
 
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
 
-AC_ARG_ENABLE([examples],
-              AC_HELP_STRING([--enable-examples], [Build the example programs]),,
-              [enable_examples=yes])
 
-AM_CONDITIONAL(BUILD_EXAMPLES, test "x$enable_examples" = "xyes")
 
 # GObject introspection
 #
