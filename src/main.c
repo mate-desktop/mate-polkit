@@ -25,10 +25,18 @@
 
 #include <string.h>
 #include <gtk/gtk.h>
+#include <gio/gio.h>
 #include <glib/gi18n.h>
 #include <polkitagent/polkitagent.h>
 
 #include "polkitmatelistener.h"
+
+/* session management support for auto-restart */
+#define SM_DBUS_NAME      "org.mate.SessionManager"
+#define SM_DBUS_PATH      "/org/mate/SessionManager"
+#define SM_DBUS_INTERFACE "org.mate.SessionManager"
+#define SM_CLIENT_DBUS_INTERFACE "org.mate.SessionManager.ClientPrivate"
+
 
 /* the Authority */
 static PolkitAuthority *authority = NULL;
@@ -40,6 +48,11 @@ static PolkitSubject *session = NULL;
 static GList *current_temporary_authorizations = NULL;
 
 static GtkStatusIcon *status_icon = NULL;
+
+static GDBusProxy      *sm_proxy;
+static GDBusProxy      *client_proxy = NULL;
+
+static  GMainLoop *loop;
 
 static void
 revoke_tmp_authz_cb (GObject      *source_object,
@@ -198,11 +211,136 @@ on_authority_changed (PolkitAuthority *authority,
   update_temporary_authorization_icon (authority);
 }
 
+static void
+stop_cb (void)
+{
+        g_main_loop_quit (loop);
+}
+
+static gboolean
+end_session_response (gboolean is_okay, const gchar *reason)
+{
+        GVariant *res;
+        GError *error = NULL;
+
+        res = g_dbus_proxy_call_sync (client_proxy,
+                                      "EndSessionResponse",
+                                      g_variant_new ("(bs)",
+                                                     is_okay,
+                                                     reason),
+                                      G_DBUS_CALL_FLAGS_NONE,
+                                      -1, /* timeout */
+                                      NULL, /* GCancellable */
+                                      &error);
+        if (! res) {
+                g_warning ("Failed to call EndSessionResponse: %s", error->message);
+                g_error_free (error);
+                return FALSE;
+        }
+
+        g_variant_unref (res);
+        return TRUE;
+}
+
+static void
+query_end_session_cb (void)
+{
+        end_session_response (TRUE, "");
+}
+
+static void
+end_session_cb (void)
+{
+        end_session_response (TRUE, "");
+        g_main_loop_quit (loop);
+}
+
+static void
+signal_cb (GDBusProxy *proxy, gchar *sender_name, gchar *signal_name,
+           GVariant *parameters, gpointer user_data)
+{
+        if (strcmp (signal_name, "Stop") == 0) {
+                stop_cb ();
+        } else if (strcmp (signal_name, "QueryEndSession") == 0) {
+                query_end_session_cb ();
+        } else if (strcmp (signal_name, "EndSession") == 0) {
+                end_session_cb ();
+        }
+}
+
+static gboolean
+register_client_to_mate_session (void)
+{
+        GError     *error = NULL;
+        GVariant   *res;
+        const char *startup_id;
+        const char *app_id;
+        char       *client_id;
+
+        startup_id = g_getenv ("DESKTOP_AUTOSTART_ID");
+        app_id = "polkit-mate-authentication-agent-1.desktop";
+
+        sm_proxy = g_dbus_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
+                                                  G_DBUS_PROXY_FLAGS_NONE,
+                                                  NULL, /* GDBusInterfaceInfo */
+                                                  SM_DBUS_NAME,
+                                                  SM_DBUS_PATH,
+                                                  SM_DBUS_INTERFACE,
+                                                  NULL, /* GCancellable */
+                                                  &error);
+        if (sm_proxy == NULL) {
+                g_message("Failed to get session manager: %s", error->message);
+                g_error_free (error);
+                return FALSE;
+        }
+
+        res = g_dbus_proxy_call_sync (sm_proxy,
+                                      "RegisterClient",
+                                      g_variant_new ("(ss)",
+                                                     app_id,
+                                                     startup_id),
+                                      G_DBUS_CALL_FLAGS_NONE,
+                                      -1, /* timeout */
+                                      NULL, /* GCancellable */
+                                      &error);
+        if (! res) {
+                g_warning ("Failed to register client: %s", error->message);
+                g_error_free (error);
+                return FALSE;
+        }
+
+        if (! g_variant_is_of_type (res, G_VARIANT_TYPE ("(o)"))) {
+                g_warning ("RegisterClient returned unexpected type %s",
+                           g_variant_get_type_string (res));
+                return FALSE;
+        }
+
+        g_variant_get (res, "(&o)", &client_id);
+
+        client_proxy = g_dbus_proxy_new_for_bus_sync (G_BUS_TYPE_SESSION,
+                                                      G_DBUS_PROXY_FLAGS_NONE,
+                                                      NULL, /* GDBusInterfaceInfo */
+                                                      SM_DBUS_NAME,
+                                                      client_id,
+                                                      SM_CLIENT_DBUS_INTERFACE,
+                                                      NULL, /* GCancellable */
+                                                      &error);
+        g_variant_unref (res);
+        if (client_proxy == NULL) {
+                g_message("Failed to get client proxy: %s", error->message);
+                g_error_free (error);
+                return FALSE;
+        }
+
+        g_signal_connect (client_proxy, "g-signal", G_CALLBACK (signal_cb), NULL);
+
+        return TRUE;
+}
+
 int
 main (int argc, char **argv)
 {
   gint ret;
-  GMainLoop *loop;
   PolkitAgentListener *listener;
   GError *error;
 
@@ -260,6 +398,8 @@ main (int argc, char **argv)
     }
 
   update_temporary_authorization_icon (authority);
+
+  register_client_to_mate_session();
 
   g_main_loop_run (loop);
 
