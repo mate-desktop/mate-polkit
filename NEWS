@@ -1,3 +1,12 @@
+1.10.2
+
+  - Return error when authentication dialog is dismissed
+  - Optionally use accountsservice to retrieve face
+  - Add support for autorestart
+  - Select the current user to authenticate by default
+  - Add support for application indicators
+  - Gtk3: Auth dialog: make the label wrap at 50 chars
+
 1.10.1
 
   - Fix losing focus when displaying password prompt dialog.
