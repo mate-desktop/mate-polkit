@@ -264,7 +264,7 @@ echo "
 
         Gtk+ version:               ${GTK_API_VERSION}
         Accountsservice:            ${enable_accountsservice}
-        Application indciator:      ${enable_appindicator}
+        Application indicator:      ${enable_appindicator}
         Maintainer mode:            ${USE_MAINTAINER_MODE}
         Building api docs:          ${enable_gtk_doc}
         GObject Introspection:      ${enable_introspection}
