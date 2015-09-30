@@ -138,9 +138,11 @@ AC_MSG_RESULT([$with_gtk])
 case "$with_gtk" in
   2.0) GTK_API_VERSION=2.0
        GTK_REQUIRED=2.24.0
+       APPINDICATOR_API_VERSION=
        ;;
   3.0) GTK_API_VERSION=3.0
        GTK_REQUIRED=3.0.0
+       APPINDICATOR_API_VERSION=3
        ;;
 esac
 AC_SUBST(GTK_API_VERSION)
@@ -166,6 +168,8 @@ AC_ARG_ENABLE([accountsservice],
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
 
 # Application indicator
+APPINDICATOR_PKG=appindicator$APPINDICATOR_API_VERSION-0.1
+
 AC_ARG_ENABLE([appindicator],
 	      AS_HELP_STRING([--enable-appindicator[=@<:@no/auto/yes@:>@]],[Build support for application indicators]),
 	      [enable_appindicator=$enableval],
@@ -173,14 +177,14 @@ AC_ARG_ENABLE([appindicator],
 
 
 if test "x$enable_appindicator" = "xauto"; then
-	PKG_CHECK_EXISTS(appindicator-0.1 >= $APPINDICATOR_REQUIRED,
+	PKG_CHECK_EXISTS($APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED,
 			 [enable_appindicator="yes"],
 			 [enable_appindicator="no"])
 fi
 
 if test "x$enable_appindicator" = "xyes"; then
 	PKG_CHECK_MODULES(APPINDICATOR,
-			  [appindicator-0.1 >= $APPINDICATOR_REQUIRED],
+			  [$APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED],
 			  [AC_DEFINE(HAVE_APPINDICATOR, 1, [Have AppIndicator])])
 fi
 
