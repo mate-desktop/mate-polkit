@@ -1,3 +1,7 @@
+1.10.3
+
+  - make GTK+3 build support appindicator too
+
 1.10.2
 
   - Return error when authentication dialog is dismissed
