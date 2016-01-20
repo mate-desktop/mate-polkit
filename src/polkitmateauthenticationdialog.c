@@ -393,7 +393,7 @@ get_image (PolkitMateAuthenticationDialog *dialog)
 
   if (dialog->priv->icon_name == NULL || strlen (dialog->priv->icon_name) == 0)
     {
-      image = gtk_image_new_from_stock (GTK_STOCK_DIALOG_AUTHENTICATION, GTK_ICON_SIZE_DIALOG);
+      image = gtk_image_new_from_icon_name ("dialog-password", GTK_ICON_SIZE_DIALOG);
       goto out;
     }
 
@@ -405,7 +405,7 @@ get_image (PolkitMateAuthenticationDialog *dialog)
   if (vendor_pixbuf == NULL)
     {
       g_warning ("No icon for themed icon with name '%s'", dialog->priv->icon_name);
-      image = gtk_image_new_from_stock (GTK_STOCK_DIALOG_AUTHENTICATION, GTK_ICON_SIZE_DIALOG);
+      image = gtk_image_new_from_icon_name ("dialog-password", GTK_ICON_SIZE_DIALOG);
       goto out;
     }
 
