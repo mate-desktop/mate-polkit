@@ -115,7 +115,11 @@ int main(int argc, char* argv[])
 	window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
 	gtk_window_set_resizable(GTK_WINDOW(window), TRUE);
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+	vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 12);
+#else
 	vbox = gtk_vbox_new(FALSE, 12);
+#endif
 	gtk_container_set_border_width(GTK_CONTAINER(window), 12);
 	gtk_container_add(GTK_CONTAINER(window), vbox);
 

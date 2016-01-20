@@ -209,11 +209,7 @@ static void on_authority_changed(PolkitAuthority* authority, gpointer user_data)
 
 static void on_clicked(GtkButton* button, gpointer user_data);
 
-#if GTK_CHECK_VERSION (3, 0, 0)
 G_DEFINE_TYPE(PolkitLockButton, polkit_lock_button, GTK_TYPE_BOX);
-#else
-G_DEFINE_TYPE(PolkitLockButton, polkit_lock_button, GTK_TYPE_HBOX);
-#endif
 
 static void polkit_lock_button_finalize(GObject* object)
 {

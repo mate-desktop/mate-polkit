@@ -659,7 +659,11 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
   gtk_window_set_icon_name (GTK_WINDOW (dialog), GTK_STOCK_DIALOG_AUTHENTICATION);
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+  hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
+#else
   hbox = gtk_hbox_new (FALSE, 12);
+#endif
   gtk_container_set_border_width (GTK_CONTAINER (hbox), 5);
   gtk_box_pack_start (GTK_BOX (content_area), hbox, TRUE, TRUE, 0);
 
@@ -667,7 +671,11 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   gtk_misc_set_alignment (GTK_MISC (image), 0.5, 0.0);
   gtk_box_pack_start (GTK_BOX (hbox), image, FALSE, FALSE, 0);
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+  main_vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 10);
+#else
   main_vbox = gtk_vbox_new (FALSE, 10);
+#endif
   gtk_box_pack_start (GTK_BOX (hbox), main_vbox, TRUE, TRUE, 0);
 
   /* main message */
@@ -728,7 +736,11 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
     }
 
   /* password entry */
+#if GTK_CHECK_VERSION (3, 0, 0)
+  vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
+#else
   vbox = gtk_vbox_new (FALSE, 0);
+#endif
   gtk_box_pack_start (GTK_BOX (main_vbox), vbox, FALSE, FALSE, 0);
 
   table_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);
@@ -761,7 +773,11 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   gtk_expander_set_use_markup (GTK_EXPANDER (details_expander), TRUE);
   gtk_box_pack_start (GTK_BOX (content_area), details_expander, FALSE, FALSE, 0);
 
+#if GTK_CHECK_VERSION (3, 0, 0)
+  details_vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 10);
+#else
   details_vbox = gtk_vbox_new (FALSE, 10);
+#endif
   gtk_container_add (GTK_CONTAINER (details_expander), details_vbox);
 
   table_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);

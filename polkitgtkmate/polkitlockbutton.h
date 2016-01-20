@@ -57,11 +57,7 @@ typedef struct _PolkitLockButtonPrivate PolkitLockButtonPrivate;
  * should be accessed using the provided API.
  */
 struct _PolkitLockButton {
-#if GTK_CHECK_VERSION (3, 0, 0)
 	GtkBox parent;
-#else
-	GtkHBox parent;
-#endif
 
 	/*< private >*/
 	PolkitLockButtonPrivate* priv;
@@ -75,11 +71,7 @@ struct _PolkitLockButton {
  * Class structure for #PolkitLockButton.
  */
 struct _PolkitLockButtonClass {
-#if GTK_CHECK_VERSION (3, 0, 0)
 	GtkBoxClass parent_class;
-#else
-	GtkHBoxClass parent_class;
-#endif
 
 	/* Signals */
 	void (*changed)(PolkitLockButton* button);
