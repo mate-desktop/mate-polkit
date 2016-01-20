@@ -125,7 +125,7 @@ int main(int argc, char* argv[])
 
 	s = g_strdup_printf("Showing PolkitLockButton for action id: %s", action_id);
 	label = gtk_label_new(s);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
 	gtk_label_set_xalign (GTK_LABEL (label), 0.0);
 	gtk_label_set_yalign (GTK_LABEL (label), 0.5);
 #else
@@ -136,7 +136,7 @@ int main(int argc, char* argv[])
 	g_free(s);
 
 	label = gtk_label_new(NULL);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
 	gtk_label_set_xalign (GTK_LABEL (label), 0.0);
 	gtk_label_set_yalign (GTK_LABEL (label), 0.5);
 #else
@@ -147,7 +147,7 @@ int main(int argc, char* argv[])
 	system_bus_name_authorized_label = label;
 
 	label = gtk_label_new(NULL);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
 	gtk_label_set_xalign (GTK_LABEL (label), 0.0);
 	gtk_label_set_yalign (GTK_LABEL (label), 0.5);
 #else

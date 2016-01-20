@@ -519,7 +519,7 @@ add_row (GtkWidget *table, int row, const char *label_text, GtkWidget *entry)
 
   label = gtk_label_new_with_mnemonic (label_text);
   gtk_label_set_use_markup (GTK_LABEL (label), TRUE);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
   gtk_label_set_xalign (GTK_LABEL (label), 1.0);
   gtk_label_set_yalign (GTK_LABEL (label), 0.5);
 #else
@@ -693,7 +693,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   s = g_strdup_printf ("<big><b>%s</b></big>", dialog->priv->message);
   gtk_label_set_markup (GTK_LABEL (label), s);
   g_free (s);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 0.5);
 #else
@@ -728,7 +728,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
                                   "Authentication as the super user is required to perform this action."));
         }
     }
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 0.5);
 #else
@@ -826,7 +826,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
           s = g_strdup_printf ("<small>%s</small>", value);
           gtk_label_set_markup (GTK_LABEL (label), s);
           g_free (s);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
           gtk_label_set_xalign (GTK_LABEL (label), 0.0);
           gtk_label_set_yalign (GTK_LABEL (label), 1.0);
 #else
@@ -850,7 +850,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
                        dialog->priv->action_id);
   gtk_label_set_markup (GTK_LABEL (label), s);
   g_free (s);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 1.0);
 #else
@@ -872,7 +872,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
                        dialog->priv->vendor);
   gtk_label_set_markup (GTK_LABEL (label), s);
   g_free (s);
-#if GTK_CHECK_VERSION (3, 0, 0)
+#if GTK_CHECK_VERSION (3, 16, 0)
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 1.0);
 #else
