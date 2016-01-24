@@ -1,5 +1,7 @@
 1.13.0
 
+  - GTK3: fix several deprecations
+
 1.12.0
 
   - GTK+3: add support for application indicators as well
