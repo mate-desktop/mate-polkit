@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2010
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2013-2015
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2013-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2015-05-08 17:53+0000\n"
+"POT-Creation-Date: 2015-12-14 14:14+0300\n"
+"PO-Revision-Date: 2016-02-04 20:24+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/MATE/language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -151,81 +151,89 @@ msgstr "Підказка, що виводиться коли користува�
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "Системна політика запобігає змінам. Зверніться до системного адміністратора."
 
-#: ../src/main.c:128
+#: ../src/main.c:163
+msgid "Drop all elevated privileges"
+msgstr "Скинути усі підвищені привілеї"
+
+#: ../src/main.c:183
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Клацніть на піктограмі для скидання усіх підвищених привілеїв"
 
-#: ../src/polkitmateauthenticationdialog.c:159
+#: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "Виберіть користувача..."
 
-#: ../src/polkitmateauthenticationdialog.c:194
+#: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:532
+#: ../src/polkitmateauthenticationdialog.c:648
 msgid "_Authenticate"
 msgstr "_Автентифікація"
 
-#: ../src/polkitmateauthenticationdialog.c:574
+#: ../src/polkitmateauthenticationdialog.c:690
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Проґрама намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація від імені одного з перелічених нижче користувачів."
+msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібна автентифікація від імені одного з перелічених нижче користувачів."
 
-#: ../src/polkitmateauthenticationdialog.c:582
+#: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Проґрама намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація."
+msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібна автентифікація."
 
-#: ../src/polkitmateauthenticationdialog.c:588
+#: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Проґрама намагається виконати дію, яка вимагає додаткових привілеїв. Для виконання цієї дії потрібна автентифікація користувача root."
+msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібна автентифікація користувача root."
 
-#: ../src/polkitmateauthenticationdialog.c:623
-#: ../src/polkitmateauthenticator.c:298
+#: ../src/polkitmateauthenticationdialog.c:742
+#: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Пароль:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:641
+#: ../src/polkitmateauthenticationdialog.c:760
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Відомості</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:694
+#: ../src/polkitmateauthenticationdialog.c:813
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Дія:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:697
+#: ../src/polkitmateauthenticationdialog.c:816
 #, c-format
 msgid "Click to edit %s"
 msgstr "Натисніть, щоб змінити %s"
 
-#: ../src/polkitmateauthenticationdialog.c:711
+#: ../src/polkitmateauthenticationdialog.c:830
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Виробник:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:713
+#: ../src/polkitmateauthenticationdialog.c:832
 #, c-format
 msgid "Click to open %s"
 msgstr "Натисніть, щоб відкрити %s"
 
-#: ../src/polkitmateauthenticationdialog.c:876
+#: ../src/polkitmateauthenticationdialog.c:992
 msgid "Authenticate"
 msgstr "Автентифікація"
 
-#: ../src/polkitmateauthenticator.c:294
+#: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Пароль користувача %s:"
 
-#: ../src/polkitmateauthenticator.c:454
-msgid "Authentication Failure"
-msgstr "Помилка при автентифікації"
+#: ../src/polkitmateauthenticator.c:458
+msgid "Your authentication attempt was unsuccessful. Please try again."
+msgstr "Ваша спроба автентифікації невдала. Будь ласка, спробуйте ще раз."
+
+#: ../src/polkitmatelistener.c:164
+msgid "Authentication dialog was dismissed by the user"
+msgstr "Діялоґ автентифікації був відкинутий користувачем"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
