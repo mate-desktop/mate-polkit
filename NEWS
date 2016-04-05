@@ -1,7 +1,8 @@
-1.13.0
+1.14.0
 
   - GTK+3: fix several deprecations
   - Translations update
+  - Add Changelog generation
 
 1.12.0
 
