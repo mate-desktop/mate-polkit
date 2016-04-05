@@ -4,15 +4,15 @@
 # 
 # Translators:
 # sandeeps <sshedmak@redhat.com>, 2010
-# vaibhav.dlv <vaibhav.dlv@gmail.com>, 2014
+# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-03-24 06:06+0000\n"
-"Last-Translator: vaibhav.dlv <vaibhav.dlv@gmail.com>\n"
-"Language-Team: Marathi (http://www.transifex.com/projects/p/MATE/language/mr/)\n"
+"POT-Creation-Date: 2015-12-14 14:14+0300\n"
+"PO-Revision-Date: 2015-12-14 11:15+0000\n"
+"Last-Translator: monsta <monsta@inbox.ru>\n"
+"Language-Team: Marathi (http://www.transifex.com/mate/MATE/language/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -151,81 +151,89 @@ msgstr "ओळख पटवतेवेळी वापरकर्ता अध
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "प्रणाली करार बदल रोखतो. प्रणाली प्रशासकाशी संपर्क करा."
 
-#: ../src/main.c:128
+#: ../src/main.c:163
+msgid "Drop all elevated privileges"
+msgstr ""
+
+#: ../src/main.c:183
 msgid "Click the icon to drop all elevated privileges"
 msgstr "सर्व परवानगी नष्ट करण्यासाठी चिन्हावर क्लिक करा"
 
-#: ../src/polkitmateauthenticationdialog.c:159
+#: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "वापरकर्ता बदला..."
 
-#: ../src/polkitmateauthenticationdialog.c:194
+#: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:532
+#: ../src/polkitmateauthenticationdialog.c:648
 msgid "_Authenticate"
 msgstr "ओळख पटवा (_A)"
 
-#: ../src/polkitmateauthenticationdialog.c:574
+#: ../src/polkitmateauthenticationdialog.c:690
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr "ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. ही कृती कार्यान्वीत करण्यासाठी खालील वापरकर्ता पैकी ओळख पटवणे आवश्यक आहे."
 
-#: ../src/polkitmateauthenticationdialog.c:582
+#: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. ही कृती कार्यान्वीत करण्यासाठी ओळख पटवणे आवश्यक आहे."
 
-#: ../src/polkitmateauthenticationdialog.c:588
+#: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr "ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. ही कृती कार्यान्वीत करण्यासाठी सर्वोत्तम वापरकर्ता म्हणून ओळख पटवणे आवश्यक आहे."
 
-#: ../src/polkitmateauthenticationdialog.c:623
-#: ../src/polkitmateauthenticator.c:298
+#: ../src/polkitmateauthenticationdialog.c:742
+#: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "पासवर्ड (_P):"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:641
+#: ../src/polkitmateauthenticationdialog.c:760
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>तपशील (_D)</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:694
+#: ../src/polkitmateauthenticationdialog.c:813
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>कृती:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:697
+#: ../src/polkitmateauthenticationdialog.c:816
 #, c-format
 msgid "Click to edit %s"
 msgstr "%s संपादीत करण्यासाठी क्लिक करा"
 
-#: ../src/polkitmateauthenticationdialog.c:711
+#: ../src/polkitmateauthenticationdialog.c:830
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>विक्रेता:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:713
+#: ../src/polkitmateauthenticationdialog.c:832
 #, c-format
 msgid "Click to open %s"
 msgstr "%s उघडण्यासाठी बटन दाबा"
 
-#: ../src/polkitmateauthenticationdialog.c:876
+#: ../src/polkitmateauthenticationdialog.c:992
 msgid "Authenticate"
 msgstr "ओळख पटवा"
 
-#: ../src/polkitmateauthenticator.c:294
+#: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "%s करीता पासवर्ड (_P):"
 
-#: ../src/polkitmateauthenticator.c:454
-msgid "Authentication Failure"
-msgstr "ओळख पटणे अपयशी"
+#: ../src/polkitmateauthenticator.c:458
+msgid "Your authentication attempt was unsuccessful. Please try again."
+msgstr ""
+
+#: ../src/polkitmatelistener.c:164
+msgid "Authentication dialog was dismissed by the user"
+msgstr ""
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"

@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Bar Bokovza <bokovzabox@gmail.com>, 2015
 # Mark Krapivner, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-15 10:30+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Hebrew (http://www.transifex.com/projects/p/MATE/language/he/)\n"
+"POT-Creation-Date: 2015-12-14 14:14+0300\n"
+"PO-Revision-Date: 2015-12-25 20:08+0000\n"
+"Last-Translator: Bar Bokovza <bokovzabox@gmail.com>\n"
+"Language-Team: Hebrew (http://www.transifex.com/mate/MATE/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,69 +21,69 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
-msgstr ""
+msgstr "מזהה פעולה"
 
 #: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
-msgstr ""
+msgstr "מזהה הפעולה לשימוש בכפתור"
 
 #: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
-msgstr ""
+msgstr "מאומת"
 
 #: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
-msgstr ""
+msgstr "האם התהליך מאומת"
 
 #: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
-msgstr ""
+msgstr "מוצג"
 
 #: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
-msgstr ""
+msgstr "האם הוידג'יט מוצג"
 
 #: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
-msgstr ""
+msgstr "ניתן להשגה"
 
 #: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
-msgstr ""
+msgstr "האם האימות בר השגה"
 
 #: ../polkitgtkmate/polkitlockbutton.c:520
 #: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
-msgstr ""
+msgstr "שחרר טקסט"
 
 #: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
-msgstr ""
+msgstr "הטקסט להצגה כאשר המשתמש דורש לשחרר"
 
 #: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
-msgstr ""
+msgstr "לחץ לביצוע שינויים"
 
 #: ../polkitgtkmate/polkitlockbutton.c:537
 #: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
-msgstr ""
+msgstr "שחרר Tooltip"
 
 #: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr ""
+msgstr "ה-Tooltip להצגה כאשר המשתמש דורש לשחרר."
 
 #: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
-msgstr ""
+msgstr "אימון נדרש לצורך ביצוע שינויים."
 
 #: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
-msgstr ""
+msgstr "נעל טקסט"
 
 #: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
-msgstr ""
+msgstr "הטקסט להצגה כאשר המשתמש דורש לנעול."
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
@@ -90,146 +91,154 @@ msgstr "לחץ כדי למנוע שינויים"
 
 #: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
-msgstr ""
+msgstr "נעל Tooltip"
 
 #: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
-msgstr ""
+msgstr "ה-Tooltip להצגה כאשר המשתמש דורש לנעול."
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
-msgstr ""
+msgstr "על מנת למנוע שינויים עתידיים, לחץ על נעילה."
 
 #: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
-msgstr ""
+msgstr "נעל טקסט"
 
 #: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr ""
+msgstr "הטקסט להצגה כאשר המשתמש דורש לנעול את הפעולה לכל המשתמשים."
 
 #: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
-msgstr ""
+msgstr "לחץ כדי לנעול"
 
 #: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
-msgstr ""
+msgstr "נעל Tooltip"
 
 #: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr ""
+msgstr "ה-Tooltip להצגה כאשר המשתמש דורש לנעול את הפעולה עבור כל המשתמשים."
 
 #: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr ""
+msgstr "על מנת למנוע ממשתמשים ללא הרשאות מאומתות מלבצע שינויים, לחץ על נעילה."
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "הטקסט להצגה כאשר המשתמש לא יכול להיות מאומת דרך מנגנון האימות."
 
 #: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
-msgstr ""
+msgstr "לא מורשה לבצע שינויים"
 
 #: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "ה-Tooltip להצגה כאשר המשתמש לא יכול להשיג אימות דרך מנגנון האימות."
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr ""
+msgstr "מדיניות המערכת מונעת שינויים. צור קשר עם מנהל המערכת."
 
-#: ../src/main.c:128
+#: ../src/main.c:163
+msgid "Drop all elevated privileges"
+msgstr "מחק את כל ההרשאות הגבוהות."
+
+#: ../src/main.c:183
 msgid "Click the icon to drop all elevated privileges"
-msgstr ""
+msgstr "לחץ על הסמליל על מנת למחוק את כל ההרשאות הגבוהות"
 
-#: ../src/polkitmateauthenticationdialog.c:159
+#: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "בחר משתמש"
 
-#: ../src/polkitmateauthenticationdialog.c:194
+#: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:532
+#: ../src/polkitmateauthenticationdialog.c:648
 msgid "_Authenticate"
 msgstr "_אימות"
 
-#: ../src/polkitmateauthenticationdialog.c:574
+#: ../src/polkitmateauthenticationdialog.c:690
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr "היישום מנסה לבצע פעולה שדורשת הרשאות. נדרש אימות כאחד המשתמשים למטה כדי לבצע את פעולה זאת."
 
-#: ../src/polkitmateauthenticationdialog.c:582
+#: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "היישום מנסה לבצע פעולה שדורשת הרשאות. נדרש אימות כדי לבצע את פעולה זאת."
 
-#: ../src/polkitmateauthenticationdialog.c:588
+#: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr "היישום מנסה לבצע פעולה שדורשת הרשאות. נדרש אימות של כמנהל המערכת כדי לבצע את פעולה זאת."
 
-#: ../src/polkitmateauthenticationdialog.c:623
-#: ../src/polkitmateauthenticator.c:298
+#: ../src/polkitmateauthenticationdialog.c:742
+#: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_סיסמה:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:641
+#: ../src/polkitmateauthenticationdialog.c:760
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_פרטים</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:694
+#: ../src/polkitmateauthenticationdialog.c:813
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>פעולה:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:697
+#: ../src/polkitmateauthenticationdialog.c:816
 #, c-format
 msgid "Click to edit %s"
-msgstr ""
+msgstr "לחץ לעריכת %s"
 
-#: ../src/polkitmateauthenticationdialog.c:711
+#: ../src/polkitmateauthenticationdialog.c:830
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>ספק:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:713
+#: ../src/polkitmateauthenticationdialog.c:832
 #, c-format
 msgid "Click to open %s"
-msgstr ""
+msgstr "לחץ לפתיחת %s"
 
-#: ../src/polkitmateauthenticationdialog.c:876
+#: ../src/polkitmateauthenticationdialog.c:992
 msgid "Authenticate"
 msgstr "אימות"
 
-#: ../src/polkitmateauthenticator.c:294
+#: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_סיסמה עבור %s:"
 
-#: ../src/polkitmateauthenticator.c:454
-msgid "Authentication Failure"
-msgstr ""
+#: ../src/polkitmateauthenticator.c:458
+msgid "Your authentication attempt was unsuccessful. Please try again."
+msgstr "ניסיון האימות לא בוצע בהצלחה. אנא נסה שנית."
+
+#: ../src/polkitmatelistener.c:164
+msgid "Authentication dialog was dismissed by the user"
+msgstr "חלון האימות נסגר על ידי המשתמש."
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr ""
+msgstr "סוכן האימון PolicyKit"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "סוכן האימון PolicyKit עבור שולחן העבודה MATE"

@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2015-01-15 13:20+0000\n"
+"POT-Creation-Date: 2015-12-14 14:14+0300\n"
+"PO-Revision-Date: 2015-12-15 00:39+0000\n"
 "Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
-"Language-Team: German (http://www.transifex.com/projects/p/MATE/language/de/)\n"
+"Language-Team: German (http://www.transifex.com/mate/MATE/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -131,7 +131,7 @@ msgstr "Die Minihilfe, mit der der Benutzer beim Sperren des Vorgangs für alle 
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr "Um zu verhindern, dass Benutzer ohne Systemverwaltungsrechten Änderungen durchführen können, bitte auf das Schloss klicken."
+msgstr "Um zu verhindern, dass Benutzer ohne Systemverwaltungsberechtigungen Änderungen durchführen können, bitte auf das Schloss klicken."
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
@@ -153,81 +153,89 @@ msgstr "Die Minihilfe, wenn ein Benutzer keine Berechtigung durch Legitimation e
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "Die Systemrichtlinien verhindern Änderungen. Bitte kontaktieren Sie Ihren Systemverwalter."
 
-#: ../src/main.c:128
-msgid "Click the icon to drop all elevated privileges"
-msgstr "Zum Verwerfen aller Berechtigungen das Symbol anklicken"
+#: ../src/main.c:163
+msgid "Drop all elevated privileges"
+msgstr "Alle erhöhten Berechtigungen löschen"
 
-#: ../src/polkitmateauthenticationdialog.c:159
+#: ../src/main.c:183
+msgid "Click the icon to drop all elevated privileges"
+msgstr "Zum Verwerfen aller erhöhten Berechtigungen das Symbol anklicken"
+
+#: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "Benutzer auswählen …"
 
-#: ../src/polkitmateauthenticationdialog.c:194
+#: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:532
+#: ../src/polkitmateauthenticationdialog.c:648
 msgid "_Authenticate"
 msgstr "_Legitimieren"
 
-#: ../src/polkitmateauthenticationdialog.c:574
+#: ../src/polkitmateauthenticationdialog.c:690
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Privilegien erfordert. Eine Legitimation, als einen der unten aufgelisteten Benutzer, ist erforderlich, um diese Aktion auszuführen."
+msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Berechtigungen benötigt. Eine Legitimierung, als einen der unten aufgelisteten Benutzer, ist erforderlich, um diese Aktion auszuführen."
 
-#: ../src/polkitmateauthenticationdialog.c:582
+#: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Privilegien erfordert. Eine Legitimation ist erforderlich, um diese Aktion auszuführen."
+msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Berechtigungen benötigt. Eine Legitimierung ist erforderlich, um diese Aktion auszuführen."
 
-#: ../src/polkitmateauthenticationdialog.c:588
+#: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Privilegien erfordert. Eine Legitimation als Systemverwalter ist erforderlich, um diese Aktion auszuführen."
+msgstr "Eine Anwendung versucht eine Aktion auszuführen, die Berechtigungen benötigt. Eine Legitimierung als Systemverwalter ist erforderlich, um diese Aktion auszuführen."
 
-#: ../src/polkitmateauthenticationdialog.c:623
-#: ../src/polkitmateauthenticator.c:298
+#: ../src/polkitmateauthenticationdialog.c:742
+#: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Passwort:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:641
+#: ../src/polkitmateauthenticationdialog.c:760
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Details</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:694
+#: ../src/polkitmateauthenticationdialog.c:813
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Aktion:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:697
+#: ../src/polkitmateauthenticationdialog.c:816
 #, c-format
 msgid "Click to edit %s"
 msgstr "Klicken, um %s zu bearbeiten"
 
-#: ../src/polkitmateauthenticationdialog.c:711
+#: ../src/polkitmateauthenticationdialog.c:830
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Anbieter:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:713
+#: ../src/polkitmateauthenticationdialog.c:832
 #, c-format
 msgid "Click to open %s"
 msgstr "Klicken, um %s zu öffnen"
 
-#: ../src/polkitmateauthenticationdialog.c:876
+#: ../src/polkitmateauthenticationdialog.c:992
 msgid "Authenticate"
 msgstr "Legitimieren"
 
-#: ../src/polkitmateauthenticator.c:294
+#: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Passwort für %s:"
 
-#: ../src/polkitmateauthenticator.c:454
-msgid "Authentication Failure"
-msgstr "Legitimation gescheitert"
+#: ../src/polkitmateauthenticator.c:458
+msgid "Your authentication attempt was unsuccessful. Please try again."
+msgstr "Ihr Legitimierungsversuch war erfolglos. Bitte noch einmal versuchen."
+
+#: ../src/polkitmatelistener.c:164
+msgid "Authentication dialog was dismissed by the user"
+msgstr "Legitimierungsdialog wurde durch den Benutzer verworfen"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"

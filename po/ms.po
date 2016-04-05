@@ -3,16 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# abuyop <abuyop@gmail.com>, 2013-2014
+# abuyop <abuyop@gmail.com>, 2013-2015
 # Puretech <terjemahan.puretech@gmail.com>, 2012
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-01-15 11:29+0100\n"
-"PO-Revision-Date: 2014-01-23 05:52+0000\n"
+"POT-Creation-Date: 2015-12-14 14:14+0300\n"
+"PO-Revision-Date: 2015-12-21 12:20+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
-"Language-Team: Malay (http://www.transifex.com/projects/p/MATE/language/ms/)\n"
+"Language-Team: Malay (http://www.transifex.com/mate/MATE/language/ms/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -151,81 +151,89 @@ msgstr "Tip alat yang dipaparkan apabila pengguna tidak boleh mendapatkan keizin
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "Polisi sistem menghalang perubahan. Hubungi pentadbir sistem anda."
 
-#: ../src/main.c:128
+#: ../src/main.c:163
+msgid "Drop all elevated privileges"
+msgstr "Gugurkan semua kelayakan tertinggi"
+
+#: ../src/main.c:183
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Klik pada ikon untuk menggugurkan semua kelayakan tertinggi"
 
-#: ../src/polkitmateauthenticationdialog.c:159
+#: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "Pilih pengguna..."
 
-#: ../src/polkitmateauthenticationdialog.c:194
+#: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:532
+#: ../src/polkitmateauthenticationdialog.c:648
 msgid "_Authenticate"
 msgstr "S_ahihkan"
 
-#: ../src/polkitmateauthenticationdialog.c:574
+#: ../src/polkitmateauthenticationdialog.c:690
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr "Satu aplikasi cuba membuat tindakan yang memerlukan kelayakan. Pengesahihan adalah salah satu dari pengguna di bawah diperlukan untuk membuat tindakan ini."
 
-#: ../src/polkitmateauthenticationdialog.c:582
+#: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "Satu aplikasi cuba membuat tindakan yang memerlukan kelayakan. Pengesahihan diperlukan untuk membuat tindakan ini."
 
-#: ../src/polkitmateauthenticationdialog.c:588
+#: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr "Satu aplikasi cuba membuat tindakan yang memerlukan kelayakan. Pengesahihan dari pengguna sebagai pengguna super diperlukan untuk membuat tindakan ini."
 
-#: ../src/polkitmateauthenticationdialog.c:623
-#: ../src/polkitmateauthenticator.c:298
+#: ../src/polkitmateauthenticationdialog.c:742
+#: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Kata Laluan:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:641
+#: ../src/polkitmateauthenticationdialog.c:760
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Perincian</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:694
+#: ../src/polkitmateauthenticationdialog.c:813
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Tindakan:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:697
+#: ../src/polkitmateauthenticationdialog.c:816
 #, c-format
 msgid "Click to edit %s"
 msgstr "Klik untuk sunting %s"
 
-#: ../src/polkitmateauthenticationdialog.c:711
+#: ../src/polkitmateauthenticationdialog.c:830
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Pembekal:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:713
+#: ../src/polkitmateauthenticationdialog.c:832
 #, c-format
 msgid "Click to open %s"
 msgstr "Klik untuk buka %s"
 
-#: ../src/polkitmateauthenticationdialog.c:876
+#: ../src/polkitmateauthenticationdialog.c:992
 msgid "Authenticate"
 msgstr "Sahihkan"
 
-#: ../src/polkitmateauthenticator.c:294
+#: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Kata laluan untuk %s:"
 
-#: ../src/polkitmateauthenticator.c:454
-msgid "Authentication Failure"
-msgstr "Pengesahihan Gagal"
+#: ../src/polkitmateauthenticator.c:458
+msgid "Your authentication attempt was unsuccessful. Please try again."
+msgstr "Percubaan pengesahihan tidak berjaya. Sila cuba lagi."
+
+#: ../src/polkitmatelistener.c:164
+msgid "Authentication dialog was dismissed by the user"
+msgstr "Dialog pengesahihan telah dibuang oleh pengguna"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"

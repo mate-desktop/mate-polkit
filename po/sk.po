@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 14:14+0300\n"
-"PO-Revision-Date: 2016-02-12 14:18+0000\n"
+"PO-Revision-Date: 2016-03-19 23:25+0000\n"
 "Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/mate/MATE/language/sk/)\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +89,7 @@ msgstr "Text, ktorý sa zobrazí pri výzve používateľa na uzamknutie."
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
-msgstr "Kliknite, aby sa zamedzilo zmenám"
+msgstr "Kliknite, aby sa zabránilo zmenám"
 
 #: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
@@ -101,7 +101,7 @@ msgstr "Bublinový popis, ktorý sa zobrazí pri výzve používateľa na uzamkn
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
-msgstr "Na zamedzenie ďalších zmien kliknite na zámok."
+msgstr "Na zabránenie ďalších zmien kliknite na zámok."
 
 #: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
@@ -151,7 +151,7 @@ msgstr "Bublinový popis, ktorý sa zobrazí, keď používateľ nemôže získa
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr "Systémová politika nepovoľuje zmeny. Kontaktujte správcu vášho systému."
+msgstr "Systémová politika zabraňuje zmenám. Kontaktujte správcu vášho systému."
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"

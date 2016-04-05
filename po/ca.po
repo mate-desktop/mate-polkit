@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 14:14+0300\n"
-"PO-Revision-Date: 2016-01-28 11:00+0000\n"
+"PO-Revision-Date: 2016-03-06 07:21+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -188,7 +188,7 @@ msgstr "Una aplicació està intentant realitzar una acció que requereix privil
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Una aplicació està intentant realitzar una acció que requereix privilegis. Cal autenticar-se com a super usuari per a dur a terme l'acció."
+msgstr "Una aplicació està intentant realitzar una acció que requereix privilegis. Cal autenticar-se com a superusuari per a dur a terme l'acció."
 
 #: ../src/polkitmateauthenticationdialog.c:742
 #: ../src/polkitmateauthenticator.c:301

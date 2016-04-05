@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 14:14+0300\n"
-"PO-Revision-Date: 2016-02-04 20:24+0000\n"
+"PO-Revision-Date: 2016-03-28 15:19+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/mate/MATE/language/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -135,7 +135,7 @@ msgstr "Для запобігання подальшим змінам корис
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "Текст, що виводиться коли користувач не може отримати авторизацію шляхом автентифікації."
+msgstr "Текст, що виводиться коли користувач не може отримати авторизацію шляхом розпізнання."
 
 #: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
@@ -145,7 +145,7 @@ msgstr "Не авторизований для внесення змін"
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "Підказка, що виводиться коли користувач не може отримати авторизацію шляхом автентифікації."
+msgstr "Підказка, що виводиться коли користувач не може отримати авторизацію шляхом розпізнання."
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
@@ -170,25 +170,25 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:648
 msgid "_Authenticate"
-msgstr "_Автентифікація"
+msgstr "_Розпізнання"
 
 #: ../src/polkitmateauthenticationdialog.c:690
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібна автентифікація від імені одного з перелічених нижче користувачів."
+msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібне розпізнання від імені одного з перелічених нижче користувачів."
 
 #: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібна автентифікація."
+msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібне розпізнання."
 
 #: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібна автентифікація користувача root."
+msgstr "Проґрама намагається виконати дію, яка потребує додаткових привілеїв. Для виконання цієї дії потрібне розпізнання користувача root."
 
 #: ../src/polkitmateauthenticationdialog.c:742
 #: ../src/polkitmateauthenticator.c:301
@@ -198,7 +198,7 @@ msgstr "_Пароль:"
 #. Details
 #: ../src/polkitmateauthenticationdialog.c:760
 msgid "<small><b>_Details</b></small>"
-msgstr "<small><b>_Відомості</b></small>"
+msgstr "<small><b>_Відомости</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:813
 msgid "<small><b>Action:</b></small>"
@@ -220,7 +220,7 @@ msgstr "Натисніть, щоб відкрити %s"
 
 #: ../src/polkitmateauthenticationdialog.c:992
 msgid "Authenticate"
-msgstr "Автентифікація"
+msgstr "Розпізання"
 
 #: ../src/polkitmateauthenticator.c:297
 #, c-format
@@ -229,16 +229,16 @@ msgstr "_Пароль користувача %s:"
 
 #: ../src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr "Ваша спроба автентифікації невдала. Будь ласка, спробуйте ще раз."
+msgstr "Ваша спроба розпізнання невдала. Будь ласка, спробуйте ще раз."
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr "Діялоґ автентифікації був відкинутий користувачем"
+msgstr "Діялоґ розпізнання був відкинутий користувачем"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "Агент автентифікації PolicyKit"
+msgstr "Агент розпізнання PolicyKit"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr "Агент автентифікації PolicyKit для стільниці MATE"
+msgstr "Агент розпізнання PolicyKit для стільниці MATE"
