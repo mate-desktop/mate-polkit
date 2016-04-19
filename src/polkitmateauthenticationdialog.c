@@ -637,6 +637,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   GtkWidget *action_area;
   gboolean have_user_combobox;
   gchar *s;
+  gchar *password_label;
   guint rows;
 
   dialog = POLKIT_MATE_AUTHENTICATION_DIALOG (object);
@@ -705,6 +706,8 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
 #endif
   gtk_box_pack_start (GTK_BOX (main_vbox), label, FALSE, FALSE, 0);
 
+  password_label = _("_Password:");
+
   /* secondary message */
   label = gtk_label_new (NULL);
   if (g_strv_length (dialog->priv->users) > 1)
@@ -720,6 +723,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
           gtk_label_set_markup (GTK_LABEL (label),
                                 _("An application is attempting to perform an action that requires privileges. "
                                   "Authentication is required to perform this action."));
+          password_label = _("Your _password:");
         }
       else
         {
@@ -771,7 +775,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   gtk_container_add (GTK_CONTAINER (table_alignment), table);
   dialog->priv->password_entry = gtk_entry_new ();
   gtk_entry_set_visibility (GTK_ENTRY (dialog->priv->password_entry), FALSE);
-  dialog->priv->prompt_label = add_row (table, 0, _("_Password:"), dialog->priv->password_entry);
+  dialog->priv->prompt_label = add_row (table, 0, password_label, dialog->priv->password_entry);
 
   g_signal_connect_swapped (dialog->priv->password_entry, "activate",
                             G_CALLBACK (gtk_window_activate_default),
