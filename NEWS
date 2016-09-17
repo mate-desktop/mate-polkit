@@ -1,7 +1,8 @@
-1.15.0
+1.16.0
 
+  - Move to GTK+3 (require GTK+ >= 3.14), drop GTK+2 code and
+    --with-gtk build option
   - Translations update
-  - require GTK+ >= 3.14, drop GTK+2 code and --with-gtk build option
 
 1.14.0
 
