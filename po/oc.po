@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Cédric Valmary <cvalmary@yahoo.fr>, 2015
+# Cédric Valmary <cvalmary@yahoo.fr>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 14:14+0300\n"
-"PO-Revision-Date: 2015-12-14 11:15+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
+"PO-Revision-Date: 2016-10-05 20:16+0000\n"
+"Last-Translator: Cfpo Miègjorn-Pirenèus <formacion@cfpoc.net>\n"
 "Language-Team: Occitan (post 1500) (http://www.transifex.com/mate/MATE/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,11 +21,11 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:455
 msgid "Action Identifier"
-msgstr ""
+msgstr "Identificador d'accion"
 
 #: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
-msgstr ""
+msgstr "L'identificador d'accion d'utilizar pel boton"
 
 #: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
@@ -32,131 +33,131 @@ msgstr "Es autorizat"
 
 #: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
-msgstr ""
+msgstr "Indica se lo processus es autorizat"
 
 #: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
-msgstr "Es vesible"
+msgstr "Es visible"
 
 #: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
-msgstr ""
+msgstr "Indica se lo component grafic es visible"
 
 #: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
-msgstr ""
+msgstr "Pòt obténer"
 
 #: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
-msgstr ""
+msgstr "Indica se l'autorizacion pòt èsser obtenguda"
 
 #: ../polkitgtkmate/polkitlockbutton.c:520
 #: ../polkitgtkmate/polkitlockbutton.c:622
 msgid "Unlock Text"
-msgstr ""
+msgstr "Tèxte de desverrolhatge"
 
 #: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
-msgstr ""
+msgstr "Lo tèxte d'afichar a l'utilizaire al moment de la demanda de desverrolhatge."
 
 #: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
-msgstr ""
+msgstr "Clicatz per efectuar de modificacions"
 
 #: ../polkitgtkmate/polkitlockbutton.c:537
 #: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
-msgstr ""
+msgstr "Infobulla de desverrolhatge"
 
 #: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr ""
+msgstr "L'infobulla d'afichar a l'utilizaire al moment de la demanda de desverrolhatge."
 
 #: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
-msgstr ""
+msgstr "Una autentificacion es nécessaire abans tota modificacion."
 
 #: ../polkitgtkmate/polkitlockbutton.c:554
 msgid "Lock Text"
-msgstr ""
+msgstr "Tèxte de verrolhatge"
 
 #: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
-msgstr ""
+msgstr "Lo tèxte d'afichar a l'utilizaire al moment de la demanda de verrolhatge."
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
-msgstr ""
+msgstr "Clicatz per empachar des modificacions"
 
 #: ../polkitgtkmate/polkitlockbutton.c:571
 msgid "Lock Tooltip"
-msgstr ""
+msgstr "Infobulla de verrolhatge"
 
 #: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
-msgstr ""
+msgstr "L'infobulla d'afichar a l'utilizaire al moment de la demanda de verrolhatge."
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
-msgstr ""
+msgstr "Per empachar d'autras modificacions, clicatz sul verrolh."
 
 #: ../polkitgtkmate/polkitlockbutton.c:588
 msgid "Lock Down Text"
-msgstr ""
+msgstr "Tèxte de verrolhatge"
 
 #: ../polkitgtkmate/polkitlockbutton.c:589
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr ""
+msgstr "Lo tèxte d'afichar a l'utilizaire al moment de la demanda de verrolhatge de l'accion per totes los utilizaires."
 
 #: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
-msgstr ""
+msgstr "Clicatz per verrolhar"
 
 #: ../polkitgtkmate/polkitlockbutton.c:605
 msgid "Lock Down Tooltip"
-msgstr ""
+msgstr "Infobulla de verrolhatge"
 
 #: ../polkitgtkmate/polkitlockbutton.c:606
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr ""
+msgstr "L'infobulla d'afichar a l'utilizaire al moment de la demanda de verrolhatge de l'accion per totes los utilizaires."
 
 #: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr ""
+msgstr "Per empachar tota modificacion per d'utilizaires sens dreits d'administracion, clicatz sul verrolh."
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "Lo tèxte d'afichar quand l'utilizaire pòt pas obténer l'autorizacion en s'autentificant."
 
 #: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
-msgstr ""
+msgstr "Las modificacions son pas autorizadas"
 
 #: ../polkitgtkmate/polkitlockbutton.c:640
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "L'infobulla d'afichar quand l'utilizaire pòt pas obténer l'autorizacion en s'autentificant."
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr ""
+msgstr "Una politica sistèma empacha las modificacions. Contactatz vòstre administrator sistèma."
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr ""
+msgstr "Abandonar totes los privilègis obtenguts"
 
 #: ../src/main.c:183
 msgid "Click the icon to drop all elevated privileges"
-msgstr ""
+msgstr "Clicatz sus l'icòna per abandonar totes los privilègis obtenguts"
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
@@ -169,25 +170,25 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:648
 msgid "_Authenticate"
-msgstr ""
+msgstr "S'_autentificar"
 
 #: ../src/polkitmateauthenticationdialog.c:690
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr ""
+msgstr "Una aplicacion ensaja d'efectuar una accion que necessita de privilègis. Per efectuar aquesta accion, un utilizaire de la lista çaijós se deu autentificar."
 
 #: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr ""
+msgstr "Una aplicacion ensaja d'efectuar una accion que necessita de privilègis. Per efectuar aquesta accion, es necessari de s'autentificar."
 
 #: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr ""
+msgstr "Una aplicacion ensaja d'efectuar una accion que necessita de privilègis. Per efectuar aquesta accion, l'utilizaire principal se deu autentificar."
 
 #: ../src/polkitmateauthenticationdialog.c:742
 #: ../src/polkitmateauthenticator.c:301
@@ -206,38 +207,38 @@ msgstr "<small><b>Accion :</b></small>"
 #: ../src/polkitmateauthenticationdialog.c:816
 #, c-format
 msgid "Click to edit %s"
-msgstr ""
+msgstr "Clicatz per modificar %s"
 
 #: ../src/polkitmateauthenticationdialog.c:830
 msgid "<small><b>Vendor:</b></small>"
-msgstr ""
+msgstr "<small><b>Provesidor :</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:832
 #, c-format
 msgid "Click to open %s"
-msgstr ""
+msgstr "Clicatz per dobrir %s"
 
 #: ../src/polkitmateauthenticationdialog.c:992
 msgid "Authenticate"
-msgstr ""
+msgstr "S'autentificar"
 
 #: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
-msgstr ""
+msgstr "Se_nhal per %s :"
 
 #: ../src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr ""
+msgstr "Vòstra temptativa d'identificacion a pas capitat. Ensajatz tornamai."
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr ""
+msgstr "La fenèstra d'autentificacion es estada regetada per l'utilizaire"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr ""
+msgstr "Agent d'autentificacion de PolicyKit"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "Agent d'autentificacion PolicyKit per MATE Desktop"
