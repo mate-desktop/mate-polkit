@@ -1,43 +1,43 @@
-1.17.0
+### mate-polkit 1.17.0
 
-  - Translations update
+  * Translations update
 
-1.16.0
+### mate-polkit 1.16.0
 
-  - Move to GTK+3 (require GTK+ >= 3.14), drop GTK+2 code and
+  * Move to GTK+3 (require GTK+ >= 3.14), drop GTK+2 code and
     --with-gtk build option
-  - Translations update
+  * Translations update
 
-1.14.0
+### mate-polkit 1.14.0
 
-  - GTK+3: fix several deprecations
-  - Translations update
-  - Add Changelog generation
+  * GTK+3: fix several deprecations
+  * Translations update
+  * Add Changelog generation
 
-1.12.0
+### mate-polkit 1.12.0
 
-  - GTK+3: add support for application indicators as well
-  - Some fixes and cleanups
+  * GTK+3: add support for application indicators as well
+  * Some fixes and cleanups
 
-1.10.2
+### mate-polkit 1.10.2
 
-  - Return error when authentication dialog is dismissed
-  - Optionally use accountsservice to retrieve face
-  - Add support for autorestart
-  - Select the current user to authenticate by default
-  - Add support for application indicators
-  - Gtk3: Auth dialog: make the label wrap at 50 chars
+  * Return error when authentication dialog is dismissed
+  * Optionally use accountsservice to retrieve face
+  * Add support for autorestart
+  * Select the current user to authenticate by default
+  * Add support for application indicators
+  * Gtk3: Auth dialog: make the label wrap at 50 chars
 
-1.10.1
+### mate-polkit 1.10.1
 
-  - Fix losing focus when displaying password prompt dialog.
-  - Drop some deprecated GTK code and obsolete build marco.
-  - Update translations.
+  * Fix losing focus when displaying password prompt dialog.
+  * Drop some deprecated GTK code and obsolete build marco.
+  * Update translations.
 
-1.10.0
+### mate-polkit 1.10.0
 
-  - Translations updates
+  * Translations updates
 
-1.8.0
+### mate-polkit 1.8.0
 
-  - Add GTK3 support
+  * Add GTK3 support
