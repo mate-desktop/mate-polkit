@@ -7,7 +7,7 @@
 # Igor Pires Soares <igor@projetofedora.org>, 2008
 # Laudeci Oliveira <laudeci@gmail.com>, 2008
 # leonardof <leonardof@gnome.org>, 2009
-# Lucas Araújo Mezêncio <lucas.mezencio@gmail.com>, 2015
+# Lucas Mezêncio <lucas.mezencio@gmail.com>, 2015
 # Marcelo Ghelman <marcelo.ghelman@gmail.com>, 2016
 # Marcus Vinícius Marques, 2014
 # Marcus Vinícius Marques, 2014

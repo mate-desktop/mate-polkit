@@ -6,7 +6,7 @@
 # Aron Xu <happyaron.xu@gmail.com>, 2009
 # Mingye Wang <arthur200126@gmail.com>, 2016
 # Tao Wei <weitao1979@gmail.com>, 2009
-# Wylmer Wang <wantinghard@gmail.com>, 2014
+# Wylmer Wang, 2014
 # 甘露(Lu Gan) <ganlu@svn.gnome.org>, 2008
 msgid ""
 msgstr ""
