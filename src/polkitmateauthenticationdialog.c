@@ -49,7 +49,7 @@ struct _PolkitMateAuthenticationDialogPrivate
   GtkWidget *auth_button;
   GtkWidget *cancel_button;
   GtkWidget *info_label;
-  GtkWidget *table_alignment;
+  GtkWidget *grid_alignment;
 
   gchar *message;
   gchar *action_id;
@@ -513,7 +513,7 @@ polkit_mate_authentication_dialog_get_property (GObject    *object,
 }
 
 static GtkWidget *
-add_row (GtkWidget *table, int row, const char *label_text, GtkWidget *entry)
+add_row (GtkWidget *grid, int row, const char *label_text, GtkWidget *entry)
 {
   GtkWidget *label;
 
@@ -526,11 +526,12 @@ add_row (GtkWidget *table, int row, const char *label_text, GtkWidget *entry)
   gtk_misc_set_alignment (GTK_MISC (label), 1.0, 0.5);
 #endif
 
-  gtk_table_attach (GTK_TABLE (table), label,
-                    0, 1, row, row + 1,
-                    GTK_FILL, GTK_EXPAND | GTK_FILL, 0, 0);
-  gtk_table_attach_defaults (GTK_TABLE (table), entry,
-                                   1, 2, row, row + 1);
+  gtk_widget_set_hexpand (label, FALSE);
+  gtk_grid_attach (GTK_GRID (grid), label,
+                   0, row, 1, 1);
+  gtk_widget_set_hexpand (entry, TRUE);
+  gtk_grid_attach (GTK_GRID (grid), entry,
+                   1, row, 1, 1);
   gtk_label_set_mnemonic_widget (GTK_LABEL (label), entry);
 
   return label;
@@ -627,8 +628,8 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   GtkWidget *hbox;
   GtkWidget *main_vbox;
   GtkWidget *vbox;
-  GtkWidget *table_alignment;
-  GtkWidget *table;
+  GtkWidget *grid_alignment;
+  GtkWidget *grid;
   GtkWidget *details_expander;
   GtkWidget *details_vbox;
   GtkWidget *label;
@@ -743,24 +744,24 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
   gtk_box_pack_start (GTK_BOX (main_vbox), vbox, FALSE, FALSE, 0);
 
-  table_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);
-  gtk_box_pack_start (GTK_BOX (vbox), table_alignment, FALSE, FALSE, 0);
-  table = gtk_table_new (1, 2, FALSE);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 6);
-  gtk_container_add (GTK_CONTAINER (table_alignment), table);
+  grid_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);
+  gtk_box_pack_start (GTK_BOX (vbox), grid_alignment, FALSE, FALSE, 0);
+  grid = gtk_grid_new ();
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
+  gtk_container_add (GTK_CONTAINER (grid_alignment), grid);
   dialog->priv->password_entry = gtk_entry_new ();
   gtk_entry_set_visibility (GTK_ENTRY (dialog->priv->password_entry), FALSE);
-  dialog->priv->prompt_label = add_row (table, 0, _("_Password:"), dialog->priv->password_entry);
+  dialog->priv->prompt_label = add_row (grid, 0, _("_Password:"), dialog->priv->password_entry);
 
   g_signal_connect_swapped (dialog->priv->password_entry, "activate",
                             G_CALLBACK (gtk_window_activate_default),
                             dialog);
 
-  dialog->priv->table_alignment = table_alignment;
+  dialog->priv->grid_alignment = grid_alignment;
   /* initially never show the password entry stuff; we'll toggle it on/off so it's
    * only shown when prompting for a password */
-  gtk_widget_set_no_show_all (dialog->priv->table_alignment, TRUE);
+  gtk_widget_set_no_show_all (dialog->priv->grid_alignment, TRUE);
 
   /* A label for showing PAM_TEXT_INFO and PAM_TEXT_ERROR messages */
   label = gtk_label_new (NULL);
@@ -776,12 +777,12 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   details_vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 10);
   gtk_container_add (GTK_CONTAINER (details_expander), details_vbox);
 
-  table_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);
-  gtk_box_pack_start (GTK_BOX (details_vbox), table_alignment, FALSE, FALSE, 0);
-  table = gtk_table_new (1, 3, FALSE);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 6);
-  gtk_container_add (GTK_CONTAINER (table_alignment), table);
+  grid_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);
+  gtk_box_pack_start (GTK_BOX (details_vbox), grid_alignment, FALSE, FALSE, 0);
+  grid = gtk_grid_new ();
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
+  gtk_container_add (GTK_CONTAINER (grid_alignment), grid);
 
   /* TODO: sort keys? */
   rows = 0;
@@ -809,7 +810,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
           gtk_misc_set_alignment (GTK_MISC (label), 0.0, 1.0);
 #endif
           s = g_strdup_printf ("<small><b>%s:</b></small>", key);
-          add_row (table, rows, s, label);
+          add_row (grid, rows, s, label);
           g_free (s);
 
           rows++;
@@ -832,7 +833,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
 #else
   gtk_misc_set_alignment (GTK_MISC (label), 0.0, 1.0);
 #endif
-  add_row (table, rows++, _("<small><b>Action:</b></small>"), label);
+  add_row (grid, rows++, _("<small><b>Action:</b></small>"), label);
   g_signal_connect (label, "activate-link", G_CALLBACK (action_id_activated), NULL);
 
   s = g_strdup_printf (_("Click to edit %s"), dialog->priv->action_id);
@@ -854,7 +855,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
 #else
   gtk_misc_set_alignment (GTK_MISC (label), 0.0, 1.0);
 #endif
-  add_row (table, rows++, _("<small><b>Vendor:</b></small>"), label);
+  add_row (grid, rows++, _("<small><b>Vendor:</b></small>"), label);
 
   s = g_strdup_printf (_("Click to open %s"), dialog->priv->vendor_url);
   gtk_widget_set_tooltip_markup (label, s);
@@ -1137,13 +1138,13 @@ polkit_mate_authentication_dialog_run_until_response_for_prompt (PolkitMateAuthe
 
   dialog->priv->is_running = TRUE;
 
-  gtk_widget_set_no_show_all (dialog->priv->table_alignment, FALSE);
-  gtk_widget_show_all (dialog->priv->table_alignment);
+  gtk_widget_set_no_show_all (dialog->priv->grid_alignment, FALSE);
+  gtk_widget_show_all (dialog->priv->grid_alignment);
 
   response = gtk_dialog_run (GTK_DIALOG (dialog));
 
-  gtk_widget_hide (dialog->priv->table_alignment);
-  gtk_widget_set_no_show_all (dialog->priv->table_alignment, TRUE);
+  gtk_widget_hide (dialog->priv->grid_alignment);
+  gtk_widget_set_no_show_all (dialog->priv->grid_alignment, TRUE);
 
   dialog->priv->is_running = FALSE;
 
