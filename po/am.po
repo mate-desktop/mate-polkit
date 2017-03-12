@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-14 14:14+0300\n"
-"PO-Revision-Date: 2017-01-12 15:57+0000\n"
+"PO-Revision-Date: 2017-03-06 16:28+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "ተግባር መለያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:456
 msgid "The action identifier to use for the button"
-msgstr ""
+msgstr "ለ ቁልፍ ተግባር የሚጠቀሙት መለያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:472
 msgid "Is Authorized"
@@ -32,7 +32,7 @@ msgstr "ፍቃድ አለው"
 
 #: ../polkitgtkmate/polkitlockbutton.c:473
 msgid "Whether the process is authorized"
-msgstr ""
+msgstr "ሂደቱ የ ተፈቀደ እንደሂነ መወሰኛ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:488
 msgid "Is Visible"
@@ -40,7 +40,7 @@ msgstr "የሚታይ "
 
 #: ../polkitgtkmate/polkitlockbutton.c:489
 msgid "Whether the widget is visible"
-msgstr ""
+msgstr "ዊጄቱ ይታይ እንደሆን መወሰኛ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:504
 msgid "Can Obtain"
@@ -48,7 +48,7 @@ msgstr "ማግኘት ይቻላል"
 
 #: ../polkitgtkmate/polkitlockbutton.c:505
 msgid "Whether authorization can be obtained"
-msgstr ""
+msgstr "ፍቃድ ማግኘት ይቻል እንደሆን መወሰኛ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:520
 #: ../polkitgtkmate/polkitlockbutton.c:622
@@ -57,7 +57,7 @@ msgstr "ጽሁፍ መክፈቻ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:521
 msgid "The text to display when prompting the user to unlock."
-msgstr ""
+msgstr "ተጠቃሚ ለ መክፈት ሲሞክር የሚታየው ጽሁፍ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:522
 msgid "Click to make changes"
@@ -66,11 +66,11 @@ msgstr "ይጫኑ ለውጡን ለመፈጸም"
 #: ../polkitgtkmate/polkitlockbutton.c:537
 #: ../polkitgtkmate/polkitlockbutton.c:639
 msgid "Unlock Tooltip"
-msgstr ""
+msgstr "የ እቃ ጫፍ መክፈቻ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:538
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr ""
+msgstr "ተጠቃሚ ለ መክፈት ሲሞክር የሚታየው የ መሳሪያ ጫፍ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:539
 msgid "Authentication is needed to make changes."
@@ -82,7 +82,7 @@ msgstr "ጽሁፍ መቆለፊያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:555
 msgid "The text to display when prompting the user to lock."
-msgstr ""
+msgstr "ተጠቃሚ ለ መዝጋት ሲሞክር የሚታየው ጽሁፍ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:556
 msgid "Click to prevent changes"
@@ -94,7 +94,7 @@ msgstr "የ መጠቆሚያውን ጫፍ መቆለፊያ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:572
 msgid "The tooltip to display when prompting the user to lock."
-msgstr ""
+msgstr "ተጠቃሚ ለ መዝጋት ሲሞክር የሚታየው የ መሳሪያ ጫፍ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:573
 msgid "To prevent further changes, click the lock."
@@ -108,7 +108,7 @@ msgstr "ጽሁፍ መቆለፊያ"
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr ""
+msgstr "ተጠቃሚ ለ መቆለፍ ሲሞክር የሚታየው ጽሁፍ ለ ሁሉም ተጠቃሚዎች"
 
 #: ../polkitgtkmate/polkitlockbutton.c:590
 msgid "Click to lock down"
@@ -122,19 +122,19 @@ msgstr "የ መጠቆሚያውን ጫፍ መቆለፊያ"
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr ""
+msgstr "ተጠቃሚ ለ መቆለፍ ሲሞክር የሚታየው ጽሁፍ ለ ሁሉም ተጠቃሚዎች "
 
 #: ../polkitgtkmate/polkitlockbutton.c:607
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr ""
+msgstr "ተጠቃሚ ለ መከልከል ከ አስተዳዳሪ ቅድሚያ ለውጥ ከ መፈጸም: ይጫኑ እዚህ ለ መቆለፍ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:623
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "የሚታየው ጽሁፍ ተጠቃሚው ፍቃድ ማግኘት አይችልም በ ማረጋገጫ "
 
 #: ../polkitgtkmate/polkitlockbutton.c:624
 msgid "Not authorized to make changes"
@@ -144,19 +144,19 @@ msgstr "ለመቀየር ፍቃድ የለውም"
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr ""
+msgstr "የሚታየው የ እቃ ጫፍ ተጠቃሚው ፍቃድ ማግኘት አይችልም በ ማረጋገጫ "
 
 #: ../polkitgtkmate/polkitlockbutton.c:641
 msgid "System policy prevents changes. Contact your system administator."
-msgstr ""
+msgstr "የ ስርአቱ አሰራር ለውጦች ይከለክላል: የ ስርአት አስተዳዳሪውን ያማክሩ"
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr ""
+msgstr "የ ተሰጠውን ቅድሚያ መጣያ"
 
 #: ../src/main.c:183
 msgid "Click the icon to drop all elevated privileges"
-msgstr ""
+msgstr "ይጫኑ በ ምልክት ላይ ድሚያ ለ መጣል"
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
@@ -175,19 +175,19 @@ msgstr "_ማረጋገጫ"
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr ""
+msgstr "መተግበሪያ ተግባር ለ መፈጸም እየሞከረ ነው ቅድሚያ የሚፈልግ: ማረጋገጫ ያስፈልጋል በ ተጠቃሚዎች በ አንዱ ይህን ተግባር ለ መፈጸም"
 
 #: ../src/polkitmateauthenticationdialog.c:698
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr ""
+msgstr "መተግበሪያ ተግባር ለ መፈጸም እየሞከረ ነው ቅድሚያ የሚፈልግ: ማረጋገጫ ያስፈልጋል ይህን ተግባር ለ መፈጸም "
 
 #: ../src/polkitmateauthenticationdialog.c:704
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr ""
+msgstr "መተግበሪያ ተግባር ለ መፈጸም እየሞከረ ነው ቅድሚያ የሚፈልግ: ማረጋገጫ ያስፈልጋል በ ሱፐር ተጠቃሚ ይህን ተግባር ለ መፈጸም"
 
 #: ../src/polkitmateauthenticationdialog.c:742
 #: ../src/polkitmateauthenticator.c:301
@@ -236,8 +236,8 @@ msgstr "የ ማረጋገጫው ንግግር በ ተጠቃሚው ተዘርዟል"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr ""
+msgstr "የ አሰራር ጥቅል ማረጋገጫ ወኪል"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr ""
+msgstr "የ አሰራር ጥቅል ማረጋገጫ ወኪል ለ ሜት ዴስክቶፕ"

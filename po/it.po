@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Gianvito Cavasoli <janvitus@ubuntu-it.org>, 2008, 2009
-# Giuseppe Pignataro <rogepix@gmail.com>, 2015
+# Giuseppe Pignataro (Fasbyte01) <rogepix@gmail.com>, 2015
 # Marco Bartolucci <nap.84@live.it>, 2016
 # Stefano Karapetsas <stefano@karapetsas.com>, 2014
 msgid ""
