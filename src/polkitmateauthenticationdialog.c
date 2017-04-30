@@ -49,7 +49,7 @@ struct _PolkitMateAuthenticationDialogPrivate
   GtkWidget *auth_button;
   GtkWidget *cancel_button;
   GtkWidget *info_label;
-  GtkWidget *grid_alignment;
+  GtkWidget *grid_password;
 
   gchar *message;
   gchar *action_id;
@@ -628,10 +628,10 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   GtkWidget *hbox;
   GtkWidget *main_vbox;
   GtkWidget *vbox;
-  GtkWidget *grid_alignment;
-  GtkWidget *grid;
+  GtkWidget *grid_password;
   GtkWidget *details_expander;
   GtkWidget *details_vbox;
+  GtkWidget *grid;
   GtkWidget *label;
   GtkWidget *image;
   GtkWidget *content_area;
@@ -744,24 +744,22 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 0);
   gtk_box_pack_start (GTK_BOX (main_vbox), vbox, FALSE, FALSE, 0);
 
-  grid_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);
-  gtk_box_pack_start (GTK_BOX (vbox), grid_alignment, FALSE, FALSE, 0);
-  grid = gtk_grid_new ();
-  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
-  gtk_container_add (GTK_CONTAINER (grid_alignment), grid);
+  grid_password = gtk_grid_new ();
+  gtk_grid_set_column_spacing (GTK_GRID (grid_password), 12);
+  gtk_grid_set_row_spacing (GTK_GRID (grid_password), 6);
+  gtk_box_pack_start (GTK_BOX (vbox), grid_password, FALSE, FALSE, 0);
   dialog->priv->password_entry = gtk_entry_new ();
   gtk_entry_set_visibility (GTK_ENTRY (dialog->priv->password_entry), FALSE);
-  dialog->priv->prompt_label = add_row (grid, 0, _("_Password:"), dialog->priv->password_entry);
+  dialog->priv->prompt_label = add_row (grid_password, 0, _("_Password:"), dialog->priv->password_entry);
 
   g_signal_connect_swapped (dialog->priv->password_entry, "activate",
                             G_CALLBACK (gtk_window_activate_default),
                             dialog);
 
-  dialog->priv->grid_alignment = grid_alignment;
+  dialog->priv->grid_password = grid_password;
   /* initially never show the password entry stuff; we'll toggle it on/off so it's
    * only shown when prompting for a password */
-  gtk_widget_set_no_show_all (dialog->priv->grid_alignment, TRUE);
+  gtk_widget_set_no_show_all (dialog->priv->grid_password, TRUE);
 
   /* A label for showing PAM_TEXT_INFO and PAM_TEXT_ERROR messages */
   label = gtk_label_new (NULL);
@@ -777,12 +775,11 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   details_vbox = gtk_box_new (GTK_ORIENTATION_VERTICAL, 10);
   gtk_container_add (GTK_CONTAINER (details_expander), details_vbox);
 
-  grid_alignment = gtk_alignment_new (0.0, 0.0, 1.0, 1.0);
-  gtk_box_pack_start (GTK_BOX (details_vbox), grid_alignment, FALSE, FALSE, 0);
   grid = gtk_grid_new ();
+  gtk_widget_set_margin_start (grid, 20);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
   gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
-  gtk_container_add (GTK_CONTAINER (grid_alignment), grid);
+  gtk_box_pack_start (GTK_BOX (details_vbox), grid, FALSE, FALSE, 0);
 
   /* TODO: sort keys? */
   rows = 0;
@@ -1138,13 +1135,13 @@ polkit_mate_authentication_dialog_run_until_response_for_prompt (PolkitMateAuthe
 
   dialog->priv->is_running = TRUE;
 
-  gtk_widget_set_no_show_all (dialog->priv->grid_alignment, FALSE);
-  gtk_widget_show_all (dialog->priv->grid_alignment);
+  gtk_widget_set_no_show_all (dialog->priv->grid_password, FALSE);
+  gtk_widget_show_all (dialog->priv->grid_password);
 
   response = gtk_dialog_run (GTK_DIALOG (dialog));
 
-  gtk_widget_hide (dialog->priv->grid_alignment);
-  gtk_widget_set_no_show_all (dialog->priv->grid_alignment, TRUE);
+  gtk_widget_hide (dialog->priv->grid_password);
+  gtk_widget_set_no_show_all (dialog->priv->grid_password, TRUE);
 
   dialog->priv->is_running = FALSE;
 
