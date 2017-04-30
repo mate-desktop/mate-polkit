@@ -411,7 +411,7 @@ get_image (PolkitMateAuthenticationDialog *dialog)
 
 
   pixbuf = gtk_icon_theme_load_icon (gtk_icon_theme_get_default (),
-                                     GTK_STOCK_DIALOG_AUTHENTICATION,
+                                     "dialog-password",
                                      48,
                                      0,
                                      NULL);
@@ -663,7 +663,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   gtk_container_set_border_width (GTK_CONTAINER (action_area), 5);
   gtk_box_set_spacing (GTK_BOX (action_area), 6);
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
-  gtk_window_set_icon_name (GTK_WINDOW (dialog), GTK_STOCK_DIALOG_AUTHENTICATION);
+  gtk_window_set_icon_name (GTK_WINDOW (dialog), "dialog-password");
 
   hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 12);
   gtk_container_set_border_width (GTK_CONTAINER (hbox), 5);
