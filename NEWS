@@ -1,3 +1,8 @@
+### mate-polkit 1.18.1
+
+  * fix broken status icon if using GtkStatusIcon
+  * Translations update
+
 ### mate-polkit 1.18.0
 
   * NEWS: use consistent, project wide, markdown-like formatting
