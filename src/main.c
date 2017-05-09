@@ -157,7 +157,7 @@ update_temporary_authorization_icon_real (void)
           GtkWidget *item, *menu;
 
           app_indicator = app_indicator_new ("mate-polkit",
-                                             "gtk-dialog-authentication",
+                                             "dialog-password",
                                              APP_INDICATOR_CATEGORY_SYSTEM_SERVICES);
 
           item = gtk_menu_item_new_with_label (_("Drop all elevated privileges"));
@@ -178,7 +178,7 @@ update_temporary_authorization_icon_real (void)
 #else
       if (status_icon == NULL)
         {
-          status_icon = gtk_status_icon_new_from_stock (GTK_STOCK_DIALOG_AUTHENTICATION);
+          status_icon = gtk_status_icon_new_from_icon_name ("dialog-password");
           gtk_status_icon_set_tooltip_text (status_icon,
                                             _("Click the icon to drop all elevated privileges"));
           g_signal_connect (status_icon,
