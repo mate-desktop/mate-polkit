@@ -286,12 +286,14 @@
 
 
 ========== pl.po ==========
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-# Aviary.pl
-# Jeśli masz jakiekolwiek uwagi odnoszące się do tłumaczenia lub chcesz
-# pomóc w jego rozwijaniu i pielęgnowaniu, napisz do nas:
-# gnomepl@aviary.pl
-# -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+# Polish translation for PolicyKit-gnome.
+# Copyright © 2008-2010 the PolicyKit-gnome authors.
+# This file is distributed under the same license as the PolicyKit-gnome package.
+# Piotr Drąg <piotrdrag@gmail.com>, 2008-2010.
+# Wadim Dziedzic <wdziedzic@aviary.pl>, 2008.
+# Tomasz Dominikowski <dominikowski@gmail.com>, 2008-2009.
+# Aviary.pl <gnomepl@aviary.pl>, 2008-2010.
+#
 
 
 
