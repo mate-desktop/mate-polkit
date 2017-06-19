@@ -36,10 +36,10 @@
 #include "polkitmatelistener.h"
 
 /* session management support for auto-restart */
-#define SM_DBUS_NAME      "org.gnome.SessionManager"
-#define SM_DBUS_PATH      "/org/gnome/SessionManager"
-#define SM_DBUS_INTERFACE "org.gnome.SessionManager"
-#define SM_CLIENT_DBUS_INTERFACE "org.gnome.SessionManager.ClientPrivate"
+#define SM_DBUS_NAME      "org.mate.SessionManager"
+#define SM_DBUS_PATH      "/org/mate/SessionManager"
+#define SM_DBUS_INTERFACE "org.mate.SessionManager"
+#define SM_CLIENT_DBUS_INTERFACE "org.mate.SessionManager.ClientPrivate"
 
 
 /* the Authority */
@@ -322,7 +322,7 @@ signal_cb (GDBusProxy *proxy, gchar *sender_name, gchar *signal_name,
 }
 
 static gboolean
-register_client_to_gnome_session (void)
+register_client_to_mate_session (void)
 {
         GError     *error = NULL;
         GVariant   *res;
@@ -452,7 +452,7 @@ main (int argc, char **argv)
 
   update_temporary_authorization_icon (authority);
 
-  register_client_to_gnome_session();
+  register_client_to_mate_session();
 
   g_main_loop_run (loop);
 
