@@ -174,6 +174,10 @@ update_temporary_authorization_icon_real (void)
           app_indicator_set_status (app_indicator,
                                     APP_INDICATOR_STATUS_ACTIVE);
         }
+      else
+        /*Reshow icon from existing appindicator */
+        app_indicator_set_status (app_indicator,
+				    APP_INDICATOR_STATUS_ACTIVE);
 
 #else
       if (status_icon == NULL)
@@ -198,10 +202,9 @@ update_temporary_authorization_icon_real (void)
 #ifdef HAVE_APPINDICATOR
       if (app_indicator != NULL)
         {
+          /* keep the app_indicator, hide the icon or it won't come back*/
           app_indicator_set_status (app_indicator,
 				    APP_INDICATOR_STATUS_PASSIVE);
-          g_object_unref (app_indicator);
-          app_indicator = NULL;
         }
 #else
       if (status_icon != NULL)
