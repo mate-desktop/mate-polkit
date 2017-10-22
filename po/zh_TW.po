@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 14:14+0300\n"
-"PO-Revision-Date: 2015-12-14 13:16+0000\n"
+"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"PO-Revision-Date: 2017-09-19 13:38+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/mate/MATE/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -21,135 +21,135 @@ msgstr ""
 "Language: zh_TW\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:455
+#: ../polkitgtkmate/polkitlockbutton.c:451
 msgid "Action Identifier"
 msgstr "動作識別碼"
 
-#: ../polkitgtkmate/polkitlockbutton.c:456
+#: ../polkitgtkmate/polkitlockbutton.c:452
 msgid "The action identifier to use for the button"
 msgstr "要用在這個按鈕的動作識別碼"
 
-#: ../polkitgtkmate/polkitlockbutton.c:472
+#: ../polkitgtkmate/polkitlockbutton.c:468
 msgid "Is Authorized"
 msgstr "是否已驗證"
 
-#: ../polkitgtkmate/polkitlockbutton.c:473
+#: ../polkitgtkmate/polkitlockbutton.c:469
 msgid "Whether the process is authorized"
 msgstr "這個程序是否經過驗證"
 
-#: ../polkitgtkmate/polkitlockbutton.c:488
+#: ../polkitgtkmate/polkitlockbutton.c:484
 msgid "Is Visible"
 msgstr "是否顯示"
 
-#: ../polkitgtkmate/polkitlockbutton.c:489
+#: ../polkitgtkmate/polkitlockbutton.c:485
 msgid "Whether the widget is visible"
 msgstr "這個元件是否要顯示"
 
-#: ../polkitgtkmate/polkitlockbutton.c:504
+#: ../polkitgtkmate/polkitlockbutton.c:500
 msgid "Can Obtain"
 msgstr "是否可獲得"
 
-#: ../polkitgtkmate/polkitlockbutton.c:505
+#: ../polkitgtkmate/polkitlockbutton.c:501
 msgid "Whether authorization can be obtained"
 msgstr "是否可獲得驗證"
 
-#: ../polkitgtkmate/polkitlockbutton.c:520
-#: ../polkitgtkmate/polkitlockbutton.c:622
+#: ../polkitgtkmate/polkitlockbutton.c:516
+#: ../polkitgtkmate/polkitlockbutton.c:618
 msgid "Unlock Text"
 msgstr "解鎖時文字"
 
-#: ../polkitgtkmate/polkitlockbutton.c:521
+#: ../polkitgtkmate/polkitlockbutton.c:517
 msgid "The text to display when prompting the user to unlock."
 msgstr "當提示使用者進行解鎖時顯示的文字。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:522
+#: ../polkitgtkmate/polkitlockbutton.c:518
 msgid "Click to make changes"
 msgstr "請按這裡進行改變"
 
-#: ../polkitgtkmate/polkitlockbutton.c:537
-#: ../polkitgtkmate/polkitlockbutton.c:639
+#: ../polkitgtkmate/polkitlockbutton.c:533
+#: ../polkitgtkmate/polkitlockbutton.c:635
 msgid "Unlock Tooltip"
 msgstr "解鎖時工具提示"
 
-#: ../polkitgtkmate/polkitlockbutton.c:538
+#: ../polkitgtkmate/polkitlockbutton.c:534
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "當提示使用者進行解鎖時顯示的工具提示。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:539
+#: ../polkitgtkmate/polkitlockbutton.c:535
 msgid "Authentication is needed to make changes."
 msgstr "需要驗證才能進行改變。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:554
+#: ../polkitgtkmate/polkitlockbutton.c:550
 msgid "Lock Text"
 msgstr "鎖上時文字"
 
-#: ../polkitgtkmate/polkitlockbutton.c:555
+#: ../polkitgtkmate/polkitlockbutton.c:551
 msgid "The text to display when prompting the user to lock."
 msgstr "當提示使用者進行鎖上時顯示的文字。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:556
+#: ../polkitgtkmate/polkitlockbutton.c:552
 msgid "Click to prevent changes"
 msgstr "請按這裡防止改變"
 
-#: ../polkitgtkmate/polkitlockbutton.c:571
+#: ../polkitgtkmate/polkitlockbutton.c:567
 msgid "Lock Tooltip"
 msgstr "鎖上時工具提示"
 
-#: ../polkitgtkmate/polkitlockbutton.c:572
+#: ../polkitgtkmate/polkitlockbutton.c:568
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "當提示使用者進行鎖上時顯示的工具提示。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:573
+#: ../polkitgtkmate/polkitlockbutton.c:569
 msgid "To prevent further changes, click the lock."
 msgstr "要防止進一步的改變，請按這個鎖。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:588
+#: ../polkitgtkmate/polkitlockbutton.c:584
 msgid "Lock Down Text"
 msgstr "鎖定時文字"
 
-#: ../polkitgtkmate/polkitlockbutton.c:589
+#: ../polkitgtkmate/polkitlockbutton.c:585
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
 msgstr "當提示使用者鎖定所有使用者的動作時顯示的文字。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:590
+#: ../polkitgtkmate/polkitlockbutton.c:586
 msgid "Click to lock down"
 msgstr "按這裡鎖定"
 
-#: ../polkitgtkmate/polkitlockbutton.c:605
+#: ../polkitgtkmate/polkitlockbutton.c:601
 msgid "Lock Down Tooltip"
 msgstr "鎖定時工具提示"
 
-#: ../polkitgtkmate/polkitlockbutton.c:606
+#: ../polkitgtkmate/polkitlockbutton.c:602
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
 msgstr "當提示使用者鎖定所有使用者的動作時顯示的工具提示。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:607
+#: ../polkitgtkmate/polkitlockbutton.c:603
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
 msgstr "要防止沒有管理者權限的使用者進行變更，請按這個鎖。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:623
+#: ../polkitgtkmate/polkitlockbutton.c:619
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "當使用者不能透過驗證取得授權時要顯示的文字。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:624
+#: ../polkitgtkmate/polkitlockbutton.c:620
 msgid "Not authorized to make changes"
 msgstr "未獲授權進行改變"
 
-#: ../polkitgtkmate/polkitlockbutton.c:640
+#: ../polkitgtkmate/polkitlockbutton.c:636
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "當使用者不能透過驗證取得授權時要顯示的工具提示。"
 
-#: ../polkitgtkmate/polkitlockbutton.c:641
+#: ../polkitgtkmate/polkitlockbutton.c:637
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "系統原則阻止了這個變更。請聯絡您的系統管理者。"
 
@@ -170,57 +170,57 @@ msgstr "選擇使用者…"
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:648
+#: ../src/polkitmateauthenticationdialog.c:654
 msgid "_Authenticate"
 msgstr "驗證(_A)"
 
-#: ../src/polkitmateauthenticationdialog.c:690
+#: ../src/polkitmateauthenticationdialog.c:700
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr "有應用程式試圖進行需要權限的動作。必須授權為下列使用者之一才能進行這個動作。"
 
-#: ../src/polkitmateauthenticationdialog.c:698
+#: ../src/polkitmateauthenticationdialog.c:708
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "有應用程式試圖進行需要權限的動作。必須獲得授權才能進行這個動作。"
 
-#: ../src/polkitmateauthenticationdialog.c:704
+#: ../src/polkitmateauthenticationdialog.c:714
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr "有應用程式試圖進行需要權限的動作。必須授權為超級使用者才能進行這個動作。"
 
-#: ../src/polkitmateauthenticationdialog.c:742
+#: ../src/polkitmateauthenticationdialog.c:753
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "密碼(_P):"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:760
+#: ../src/polkitmateauthenticationdialog.c:771
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>詳細資料(_D)</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:813
+#: ../src/polkitmateauthenticationdialog.c:833
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>動作:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:816
+#: ../src/polkitmateauthenticationdialog.c:836
 #, c-format
 msgid "Click to edit %s"
 msgstr "按下這裡編輯 %s"
 
-#: ../src/polkitmateauthenticationdialog.c:830
+#: ../src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>廠商:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:832
+#: ../src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "按一下來開啟 %s"
 
-#: ../src/polkitmateauthenticationdialog.c:992
+#: ../src/polkitmateauthenticationdialog.c:1017
 msgid "Authenticate"
 msgstr "驗證"
 

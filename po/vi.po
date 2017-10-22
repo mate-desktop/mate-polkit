@@ -3,166 +3,164 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Khaled Hosny <khaledhosny@eglug.org>, 2008-2009
-# Mosaab Alzoubi <moceap@hotmail.com>, 2014
-# مهدي السطيفي <chinoune.mehdi@gmail.com>, 2015
+# Horazone Detex <thmmt2017d@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-09 17:31+0200\n"
-"PO-Revision-Date: 2017-09-23 18:17+0000\n"
-"Last-Translator: monsta <monsta@inbox.ru>\n"
-"Language-Team: Arabic (http://www.transifex.com/mate/MATE/language/ar/)\n"
+"PO-Revision-Date: 2017-09-19 23:17+0000\n"
+"Last-Translator: Horazone Detex <thmmt2017d@gmail.com>\n"
+"Language-Team: Vietnamese (http://www.transifex.com/mate/MATE/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ar\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../polkitgtkmate/polkitlockbutton.c:451
 msgid "Action Identifier"
-msgstr "معرّف الإجراء"
+msgstr "Bộ nhận diện Hành động"
 
 #: ../polkitgtkmate/polkitlockbutton.c:452
 msgid "The action identifier to use for the button"
-msgstr "معرف الإجراء الذي سيُستخدم للزر"
+msgstr "Bộ nhận diện hành động để dùng cho cái nút"
 
 #: ../polkitgtkmate/polkitlockbutton.c:468
 msgid "Is Authorized"
-msgstr "مخوّل"
+msgstr "Được Cấp quyền"
 
 #: ../polkitgtkmate/polkitlockbutton.c:469
 msgid "Whether the process is authorized"
-msgstr "ما إذا كانت العمليّة مخوّلة"
+msgstr "Tiến trình này có được cấp quyền hay không"
 
 #: ../polkitgtkmate/polkitlockbutton.c:484
 msgid "Is Visible"
-msgstr "ظاهر"
+msgstr "Được Hiển thị"
 
 #: ../polkitgtkmate/polkitlockbutton.c:485
 msgid "Whether the widget is visible"
-msgstr "ما إذا كانت الودجة ظاهرة"
+msgstr "Hiện widget"
 
 #: ../polkitgtkmate/polkitlockbutton.c:500
 msgid "Can Obtain"
-msgstr "يمكن الحصول عليه"
+msgstr "Có thể Đạt được"
 
 #: ../polkitgtkmate/polkitlockbutton.c:501
 msgid "Whether authorization can be obtained"
-msgstr "ما إذا كان الحصول على التخويل ممكنًا"
+msgstr "Sự cấp quyền có thể đạt được hay không"
 
 #: ../polkitgtkmate/polkitlockbutton.c:516
 #: ../polkitgtkmate/polkitlockbutton.c:618
 msgid "Unlock Text"
-msgstr "نص الفتح"
+msgstr "Mở khoá Văn bản"
 
 #: ../polkitgtkmate/polkitlockbutton.c:517
 msgid "The text to display when prompting the user to unlock."
-msgstr "النص الذي سيُعرض عند سؤال المستخدم ليفتح القفل."
+msgstr "Văn bản để hiển thị khi yêu cầu người dùng để mở khóa."
 
 #: ../polkitgtkmate/polkitlockbutton.c:518
 msgid "Click to make changes"
-msgstr "انقر للقيام بتعديلات"
+msgstr "Bấm vào để tạo thay đổi"
 
 #: ../polkitgtkmate/polkitlockbutton.c:533
 #: ../polkitgtkmate/polkitlockbutton.c:635
 msgid "Unlock Tooltip"
-msgstr "تلميحة فتح القفل"
+msgstr "Mở khóa Mẹo công cụ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:534
 msgid "The tooltip to display when prompting the user to unlock."
-msgstr "التلميحة التي ستُعرض عند سؤال المستخدم ليفتح القفل."
+msgstr "Mẹo để hiển thị khi yêu cầu người dùng để mở khóa."
 
 #: ../polkitgtkmate/polkitlockbutton.c:535
 msgid "Authentication is needed to make changes."
-msgstr "الاستيثاق مطلوب للقيام بالتعديلات."
+msgstr "Cấp quyền là cần để tạo thay đổi."
 
 #: ../polkitgtkmate/polkitlockbutton.c:550
 msgid "Lock Text"
-msgstr "نص القفل"
+msgstr "Khóa Văn bản"
 
 #: ../polkitgtkmate/polkitlockbutton.c:551
 msgid "The text to display when prompting the user to lock."
-msgstr "النص الذي سيُعرض عند سؤال المستخدم قفل الإجراء."
+msgstr "Văn bản để hiển thị khi yêu cầu người dùng để khóa."
 
 #: ../polkitgtkmate/polkitlockbutton.c:552
 msgid "Click to prevent changes"
-msgstr "انقر لمنع التعديلات"
+msgstr "Bấm vào để ngăn thay đổi"
 
 #: ../polkitgtkmate/polkitlockbutton.c:567
 msgid "Lock Tooltip"
-msgstr "تلميحة القفل"
+msgstr "Khóa Mẹo công cụ"
 
 #: ../polkitgtkmate/polkitlockbutton.c:568
 msgid "The tooltip to display when prompting the user to lock."
-msgstr "التلميحة التي ستُعرض عند سؤال المستخدم قفل الإجراء."
+msgstr "Mẹo để hiển thị khi yêu cầu người dùng để khóa."
 
 #: ../polkitgtkmate/polkitlockbutton.c:569
 msgid "To prevent further changes, click the lock."
-msgstr "انقر لقفله، لمنع المزيد من التعديلات."
+msgstr "Để ngăn chặn thay đổi thêm, bấm vào khóa."
 
 #: ../polkitgtkmate/polkitlockbutton.c:584
 msgid "Lock Down Text"
-msgstr "نص القفل"
+msgstr "Văn bản Bị khóa"
 
 #: ../polkitgtkmate/polkitlockbutton.c:585
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
-msgstr "النص الذي سيُعرض عند سؤال المستخدم قفل الإجراء أمام كل المستخدمين."
+msgstr "Văn bản để hiển thị khi yêu cầu người dùng để khóa hành động cho tất cả người dùng."
 
 #: ../polkitgtkmate/polkitlockbutton.c:586
 msgid "Click to lock down"
-msgstr "انقر لقفله"
+msgstr "Bấm để khóa lại"
 
 #: ../polkitgtkmate/polkitlockbutton.c:601
 msgid "Lock Down Tooltip"
-msgstr "تلميحة القفل"
+msgstr "Mẹo công cụ Bị khóa"
 
 #: ../polkitgtkmate/polkitlockbutton.c:602
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
-msgstr "التلميحة التي ستُعرض عند سؤال المستخدم قفل الإجراء أمام كل المستخدمين."
+msgstr "Mẹo để hiển thị khi yêu cầu người dùng để khóa hành động cho tất cả người dùng."
 
 #: ../polkitgtkmate/polkitlockbutton.c:603
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr "انقر لمنع المستخدمين بدون صلاحيات إدارية من القيام بتعديلات."
+msgstr "Để ngăn chặn người dùng không có quyền quản trị tạo thay đổi, bấm vào khóa."
 
 #: ../polkitgtkmate/polkitlockbutton.c:619
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "النص الذي سيُعرض عندما لا يستطيع المستخدم الحصول على التخويل عبر الاستيثاق."
+msgstr "Văn bản để hiển thị khi người dùng không thể đạt được cấp quyền qua xác thực."
 
 #: ../polkitgtkmate/polkitlockbutton.c:620
 msgid "Not authorized to make changes"
-msgstr "لست مخولًا للقيام بالتعديلات"
+msgstr "Chưa được cấp quyền để tạo thay đổi"
 
 #: ../polkitgtkmate/polkitlockbutton.c:636
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
-msgstr "التلميحة التي ستُعرض عندما لا يستطيع المستخدم الحصول على التخويل عبر الاستيثاق."
+msgstr "Mẹo để hiển thị khi người dùng không thể đạt được cấp quyền qua xác thực."
 
 #: ../polkitgtkmate/polkitlockbutton.c:637
 msgid "System policy prevents changes. Contact your system administator."
-msgstr "تمنع سياسة النظام التعديلات. راجع مدير النظام."
+msgstr "Chính sách hệ thống ngăn chặn thay đổi. Liên hệ admin của bạn."
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr ""
+msgstr "Bỏ tất cả các đặc quyền cao cấp"
 
 #: ../src/main.c:183
 msgid "Click the icon to drop all elevated privileges"
-msgstr "انقر على الرّمز لإسقاط كل الصلاحيات"
+msgstr "Bấm vào biểu tượng để bỏ tất cả các đặc quyền cao cấp"
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
-msgstr "اختر مستخدمًا..."
+msgstr "Chọn người dùng..."
 
 #: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
@@ -171,75 +169,75 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:654
 msgid "_Authenticate"
-msgstr "ا_ستوثق"
+msgstr "_Xác thực"
 
 #: ../src/polkitmateauthenticationdialog.c:700
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "يحاول أحد التطبيقات القيام بإجراء يتطلب صلاحيات. تحتاج للاستيثاق كأحد المستخدمين المذكورين أدناه للقيام بهذا الإجراء."
+msgstr "Một ứng dụng đang cố gắng thực hiện một hành động cần đặc quyền. Sự xác thực một trong các người dùng phía dưới là được yêu cầu để thực hiện hành động này. "
 
 #: ../src/polkitmateauthenticationdialog.c:708
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "يحاول أحد التطبيقات القيام بإجراء يتطلب صلاحيات. تحتاج للاستيثاق للقيام بهذا الإجراء."
+msgstr "Một ứng dụng đang cố gắng thực hiện một hành động cần đặc quyền. Xác thực là cần thiết để thực hiện hành động này. "
 
 #: ../src/polkitmateauthenticationdialog.c:714
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "يحاول أحد التطبيقات القيام بإجراء يتطلب صلاحيات. تحتاج للاستيثاق كمستخدم فائق للقيام بهذا الإجراء."
+msgstr "Một ứng dụng đang cố gắng thực hiện một hành động cần đặc Xác thực siêu người dùng là cần thiết để thực hiện hành động này. "
 
 #: ../src/polkitmateauthenticationdialog.c:753
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
-msgstr "_كلمة المرور:"
+msgstr "_Mật khẩu:"
 
 #. Details
 #: ../src/polkitmateauthenticationdialog.c:771
 msgid "<small><b>_Details</b></small>"
-msgstr "<small><b>ال_تفاصيل</b></small>"
+msgstr "<small><b>_Chi tiết</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:833
 msgid "<small><b>Action:</b></small>"
-msgstr "<small><b>الإجراء:</b></small>"
+msgstr "<small><b>Hành động :</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:836
 #, c-format
 msgid "Click to edit %s"
-msgstr "انقر لتحرير %s"
+msgstr "Bấm để chỉnh sửa %s"
 
 #: ../src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
-msgstr "<small><b>المزوّد:</b></small>"
+msgstr "<small><b>Vendor:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
-msgstr "انقر لفتح %s"
+msgstr "Click to open %s"
 
 #: ../src/polkitmateauthenticationdialog.c:1017
 msgid "Authenticate"
-msgstr "استوثق"
+msgstr "Xác thực"
 
 #: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
-msgstr "_كلمة مرور %s:"
+msgstr "_Mật khẩu cho %s:"
 
 #: ../src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr ""
+msgstr "Phiên xác thực của bạn đã không thành công. Vui lòng thử lại."
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr ""
+msgstr "Hộp thoại xác thữ đã bị bỏ qua bởi người dùng"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "مدير الاستيثاق PolicyKit"
+msgstr "PolicyKit Authentication Agent"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr "عميل الاستيثاق PolicyKit لسطح مكتب متّة"
+msgstr "PolicyKit Authentication Agent cho môi trường MATE"
