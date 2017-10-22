@@ -1,5 +1,12 @@
 ### mate-polkit 1.19.0
 
+  * Translations update
+  * Fix reshow/hide icon with statusnotifier
+  * Restore Polish translation credits from GNOME
+  * status-icon: don't use stock icons
+  * polkitmateauthenticationdialog: avoid deprecated GtkAlignment
+  * polkitmateauthenticationdialog: replace a GTK_STOCK deprecation
+
 ### mate-polkit 1.18.0
 
   * NEWS: use consistent, project wide, markdown-like formatting
