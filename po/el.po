@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-12-14 14:14+0300\n"
-"PO-Revision-Date: 2017-02-07 20:15+0000\n"
+"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"PO-Revision-Date: 2017-09-23 18:17+0000\n"
 "Last-Translator: Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>\n"
 "Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
 "MIME-Version: 1.0\n"
@@ -23,135 +23,135 @@ msgstr ""
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:455
+#: ../polkitgtkmate/polkitlockbutton.c:451
 msgid "Action Identifier"
 msgstr "Αναγνωριστικό ενέργειας"
 
-#: ../polkitgtkmate/polkitlockbutton.c:456
+#: ../polkitgtkmate/polkitlockbutton.c:452
 msgid "The action identifier to use for the button"
 msgstr "Το αναγνωριστικό ενέργειας προς χρήση για το κουμπί"
 
-#: ../polkitgtkmate/polkitlockbutton.c:472
+#: ../polkitgtkmate/polkitlockbutton.c:468
 msgid "Is Authorized"
 msgstr "Εξουσιοδοτημένο"
 
-#: ../polkitgtkmate/polkitlockbutton.c:473
+#: ../polkitgtkmate/polkitlockbutton.c:469
 msgid "Whether the process is authorized"
 msgstr "Εάν η διαδικασία είναι εξουσιοδοτημένη"
 
-#: ../polkitgtkmate/polkitlockbutton.c:488
+#: ../polkitgtkmate/polkitlockbutton.c:484
 msgid "Is Visible"
 msgstr "Ορατό"
 
-#: ../polkitgtkmate/polkitlockbutton.c:489
+#: ../polkitgtkmate/polkitlockbutton.c:485
 msgid "Whether the widget is visible"
 msgstr "Αν το γραφικό συστατικό είναι ορατό"
 
-#: ../polkitgtkmate/polkitlockbutton.c:504
+#: ../polkitgtkmate/polkitlockbutton.c:500
 msgid "Can Obtain"
 msgstr "Μπορεί να λάβει"
 
-#: ../polkitgtkmate/polkitlockbutton.c:505
+#: ../polkitgtkmate/polkitlockbutton.c:501
 msgid "Whether authorization can be obtained"
 msgstr "Αν η πιστοποίηση μπορεί να ληφθεί"
 
-#: ../polkitgtkmate/polkitlockbutton.c:520
-#: ../polkitgtkmate/polkitlockbutton.c:622
+#: ../polkitgtkmate/polkitlockbutton.c:516
+#: ../polkitgtkmate/polkitlockbutton.c:618
 msgid "Unlock Text"
 msgstr "Ξεκλείδωμα κειμένου"
 
-#: ../polkitgtkmate/polkitlockbutton.c:521
+#: ../polkitgtkmate/polkitlockbutton.c:517
 msgid "The text to display when prompting the user to unlock."
 msgstr "Το κείμενο που εμφανίζεται όταν ο χρήστης ξεκλειδώνει."
 
-#: ../polkitgtkmate/polkitlockbutton.c:522
+#: ../polkitgtkmate/polkitlockbutton.c:518
 msgid "Click to make changes"
 msgstr "Πιέστε για να κάνετε αλλαγές"
 
-#: ../polkitgtkmate/polkitlockbutton.c:537
-#: ../polkitgtkmate/polkitlockbutton.c:639
+#: ../polkitgtkmate/polkitlockbutton.c:533
+#: ../polkitgtkmate/polkitlockbutton.c:635
 msgid "Unlock Tooltip"
 msgstr "Βοήθημα για ξεκλείδωμα"
 
-#: ../polkitgtkmate/polkitlockbutton.c:538
+#: ../polkitgtkmate/polkitlockbutton.c:534
 msgid "The tooltip to display when prompting the user to unlock."
 msgstr "Το βοήθημα που εμφανίζεται καθώς ο χρήστης είναι στη διαδικασία ξεκλειδώματος."
 
-#: ../polkitgtkmate/polkitlockbutton.c:539
+#: ../polkitgtkmate/polkitlockbutton.c:535
 msgid "Authentication is needed to make changes."
 msgstr "Η εξουσιοδότηση είναι αναγκαία για την πραγματοποίηση αλλαγών."
 
-#: ../polkitgtkmate/polkitlockbutton.c:554
+#: ../polkitgtkmate/polkitlockbutton.c:550
 msgid "Lock Text"
 msgstr "Κείμενο κλειδώματος"
 
-#: ../polkitgtkmate/polkitlockbutton.c:555
+#: ../polkitgtkmate/polkitlockbutton.c:551
 msgid "The text to display when prompting the user to lock."
 msgstr "Το κείμενο που εμφανίζεται καθώς ο χρήστης είναι στη διαδικασία κλειδώματος."
 
-#: ../polkitgtkmate/polkitlockbutton.c:556
+#: ../polkitgtkmate/polkitlockbutton.c:552
 msgid "Click to prevent changes"
 msgstr "Πιέστε για να εμποδίσετε τις αλλαγές"
 
-#: ../polkitgtkmate/polkitlockbutton.c:571
+#: ../polkitgtkmate/polkitlockbutton.c:567
 msgid "Lock Tooltip"
 msgstr "Βοήθημα κλειδώματος"
 
-#: ../polkitgtkmate/polkitlockbutton.c:572
+#: ../polkitgtkmate/polkitlockbutton.c:568
 msgid "The tooltip to display when prompting the user to lock."
 msgstr "Το βοήθημα που εμφανίζεται καθώς ο χρήστης είναι στη διαδικασία κλειδώματος."
 
-#: ../polkitgtkmate/polkitlockbutton.c:573
+#: ../polkitgtkmate/polkitlockbutton.c:569
 msgid "To prevent further changes, click the lock."
 msgstr "Για να αποφύγετε παραιτέρω αλλαγές, πατήστε για κλείδωμα."
 
-#: ../polkitgtkmate/polkitlockbutton.c:588
+#: ../polkitgtkmate/polkitlockbutton.c:584
 msgid "Lock Down Text"
 msgstr "Κείμενο κλειδώματος"
 
-#: ../polkitgtkmate/polkitlockbutton.c:589
+#: ../polkitgtkmate/polkitlockbutton.c:585
 msgid ""
 "The text to display when prompting the user to lock down the action for all "
 "users."
 msgstr "Το κείμενο που εμφανίζεται καθώς ο χρήστης είναι στη διαδικασία κλειδώματος της ενέργειας για όλους τους χρήστες."
 
-#: ../polkitgtkmate/polkitlockbutton.c:590
+#: ../polkitgtkmate/polkitlockbutton.c:586
 msgid "Click to lock down"
 msgstr "Κλικ για κλείδωμα"
 
-#: ../polkitgtkmate/polkitlockbutton.c:605
+#: ../polkitgtkmate/polkitlockbutton.c:601
 msgid "Lock Down Tooltip"
 msgstr "Βοήθημα κλειδώματος"
 
-#: ../polkitgtkmate/polkitlockbutton.c:606
+#: ../polkitgtkmate/polkitlockbutton.c:602
 msgid ""
 "The tooltip to display when prompting the user to lock down the action for "
 "all users."
 msgstr "Το βοήθημα που εμφανίζεται καθώς ο χρήστης είναι στη διαδικασία κλειδώματος ενέργειας για όλους τους χρήστες."
 
-#: ../polkitgtkmate/polkitlockbutton.c:607
+#: ../polkitgtkmate/polkitlockbutton.c:603
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
 msgstr "Για να αποτρέψετε χρήστες δίχως διαχειριστικά προνόμια από το να κάνουν αλλαγές, επιλέξτε να κλειδώσετε."
 
-#: ../polkitgtkmate/polkitlockbutton.c:623
+#: ../polkitgtkmate/polkitlockbutton.c:619
 msgid ""
 "The text to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "Το κείμενο που εμφανίζεται όταν ο χρήστης δεν μπορεί να αποκτήσει εξουσιοδότηση μέσω πιστοποίησης."
 
-#: ../polkitgtkmate/polkitlockbutton.c:624
+#: ../polkitgtkmate/polkitlockbutton.c:620
 msgid "Not authorized to make changes"
 msgstr "Μη εξουσιοδοτημένοι για πραγματοποίηση αλλαγών"
 
-#: ../polkitgtkmate/polkitlockbutton.c:640
+#: ../polkitgtkmate/polkitlockbutton.c:636
 msgid ""
 "The tooltip to display when the user cannot obtain authorization through "
 "authentication."
 msgstr "Το βοήθημα που εμφανίζεται όταν ο χρήστες δεν μπορεί να αποκτήσει εξουσιοδότηση μέσω πιστοποίησης."
 
-#: ../polkitgtkmate/polkitlockbutton.c:641
+#: ../polkitgtkmate/polkitlockbutton.c:637
 msgid "System policy prevents changes. Contact your system administator."
 msgstr "Η πολιτική συστήματος δεν επιτρέπει αλλαγές. Επικοινωνήστε με το διαχειριστή συστήματος."
 
@@ -172,57 +172,57 @@ msgstr "Επιλογή χρήστη..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:648
+#: ../src/polkitmateauthenticationdialog.c:654
 msgid "_Authenticate"
 msgstr "_Πιστοποίηση"
 
-#: ../src/polkitmateauthenticationdialog.c:690
+#: ../src/polkitmateauthenticationdialog.c:700
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr "Μια εφαρμογή προσπαθεί να εκτελέσει ενέργεια που απαιτεί προνόμια. Απαιτείται πιστοποίηση ενός από τους παρακάτω χρήστες για την εκτέλεση της ενέργειας."
 
-#: ../src/polkitmateauthenticationdialog.c:698
+#: ../src/polkitmateauthenticationdialog.c:708
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr "Μια εφαρμογή προσπαθεί να εκτελέσει ενέργεια που απαιτεί προνόμια. Απαιτείται πιστοποίηση για την εκτέλεση της ενέργειας."
 
-#: ../src/polkitmateauthenticationdialog.c:704
+#: ../src/polkitmateauthenticationdialog.c:714
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr "Μια εφαρμογή προσπαθεί να εκτελέσει ενέργεια που απαιτεί προνόμια. Απαιτείται πιστοποίηση υπερχρήστη για την εκτέλεση της ενέργειας."
 
-#: ../src/polkitmateauthenticationdialog.c:742
+#: ../src/polkitmateauthenticationdialog.c:753
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Συνθηματικό:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:760
+#: ../src/polkitmateauthenticationdialog.c:771
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Λεπτομέρειες</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:813
+#: ../src/polkitmateauthenticationdialog.c:833
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Ενέργεια:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:816
+#: ../src/polkitmateauthenticationdialog.c:836
 #, c-format
 msgid "Click to edit %s"
 msgstr "Κάντε κλικ για να επεξεργαστείτε το %s"
 
-#: ../src/polkitmateauthenticationdialog.c:830
+#: ../src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Προμηθευτής:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:832
+#: ../src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "Κάντε κλικ για να ανοίξετε το %s"
 
-#: ../src/polkitmateauthenticationdialog.c:992
+#: ../src/polkitmateauthenticationdialog.c:1017
 msgid "Authenticate"
 msgstr "Πιστοποίηση"
 
