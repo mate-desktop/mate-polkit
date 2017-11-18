@@ -1,3 +1,8 @@
+### mate-polkit 1.18.2
+
+  * Translations update
+  * Fix reshow/hide icon with statusnotifier
+
 ### mate-polkit 1.18.1
 
   * fix broken status icon if using GtkStatusIcon
