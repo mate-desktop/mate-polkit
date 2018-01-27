@@ -519,12 +519,8 @@ add_row (GtkWidget *grid, int row, const char *label_text, GtkWidget *entry)
 
   label = gtk_label_new_with_mnemonic (label_text);
   gtk_label_set_use_markup (GTK_LABEL (label), TRUE);
-#if GTK_CHECK_VERSION (3, 16, 0)
   gtk_label_set_xalign (GTK_LABEL (label), 1.0);
   gtk_label_set_yalign (GTK_LABEL (label), 0.5);
-#else
-  gtk_misc_set_alignment (GTK_MISC (label), 1.0, 0.5);
-#endif
 
   gtk_widget_set_hexpand (label, FALSE);
   gtk_grid_attach (GTK_GRID (grid), label,
@@ -682,12 +678,9 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   s = g_strdup_printf ("<big><b>%s</b></big>", dialog->priv->message);
   gtk_label_set_markup (GTK_LABEL (label), s);
   g_free (s);
-#if GTK_CHECK_VERSION (3, 16, 0)
+
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 0.5);
-#else
-  gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
   gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
   gtk_label_set_max_width_chars (GTK_LABEL (label), 50);
   gtk_box_pack_start (GTK_BOX (main_vbox), label, FALSE, FALSE, 0);
@@ -715,12 +708,9 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
                                   "Authentication as the super user is required to perform this action."));
         }
     }
-#if GTK_CHECK_VERSION (3, 16, 0)
+
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 0.5);
-#else
-  gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-#endif
   gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
   gtk_label_set_max_width_chars (GTK_LABEL (label), 50);
   gtk_box_pack_start (GTK_BOX (main_vbox), label, FALSE, FALSE, 0);
@@ -800,12 +790,10 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
           s = g_strdup_printf ("<small>%s</small>", value);
           gtk_label_set_markup (GTK_LABEL (label), s);
           g_free (s);
-#if GTK_CHECK_VERSION (3, 16, 0)
+
           gtk_label_set_xalign (GTK_LABEL (label), 0.0);
           gtk_label_set_yalign (GTK_LABEL (label), 1.0);
-#else
-          gtk_misc_set_alignment (GTK_MISC (label), 0.0, 1.0);
-#endif
+
           s = g_strdup_printf ("<small><b>%s:</b></small>", key);
           add_row (grid, rows, s, label);
           g_free (s);
@@ -824,12 +812,10 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
                        dialog->priv->action_id);
   gtk_label_set_markup (GTK_LABEL (label), s);
   g_free (s);
-#if GTK_CHECK_VERSION (3, 16, 0)
+
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 1.0);
-#else
-  gtk_misc_set_alignment (GTK_MISC (label), 0.0, 1.0);
-#endif
+
   add_row (grid, rows++, _("<small><b>Action:</b></small>"), label);
   g_signal_connect (label, "activate-link", G_CALLBACK (action_id_activated), NULL);
 
@@ -846,12 +832,10 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
                        dialog->priv->vendor);
   gtk_label_set_markup (GTK_LABEL (label), s);
   g_free (s);
-#if GTK_CHECK_VERSION (3, 16, 0)
+
   gtk_label_set_xalign (GTK_LABEL (label), 0.0);
   gtk_label_set_yalign (GTK_LABEL (label), 1.0);
-#else
-  gtk_misc_set_alignment (GTK_MISC (label), 0.0, 1.0);
-#endif
+
   add_row (grid, rows++, _("<small><b>Vendor:</b></small>"), label);
 
   s = g_strdup_printf (_("Click to open %s"), dialog->priv->vendor_url);
