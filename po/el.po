@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-23 18:17+0000\n"
 "Last-Translator: Αλέξανδρος Καπετάνιος <alexandros@gnugr.org>\n"
 "Language-Team: Greek (http://www.transifex.com/mate/MATE/language/el/)\n"
@@ -159,7 +159,7 @@ msgstr "Η πολιτική συστήματος δεν επιτρέπει αλ�
 msgid "Drop all elevated privileges"
 msgstr "Διαγράψτε όλα τα υψωμένα προνόμια "
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Πατήστε το εικονίδιο για να αναιρέσετε όλα τα ειδικά προνόμια"
 

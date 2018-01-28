@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Bar Bokovza <bokovzabox@gmail.com>, 2015
+# בר בוכובזה <bokovzabox@gmail.com>, 2015
 # Mark Krapivner, 2008
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 13:38+0000\n"
-"Last-Translator: Bar Bokovza <bokovzabox@gmail.com>\n"
+"Last-Translator: בר בוכובזה <bokovzabox@gmail.com>\n"
 "Language-Team: Hebrew (http://www.transifex.com/mate/MATE/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,7 +155,7 @@ msgstr "מדיניות המערכת מונעת שינויים. צור קשר ע�
 msgid "Drop all elevated privileges"
 msgstr "מחק את כל ההרשאות הגבוהות."
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "לחץ על הסמליל על מנת למחוק את כל ההרשאות הגבוהות"
 

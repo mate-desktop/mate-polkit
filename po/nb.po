@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 13:38+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål (http://www.transifex.com/mate/MATE/language/nb/)\n"
@@ -156,7 +156,7 @@ msgstr "Systempraksis forhindrer endringer. Kontakt din systemadministrator."
 msgid "Drop all elevated privileges"
 msgstr "Fjern alle forhøyede rettigheter"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Klikk på ikonet for å fjerne alle forhøyede rettigheter"
 

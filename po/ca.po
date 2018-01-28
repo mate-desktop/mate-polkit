@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 13:38+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
@@ -155,7 +155,7 @@ msgstr "La política del sistema impedeix fer canvis. Contacteu amb l'administra
 msgid "Drop all elevated privileges"
 msgstr "Treu tots els privilegis elevats"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Feu clic a la icona per a treure tots els privilegis"
 

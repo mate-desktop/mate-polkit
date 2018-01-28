@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Adrian Guniš <andygun@seznam.cz>, 2008
-# Martin Kříž <liberte.czech@gmail.com>, 2015
+# LiberteCzech <liberte.czech@gmail.com>, 2015
 # Michal <sinope@seznam.cz>, 2014
 # Petr Kovar <pmkovar@gmail.com>, 2008, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 13:38+0000\n"
-"Last-Translator: Martin Kříž <liberte.czech@gmail.com>\n"
+"Last-Translator: LiberteCzech <liberte.czech@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/mate/MATE/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -157,7 +157,7 @@ msgstr "Systémová pravidla znemožňují provádění změn. Kontaktujte pros�
 msgid "Drop all elevated privileges"
 msgstr "Zruší všechna zvýšená oprávnění"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Kliknutím na ikonu zrušíte zvýšená oprávnění"
 

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 13:38+0000\n"
 "Last-Translator: Rockers <sumorock@hotmail.com>\n"
 "Language-Team: Thai (http://www.transifex.com/mate/MATE/language/th/)\n"
@@ -155,7 +155,7 @@ msgstr "นโยบายของระบบป้องกันการเ
 msgid "Drop all elevated privileges"
 msgstr "ยกเลิกสิทธิ์ที่ได้เพิ่มขึ้นมา"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "คลิกไอคอนเพื่อยกเลิกสิทธิ์ที่ได้เพิ่มขึ้นมา"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 13:38+0000\n"
 "Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/mate/MATE/language/de/)\n"
@@ -157,7 +157,7 @@ msgstr "Die Systemrichtlinien verhindern Änderungen. Bitte kontaktieren Sie Ihr
 msgid "Drop all elevated privileges"
 msgstr "Alle erhöhten Berechtigungen löschen"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Zum Verwerfen aller erhöhten Berechtigungen das Symbol anklicken"
 

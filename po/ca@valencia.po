@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 23:17+0000\n"
 "Last-Translator: Jose Alfredo Murcia Andrés <joamuran@gmail.com>\n"
-"Language-Team: Catalan (Valencian) (http://www.transifex.com/mate/MATE/language/ca@valencia/)\n"
+"Language-Team: Catalan (Valencian) (http://www.transifex.com/mate/MATE/language/ca%40valencia/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -154,7 +154,7 @@ msgstr "La política del sistema impedeix fer canvis. Contacteu amb l'administra
 msgid "Drop all elevated privileges"
 msgstr "Trau tots els privilegis elevats"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Feu clic a la icona per a traure tots els privilegis"
 

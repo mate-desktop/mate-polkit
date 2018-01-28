@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 15:12+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/mate/MATE/language/am/)\n"
@@ -154,7 +154,7 @@ msgstr "የ ስርአቱ አሰራር ለውጦች ይከለክላል: የ ስ�
 msgid "Drop all elevated privileges"
 msgstr "የ ተሰጠውን ቅድሚያ መጣያ"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "ይጫኑ በ ምልክት ላይ ድሚያ ለ መጣል"
 

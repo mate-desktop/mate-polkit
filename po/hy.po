@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 23:17+0000\n"
 "Last-Translator: Siranush <ss.m.95@mail.ru>\n"
 "Language-Team: Armenian (http://www.transifex.com/mate/MATE/language/hy/)\n"
@@ -154,7 +154,7 @@ msgstr "Համակարգային ապահովագրական վկայագիրը �
 msgid "Drop all elevated privileges"
 msgstr "Դադարեցնել բոլոր բարձրացված արտոնությունները"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Սեղմեք պատկերակը թողնել բոլոր բարձր արտոնությունները"
 

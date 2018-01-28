@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 13:38+0000\n"
 "Last-Translator: Marco Bartolucci <nap.84@live.it>\n"
 "Language-Team: Italian (http://www.transifex.com/mate/MATE/language/it/)\n"
@@ -157,7 +157,7 @@ msgstr "Le politiche del sistema impediscono le modifiche. Contattare l'amminist
 msgid "Drop all elevated privileges"
 msgstr "Ritira tutti i privilegi elevati"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Fare clic sull'icona per ritirare tutti i privilegi elevati"
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-19 23:17+0000\n"
 "Last-Translator: Horazone Detex <thmmt2017d@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/mate/MATE/language/vi/)\n"
@@ -154,7 +154,7 @@ msgstr "Chính sách hệ thống ngăn chặn thay đổi. Liên hệ admin c�
 msgid "Drop all elevated privileges"
 msgstr "Bỏ tất cả các đặc quyền cao cấp"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Bấm vào biểu tượng để bỏ tất cả các đặc quyền cao cấp"
 

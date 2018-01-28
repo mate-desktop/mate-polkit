@@ -3,14 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# chautari <chautari@gmail.com>, 2017
 # Sven Keeter <sven.keeter@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
-"PO-Revision-Date: 2017-09-19 23:17+0000\n"
-"Last-Translator: Sven Keeter <sven.keeter@gmail.com>\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
+"PO-Revision-Date: 2017-11-13 09:05+0000\n"
+"Last-Translator: chautari <chautari@gmail.com>\n"
 "Language-Team: Nepali (http://www.transifex.com/mate/MATE/language/ne/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: ../polkitgtkmate/polkitlockbutton.c:451
 msgid "Action Identifier"
-msgstr ""
+msgstr "कार्य पहिचायक"
 
 #: ../polkitgtkmate/polkitlockbutton.c:452
 msgid "The action identifier to use for the button"
@@ -154,13 +155,13 @@ msgstr ""
 msgid "Drop all elevated privileges"
 msgstr ""
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
-msgstr ""
+msgstr "प्रयोगकर्ता छान्नुहोस्..."
 
 #: ../src/polkitmateauthenticationdialog.c:310
 #, c-format

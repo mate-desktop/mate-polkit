@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
 "PO-Revision-Date: 2017-09-23 18:17+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/mate/MATE/language/nl/)\n"
@@ -156,7 +156,7 @@ msgstr "Systeembeleid belet veranderingen. Neem contact op met uw systeembeheerd
 msgid "Drop all elevated privileges"
 msgstr "Laat alle verhoogde rechten vervallen"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Klik op het pictogram om alle verhoogde rechten te laten vervallen"
 

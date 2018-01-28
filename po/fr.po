@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Étienne Deparis <etienne@depar.is>, 2017
 # Robert-André Mauchin <zebob.m@pengzone.org>, 2008
 # Tubuntu <tubuntu@testimonium.be>, 2014
 # yoplait <yoplait@tememe.org>, 2015
@@ -10,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
-"PO-Revision-Date: 2017-09-19 13:38+0000\n"
-"Last-Translator: yoplait <yoplait@tememe.org>\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
+"PO-Revision-Date: 2017-11-08 10:30+0000\n"
+"Last-Translator: Étienne Deparis <etienne@depar.is>\n"
 "Language-Team: French (http://www.transifex.com/mate/MATE/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -130,7 +131,7 @@ msgstr "L'infobulle à afficher à l'utilisateur lors de la demande de verrouill
 msgid ""
 "To prevent users without administrative privileges from making changes, "
 "click the lock."
-msgstr "Pour empêcher toute modification par des utilisateurs sans droits d'administration, cliquez sur le verrou."
+msgstr "Pour empêcher toute modification par des utilisateurs sans permissions administrateur, cliquez sur le verrou."
 
 #: ../polkitgtkmate/polkitlockbutton.c:619
 msgid ""
@@ -154,11 +155,11 @@ msgstr "Une politique système empêche les modifications. Contactez votre admin
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr "Abandonner tous les privilèges obtenus"
+msgstr "Abandonner toutes les permissions supplémentaires obtenues"
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Cliquez sur l'icône pour abandonner tous les privilèges obtenus"
+msgstr "Cliquez sur l'icône pour abandonner toutes les permissions supplémentaires obtenues"
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
@@ -177,19 +178,19 @@ msgstr "S'_authentifier"
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Une application tente d'effectuer une action qui nécessite des privilèges. Pour effectuer cette action, un utilisateur de la liste ci-dessous doit s'authentifier."
+msgstr "Une application tente d'effectuer une action qui nécessite des permissions supplémentaires. Pour effectuer cette action, l'authentification d'un des utilisateurs de la liste ci-dessous est nécessaire."
 
 #: ../src/polkitmateauthenticationdialog.c:708
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Une application tente d'effectuer une action qui nécessite des privilèges. Pour effectuer cette action, il est nécessaire de s'authentifier."
+msgstr "Une application tente d'effectuer une action qui nécessite des permissions supplémentaires. Pour effectuer cette action, une authentification est nécessaire."
 
 #: ../src/polkitmateauthenticationdialog.c:714
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Une application tente d'effectuer une action qui nécessite des privilèges. Pour effectuer cette action, l'utilisateur principal doit s'authentifier."
+msgstr "Une application tente d'effectuer une action qui nécessite des permissions supplémentaires. Pour effectuer cette action, l'authentification de l'utilisateur principal est nécessaire."
 
 #: ../src/polkitmateauthenticationdialog.c:753
 #: ../src/polkitmateauthenticator.c:301

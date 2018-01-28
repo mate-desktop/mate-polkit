@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-05-09 17:31+0200\n"
-"PO-Revision-Date: 2017-09-19 14:39+0000\n"
+"POT-Creation-Date: 2017-11-28 13:37+0100\n"
+"PO-Revision-Date: 2017-11-14 11:53+0000\n"
 "Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean (http://www.transifex.com/mate/MATE/language/ko/)\n"
 "MIME-Version: 1.0\n"
@@ -157,7 +157,7 @@ msgstr "시스템이 정책적으로 내용 바꾸기를 막았습니다. 시스
 msgid "Drop all elevated privileges"
 msgstr "상승된 모든 권한을 해제합니다."
 
-#: ../src/main.c:183
+#: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "아이콘을 클릭하여 모든 상승된 권한을 해제합니다."
 
