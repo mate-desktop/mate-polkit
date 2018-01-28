@@ -1,3 +1,9 @@
+### mate-polkit 1.20.0
+
+  * Translations update
+  * require GTK+ 3.22 and GLib 2.50
+  * drop polkitgtkmate library and its docs
+
 ### mate-polkit 1.19.0
 
   * Translations update
