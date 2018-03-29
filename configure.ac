@@ -146,10 +146,10 @@ AC_ARG_ENABLE([accountsservice],
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
 
 # Application indicator
-APPINDICATOR_PKG=appindicator3-0.1
+APPINDICATOR_PKG=ayatana-appindicator3-0.1
 
 AC_ARG_ENABLE([appindicator],
-	      AS_HELP_STRING([--enable-appindicator[=@<:@no/auto/yes@:>@]],[Build support for application indicators]),
+	      AS_HELP_STRING([--enable-appindicator[=@<:@no/auto/yes@:>@]],[Build support for Ayatana AppIndicators]),
 	      [enable_appindicator=$enableval],
 	      [enable_appindicator="auto"])
 
@@ -163,7 +163,7 @@ fi
 if test "x$enable_appindicator" = "xyes"; then
 	PKG_CHECK_MODULES(APPINDICATOR,
 			  [$APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED],
-			  [AC_DEFINE(HAVE_APPINDICATOR, 1, [Have AppIndicator])])
+			  [AC_DEFINE(HAVE_APPINDICATOR, 1, [Have Ayatana AppIndicator])])
 fi
 
 AM_CONDITIONAL(HAVE_APPINDICATOR, test "x$enable_appindicator" = "xyes")
@@ -214,6 +214,6 @@ echo "
         cppflags:                   ${CPPFLAGS}
 
         Accountsservice:            ${enable_accountsservice}
-        Application indicator:      ${enable_appindicator}
+        Ayatana AppIndicator:       ${enable_appindicator}
         Maintainer mode:            ${USE_MAINTAINER_MODE}
 "

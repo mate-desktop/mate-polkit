@@ -30,7 +30,7 @@
 #include <polkitagent/polkitagent.h>
 
 #ifdef HAVE_APPINDICATOR
-#include <libappindicator/app-indicator.h>
+#include <libayatana-appindicator/app-indicator.h>
 #endif
 
 #include "polkitmatelistener.h"
