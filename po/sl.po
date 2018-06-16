@@ -1,155 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Damir Jerovšek <jierro@windowslive.com>, 2013-2014
-# Matej Urbančič <mateju@svn.gnome.org>, 2010
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-23 18:17+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Slovenian (http://www.transifex.com/mate/MATE/language/sl/)\n"
+"POT-Creation-Date: 2018-03-17 14:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Helena S <ele@tutamail.com>, 2018\n"
+"Language-Team: Slovenian (https://www.transifex.com/mate/teams/13566/sl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sl\n"
 "Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
-
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "Določilo dejanja"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "Določilo dejanja za gumb"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "Je pooblaščeno"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "Ali je postopek overjen"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "Je vidno"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "Ali je gradnik viden"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "Je mogoče pridobiti"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "Ali je mogoče pridobiti pooblastilo"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "Odkleni besedilo"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "Besedilo, ki se izpiše ob pozivu za odklepanje."
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "Kliknite za spreminjanje"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "Odkleni orodne namige"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "Orodni namig, ki se izpiše ob pozivu za odklepanje."
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "Zahtevana je overitev za spreminjanje možnosti."
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "Zakleni besedilo"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "Besedilo, ki se izpiše ob pozivu za zaklepanje."
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "Kliknite za preprečitev spreminjanja"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "Zakleni orodne namige"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "Orodni namig, ki se izpiše ob pozivu za zaklepanje."
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "Za preprečitev nadaljnjih sprememb, kliknite na gumb za zaklepanje."
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "Zakleni besedilo"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "Besedilo opozorila uporabniku, da zaklene dejanje za vse uporabnike."
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "Kliknite za zaklepanje"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "Zakleni orodne namige"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "Orodni namig opozorila uporabniku, da zaklene dejanje za vse uporabnike."
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "Za preprečevanje spreminjanja uporabnikom brez ustreznih dovoljenj, kliknite gumb za zaklepanje."
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Besedilo za prikaz podatkov, kdaj uporabnik nima pooblastila za overitev."
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "Ni pooblastila za spreminjanje možnosti."
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Orodni namig za prikaz podatkov, kdaj uporabnik nima pooblastila za overitev."
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "Sistemska pravila preprečujejo spremembe. Stopite v stik s sistemskim skrbnikom."
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
@@ -168,57 +35,63 @@ msgstr "Izbor uporabnika ..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
+#: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
 msgstr "_Overi"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Program poskuša izvesti dejanje, ki zahteva posebna dovoljenja. Dejanje lahko odobrijo izpisani uporabniki."
+msgstr ""
+"Program poskuša izvesti dejanje, ki zahteva posebna dovoljenja. Dejanje "
+"lahko odobrijo izpisani uporabniki."
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Program poskuša izvesti dejanje, ki zahteva posebna dovoljenja. Za izvedbo dejanja je zahtevana overitev."
+msgstr ""
+"Program poskuša izvesti dejanje, ki zahteva posebna dovoljenja. Za izvedbo "
+"dejanja je zahtevana overitev."
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Program poskuša izvesti dejanje, ki zahteva posebna dovoljenja. Dejanje je mogoče izvesti le s skrbniškim dovoljenjem."
+msgstr ""
+"Program poskuša izvesti dejanje, ki zahteva posebna dovoljenja. Dejanje je "
+"mogoče izvesti le s skrbniškim dovoljenjem."
 
-#: ../src/polkitmateauthenticationdialog.c:753
+#: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Geslo:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Podrobnosti</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Dejanje:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
 msgstr "Kliknite za urejanje %s"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Ponudnik:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
 msgstr "Kliknite za odpiranje %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
 msgstr "Overi"
 
@@ -229,11 +102,11 @@ msgstr "_Geslo za %s:"
 
 #: ../src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr ""
+msgstr "Poskus overitve ni uspel. Poskusite ponovno."
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr ""
+msgstr "Overitveno pogovorno okno je bilo preklicano s strani uporabnika"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"

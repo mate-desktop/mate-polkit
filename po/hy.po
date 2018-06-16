@@ -1,154 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Siranush <ss.m.95@mail.ru>, 2015-2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-19 23:17+0000\n"
-"Last-Translator: Siranush <ss.m.95@mail.ru>\n"
-"Language-Team: Armenian (http://www.transifex.com/mate/MATE/language/hy/)\n"
+"POT-Creation-Date: 2018-03-17 14:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Siranush <ss.m.95@mail.ru>, 2018\n"
+"Language-Team: Armenian (https://www.transifex.com/mate/teams/13566/hy/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hy\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "Գործողության նույնացուցիչ"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "Տվյալ գործողության նույնականացման համար օգտագործել կոճակը"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "Լիազորված է"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "Արդյոք այդ գործընթացը լիազորված է"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "Տեսանելի է"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "Արդյոք այս սարքը տեսանելի է"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "Կարող են ձեռք բերել"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "Արդյոք կարող է ձեռք բերել թույլտվություն"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "Բացել տեքստը"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "Տեքստը ցուցադրել, երբ հուշում է  օգտատիրոջ ապաարգելափակումը։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "Սեղմեք փոփոխություններ կատարել"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "Բացել Tooltip"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "Գործիքահուշը ցույց տալ, երբ հուշում է օգտատիրոջ ապաարգելափակումը։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "Նույնականացման համար անհրաժեշտ է փոփոխություններ կատարել."
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "Արգելափակել Տեքստը"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "Տեքստը ցուցադրել, երբ հուշում է օգտատիրոջ արգելափակումը։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "Սեղմեք փոփոխություններ կանխել"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "Արգելապակել Գործիքահուշը"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "Գործիքահուշը ցույց տալ, երբ հուշում է օգտատիրոջ արգելափակումը։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "Հետագա փոփոխությունները կանխելու համար սեղմեք արգելափակել։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "Արգելափակել Ներքև Տեքստը"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "Տեքստը ցուցադրել, երբ հուշում է օգտատիրոջ հետ արգելափակման գործողությունը, բոլոր օգտագործողների համար։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "Սեղմեք արգելափակել ներքև"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "Արգելափակել Ներքև Գործիքահուշ"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "Գործիքահուշը ցուցադրել, երբ հուշում է օգտատիրոջ հետ արգելափակման գործողությունը, բոլոր օգտագործողների համար։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "Կանխարգելել առանց ադմինիստրատիվ օգտագործողներին կատարել փոփոխություններ, սեղմեք արգելափակել։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Տեքստը ցույց տալ, երբ օգտագործողը չի կարող ձեռք բերել թույլտվություն իսկության հաստատման միջոցով։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "Կատարել չլիազորված փոփոխություններ "
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Գործիքահուշը ցույց տալ, երբ օգտագործողը չի կարող ձեռք բերել թույլտվություն իսկության հաստատման միջոցով։"
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "Համակարգային ապահովագրական վկայագիրը կանխում է փոփոխությունները: Կապվեք ձեր համակարգի ադմինիստրատորին։"
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
@@ -167,57 +35,65 @@ msgstr "Ընտրել օգտվողին..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
+#: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
 msgstr "_Վավերացնել"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Դիմումը փորձում է կատարել որևէ գործողություն, որը պահանջում արտոնություններ։ Նույնականացումը որպես օգտվողներից մեկը պահանջվում ներքևում այս գործողությունը կատարել։"
+msgstr ""
+"Դիմումը փորձում է կատարել որևէ գործողություն, որը պահանջում արտոնություններ։"
+" Նույնականացումը որպես օգտվողներից մեկը պահանջվում ներքևում այս "
+"գործողությունը կատարել։"
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Դիմումը փորձում է կատարել որևէ գործողություն, որը պահանջում արտոնություններ։ Նույնականացումը պահանջվում է կատարել այս գործողությունը։"
+msgstr ""
+"Դիմումը փորձում է կատարել որևէ գործողություն, որը պահանջում արտոնություններ։"
+" Նույնականացումը պահանջվում է կատարել այս գործողությունը։"
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Դիմումը փորձում է կատարել որևէ գործողություն, որը պահանջում արտոնություններ։ Նույնականացումը որպես գեր օգտագործող պահանջվում է կատարել այս գործողությունը։"
+msgstr ""
+"Դիմումը փորձում է կատարել որևէ գործողություն, որը պահանջում արտոնություններ։"
+" Նույնականացումը որպես գեր օգտագործող պահանջվում է կատարել այս "
+"գործողությունը։"
 
-#: ../src/polkitmateauthenticationdialog.c:753
+#: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Գաղտնաբառ"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Մանրամասն</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Գործողություն:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
 msgstr "Սեղմեք խմբագրել %s"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Վաճառող:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
 msgstr "Սեղմեք բացել %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
 msgstr "Վավերացնել"
 

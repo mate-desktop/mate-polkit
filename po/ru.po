@@ -1,160 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# Alexander <alex.grushetskiy@gmail.com>, 2014
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2012-2013
-# Alexei Sorokin <sor.alexei@meowr.ru>, 2014
-# AlexL <loginov.alex.valer@gmail.com>, 2015
-# Den Arefyev <>, 2012
-# Leonid Kanter <leon@asplinux.ru>, 2008
-# Дмитрий Михирев, 2016
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-23 18:17+0000\n"
-"Last-Translator: Дмитрий Михирев\n"
-"Language-Team: Russian (http://www.transifex.com/mate/MATE/language/ru/)\n"
+"POT-Creation-Date: 2018-03-17 14:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: AlexL <loginov.alex.valer@gmail.com>, 2018\n"
+"Language-Team: Russian (https://www.transifex.com/mate/teams/13566/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
-
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "Идентификатор действия"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "Идентификатор действия, используемый для кнопки"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "Авторизирован"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "Будет ли процесс авторизирован"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "Видно"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "Будет ли виджет видимым"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "Может получить"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "Может ли авторизация быть получена"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "Разблокировать текст"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "Текст, показываемый при запросе пользователя о разблокировке."
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "Разблокировать"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "Подсказка"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "Подсказка, показываемая при запросе пользователя о разблокировке."
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "Для внесения изменений нужно разблокировать."
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "Заблокировать текст"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "Текст, показываемый при запросе пользователя о блокировке."
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "Нажмите для предотвращения изменений"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "Заблокировать подсказку"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "Подсказка, показываемая при запросе пользователя о блокировке."
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "Нажмите на блокировку для предотвращения будущих изменений."
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "Текст блокирования"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "Текст, показываемый при запросе пользователя о блокировке действия для всех пользователей."
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "Нажмите для блокирования"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "Подсказка блокирования"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "Подсказка, показываемая при запросе пользователя о блокировке действия для всех пользователей."
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "Нажмите на блокировку для предотвращения создания изменений пользователями без административных привилегий."
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Подсказка, показываемая, когда пользователь не может получить авторизацию через аутентификацию."
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "Не авторизирован для изменения."
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Подсказка, показываемая, когда пользователь не может получить авторизацию через аутентификацию."
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "Системная политика предотвращает изменения. Свяжитесь с вашим системным администратором."
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
@@ -173,57 +35,65 @@ msgstr "Выберите пользователя..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
+#: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
 msgstr "_Аутентификация"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Приложение пытается выполнить действие, которое требует дополнительных привилегий. Для выполнения этого действия необходима аутентификация под именем одного из перечисленных ниже пользователей."
+msgstr ""
+"Приложение пытается выполнить действие, которое требует дополнительных "
+"привилегий. Для выполнения этого действия необходима аутентификация под "
+"именем одного из перечисленных ниже пользователей."
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Приложение пытается выполнить действие, которое требует дополнительных привилегий. Для выполнения этого действия требуется аутентификация."
+msgstr ""
+"Приложение пытается выполнить действие, которое требует дополнительных "
+"привилегий. Для выполнения этого действия требуется аутентификация."
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Приложение пытается выполнить действие, которое требует дополнительных привилегий. Для выполнения этого действия необходима аутентификация пользователя root."
+msgstr ""
+"Приложение пытается выполнить действие, которое требует дополнительных "
+"привилегий. Для выполнения этого действия необходима аутентификация "
+"пользователя root."
 
-#: ../src/polkitmateauthenticationdialog.c:753
+#: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Пароль:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Сведения</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Действие:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
 msgstr "Нажмите, чтобы изменить %s"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Поставщик:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
 msgstr "Нажмите, чтобы открыть %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
 msgstr "Аутентификация"
 

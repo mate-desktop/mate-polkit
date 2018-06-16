@@ -1,153 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-19 14:13+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Latvian (http://www.transifex.com/mate/MATE/language/lv/)\n"
+"POT-Creation-Date: 2018-03-17 14:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Klāvs Priedītis <klavs.pr@gmail.com>, 2018\n"
+"Language-Team: Latvian (https://www.transifex.com/mate/teams/13566/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: lv\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
-
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "Darbības Identifikators"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "Darbības identifikators, kuru izmantot pogai"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "Ir Autorizēts"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "Vai process ir autorizēts"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "Ir Redzams"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "Vai logrīks ir redzams"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "Var Iegūt"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "Vai autorizāciju var iegūt"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "Atbloķēt Tekstu"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "Teksts, kuru parādīt, kad lietotāju aicina atbloķēt."
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "Nospiest, lai veiktu izmaiņas"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "Atbloķēt Rīkgalu"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "Rīkgals, kuru parādīt, kad vaicā lietotājam atbloķēt."
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "Lai veiktu izmaiņas ir jāautentificējas."
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "Bloķēt Tekstu"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "Teksts, kuru parādīt, kad vaicā lietotāju atbloķēt."
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "Nospiest, lai nevērstu izmaiņas"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "Nobloķēt Rīkgalu"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "Rīkgals, kuru parādīt, kad lietotāju aicina bloķēt."
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "Lai novērstu tālākas izmaiņas, nospiediet slēdzeni."
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "Nobloķēt Tekstu"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "Teksts, kuru parādīt, kad aicina lietotāju bloķēt darbību visiem lietotājiem."
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "Nospiest, lai bloķētu"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "Bloķēšanas Rīkgals"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "Rīkgals, kuru parādīt, kad aicina lietotāju bloķēt darbību visiem lietotājiem."
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "Lai liegtu lietotājam, bez administratīvajām tiesībām, veikt izmaiņas, nospiediet slēdzeni."
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Teksts, kuru parādīt, kad lietotājs autentificējoties nevar iegūt autorizāciju."
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "Nav autorizēts, lai veiktu izmaiņas"
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Rīkgals, kuru parādīt, kad lietotājs autentificējoties nevar iegūt autorizāciju."
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "Sistēmas politika liedz veikt izmaiņas. Sazinieties ar jūsu sistēmas administratoru."
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
@@ -166,57 +35,64 @@ msgstr "Izvēlieties lietotāju..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
+#: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
 msgstr "_Autentificēt"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Aplikācija cenšas veikt darbības, kuras pieprasa privilēģijas. Lai veiktu šo darbību ir nepieciešams autentificēties ar kādu no sekojošajiem lietotājiem."
+msgstr ""
+"Aplikācija cenšas veikt darbības, kuras pieprasa privilēģijas. Lai veiktu šo"
+" darbību ir nepieciešams autentificēties ar kādu no sekojošajiem "
+"lietotājiem."
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Aplikācija cenšas veikt darbības, kuras pieprasa privilēģijas. Lai veiktu darbību, ir nepieciešama autentifikācija."
+msgstr ""
+"Aplikācija cenšas veikt darbības, kuras pieprasa privilēģijas. Lai veiktu "
+"darbību, ir nepieciešama autentifikācija."
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Aplikācija cenšas veikt darbības, kuras pieprasa privilēģijas. Lai veiktu šo darbību, ir nepieciešama super lietotāja autentifikācija."
+msgstr ""
+"Aplikācija cenšas veikt darbības, kuras pieprasa privilēģijas. Lai veiktu šo"
+" darbību, ir nepieciešama super lietotāja autentifikācija."
 
-#: ../src/polkitmateauthenticationdialog.c:753
+#: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Parole:"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detaļas</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Darbība:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
 msgstr "Nospied, lai labotu %s"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Pārdevējs:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
 msgstr "Nospied, lai atvērtu %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
 msgstr "Apliecināt"
 

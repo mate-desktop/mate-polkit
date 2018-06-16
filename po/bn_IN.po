@@ -1,154 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# runab <runab@redhat.com>, 2010
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-19 13:38+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Bengali (India) (http://www.transifex.com/mate/MATE/language/bn_IN/)\n"
+"POT-Creation-Date: 2018-03-17 14:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: Bengali (India) (https://www.transifex.com/mate/teams/13566/bn_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: bn_IN\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "কর্ম চিহ্নকারী"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "এই বাটনের জন্য ব্যবহৃত কর্ম চিহ্নকারী"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "অনুমোদিত"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "প্রসেসটি অনুমোদিত কি না"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "দৃশ্যমান"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "উইজেটটি দৃশ্যমান কি না"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "প্রাপ্তি সম্ভব"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "অনুমোদন প্রাপ্ত করা সম্ভব কি না"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "আন-লকের টেক্সট"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "ব্যবহারকারীকে আন-লক করার অনুরোধ জানিয়ে প্রদর্শিত টেক্সট।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "পরিবর্তনের জন্য ক্লিক"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "আন-লক টুল-টিপ"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "ব্যবহারকারীকে আন-লক করার অনুরোধ জানিয়ে প্রদর্শিত টুল-টিপ।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "পরিবর্তন করার জন্য অনুমোদন প্রয়োজন।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "লক টেক্সট"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "ব্যবহারকারীকে লক করার অনুরোধ জানিয়ে প্রদর্শিত টেক্সট।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "পরিবর্তন প্রতিরোধের ক্লিক"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "লক টুল-টিপ"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "ব্যবহারকারীকে লক করার অনুরোধ জানিয়ে প্রদর্শিত টুল-টিপ।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "অতিরিক্ত পরিবর্তন প্রতিরোধ করার জন্য লকের উপর ক্লিক করুন।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "লক-ডাউন টেক্সট"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "ব্যবহারকারীকে, সকল ব্যবহারকারীদের জন্য কর্ম লক-ডাউন করার অনুরোধ জানিয়ে প্রদর্শিত টেক্সট।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "লক-ডাউনের জন্য ক্লিক"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "লক-ডাউন টুলটিপ"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "ব্যবহারকারীকে, সকল ব্যবহারকারীদের জন্য কর্ম লক-ডাউন করার অনুরোধ জানিয়ে প্রদর্শিত টুলটিপ।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "প্রশাসনিক অধিকারবিহীন ব্যবহারকারীদেরকে কোনো ধরনের পরিবর্তন করতে প্রতিরোধ করার জন্য লকের উপর ক্লিক করুন।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "অনুমোদন ব্যবস্থার মাধ্যমে ব্যবহারকারী অনুমোদন প্রাপ্ত করতে সক্ষম না হলে প্রদর্শিত টেক্সট।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "পরিবর্তন করতে অনুমোদিত নয়"
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "অনুমোদন ব্যবস্থার মাধ্যমে ব্যবহারকারী অনুমোদন প্রাপ্ত করতে সক্ষম না হলে প্রদর্শিত টুল-টিপ।"
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "সিস্টেমের নিয়মনীতির ফলে পরিবর্তন প্রতিরোধ করা হবে। আপনার সিস্টেম অ্যাডমিনিস্ট্রেটরের সাথে যোগাযোগ করুন।"
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
@@ -167,57 +35,65 @@ msgstr "ব্যবহারকারী নির্বাচন করুন.
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
+#: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
 msgstr "অনুমোদন (_A)"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "একটি অ্যাপ্লিকেশন দ্বারা, অতিরিক্ত অধিকার সহযোগে সঞ্চালনযোগ্য কর্ম চালানর প্রচেষ্টা করা হচ্ছে। এই কর্ম সঞ্চালনার জন্য নিম্নলিখিত কোনো একজন ব্যবহারকারীর পরিচয় সহযোগে অনুমোদিত হওয়া আবশ্যক।"
+msgstr ""
+"একটি অ্যাপ্লিকেশন দ্বারা, অতিরিক্ত অধিকার সহযোগে সঞ্চালনযোগ্য কর্ম চালানর "
+"প্রচেষ্টা করা হচ্ছে। এই কর্ম সঞ্চালনার জন্য নিম্নলিখিত কোনো একজন "
+"ব্যবহারকারীর পরিচয় সহযোগে অনুমোদিত হওয়া আবশ্যক।"
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "একটি অ্যাপ্লিকেশন দ্বারা, অতিরিক্ত অধিকার সহযোগে সঞ্চালনযোগ্য কর্ম চালানর প্রচেষ্টা করা হচ্ছে। এই কর্ম সঞ্চালনার জন্য অনুমোদিত হওয়া আবশ্যক।"
+msgstr ""
+"একটি অ্যাপ্লিকেশন দ্বারা, অতিরিক্ত অধিকার সহযোগে সঞ্চালনযোগ্য কর্ম চালানর "
+"প্রচেষ্টা করা হচ্ছে। এই কর্ম সঞ্চালনার জন্য অনুমোদিত হওয়া আবশ্যক।"
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "একটি অ্যাপ্লিকেশন দ্বারা, অতিরিক্ত অধিকার সহযোগে সঞ্চালনযোগ্য কর্ম চালানর প্রচেষ্টা করা হচ্ছে। এই কর্ম সঞ্চালনার জন্য সুপার-ইউজারের পরিচয় সহযোগে অনুমোদিত হওয়া আবশ্যক।"
+msgstr ""
+"একটি অ্যাপ্লিকেশন দ্বারা, অতিরিক্ত অধিকার সহযোগে সঞ্চালনযোগ্য কর্ম চালানর "
+"প্রচেষ্টা করা হচ্ছে। এই কর্ম সঞ্চালনার জন্য সুপার-ইউজারের পরিচয় সহযোগে "
+"অনুমোদিত হওয়া আবশ্যক।"
 
-#: ../src/polkitmateauthenticationdialog.c:753
+#: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "পাসওয়ার্ড: (_P)"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>বিবরণ (_D)</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>কর্ম:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
 msgstr "%s সম্পাদনার জন্য ক্লিক করুন"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>বিক্রেতা:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
 msgstr "%s খোলার জন্য ক্লিক করুন"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
 msgstr "অনুমোদন"
 

@@ -1,155 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
-# Translators:
-# sandeeps <sshedmak@redhat.com>, 2010
-# Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2014
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-19 13:38+0000\n"
-"Last-Translator: Vlad Orlov <monsta@inbox.ru>\n"
-"Language-Team: Marathi (http://www.transifex.com/mate/MATE/language/mr/)\n"
+"POT-Creation-Date: 2018-03-17 14:53+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Vaibhav S Dalvi <vaibhav.dlv@gmail.com>, 2018\n"
+"Language-Team: Marathi (https://www.transifex.com/mate/teams/13566/mr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: mr\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "ऍक्शन आयडेंटिफायर"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "बटनकरीता वापरण्याजोगी ऍक्शन आयडेंटिफायर"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "ओळखीचे आहे"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "पद्धत ओळखीचे आहे का"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "दृष्यास्पद आहे"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "विजेट दृष्यास्पद आहे का"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "प्राप्त करणे शक्य आहे"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "ओळख पटवणे प्राप्त करणे शक्य आहे का"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "मजकूर कुलूपबंद अशक्य करा"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "कुलूपबंद अशक्य करण्यासाठी वापरकर्त्याला विचारतेवेळी दाखवण्याजोगी मजकूर."
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "बदल करण्यासाठी क्लिक करा"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "टूलटिप कुलूपबंद अशक्य करा"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "कुलूपबंद अशक्य करण्यासाठी वापरकर्त्याला विचारतेवेळी दाखवण्याजोगी टूलटिप."
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "बदल करण्यासाठी ओळख पटवणे आवश्यक आहे."
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "कुलूपबंद मजकूर"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "कुलूपबंद शक्य करण्यासाठी वापरकर्त्याला विचारतेवेळी दाखवण्याजोगी मजकूर."
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "बदल टाळण्यासाठी क्लिक करा"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "कुलूपबंद टूलटिप"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "कुलूपबंद शक्य करण्यासाठी वापरकर्त्याला विचारतेवेळी दाखवण्याजोगी टूलटिप."
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "पुढील बदल टाळण्यासाठी, कुलूपबंद करा क्लिक करा."
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "मजकूर कुलूपबंद करा"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "सर्व वापरकर्त्यांकरीता कृती कुलूपबंद शक्य करण्यासाठी वापरकर्त्याला विचारतेवेळी दाखवण्याजोगी मजकूर."
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "कुलूपबंद करण्यासाठी क्लिक करा"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "कुलूपबंद करा टूलटिप"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "सर्व वापरकर्त्यांकरीता कृती कुलूपबंद शक्य करण्यासाठी वापरकर्त्याला विचारतेवेळी दाखवण्याजोगी टूलटिप."
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "विना प्रशासकीय परवानगी असणाऱ्या वापरकर्त्यांना बदल करण्यापासून रोखण्यासाठी, कुलूपबंद करा क्लिक करा."
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "ओळख पटवतेवेळी वापरकर्ता अधिकृत परवानगी प्राप्त करण्यास अपयशी ठरल्यास दाखवण्याजोगी मजकूर."
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "बदल करण्यासाठी अधिकृत परवानगी नाही"
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "ओळख पटवतेवेळी वापरकर्ता अधिकृत परवानगी प्राप्त करण्यास अपयशी ठरल्यास दाखवण्याजोगी टूलटिप."
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "प्रणाली करार बदल रोखतो. प्रणाली प्रशासकाशी संपर्क करा."
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
@@ -168,57 +35,64 @@ msgstr "वापरकर्ता बदला..."
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
+#: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
 msgstr "ओळख पटवा (_A)"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. ही कृती कार्यान्वीत करण्यासाठी खालील वापरकर्ता पैकी ओळख पटवणे आवश्यक आहे."
+msgstr ""
+"ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. "
+"ही कृती कार्यान्वीत करण्यासाठी खालील वापरकर्ता पैकी ओळख पटवणे आवश्यक आहे."
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. ही कृती कार्यान्वीत करण्यासाठी ओळख पटवणे आवश्यक आहे."
+msgstr ""
+"ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. "
+"ही कृती कार्यान्वीत करण्यासाठी ओळख पटवणे आवश्यक आहे."
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. ही कृती कार्यान्वीत करण्यासाठी सर्वोत्तम वापरकर्ता म्हणून ओळख पटवणे आवश्यक आहे."
+msgstr ""
+"ऍप्लिकेशन परवानगी आवश्यक असणारी कृती कार्यान्वीत करण्याचा प्रयत्न करत आहे. "
+"ही कृती कार्यान्वीत करण्यासाठी सर्वोत्तम वापरकर्ता म्हणून ओळख पटवणे आवश्यक "
+"आहे."
 
-#: ../src/polkitmateauthenticationdialog.c:753
+#: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
-msgstr "पासवर्ड (_P):"
+msgstr "परवलीचा शब्द (_P):"
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>तपशील (_D)</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>कृती:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
 msgstr "%s संपादीत करण्यासाठी क्लिक करा"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>विक्रेता:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
 msgstr "%s उघडण्यासाठी बटन दाबा"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
 msgstr "ओळख पटवा"
 
