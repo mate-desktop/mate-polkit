@@ -1,3 +1,8 @@
+### mate-polkit 1.20.2
+
+  * Translations update
+  * disable deprecation warnings for distcheck
+
 ### mate-polkit 1.20.1
 
   * Translations update
