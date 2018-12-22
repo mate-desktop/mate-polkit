@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-17 14:53+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-03-11 20:31+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +28,7 @@ msgstr "Treu tots els privilegis elevats"
 
 #: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Feu clic a la icona per a treure tots els privilegis"
+msgstr "Feu clic a la icona per treure tots els privilegis elevats"
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
@@ -104,8 +108,7 @@ msgstr "_Contrasenya per a %s:"
 #: ../src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
-"El vostre intent d'autenticació no va tenir èxit. Si us plau, torneu-ho a "
-"intentar."
+"El vostre intent d'autenticació no va tenir èxit. Torneu-ho a intentar."
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"

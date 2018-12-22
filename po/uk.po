@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Микола Ткач <znadibnyk@gmail.com>, 2018
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-17 14:53+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-03-11 20:31+0000\n"
 "Last-Translator: Микола Ткач <znadibnyk@gmail.com>, 2018\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
@@ -67,7 +71,7 @@ msgstr ""
 #: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
-msgstr "_Потайслово:"
+msgstr "_Пароль:"
 
 #. Details
 #: ../src/polkitmateauthenticationdialog.c:761
@@ -107,7 +111,7 @@ msgstr "Ваша спроба розпізнання невдала. Будь л
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr "Діялоґ розпізнання був відкинутий користувачем"
+msgstr "Діалог розпізнання був відкинутий користувачем"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"

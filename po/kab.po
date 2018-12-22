@@ -4,9 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2018
-# Alan Lee <bkrhlim@aol.com>, 2018
-# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2018
+# Slimane AMIRI, 2018
 # 
 #, fuzzy
 msgid ""
@@ -15,25 +13,25 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-03-17 14:53+0100\n"
 "PO-Revision-Date: 2018-03-11 20:31+0000\n"
-"Last-Translator: 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2018\n"
-"Language-Team: Korean (https://www.transifex.com/mate/teams/13566/ko/)\n"
+"Last-Translator: Slimane AMIRI, 2018\n"
+"Language-Team: Kabyle (https://www.transifex.com/mate/teams/13566/kab/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: kab\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr "상승된 모든 권한을 해제합니다."
+msgstr ""
 
 #: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "아이콘을 클릭하여 모든 상승된 권한을 해제합니다."
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
-msgstr "사용자를 선택하십시오."
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
@@ -42,75 +40,75 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
-msgstr "인증(_A)"
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "프로그램에서 실행하려는 작동은 권한이 필요합니다.  아래의 사용자로 인증하여 이를 수행하세요."
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "프로그램에서 실행하려는 작동은 권한이 필요합니다.  인증하여 이를 수행하세요."
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "프로그램에서 권한이 필요한 동작을 수행하려 합니다. 이 동작을 수행하려면 최고 권한 사용자의 인증이 필요합니다."
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
-msgstr "암호(_P):"
+msgstr "_Awal uffir:"
 
 #. Details
 #: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
-msgstr "<small><b>자세히(_D)</b></small>"
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
-msgstr "<small><b>동작:</b></small>"
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
-msgstr "%s을(를) 편집하려면 누르십시오"
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
-msgstr "<small><b>제조자:</b></small>"
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
-msgstr "%s을(를) 열려면 누르십시오"
+msgstr ""
 
 #: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
-msgstr "인증"
+msgstr ""
 
 #: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
-msgstr "%s의 암호(_P):"
+msgstr ""
 
 #: ../src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr "인증 시도에 실패했습니다. 다시 해보세요."
+msgstr ""
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr "인증 대화 창이 사용자에 의해 해제되었습니다"
+msgstr ""
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "PolicyKit 인증 에이전트"
+msgstr ""
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr "마테 데스크톱용 정책키트 인증 에이전트"
+msgstr ""
