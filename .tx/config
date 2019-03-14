@@ -1,7 +1,7 @@
 [main]
 host = https://www.transifex.com
  
-[MATE.master--mate-polkit]
+[MATE.1-22--mate-polkit]
 file_filter = po/<lang>.po
 source_file = po/mate-polkit.pot
 source_lang = en
