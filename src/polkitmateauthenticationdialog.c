@@ -644,11 +644,11 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   have_user_combobox = FALSE;
 
   dialog->priv->cancel_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-                                                            GTK_STOCK_CANCEL,
-                                                            GTK_RESPONSE_CANCEL);
+                                                       _("_Cancel"),
+                                                       GTK_RESPONSE_CANCEL);
   dialog->priv->auth_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-                                                          _("_Authenticate"),
-                                                          GTK_RESPONSE_OK);
+                                                     _("_Authenticate"),
+                                                     GTK_RESPONSE_OK);
   gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_OK);
 
   content_area = gtk_dialog_get_content_area (GTK_DIALOG (dialog));
