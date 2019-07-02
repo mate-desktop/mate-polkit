@@ -66,7 +66,7 @@ struct _PolkitMateAuthenticationDialogPrivate
   GtkListStore *store;
 };
 
-G_DEFINE_TYPE (PolkitMateAuthenticationDialog, polkit_mate_authentication_dialog, GTK_TYPE_DIALOG);
+G_DEFINE_TYPE_WITH_PRIVATE (PolkitMateAuthenticationDialog, polkit_mate_authentication_dialog, GTK_TYPE_DIALOG);
 
 enum {
   PROP_0,
@@ -587,9 +587,7 @@ out:
 static void
 polkit_mate_authentication_dialog_init (PolkitMateAuthenticationDialog *dialog)
 {
-  dialog->priv = G_TYPE_INSTANCE_GET_PRIVATE (dialog,
-                                                   POLKIT_MATE_TYPE_AUTHENTICATION_DIALOG,
-                                                   PolkitMateAuthenticationDialogPrivate);
+  dialog->priv = polkit_mate_authentication_dialog_get_instance_private (dialog);
 }
 
 static void
@@ -881,8 +879,6 @@ static void
 polkit_mate_authentication_dialog_class_init (PolkitMateAuthenticationDialogClass *klass)
 {
   GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
-
-  g_type_class_add_private (klass, sizeof (PolkitMateAuthenticationDialogPrivate));
 
   gobject_class->finalize = polkit_mate_authentication_dialog_finalize;
   gobject_class->get_property = polkit_mate_authentication_dialog_get_property;
