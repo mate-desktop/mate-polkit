@@ -98,7 +98,7 @@ typedef struct
   PolkitMateListener *listener;
   PolkitMateAuthenticator *authenticator;
 
-  GSimpleAsyncResult *simple;
+  GTask        *task;
   GCancellable *cancellable;
 
   gulong cancel_id;
@@ -107,7 +107,7 @@ typedef struct
 static AuthData *
 auth_data_new (PolkitMateListener *listener,
                PolkitMateAuthenticator *authenticator,
-               GSimpleAsyncResult *simple,
+               GTask *task,
                GCancellable *cancellable)
 {
   AuthData *data;
@@ -115,7 +115,7 @@ auth_data_new (PolkitMateListener *listener,
   data = g_new0 (AuthData, 1);
   data->listener = g_object_ref (listener);
   data->authenticator = g_object_ref (authenticator);
-  data->simple = g_object_ref (simple);
+  data->task = g_object_ref (task);
   data->cancellable = g_object_ref (cancellable);
   return data;
 }
@@ -125,7 +125,7 @@ auth_data_free (AuthData *data)
 {
   g_object_unref (data->listener);
   g_object_unref (data->authenticator);
-  g_object_unref (data->simple);
+  g_object_unref (data->task);
   if (data->cancellable != NULL && data->cancel_id > 0)
     g_signal_handler_disconnect (data->cancellable, data->cancel_id);
   g_object_unref (data->cancellable);
@@ -158,14 +158,14 @@ authenticator_completed (PolkitMateAuthenticator *authenticator,
 
   if (dismissed)
     {
-      g_simple_async_result_set_error (data->simple,
-                                       POLKIT_ERROR,
-                                       POLKIT_ERROR_CANCELLED,
-                                       _("Authentication dialog was dismissed by the user"));
+      g_task_return_new_error (data->task,
+                               POLKIT_ERROR,
+                               POLKIT_ERROR_CANCELLED,
+                               _("Authentication dialog was dismissed by the user"));
     }
 
-  g_simple_async_result_complete (data->simple);
-  g_object_unref (data->simple);
+  g_task_return_boolean (data->task, TRUE);
+  g_object_unref (data->task);
 
   maybe_initiate_next_authenticator (data->listener);
 
@@ -194,14 +194,16 @@ polkit_mate_listener_initiate_authentication (PolkitAgentListener  *agent_listen
                                                gpointer              user_data)
 {
   PolkitMateListener *listener = POLKIT_MATE_LISTENER (agent_listener);
-  GSimpleAsyncResult *simple;
+  GTask *task;
   PolkitMateAuthenticator *authenticator;
   AuthData *data;
 
-  simple = g_simple_async_result_new (G_OBJECT (listener),
-                                      callback,
-                                      user_data,
-                                      polkit_mate_listener_initiate_authentication);
+  task = g_task_new (G_OBJECT (listener),
+                     NULL,
+                     callback,
+                     user_data);
+  g_task_set_source_tag (task,
+                         polkit_mate_listener_initiate_authentication);
 
   authenticator = polkit_mate_authenticator_new (action_id,
                                                   message,
@@ -211,15 +213,15 @@ polkit_mate_listener_initiate_authentication (PolkitAgentListener  *agent_listen
                                                   identities);
   if (authenticator == NULL)
     {
-      g_simple_async_result_set_error (simple,
-                                       POLKIT_ERROR,
-                                       POLKIT_ERROR_FAILED,
-                                       "Error creating authentication object");
-      g_simple_async_result_complete (simple);
+      g_task_return_new_error (task,
+                               POLKIT_ERROR,
+                               POLKIT_ERROR_FAILED,
+                               "Error creating authentication object");
+      g_object_unref (task);
       goto out;
     }
 
-  data = auth_data_new (listener, authenticator, simple, cancellable);
+  data = auth_data_new (listener, authenticator, task, cancellable);
 
   g_signal_connect (authenticator,
                     "completed",
@@ -247,12 +249,13 @@ polkit_mate_listener_initiate_authentication_finish (PolkitAgentListener  *liste
                                                       GAsyncResult         *res,
                                                       GError              **error)
 {
-  GSimpleAsyncResult *simple = G_SIMPLE_ASYNC_RESULT (res);
+  GTask *task = G_TASK (res);
 
-  g_warn_if_fail (g_simple_async_result_get_source_tag (simple) == polkit_mate_listener_initiate_authentication);
+  g_warn_if_fail (g_task_get_source_tag (task) == polkit_mate_listener_initiate_authentication);
 
-  if (g_simple_async_result_propagate_error (simple, error))
+  if (g_task_propagate_pointer (task, error) == NULL) {
     return FALSE;
+  }
 
   return TRUE;
 }
