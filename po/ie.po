@@ -4,9 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Indrit Bashkimi <indrit.bashkimi@gmail.com>, 2018
-# Ardit Dani <ardit.dani@gmail.com>, 2019
+# Ольга Смирнова, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,25 +13,25 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 19:34+0100\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: Ardit Dani <ardit.dani@gmail.com>, 2019\n"
-"Language-Team: Albanian (https://www.transifex.com/mate/teams/13566/sq/)\n"
+"Last-Translator: Ольга Смирнова, 2019\n"
+"Language-Team: Interlingue (https://www.transifex.com/mate/teams/13566/ie/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sq\n"
+"Language: ie\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr "Hidhni të gjitha privilegjet e ngritura"
+msgstr "Dechargear omni privilegies elevat"
 
 #: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Klikoni ikonën për të hequr të gjitha privilegjet e ngritura"
+msgstr "Fa un clic por renunciar omni privilegies elevat"
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
-msgstr "Zgjidhni përdoruesin..."
+msgstr "Selecter un usator..."
 
 #: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
@@ -42,83 +40,81 @@ msgstr "%s (%s)"
 
 #: ../src/polkitmateauthenticationdialog.c:650
 msgid "_Authenticate"
-msgstr "_Autentikimi"
+msgstr "_Autenticar"
 
 #: ../src/polkitmateauthenticationdialog.c:693
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr ""
-"Një aplikacion po përpiqet të kryejë një veprim që kërkon privilegje. "
-"Vërtetim si një nga përdoruesit më poshtë kërkohet për të kryer këtë veprim."
+"Un application pena far un action que besona privilegies. Un autentication "
+"quam un del usatores a infra es besonat por far ti action."
 
 #: ../src/polkitmateauthenticationdialog.c:701
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr ""
-"Një aplikacion po përpiqet të kryejë një veprim që kërkon privilegje. "
-"Vërtetim kërkohet për të kryer këtë veprim."
+"Un application pena far un action que besona privilegies. Un autentication "
+"es besonat por far ti action."
 
 #: ../src/polkitmateauthenticationdialog.c:707
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr ""
-"Një aplikacion po përpiqet të kryejë një veprim që kërkon privilegje. "
-"Vërtetim si përdorues super kërkohet për të kryer këtë veprim."
+"Un application pena far un action que besona privilegies. Un autentication "
+"quam li superusator es besonat por far ti action."
 
 #: ../src/polkitmateauthenticationdialog.c:743
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
-msgstr "_Fjalëkalimi:"
+msgstr "_Contrasigne:"
 
 #. Details
 #: ../src/polkitmateauthenticationdialog.c:761
 msgid "<small><b>_Details</b></small>"
-msgstr "<small><b>_Detaje</b></small>"
+msgstr "<small><b>_Detallies</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:819
 msgid "<small><b>Action:</b></small>"
-msgstr "<small><b>Veprim:</b></small>"
+msgstr "<small><b>Action:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
-msgstr "Kliko për redaktim %s"
+msgstr "Fa un clic por modificar %s"
 
 #: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
-msgstr "<small><b>Shitës:</b></small>"
+msgstr "<small><b>Venditor:</b></small>"
 
 #: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
-msgstr "Kliko për hapje %s"
+msgstr "Fa un clic por aperter %s"
 
 #: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
-msgstr "Autentikuar"
+msgstr "Autenticar"
 
 #: ../src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
-msgstr "_Fjalëkalimi për %s:"
+msgstr "_Contrasigne por %s:"
 
 #: ../src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr ""
-"Përpjekja juaj për vërtetim nuk ishte e suksesshme. Ju lutemi provoni "
-"përsëri."
+msgstr "Vor pena autenticar se ne successat. Ples repenar denov."
 
 #: ../src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr "Dialogu i vërtetimit u hodh poshtë nga përdoruesi"
+msgstr "Dialog de autentication esset anullat per li usator"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
 msgid "PolicyKit Authentication Agent"
-msgstr "Agjenti Vërtetimit Politikës"
+msgstr "Agente de autentication PolicyKit"
 
 #: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
-msgstr "Agjenti Vërtetimit Politikës për MATE Desktop"
+msgstr "Agente de autentication PolicyKit por ambientie MATE"

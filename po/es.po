@@ -7,6 +7,7 @@
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Lluís Tusquellas <lutusq@gmail.com>, 2018
 # Andres Sanchez <blackatze93@gmail.com>, 2018
+# Toni Estévez <toni.estevez@gmail.com>, 2019
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-12-21 19:34+0100\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: Andres Sanchez <blackatze93@gmail.com>, 2018\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>, 2019\n"
 "Language-Team: Spanish (https://www.transifex.com/mate/teams/13566/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,15 +26,15 @@ msgstr ""
 
 #: ../src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr "Quitar todos los privilegios elevados"
+msgstr "Eliminar todos los privilegios elevados"
 
 #: ../src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Pulse el icono para dejar todos los privilegios elevados"
+msgstr "Haga clic en el icono para dejar todos los privilegios elevados"
 
 #: ../src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
-msgstr "Seleccione usuario…"
+msgstr "Seleccione el usuario…"
 
 #: ../src/polkitmateauthenticationdialog.c:310
 #, c-format
@@ -87,7 +88,7 @@ msgstr "<small><b>Acción:</b></small>"
 #: ../src/polkitmateauthenticationdialog.c:822
 #, c-format
 msgid "Click to edit %s"
-msgstr "Pulse para editar %s"
+msgstr "Haga clic para editar %s"
 
 #: ../src/polkitmateauthenticationdialog.c:839
 msgid "<small><b>Vendor:</b></small>"
@@ -96,7 +97,7 @@ msgstr "<small><b>Proveedor:</b></small>"
 #: ../src/polkitmateauthenticationdialog.c:841
 #, c-format
 msgid "Click to open %s"
-msgstr "Pulse para abrir %s"
+msgstr "Haga clic para abrir %s"
 
 #: ../src/polkitmateauthenticationdialog.c:1001
 msgid "Authenticate"
