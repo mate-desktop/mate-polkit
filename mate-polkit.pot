@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 19:34+0100\n"
+"POT-Creation-Date: 2019-07-07 22:13+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,57 +34,61 @@ msgstr ""
 msgid "%s (%s)"
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:650
+#: ../src/polkitmateauthenticationdialog.c:664
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/polkitmateauthenticationdialog.c:669
 msgid "_Authenticate"
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:693
+#: ../src/polkitmateauthenticationdialog.c:710
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:701
+#: ../src/polkitmateauthenticationdialog.c:718
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:707
+#: ../src/polkitmateauthenticationdialog.c:724
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:743
+#: ../src/polkitmateauthenticationdialog.c:760
 #: ../src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr ""
 
 #. Details
-#: ../src/polkitmateauthenticationdialog.c:761
+#: ../src/polkitmateauthenticationdialog.c:778
 msgid "<small><b>_Details</b></small>"
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:819
+#: ../src/polkitmateauthenticationdialog.c:836
 msgid "<small><b>Action:</b></small>"
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:822
+#: ../src/polkitmateauthenticationdialog.c:839
 #, c-format
 msgid "Click to edit %s"
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:839
+#: ../src/polkitmateauthenticationdialog.c:856
 msgid "<small><b>Vendor:</b></small>"
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:841
+#: ../src/polkitmateauthenticationdialog.c:858
 #, c-format
 msgid "Click to open %s"
 msgstr ""
 
-#: ../src/polkitmateauthenticationdialog.c:1001
+#: ../src/polkitmateauthenticationdialog.c:1016
 msgid "Authenticate"
 msgstr ""
 
