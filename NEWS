@@ -1,3 +1,14 @@
+### mate-polkit 1.23.0
+
+  * Translations update
+  * Migrate from GSimpleAsyncResult to GTask
+  * [ci] Add cppcheck html report
+  * drop deprecated gtk_dialog_get_action_area
+  * Avoid deprecated g_type_class_add_private
+  * polkitmateauthenticationdialog: avoid GtkStock
+  * Change url project's website
+  * [ci] Enable Clang Static Analyzer
+
 ### mate-polkit 1.22.0
 
   * Translations update
