@@ -34,6 +34,7 @@ polkit_mate_authentication_agent_1_CFLAGS = 		\
 	$(POLKIT_AGENT_CFLAGS)				\
 	$(POLKIT_GOBJECT_CFLAGS)			\
 	$(APPINDICATOR_CFLAGS)				\
+	$(MATE_DESKTOP_CFLAGS)				\
 	$(WARN_CFLAGS)					\
 	$(AM_CFLAGS)
 
@@ -46,6 +47,7 @@ polkit_mate_authentication_agent_1_LDADD = 		\
 	$(POLKIT_AGENT_LIBS)				\
 	$(POLKIT_GOBJECT_LIBS)				\
 	$(APPINDICATOR_LIBS)				\
+	$(MATE_DESKTOP_LIBS)				\
 	$(INTLLIBS)
 
 EXTRA_DIST = \

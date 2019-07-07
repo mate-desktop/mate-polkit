@@ -37,6 +37,7 @@
 #include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
 
+#include <libmate-desktop/mate-gtkstock-replacement.h>
 #include "polkitmateauthenticationdialog.h"
 
 #define RESPONSE_USER_SELECTED 1001
@@ -617,26 +618,6 @@ polkit_mate_authentication_dialog_finalize (GObject *object)
     G_OBJECT_CLASS (polkit_mate_authentication_dialog_parent_class)->finalize (object);
 }
 
-static GtkWidget*
-polkit_mate_dialog_add_button (GtkDialog   *dialog,
-                               const gchar *button_text,
-                               const gchar *icon_name,
-                                     gint   response_id)
-{
-  GtkWidget *button;
-
-  button = gtk_button_new_with_mnemonic (button_text);
-  gtk_button_set_image (GTK_BUTTON (button), gtk_image_new_from_icon_name (icon_name, GTK_ICON_SIZE_BUTTON));
-
-  gtk_button_set_use_underline (GTK_BUTTON (button), TRUE);
-  gtk_style_context_add_class (gtk_widget_get_style_context (button), "text-button");
-  gtk_widget_set_can_default (button, TRUE);
-  gtk_widget_show (button);
-  gtk_dialog_add_action_widget (GTK_DIALOG (dialog), button, response_id);
-
-  return button;
-}
-
 static void
 polkit_mate_authentication_dialog_constructed (GObject *object)
 {
@@ -663,10 +644,10 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
 
   have_user_combobox = FALSE;
 
-  dialog->priv->cancel_button = polkit_mate_dialog_add_button (GTK_DIALOG (dialog),
-                                                               _("_Cancel"),
-                                                               "process-stop",
-                                                               GTK_RESPONSE_CANCEL);
+  dialog->priv->cancel_button = mate_dialog_add_button (GTK_DIALOG (dialog),
+                                                        _("_Cancel"),
+                                                        "process-stop",
+                                                        GTK_RESPONSE_CANCEL);
 
   dialog->priv->auth_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
                                                      _("_Authenticate"),
