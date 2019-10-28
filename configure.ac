@@ -173,12 +173,12 @@ AC_SUBST(APPINDICATOR_LIBS)
 # ********************
 # Internationalisation
 # ********************
-
-IT_PROG_INTLTOOL([0.35.0])
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT_REQUIRE_VERSION([0.19.8])
+AM_GNU_GETTEXT([external])
 
 GETTEXT_PACKAGE=mate-polkit
 AC_SUBST([GETTEXT_PACKAGE])
-AM_GLIB_GNU_GETTEXT
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["$GETTEXT_PACKAGE"],[gettext domain])
 
 # *************************************
