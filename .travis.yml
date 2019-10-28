@@ -77,6 +77,7 @@ requires:
   debian:
     # Useful URL: https://github.com/mate-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-mate-team/mate-polkit
+    - autopoint
     - clang
     - clang-tools
     - cppcheck
@@ -104,6 +105,7 @@ requires:
     - redhat-rpm-config
 
   ubuntu:
+    - autopoint
     - clang
     - clang-tools
     - git
@@ -131,12 +133,6 @@ variables:
     -enable-checker alpha.unix.cstring.OutOfBounds
     -enable-checker alpha.core.FixedAddr
     -enable-checker security.insecureAPI.strcpy"'
-
-before_scripts:
-  - if [ ${DISTRO_NAME} == "debian" ];then
-  -     curl -Ls -o debian.sh https://github.com/mate-desktop/mate-dev-scripts/raw/master/travis/debian.sh
-  -     bash ./debian.sh
-  - fi
 
 build_scripts:
   - ./autogen.sh
