@@ -1,6 +1,6 @@
 [Desktop Entry]
-_Name=PolicyKit Authentication Agent
-_Comment=PolicyKit Authentication Agent for the MATE Desktop
+Name=PolicyKit Authentication Agent
+Comment=PolicyKit Authentication Agent for the MATE Desktop
 Exec=@FULL_LIBEXECDIR@/polkit-mate-authentication-agent-1
 Terminal=false
 Type=Application

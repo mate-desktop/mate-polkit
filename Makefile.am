@@ -1,4 +1,4 @@
-SUBDIRS = src po
+SUBDIRS = po src
 
 DISTCHECK_CONFIGURE_FLAGS = \
 	CFLAGS='-Wno-deprecated-declarations'
