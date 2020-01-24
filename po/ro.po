@@ -1,22 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-polkit package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # corneliu.e <corneliueva@yahoo.com>, 2018
-# Daniel <danny3@tutanota.com>, 2018
 # sidro <slacky2005@gmail.com>, 2018
+# Daniel <danny3@tutanota.com>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 19:34+0100\n"
+"Project-Id-Version: mate-polkit 1.23.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2019-11-07 09:47+0100\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: sidro <slacky2005@gmail.com>, 2018\n"
+"Last-Translator: Daniel <danny3@tutanota.com>, 2019\n"
 "Language-Team: Romanian (https://www.transifex.com/mate/teams/13566/ro/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,28 +23,32 @@ msgstr ""
 "Language: ro\n"
 "Plural-Forms: nplurals=3; plural=(n==1?0:(((n%100>19)||((n%100==0)&&(n!=0)))?2:1));\n"
 
-#: ../src/main.c:163
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Revocă privilegiile administrative"
 
-#: ../src/main.c:187
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Clic pe pictogramă pentru a renunța la toate privilegiile ridicate"
 
-#: ../src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "Alegere utilizator..."
 
-#: ../src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:650
+#: src/polkitmateauthenticationdialog.c:664
+msgid "_Cancel"
+msgstr "_Renunță"
+
+#: src/polkitmateauthenticationdialog.c:669
 msgid "_Authenticate"
 msgstr "_Autentifică"
 
-#: ../src/polkitmateauthenticationdialog.c:693
+#: src/polkitmateauthenticationdialog.c:710
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -54,7 +57,7 @@ msgstr ""
 " efectua această acțiune este necesară autentificarea ca unul din "
 "utilizatorii de mai jos."
 
-#: ../src/polkitmateauthenticationdialog.c:701
+#: src/polkitmateauthenticationdialog.c:718
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -62,7 +65,7 @@ msgstr ""
 "O aplicație încearcă să efectueze o acțiune ce necesită privilegii. Pentru a"
 " efectua această acțiune este necesară autentificarea."
 
-#: ../src/polkitmateauthenticationdialog.c:707
+#: src/polkitmateauthenticationdialog.c:724
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -70,55 +73,53 @@ msgstr ""
 "O aplicație încearcă să efectueze o acțiune ce necesită privilegii. Pentru a"
 " efectua această acțiune este necesară autentificarea ca administrator."
 
-#: ../src/polkitmateauthenticationdialog.c:743
-#: ../src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:760 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Parolă:"
 
-#. Details
-#: ../src/polkitmateauthenticationdialog.c:761
+#: src/polkitmateauthenticationdialog.c:778
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detalii</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:819
+#: src/polkitmateauthenticationdialog.c:836
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Acțiune:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:822
+#: src/polkitmateauthenticationdialog.c:839
 #, c-format
 msgid "Click to edit %s"
 msgstr "Clic pentru a edita %s"
 
-#: ../src/polkitmateauthenticationdialog.c:839
+#: src/polkitmateauthenticationdialog.c:856
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Producător:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:841
+#: src/polkitmateauthenticationdialog.c:858
 #, c-format
 msgid "Click to open %s"
 msgstr "Clic pentru a deschide %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1001
+#: src/polkitmateauthenticationdialog.c:1016
 msgid "Authenticate"
 msgstr "Autentifică"
 
-#: ../src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Parolă pentru %s:"
 
-#: ../src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr "Încercarea de autentificare a eșuat. Încearcă din nou."
 
-#: ../src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Fereastra pentru autentificare a fost închisă de utilizator"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:3
 msgid "PolicyKit Authentication Agent"
 msgstr "Agent de autentificare PolicyKit"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:4
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
 msgstr "Agent de autentificare PolicyKit"

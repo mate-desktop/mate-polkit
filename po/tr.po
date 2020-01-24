@@ -1,21 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-polkit package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # tarakbumba <tarakbumba@gmail.com>, 2018
-# mauron, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# mauron, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 19:34+0100\n"
+"Project-Id-Version: mate-polkit 1.23.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2019-11-07 09:47+0100\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Last-Translator: mauron, 2019\n"
 "Language-Team: Turkish (https://www.transifex.com/mate/teams/13566/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,28 +22,32 @@ msgstr ""
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: ../src/main.c:163
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Tüm yüksek yetkilerden vazgeç"
 
-#: ../src/main.c:187
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Tüm yüksek yetkilerden vazgeçmek için ikonu tıklayın "
 
-#: ../src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "Kullanıcı seç..."
 
-#: ../src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:650
+#: src/polkitmateauthenticationdialog.c:664
+msgid "_Cancel"
+msgstr "_Vazgeç"
+
+#: src/polkitmateauthenticationdialog.c:669
 msgid "_Authenticate"
 msgstr "Kimlik _Doğrula"
 
-#: ../src/polkitmateauthenticationdialog.c:693
+#: src/polkitmateauthenticationdialog.c:710
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -53,7 +56,7 @@ msgstr ""
 " eylemin gerçekleştirilmesi için aşağıdaki kullanıcılardan biri olarak "
 "kimlik doğrulaması gereklidir."
 
-#: ../src/polkitmateauthenticationdialog.c:701
+#: src/polkitmateauthenticationdialog.c:718
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -61,7 +64,7 @@ msgstr ""
 "Bir uygulama yetki gerektiren bir eylem gerçekleştirmeye teşebbüs ediyor. Bu"
 " eylemin gerçekleştirilmesi için kimlik doğrulaması gereklidir."
 
-#: ../src/polkitmateauthenticationdialog.c:707
+#: src/polkitmateauthenticationdialog.c:724
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -70,55 +73,53 @@ msgstr ""
 " eylemin gerçekleştirilmesi için yönetici (super user) olarak kimlik "
 "doğrulaması gereklidir."
 
-#: ../src/polkitmateauthenticationdialog.c:743
-#: ../src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:760 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Parola:"
 
-#. Details
-#: ../src/polkitmateauthenticationdialog.c:761
+#: src/polkitmateauthenticationdialog.c:778
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detaylar</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:819
+#: src/polkitmateauthenticationdialog.c:836
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Faaliyet:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:822
+#: src/polkitmateauthenticationdialog.c:839
 #, c-format
 msgid "Click to edit %s"
 msgstr "%s unsurunu düzenlemek için tıklayın"
 
-#: ../src/polkitmateauthenticationdialog.c:839
+#: src/polkitmateauthenticationdialog.c:856
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Satıcı:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:841
+#: src/polkitmateauthenticationdialog.c:858
 #, c-format
 msgid "Click to open %s"
 msgstr "%s unsurunu açmak için tıklayın"
 
-#: ../src/polkitmateauthenticationdialog.c:1001
+#: src/polkitmateauthenticationdialog.c:1016
 msgid "Authenticate"
 msgstr "Kimlik Doğrula"
 
-#: ../src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "%s için _parola:"
 
-#: ../src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr "Kimlik doğrulama teşebbüssünüz başarısız oldu. Lütfen tekrar deneyin."
 
-#: ../src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Kimlik doğrulama diyaloğu kullanıcı tarafından kapatıldı"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:3
 msgid "PolicyKit Authentication Agent"
 msgstr "PolicyKit Kimlik Doğrulama Aracı"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:4
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
 msgstr "MATE Masaüstü için PolicyKit Kimlik Doğrulama Aracı"

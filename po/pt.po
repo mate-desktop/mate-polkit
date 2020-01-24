@@ -1,6 +1,6 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-polkit package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
@@ -8,15 +8,15 @@
 # Carlos Moreira, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Manuela Silva <manuelarodsilva@gmail.com>, 2018
+# José Vieira <jvieira33@sapo.pt>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-21 19:34+0100\n"
+"Project-Id-Version: mate-polkit 1.23.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2019-11-07 09:47+0100\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: Manuela Silva <manuelarodsilva@gmail.com>, 2018\n"
+"Last-Translator: José Vieira <jvieira33@sapo.pt>, 2019\n"
 "Language-Team: Portuguese (https://www.transifex.com/mate/teams/13566/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,28 +24,32 @@ msgstr ""
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../src/main.c:163
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Retirar todos os privilégios concedidos"
 
-#: ../src/main.c:187
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Clique no ícone para retirar todos os privilégios concedidos"
 
-#: ../src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
 msgstr "Escolha o utilizador..."
 
-#: ../src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:650
+#: src/polkitmateauthenticationdialog.c:664
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: src/polkitmateauthenticationdialog.c:669
 msgid "_Authenticate"
 msgstr "_Autenticar"
 
-#: ../src/polkitmateauthenticationdialog.c:693
+#: src/polkitmateauthenticationdialog.c:710
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -54,7 +58,7 @@ msgstr ""
 "necessária uma autenticação como um dos utilizadores para executar esta "
 "ação."
 
-#: ../src/polkitmateauthenticationdialog.c:701
+#: src/polkitmateauthenticationdialog.c:718
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -62,7 +66,7 @@ msgstr ""
 "Uma aplicação está a tentar executar uma ação que requer privilégios. É "
 "necessária autenticação para executar esta ação."
 
-#: ../src/polkitmateauthenticationdialog.c:707
+#: src/polkitmateauthenticationdialog.c:724
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -70,57 +74,55 @@ msgstr ""
 "Uma aplicação está a tentar executar uma ação que requer privilégios. É "
 "necessária autenticação como superutilizador para executar esta ação."
 
-#: ../src/polkitmateauthenticationdialog.c:743
-#: ../src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:760 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Senha:"
 
-#. Details
-#: ../src/polkitmateauthenticationdialog.c:761
+#: src/polkitmateauthenticationdialog.c:778
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detalhes</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:819
+#: src/polkitmateauthenticationdialog.c:836
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Ação:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:822
+#: src/polkitmateauthenticationdialog.c:839
 #, c-format
 msgid "Click to edit %s"
 msgstr "Clique para editar %s"
 
-#: ../src/polkitmateauthenticationdialog.c:839
+#: src/polkitmateauthenticationdialog.c:856
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Fornecedor:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:841
+#: src/polkitmateauthenticationdialog.c:858
 #, c-format
 msgid "Click to open %s"
 msgstr "Clique para abrir %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1001
+#: src/polkitmateauthenticationdialog.c:1016
 msgid "Authenticate"
 msgstr "Autenticar"
 
-#: ../src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Senha para %s:"
 
-#: ../src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
 "A tentativa de autenticação não foi bem sucedida. Por favor, tente "
 "novamente."
 
-#: ../src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "A janela de autenticação foi rejeitada pelo utilziador"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:3
 msgid "PolicyKit Authentication Agent"
 msgstr "Agente de Autenticação PolicyKit"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:4
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
 msgstr "Agente de Autenticação PolicyKit do Ambiente MATE"
