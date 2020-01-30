@@ -21,6 +21,13 @@ AC_SUBST(LT_CURRENT)
 AC_SUBST(LT_REVISION)
 AC_SUBST(LT_AGE)
 
+# *****
+# MATE
+# *****
+
+MATE_DEBUG_CHECK
+MATE_COMPILE_WARNINGS([maximum])
+
 AC_PROG_CC
 AC_HEADER_STDC
 
@@ -107,13 +114,6 @@ else
     AC_MSG_ERROR([--enable-gcov can only be used with gcc])
   fi
 fi
-
-# *****
-# MATE
-# *****
-
-MATE_DEBUG_CHECK
-MATE_COMPILE_WARNINGS([maximum])
 
 # ***************************
 # Check for required packages
