@@ -178,6 +178,7 @@ echo "
         compiler:                   ${CC}
         cflags:                     ${CFLAGS}
         cppflags:                   ${CPPFLAGS}
+        Warning flags:              ${WARN_CFLAGS}
 
         Accountsservice:            ${enable_accountsservice}
         Application indicator:      ${enable_appindicator}
