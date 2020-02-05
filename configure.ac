@@ -39,40 +39,6 @@ LT_INIT
 
 if test "x$GCC" = "xyes"; then
   changequote(,)dnl
-  case " $CFLAGS " in
-  *[\ \	]-Wall[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wall" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wchar-subscripts[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wchar-subscripts" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wmissing-declarations[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wmissing-declarations" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wnested-externs[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wnested-externs" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wpointer-arith[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wpointer-arith" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wcast-align[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wcast-align" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wsign-compare[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wsign-compare" ;;
-  esac
 
   if test "x$enable_ansi" = "xyes"; then
     case " $CFLAGS " in
