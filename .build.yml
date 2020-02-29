@@ -8,6 +8,7 @@ requires:
     - gcc
     - git
     - gtk3
+    - intltool
     - libappindicator-gtk3
     - make
     - mate-common
