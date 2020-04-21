@@ -1,6 +1,7 @@
 SUBDIRS = po src
 
 DISTCHECK_CONFIGURE_FLAGS = \
+	--enable-compile-warnings=no \
 	CFLAGS='-Wno-deprecated-declarations'
 
 EXTRA_DIST = \
