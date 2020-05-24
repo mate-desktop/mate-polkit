@@ -55,3 +55,5 @@ EXTRA_DIST = \
 
 clean-local :
 	rm -f *~ polkit-mate-authentication-agent-1.desktop polkit-mate-authentication-agent-1.desktop.in
+
+-include $(top_srcdir)/git.mk
