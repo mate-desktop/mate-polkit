@@ -43,6 +43,6 @@ deploy:
 
 env:
 #  - DISTRO="archlinux:latest"
-  - DISTRO="debian:testing"
+#  - DISTRO="debian:testing"
   - DISTRO="fedora:latest"
   - DISTRO="ubuntu:rolling"
