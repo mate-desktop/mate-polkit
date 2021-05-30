@@ -1,3 +1,10 @@
+### mate-polkit 1.25.0
+
+  * Translations update
+  * Remove USE_MATE2_MACROS from autogen.sh (legacy)
+  * add git.mk to generate .gitignore
+  * build: silent build warnings for distcheck
+
 ### mate-polkit 1.24.0
 
   * build: show warning flags on configure summary
