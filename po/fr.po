@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Tubuntu <tubuntu@testimonium.be>, 2018
+# Tubuntu, 2018
 # Étienne Deparis <etienne@depar.is>, 2018
 # yoplait <yoplait@tememe.org>, 2018
 # Charles Monzat <c.monzat@laposte.net>, 2019

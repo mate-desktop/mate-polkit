@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Wylmer Wang, 2018
+# e0c668032ced196bd60f2b6a070d982d_8f72ae0, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Mingye Wang <arthur200126@gmail.com>, 2018
 # Wolfgang Ulbrich <mate@raveit.de>, 2019

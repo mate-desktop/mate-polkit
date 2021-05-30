@@ -6,7 +6,7 @@
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Patrik Nilsson <asavartzeth@gmail.com>, 2018
-# Daniel Gullbransen <daniel@llama.nu>, 2018
+# Daniel Gullbransen, 2018
 # Tobias Lekare <lekare@linux.com>, 2019
 # 
 msgid ""

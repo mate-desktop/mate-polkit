@@ -4,8 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # בר בוכובזה <bokovzabox@gmail.com>, 2018
-# Stefano Karapetsas <stefano@karapetsas.com>, 2019
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
+# shy tzedaka <shaytzedaka123@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -13,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2019-11-07 09:47+0100\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
+"Last-Translator: shy tzedaka <shaytzedaka123@gmail.com>, 2020\n"
 "Language-Team: Hebrew (https://www.transifex.com/mate/teams/13566/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -27,7 +29,7 @@ msgstr "מחק את כל ההרשאות הגבוהות."
 
 #: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "לחץ על הסמליל על מנת למחוק את כל ההרשאות הגבוהות"
+msgstr "יש ללחוץ על הסמל כדי למחוק את כל ההרשאות הגבוהות"
 
 #: src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
@@ -40,7 +42,7 @@ msgstr "%s (%s)"
 
 #: src/polkitmateauthenticationdialog.c:664
 msgid "_Cancel"
-msgstr "_בטל"
+msgstr "_ביטול"
 
 #: src/polkitmateauthenticationdialog.c:669
 msgid "_Authenticate"
@@ -71,7 +73,7 @@ msgstr ""
 
 #: src/polkitmateauthenticationdialog.c:760 src/polkitmateauthenticator.c:301
 msgid "_Password:"
-msgstr "ססמה:"
+msgstr "סיסמה:"
 
 #: src/polkitmateauthenticationdialog.c:778
 msgid "<small><b>_Details</b></small>"

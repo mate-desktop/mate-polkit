@@ -5,7 +5,8 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Микола Ткач <chistomov@gmail.com>, 2019
+# Юрій Яновський <lytvyn349@ukr.net>, 2020
+# Микола Ткач <chistomov@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2019-11-07 09:47+0100\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2019\n"
+"Last-Translator: Микола Ткач <chistomov@gmail.com>, 2021\n"
 "Language-Team: Ukrainian (https://www.transifex.com/mate/teams/13566/uk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,15 +24,15 @@ msgstr ""
 
 #: src/main.c:163
 msgid "Drop all elevated privileges"
-msgstr "Скинути усі підвищені привілеї"
+msgstr "Скинути всі підвищені привілеї"
 
 #: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Клацніть на піктограмі для скидання усіх підвищених привілеїв"
+msgstr "Кнапайте на піктограмі, щоб скинути всі підвищені привілеї"
 
 #: src/polkitmateauthenticationdialog.c:275
 msgid "Select user..."
-msgstr "Виберіть користувача..."
+msgstr "Оберіть користувача..."
 
 #: src/polkitmateauthenticationdialog.c:310
 #, c-format
@@ -44,7 +45,7 @@ msgstr "_Скасувати"
 
 #: src/polkitmateauthenticationdialog.c:669
 msgid "_Authenticate"
-msgstr "_Розпізнання"
+msgstr "_Розпізнати"
 
 #: src/polkitmateauthenticationdialog.c:710
 msgid ""
@@ -52,8 +53,8 @@ msgid ""
 "Authentication as one of the users below is required to perform this action."
 msgstr ""
 "Програма намагається виконати дію, яка потребує додаткових привілеїв. Для "
-"виконання цієї дії потрібне розпізнання від імени одного з перелічених нижче"
-" користувачів."
+"виконання цієї дії потрібне розпізнання від ймення одного з перелічених "
+"нижче користувачів."
 
 #: src/polkitmateauthenticationdialog.c:718
 msgid ""
@@ -99,7 +100,7 @@ msgstr "Натисніть, щоб відкрити %s"
 
 #: src/polkitmateauthenticationdialog.c:1016
 msgid "Authenticate"
-msgstr "Розпізання"
+msgstr "Розпізнати"
 
 #: src/polkitmateauthenticator.c:297
 #, c-format
@@ -108,11 +109,11 @@ msgstr "_Пароль користувача %s:"
 
 #: src/polkitmateauthenticator.c:458
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr "Ваша спроба розпізнання невдала. Будь ласка, спробуйте ще раз."
+msgstr "Ваша спроба розпізнання не вдалася. Будь ласка, спробуйте ще раз."
 
 #: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
-msgstr "Діялоґ розпізнання був відкинутий користувачем"
+msgstr "Діалогове вікно розпізнання було відхилено користувачем"
 
 #: src/polkit-mate-authentication-agent-1.desktop.in.in:3
 msgid "PolicyKit Authentication Agent"
