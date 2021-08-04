@@ -8,9 +8,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.23.0\n"
+"Project-Id-Version: mate-polkit 1.25.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2019-11-07 09:47+0100\n"
+"POT-Creation-Date: 2021-06-22 14:04+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Kannada (https://www.transifex.com/mate/teams/13566/kn/)\n"
@@ -20,32 +20,32 @@ msgstr ""
 "Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/main.c:163
+#: src/main.c:164
 msgid "Drop all elevated privileges"
 msgstr ""
 
-#: src/main.c:187
+#: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
 msgstr "ಎಲ್ಲಾ ಉನ್ನತ ಅಧಿಕಾರಗಳನ್ನು ತೆಗೆದು ಹಾಕಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:276
 msgid "Select user..."
 msgstr "ಬಳಕೆದಾರನನ್ನು ಆಯ್ಕೆ ಮಾಡಿ..."
 
-#: src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:311
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:664
+#: src/polkitmateauthenticationdialog.c:665
 msgid "_Cancel"
 msgstr "ರದ್ದು ಮಾಡಲಾಗಿದೆ(_C)"
 
-#: src/polkitmateauthenticationdialog.c:669
+#: src/polkitmateauthenticationdialog.c:670
 msgid "_Authenticate"
 msgstr "ದೃಢೀಕರಿಸು(_A)"
 
-#: src/polkitmateauthenticationdialog.c:710
+#: src/polkitmateauthenticationdialog.c:711
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -54,7 +54,7 @@ msgstr ""
 " ಈ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಈ ಕೆಳಗಿನ ಬಳಕೆದಾರರಲ್ಲಿ ಒಬ್ಬರಾಗಿ ದೃಢೀಕರಿಸುವ "
 "ಅಗತ್ಯವಿರುತ್ತದೆ."
 
-#: src/polkitmateauthenticationdialog.c:718
+#: src/polkitmateauthenticationdialog.c:719
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -62,7 +62,7 @@ msgstr ""
 "ಒಂದು ಅನ್ವಯವು ಅಧಿಕಾರದ ಅಗತ್ಯವಿರುವ ಒಂದು ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದೆ."
 " ಈ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ದೃಢೀಕರಣದ ಅಗತ್ಯವಿರುತ್ತದೆ."
 
-#: src/polkitmateauthenticationdialog.c:724
+#: src/polkitmateauthenticationdialog.c:725
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -70,46 +70,46 @@ msgstr ""
 "ಒಂದು ಅನ್ವಯವು ಅಧಿಕಾರದ ಅಗತ್ಯವಿರುವ ಒಂದು ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತಿದೆ."
 " ಈ ಕಾರ್ಯವನ್ನು ನಿರ್ವಹಿಸಲು ಸೂಪರ್ ಯೂಸರ್ ಆಗಿ ದೃಢೀಕರಿಸುವ ಅಗತ್ಯವಿರುತ್ತದೆ."
 
-#: src/polkitmateauthenticationdialog.c:760 src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
 msgid "_Password:"
 msgstr "ಗುಪ್ತಪದ(_P):"
 
-#: src/polkitmateauthenticationdialog.c:778
+#: src/polkitmateauthenticationdialog.c:779
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>ವಿವರಗಳು(_D)</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:836
+#: src/polkitmateauthenticationdialog.c:837
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>ಕ್ರಿಯೆ:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:839
+#: src/polkitmateauthenticationdialog.c:840
 #, c-format
 msgid "Click to edit %s"
 msgstr "%s ಅನ್ನು ಸಂಪಾದಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: src/polkitmateauthenticationdialog.c:856
+#: src/polkitmateauthenticationdialog.c:857
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>ಮಾರಾಟಗಾರ:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:858
+#: src/polkitmateauthenticationdialog.c:859
 #, c-format
 msgid "Click to open %s"
 msgstr "%s ಅನ್ನು ತೆರೆಯಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: src/polkitmateauthenticationdialog.c:1016
+#: src/polkitmateauthenticationdialog.c:1017
 msgid "Authenticate"
 msgstr "ದೃಢೀಕರಿಸಿ"
 
-#: src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:298
 #, c-format
 msgid "_Password for %s:"
 msgstr "%s ಗಾಗಿನ ಗುಪ್ತಪದ(_P):"
 
-#: src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:459
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
 
-#: src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:165
 msgid "Authentication dialog was dismissed by the user"
 msgstr ""
 

@@ -8,9 +8,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.23.0\n"
+"Project-Id-Version: mate-polkit 1.25.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2019-11-07 09:47+0100\n"
+"POT-Creation-Date: 2021-06-22 14:04+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Horazone Detex <thmmt2017d@gmail.com>, 2019\n"
 "Language-Team: Vietnamese (https://www.transifex.com/mate/teams/13566/vi/)\n"
@@ -20,32 +20,32 @@ msgstr ""
 "Language: vi\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: src/main.c:163
+#: src/main.c:164
 msgid "Drop all elevated privileges"
 msgstr "Bỏ tất cả các đặc quyền cao cấp"
 
-#: src/main.c:187
+#: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Bấm vào biểu tượng để bỏ tất cả các đặc quyền cao cấp"
 
-#: src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:276
 msgid "Select user..."
 msgstr "Chọn người dùng..."
 
-#: src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:311
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:664
+#: src/polkitmateauthenticationdialog.c:665
 msgid "_Cancel"
 msgstr "Th_ôi"
 
-#: src/polkitmateauthenticationdialog.c:669
+#: src/polkitmateauthenticationdialog.c:670
 msgid "_Authenticate"
 msgstr "_Xác thực"
 
-#: src/polkitmateauthenticationdialog.c:710
+#: src/polkitmateauthenticationdialog.c:711
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -54,7 +54,7 @@ msgstr ""
 " một trong các người dùng phía dưới là được yêu cầu để thực hiện hành động "
 "này. "
 
-#: src/polkitmateauthenticationdialog.c:718
+#: src/polkitmateauthenticationdialog.c:719
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -62,7 +62,7 @@ msgstr ""
 "Một ứng dụng đang cố gắng thực hiện một hành động cần đặc quyền. Xác thực là"
 " cần thiết để thực hiện hành động này. "
 
-#: src/polkitmateauthenticationdialog.c:724
+#: src/polkitmateauthenticationdialog.c:725
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -70,46 +70,46 @@ msgstr ""
 "Một ứng dụng đang cố gắng thực hiện một hành động cần đặc Xác thực siêu "
 "người dùng là cần thiết để thực hiện hành động này. "
 
-#: src/polkitmateauthenticationdialog.c:760 src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
 msgid "_Password:"
 msgstr "_Mật khẩu:"
 
-#: src/polkitmateauthenticationdialog.c:778
+#: src/polkitmateauthenticationdialog.c:779
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Chi tiết</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:836
+#: src/polkitmateauthenticationdialog.c:837
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Hành động :</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:839
+#: src/polkitmateauthenticationdialog.c:840
 #, c-format
 msgid "Click to edit %s"
 msgstr "Bấm để chỉnh sửa %s"
 
-#: src/polkitmateauthenticationdialog.c:856
+#: src/polkitmateauthenticationdialog.c:857
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Vendor:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:858
+#: src/polkitmateauthenticationdialog.c:859
 #, c-format
 msgid "Click to open %s"
 msgstr "Click to open %s"
 
-#: src/polkitmateauthenticationdialog.c:1016
+#: src/polkitmateauthenticationdialog.c:1017
 msgid "Authenticate"
 msgstr "Xác thực"
 
-#: src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:298
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Mật khẩu cho %s:"
 
-#: src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:459
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr "Phiên xác thực của bạn đã không thành công. Vui lòng thử lại."
 
-#: src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:165
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Hộp thoại xác thữ đã bị bỏ qua bởi người dùng"
 

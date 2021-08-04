@@ -10,9 +10,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.23.0\n"
+"Project-Id-Version: mate-polkit 1.25.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2019-11-07 09:47+0100\n"
+"POT-Creation-Date: 2021-06-22 14:04+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: LiberteCzech <liberte.czech@gmail.com>, 2019\n"
 "Language-Team: Czech (https://www.transifex.com/mate/teams/13566/cs/)\n"
@@ -22,32 +22,32 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: src/main.c:163
+#: src/main.c:164
 msgid "Drop all elevated privileges"
 msgstr "Zruší všechna zvýšená oprávnění"
 
-#: src/main.c:187
+#: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Kliknutím na ikonu zrušíte zvýšená oprávnění"
 
-#: src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:276
 msgid "Select user..."
 msgstr "Vybrat uživatele..."
 
-#: src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:311
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:664
+#: src/polkitmateauthenticationdialog.c:665
 msgid "_Cancel"
 msgstr "_Zrušit"
 
-#: src/polkitmateauthenticationdialog.c:669
+#: src/polkitmateauthenticationdialog.c:670
 msgid "_Authenticate"
 msgstr "_Ověřit"
 
-#: src/polkitmateauthenticationdialog.c:710
+#: src/polkitmateauthenticationdialog.c:711
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -55,7 +55,7 @@ msgstr ""
 "Aplikace se pokouší provést akci, která vyžaduje oprávnění. K provedení této"
 " akce je vyžadováno ověření jednoho z níže uvedených uživatelů."
 
-#: src/polkitmateauthenticationdialog.c:718
+#: src/polkitmateauthenticationdialog.c:719
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -63,7 +63,7 @@ msgstr ""
 "Aplikace se pokouší provést akci, která vyžaduje oprávnění. K provedení této"
 " akce je vyžadováno ověření."
 
-#: src/polkitmateauthenticationdialog.c:724
+#: src/polkitmateauthenticationdialog.c:725
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -71,46 +71,46 @@ msgstr ""
 "Aplikace se pokouší provést akci, která vyžaduje oprávnění. K provedení této"
 " akce je vyžadováno ověření superuživatele."
 
-#: src/polkitmateauthenticationdialog.c:760 src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
 msgid "_Password:"
 msgstr "_Heslo:"
 
-#: src/polkitmateauthenticationdialog.c:778
+#: src/polkitmateauthenticationdialog.c:779
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Podrobnosti</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:836
+#: src/polkitmateauthenticationdialog.c:837
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Akce:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:839
+#: src/polkitmateauthenticationdialog.c:840
 #, c-format
 msgid "Click to edit %s"
 msgstr "Kliknutím upravíte %s"
 
-#: src/polkitmateauthenticationdialog.c:856
+#: src/polkitmateauthenticationdialog.c:857
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Dodavatel:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:858
+#: src/polkitmateauthenticationdialog.c:859
 #, c-format
 msgid "Click to open %s"
 msgstr "Kliknutím otevřete %s"
 
-#: src/polkitmateauthenticationdialog.c:1016
+#: src/polkitmateauthenticationdialog.c:1017
 msgid "Authenticate"
 msgstr "Ověřit"
 
-#: src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:298
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Heslo %s:"
 
-#: src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:459
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr "Váš pokus ověřování byl neúspěšný. Prosím zkuste to znovu."
 
-#: src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:165
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Dialogové ověřovací okno bylo zamítnuto uživatelem"
 
