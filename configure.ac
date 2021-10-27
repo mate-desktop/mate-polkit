@@ -163,24 +163,26 @@ src/Makefile
 AC_OUTPUT
 
 echo "
-                  polkit-mate $VERSION
-                =======================
+Configure summary:
 
-        prefix:                     ${prefix}
-        libdir:                     ${libdir}
-        libexecdir:                 ${libexecdir}
-        bindir:                     ${bindir}
-        sbindir:                    ${sbindir}
-        datadir:                    ${datadir}
-        sysconfdir:                 ${sysconfdir}
-        localstatedir:              ${localstatedir}
+    ${PACKAGE_STRING}
+    `echo $PACKAGE_STRING | sed "s/./=/g"`
 
-        compiler:                   ${CC}
-        cflags:                     ${CFLAGS}
-        cppflags:                   ${CPPFLAGS}
-        Warning flags:              ${WARN_CFLAGS}
+    prefix ...................: ${prefix}
+    libdir ...................: ${libdir}
+    libexecdir ...............: ${libexecdir}
+    bindir ...................: ${bindir}
+    sbindir ..................: ${sbindir}
+    datadir ..................: ${datadir}
+    sysconfdir ...............: ${sysconfdir}
+    localstatedir ............: ${localstatedir}
 
-        Accountsservice:            ${enable_accountsservice}
-        Application indicator:      ${enable_appindicator}
-        Maintainer mode:            ${USE_MAINTAINER_MODE}
+    compiler .................: ${CC}
+    cflags ...................: ${CFLAGS}
+    cppflags .................: ${CPPFLAGS}
+    Warning flags ............: ${WARN_CFLAGS}
+
+    Accountsservice ..........: ${enable_accountsservice}
+    Application indicator ....: ${enable_appindicator}
+    Maintainer mode ..........: ${USE_MAINTAINER_MODE}
 "
