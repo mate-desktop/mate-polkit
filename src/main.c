@@ -42,7 +42,6 @@
 #define SM_DBUS_INTERFACE "org.gnome.SessionManager"
 #define SM_CLIENT_DBUS_INTERFACE "org.gnome.SessionManager.ClientPrivate"
 
-
 /* the Authority */
 static PolkitAuthority *authority = NULL;
 
