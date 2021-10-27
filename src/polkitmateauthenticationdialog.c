@@ -277,7 +277,6 @@ create_user_combobox (PolkitMateAuthenticationDialog *dialog)
                       USERNAME_COL, NULL,
                       -1);
 
-
   /* For each user */
   for (i = 0, n = 0; dialog->priv->users[n] != NULL; n++)
   {
@@ -409,7 +408,6 @@ get_image (PolkitMateAuthenticationDialog *dialog)
       image = gtk_image_new_from_icon_name ("dialog-password", GTK_ICON_SIZE_DIALOG);
       goto out;
     }
-
 
   pixbuf = gtk_icon_theme_load_icon (gtk_icon_theme_get_default (),
                                      "dialog-password",
@@ -942,7 +940,6 @@ polkit_mate_authentication_dialog_class_init (PolkitMateAuthenticationDialogClas
                                                         G_PARAM_STATIC_NICK |
                                                         G_PARAM_STATIC_BLURB));
 
-
   g_object_class_install_property (gobject_class,
                                    PROP_MESSAGE,
                                    g_param_spec_string ("message",
@@ -1183,7 +1180,6 @@ polkit_mate_authentication_dialog_set_info_message (PolkitMateAuthenticationDial
 {
   gtk_label_set_markup (GTK_LABEL (dialog->priv->info_label), info_markup);
 }
-
 
 /**
  * polkit_mate_authentication_dialog_cancel:

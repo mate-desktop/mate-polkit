@@ -20,7 +20,6 @@
  * Author: David Zeuthen <davidz@redhat.com>
  */
 
-
 #include "config.h"
 
 #include <string.h>
@@ -365,7 +364,6 @@ session_show_info (PolkitAgentSession *session,
   gtk_window_present (GTK_WINDOW (authenticator->dialog));
 }
 
-
 static void
 session_completed (PolkitAgentSession *session,
                    gboolean            gained_authorization,
@@ -379,7 +377,6 @@ session_completed (PolkitAgentSession *session,
 
   g_main_loop_quit (authenticator->loop);
 }
-
 
 static gboolean
 do_initiate (gpointer user_data)
@@ -516,5 +513,4 @@ polkit_mate_authenticator_get_cookie (PolkitMateAuthenticator *authenticator)
 {
   return authenticator->cookie;
 }
-
 
