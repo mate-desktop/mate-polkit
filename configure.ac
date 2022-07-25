@@ -106,7 +106,7 @@ AC_SUBST(POLKIT_GOBJECT_CFLAGS)
 AC_SUBST(POLKIT_GOBJECT_LIBS)
 
 AC_ARG_ENABLE([accountsservice],
-	      AC_HELP_STRING([--enable-accountsservice], [Enable accountsservice]),,
+	      AS_HELP_STRING([--enable-accountsservice], [Enable accountsservice]),,
 	      [enable_accountsservice=yes])
 
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
