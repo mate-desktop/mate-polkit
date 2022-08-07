@@ -243,11 +243,14 @@ polkit_mate_authenticator_new (const gchar     *action_id,
   for (l = authenticator->identities, n = 0; l != NULL; l = l->next, n++)
     {
       PolkitUnixUser *user = POLKIT_UNIX_USER (l->data);
-      uid_t uid;
+      gint uid;
       struct passwd *passwd;
 
       uid = polkit_unix_user_get_uid (user);
-      passwd = getpwuid (uid);
+      if (uid == -1)
+        continue;
+
+      passwd = getpwuid ((uid_t) uid);
       authenticator->users[n] = g_strdup (passwd->pw_name);
     }
 

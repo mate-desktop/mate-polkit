@@ -650,7 +650,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   GtkWidget *content_area;
   gboolean have_user_combobox;
   gchar *s;
-  guint rows;
+  gint rows;
 
   dialog = POLKIT_MATE_AUTHENTICATION_DIALOG (object);
 
@@ -791,7 +791,7 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   rows = 0;
   if (dialog->priv->details != NULL)
     {
-      guint n;
+      gint n;
       gchar **keys;
 
       keys = polkit_details_get_keys (dialog->priv->details);
