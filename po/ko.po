@@ -4,9 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Seong-ho Cho <darkcircle.0426@gmail.com>, 2018
-# Alan Lee <bkrhlim@aol.com>, 2018
-# 박정규(Jung-Kyu Park) <bagjunggyu@gmail.com>, 2019
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2021
+# Alan Lee <bkrhlim@aol.com>, 2021
+# 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2021
 # JungHee Lee <daemul72@gmail.com>, 2021
 # 
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: mate-polkit 1.25.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2021-06-22 14:04+0200\n"
-"PO-Revision-Date: 2018-03-11 20:32+0000\n"
+"PO-Revision-Date: 2021-09-20 18:06+0000\n"
 "Last-Translator: JungHee Lee <daemul72@gmail.com>, 2021\n"
 "Language-Team: Korean (https://www.transifex.com/mate/teams/13566/ko/)\n"
 "MIME-Version: 1.0\n"

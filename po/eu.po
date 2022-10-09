@@ -4,17 +4,17 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2019
-# David García-Abad <dgarciabad@gmail.com>, 2020
+# Asier Iturralde Sarasola <asier.iturralde@gmail.com>, 2021
+# Stefano Karapetsas <stefano@karapetsas.com>, 2021
+# David García-Abad <dgarciabad@gmail.com>, 2021
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-polkit 1.25.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2021-06-22 14:04+0200\n"
-"PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: David García-Abad <dgarciabad@gmail.com>, 2020\n"
+"PO-Revision-Date: 2021-09-20 18:06+0000\n"
+"Last-Translator: David García-Abad <dgarciabad@gmail.com>, 2021\n"
 "Language-Team: Basque (https://www.transifex.com/mate/teams/13566/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -110,11 +110,11 @@ msgstr "%s(r)en _pasahitza:"
 #: src/polkitmateauthenticator.c:459
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
-"Baimena eskuratzeko zure saioak huts egin du. Mesedez, saia zaitez berriro."
+"Autentifikatzeko zure saioak huts egin du. Mesedez, saia zaitez berriro."
 
 #: src/polkitmatelistener.c:165
 msgid "Authentication dialog was dismissed by the user"
-msgstr "Erabiltzaileak baztertu du baimena eskuratzeko elkarrizketa leihoa"
+msgstr "Erabiltzaileak baztertu du autentfikatzeko elkarrizketa leihoa"
 
 #: src/polkit-mate-authentication-agent-1.desktop.in.in:3
 msgid "PolicyKit Authentication Agent"
