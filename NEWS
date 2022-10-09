@@ -1,3 +1,8 @@
+### mate-polkit 1.26.1
+
+  * Translations update
+  * Fix segfault from gdk_x11_get_server_time if not on X11
+
 ### mate-polkit 1.26.0
 
   * Translations update
