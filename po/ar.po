@@ -11,9 +11,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.25.0\n"
+"Project-Id-Version: mate-polkit 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2021-06-22 14:04+0200\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Mosaab Alzoubi <moceap@hotmail.com>, 2019\n"
 "Language-Team: Arabic (https://www.transifex.com/mate/teams/13566/ar/)\n"
@@ -23,11 +23,11 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: src/main.c:164
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "اسقط كل الصلاحيات المرفوعة"
 
-#: src/main.c:188
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "انقر على الرّمز لإسقاط كل الصلاحيات"
 
@@ -35,20 +35,20 @@ msgstr "انقر على الرّمز لإسقاط كل الصلاحيات"
 msgid "Select user..."
 msgstr "اختر مستخدمًا..."
 
-#: src/polkitmateauthenticationdialog.c:311
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:665
+#: src/polkitmateauthenticationdialog.c:663
 msgid "_Cancel"
 msgstr "أل_غ"
 
-#: src/polkitmateauthenticationdialog.c:670
+#: src/polkitmateauthenticationdialog.c:668
 msgid "_Authenticate"
 msgstr "ا_ستوثق"
 
-#: src/polkitmateauthenticationdialog.c:711
+#: src/polkitmateauthenticationdialog.c:709
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -56,7 +56,7 @@ msgstr ""
 "يحاول أحد التطبيقات القيام بإجراء يتطلب صلاحيات. تحتاج للاستيثاق كأحد "
 "المستخدمين المذكورين أدناه للقيام بهذا الإجراء."
 
-#: src/polkitmateauthenticationdialog.c:719
+#: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -64,7 +64,7 @@ msgstr ""
 "يحاول أحد التطبيقات القيام بإجراء يتطلب صلاحيات. تحتاج للاستيثاق للقيام بهذا"
 " الإجراء."
 
-#: src/polkitmateauthenticationdialog.c:725
+#: src/polkitmateauthenticationdialog.c:723
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -72,46 +72,46 @@ msgstr ""
 "يحاول أحد التطبيقات القيام بإجراء يتطلب صلاحيات. تحتاج للاستيثاق كمستخدم "
 "فائق للقيام بهذا الإجراء."
 
-#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_كلمة المرور:"
 
-#: src/polkitmateauthenticationdialog.c:779
+#: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>ال_تفاصيل</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:837
+#: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>الإجراء:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:840
+#: src/polkitmateauthenticationdialog.c:838
 #, c-format
 msgid "Click to edit %s"
 msgstr "انقر لتحرير %s"
 
-#: src/polkitmateauthenticationdialog.c:857
+#: src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>المزوّد:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:859
+#: src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "انقر لفتح %s"
 
-#: src/polkitmateauthenticationdialog.c:1017
+#: src/polkitmateauthenticationdialog.c:1014
 msgid "Authenticate"
 msgstr "استوثق"
 
-#: src/polkitmateauthenticator.c:298
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_كلمة مرور %s:"
 
-#: src/polkitmateauthenticator.c:459
+#: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr "لم تتم محاولتك للمصادقة. حاول مرة ثانية"
 
-#: src/polkitmatelistener.c:165
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "المستخدم قام برفض لوحة المصادقة"
 

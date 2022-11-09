@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.25.0\n"
+"Project-Id-Version: mate-polkit 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2021-06-22 14:04+0200\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2019\n"
 "Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/main.c:164
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Treu tots els privilegis elevats"
 
-#: src/main.c:188
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Feu clic a la icona per treure tots els privilegis elevats"
 
@@ -33,20 +33,20 @@ msgstr "Feu clic a la icona per treure tots els privilegis elevats"
 msgid "Select user..."
 msgstr "Seleccioneu l'usuari..."
 
-#: src/polkitmateauthenticationdialog.c:311
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:665
+#: src/polkitmateauthenticationdialog.c:663
 msgid "_Cancel"
 msgstr "_Cancel·la"
 
-#: src/polkitmateauthenticationdialog.c:670
+#: src/polkitmateauthenticationdialog.c:668
 msgid "_Authenticate"
 msgstr "_Autentifica"
 
-#: src/polkitmateauthenticationdialog.c:711
+#: src/polkitmateauthenticationdialog.c:709
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -55,7 +55,7 @@ msgstr ""
 "Cal autenticar-se com a un dels usuaris d'aquí sota per a dur a terme "
 "l'acció."
 
-#: src/polkitmateauthenticationdialog.c:719
+#: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -63,7 +63,7 @@ msgstr ""
 "Una aplicació està intentant realitzar una acció que requereix privilegis. "
 "Cal autenticar-se per a dur a terme l'acció."
 
-#: src/polkitmateauthenticationdialog.c:725
+#: src/polkitmateauthenticationdialog.c:723
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -71,47 +71,47 @@ msgstr ""
 "Una aplicació està intentant realitzar una acció que requereix privilegis. "
 "Cal autenticar-se com a superusuari per a dur a terme l'acció."
 
-#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Contrasenya:"
 
-#: src/polkitmateauthenticationdialog.c:779
+#: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detalls</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:837
+#: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Acció:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:840
+#: src/polkitmateauthenticationdialog.c:838
 #, c-format
 msgid "Click to edit %s"
 msgstr "Feu clic per editar %s"
 
-#: src/polkitmateauthenticationdialog.c:857
+#: src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Proveïdor:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:859
+#: src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "Feu clic per obrir %s"
 
-#: src/polkitmateauthenticationdialog.c:1017
+#: src/polkitmateauthenticationdialog.c:1014
 msgid "Authenticate"
 msgstr "Autenticació"
 
-#: src/polkitmateauthenticator.c:298
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Contrasenya per a %s:"
 
-#: src/polkitmateauthenticator.c:459
+#: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
 "El vostre intent d'autenticació no va tenir èxit. Torneu-ho a intentar."
 
-#: src/polkitmatelistener.c:165
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "El diàleg d'autenticació va ser acomiadat per l'usuari"
 

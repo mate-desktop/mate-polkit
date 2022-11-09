@@ -8,9 +8,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.25.0\n"
+"Project-Id-Version: mate-polkit 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2021-06-22 14:04+0200\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2019\n"
 "Language-Team: Panjabi (Punjabi) (https://www.transifex.com/mate/teams/13566/pa/)\n"
@@ -20,11 +20,11 @@ msgstr ""
 "Language: pa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/main.c:164
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr ""
 
-#: src/main.c:188
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "ਸਭ ਵਧਾਏ ਅਧਿਕਾਰ ਹਟਾਉਣ ਲਈ ਆਈਕਾਨ ਉੱਤੇ ਕਲਿੱਕ ਕਰੋ"
 
@@ -32,20 +32,20 @@ msgstr "ਸਭ ਵਧਾਏ ਅਧਿਕਾਰ ਹਟਾਉਣ ਲਈ ਆਈਕ�
 msgid "Select user..."
 msgstr "ਯੂਜ਼ਰ ਚੁਣੋ..."
 
-#: src/polkitmateauthenticationdialog.c:311
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:665
+#: src/polkitmateauthenticationdialog.c:663
 msgid "_Cancel"
 msgstr "ਰੱਦ ਕਰੋ(_C)"
 
-#: src/polkitmateauthenticationdialog.c:670
+#: src/polkitmateauthenticationdialog.c:668
 msgid "_Authenticate"
 msgstr "ਪਰਮਾਣਕਿਤਾ(_A)"
 
-#: src/polkitmateauthenticationdialog.c:711
+#: src/polkitmateauthenticationdialog.c:709
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -53,7 +53,7 @@ msgstr ""
 "ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। "
 "ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਹੇਠ ਦਿੱਤੇ ਯੂਜ਼ਰਾਂ ਵਿੱਚੋਂ ਇੱਕ ਵਾਂਗ ਪਰਮਾਣਿਤ ਹੋਵੋ।"
 
-#: src/polkitmateauthenticationdialog.c:719
+#: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -61,7 +61,7 @@ msgstr ""
 "ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। "
 "ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਪਰਮਾਣਿਤ ਹੋਣ ਦੀ ਲੋੜ ਹੈ।"
 
-#: src/polkitmateauthenticationdialog.c:725
+#: src/polkitmateauthenticationdialog.c:723
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -69,46 +69,46 @@ msgstr ""
 "ਐਪਲੀਕੇਸ਼ਨ ਇੱਕ ਕਾਰਵਾਈ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰ ਰਹੀ ਹੈ, ਜਿਸ ਲਈ ਅਧਿਕਾਰਾਂ ਦੀ ਲੋੜ ਹੈ। "
 "ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਸੁਪਰ ਯੂਜ਼ਰਾਂ ਵਾਂਗ ਪਰਮਾਣਿਤ ਹੋਵੋ।"
 
-#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "ਪਾਸਵਰਡ(_P):"
 
-#: src/polkitmateauthenticationdialog.c:779
+#: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>ਵੇਰਵਾ(_D)</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:837
+#: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>ਐਕਸ਼ਨ:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:840
+#: src/polkitmateauthenticationdialog.c:838
 #, c-format
 msgid "Click to edit %s"
 msgstr "%s ਸੋਧਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: src/polkitmateauthenticationdialog.c:857
+#: src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>ਵੇਂਡਰ:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:859
+#: src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "%s ਖੋਲ੍ਹਣ ਲਈ ਕਲਿੱਕ ਕਰੋ"
 
-#: src/polkitmateauthenticationdialog.c:1017
+#: src/polkitmateauthenticationdialog.c:1014
 msgid "Authenticate"
 msgstr "ਪਰਮਾਣਿਤ"
 
-#: src/polkitmateauthenticator.c:298
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "%s ਲਈ ਪਾਸਵਰਡ(_P):"
 
-#: src/polkitmateauthenticator.c:459
+#: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
 
-#: src/polkitmatelistener.c:165
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr ""
 

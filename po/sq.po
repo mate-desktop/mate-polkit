@@ -10,9 +10,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.25.0\n"
+"Project-Id-Version: mate-polkit 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2021-06-22 14:04+0200\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Ardit Dani <ardit.dani@gmail.com>, 2019\n"
 "Language-Team: Albanian (https://www.transifex.com/mate/teams/13566/sq/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: sq\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/main.c:164
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Hidhni të gjitha privilegjet e ngritura"
 
-#: src/main.c:188
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Klikoni ikonën për të hequr të gjitha privilegjet e ngritura"
 
@@ -34,20 +34,20 @@ msgstr "Klikoni ikonën për të hequr të gjitha privilegjet e ngritura"
 msgid "Select user..."
 msgstr "Zgjidhni përdoruesin..."
 
-#: src/polkitmateauthenticationdialog.c:311
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:665
+#: src/polkitmateauthenticationdialog.c:663
 msgid "_Cancel"
 msgstr "_Anulo"
 
-#: src/polkitmateauthenticationdialog.c:670
+#: src/polkitmateauthenticationdialog.c:668
 msgid "_Authenticate"
 msgstr "_Autentikimi"
 
-#: src/polkitmateauthenticationdialog.c:711
+#: src/polkitmateauthenticationdialog.c:709
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -55,7 +55,7 @@ msgstr ""
 "Një aplikacion po përpiqet të kryejë një veprim që kërkon privilegje. "
 "Vërtetim si një nga përdoruesit më poshtë kërkohet për të kryer këtë veprim."
 
-#: src/polkitmateauthenticationdialog.c:719
+#: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -63,7 +63,7 @@ msgstr ""
 "Një aplikacion po përpiqet të kryejë një veprim që kërkon privilegje. "
 "Vërtetim kërkohet për të kryer këtë veprim."
 
-#: src/polkitmateauthenticationdialog.c:725
+#: src/polkitmateauthenticationdialog.c:723
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -71,48 +71,48 @@ msgstr ""
 "Një aplikacion po përpiqet të kryejë një veprim që kërkon privilegje. "
 "Vërtetim si përdorues super kërkohet për të kryer këtë veprim."
 
-#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Fjalëkalimi:"
 
-#: src/polkitmateauthenticationdialog.c:779
+#: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detaje</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:837
+#: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Veprim:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:840
+#: src/polkitmateauthenticationdialog.c:838
 #, c-format
 msgid "Click to edit %s"
 msgstr "Kliko për redaktim %s"
 
-#: src/polkitmateauthenticationdialog.c:857
+#: src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Shitës:</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:859
+#: src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "Kliko për hapje %s"
 
-#: src/polkitmateauthenticationdialog.c:1017
+#: src/polkitmateauthenticationdialog.c:1014
 msgid "Authenticate"
 msgstr "Autentikuar"
 
-#: src/polkitmateauthenticator.c:298
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Fjalëkalimi për %s:"
 
-#: src/polkitmateauthenticator.c:459
+#: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
 "Përpjekja juaj për vërtetim nuk ishte e suksesshme. Ju lutemi provoni "
 "përsëri."
 
-#: src/polkitmatelistener.c:165
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Dialogu i vërtetimit u hodh poshtë nga përdoruesi"
 

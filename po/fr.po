@@ -12,9 +12,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.25.0\n"
+"Project-Id-Version: mate-polkit 1.26.0\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2021-06-22 14:04+0200\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Charles Monzat <c.monzat@laposte.net>, 2019\n"
 "Language-Team: French (https://www.transifex.com/mate/teams/13566/fr/)\n"
@@ -22,13 +22,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: src/main.c:164
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Abandonner toutes les permissions supplémentaires obtenues"
 
-#: src/main.c:188
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr ""
 "Cliquez sur l'icône pour abandonner toutes les permissions supplémentaires "
@@ -38,20 +38,20 @@ msgstr ""
 msgid "Select user..."
 msgstr "Sélectionner un utilisateur..."
 
-#: src/polkitmateauthenticationdialog.c:311
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: src/polkitmateauthenticationdialog.c:665
+#: src/polkitmateauthenticationdialog.c:663
 msgid "_Cancel"
 msgstr "_Annuler"
 
-#: src/polkitmateauthenticationdialog.c:670
+#: src/polkitmateauthenticationdialog.c:668
 msgid "_Authenticate"
 msgstr "S'_authentifier"
 
-#: src/polkitmateauthenticationdialog.c:711
+#: src/polkitmateauthenticationdialog.c:709
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
@@ -60,7 +60,7 @@ msgstr ""
 "supplémentaires. Pour effectuer cette action, l'authentification d'un des "
 "utilisateurs de la liste ci-dessous est nécessaire."
 
-#: src/polkitmateauthenticationdialog.c:719
+#: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
@@ -69,7 +69,7 @@ msgstr ""
 "supplémentaires. Pour effectuer cette action, une authentification est "
 "nécessaire."
 
-#: src/polkitmateauthenticationdialog.c:725
+#: src/polkitmateauthenticationdialog.c:723
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
@@ -78,47 +78,47 @@ msgstr ""
 "supplémentaires. Pour effectuer cette action, l'authentification de "
 "l'utilisateur principal est nécessaire."
 
-#: src/polkitmateauthenticationdialog.c:761 src/polkitmateauthenticator.c:302
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Mot de passe :"
 
-#: src/polkitmateauthenticationdialog.c:779
+#: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Détails</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:837
+#: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Action :</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:840
+#: src/polkitmateauthenticationdialog.c:838
 #, c-format
 msgid "Click to edit %s"
 msgstr "Cliquez pour modifier %s"
 
-#: src/polkitmateauthenticationdialog.c:857
+#: src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Fournisseur :</b></small>"
 
-#: src/polkitmateauthenticationdialog.c:859
+#: src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "Cliquez pour ouvrir %s"
 
-#: src/polkitmateauthenticationdialog.c:1017
+#: src/polkitmateauthenticationdialog.c:1014
 msgid "Authenticate"
 msgstr "S'authentifier"
 
-#: src/polkitmateauthenticator.c:298
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "Mot de _passe pour %s :"
 
-#: src/polkitmateauthenticator.c:459
+#: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
 msgstr ""
 "Votre tentative d'identification n'a pas réussi. Veuillez essayer à nouveau."
 
-#: src/polkitmatelistener.c:165
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "La fenêtre d'authentification a été rejetée par l'utilisateur"
 
