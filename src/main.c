@@ -1,6 +1,5 @@
 /*
  * Copyright (C) 2009 Red Hat, Inc.
- * Copyright (C) 2012-2021 MATE Developers
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -30,8 +29,10 @@
 #include <glib/gi18n.h>
 #include <polkitagent/polkitagent.h>
 
-#ifdef HAVE_APPINDICATOR
-#include <libappindicator/app-indicator.h>
+#if defined(HAVE_AYATANA_APPINDICATOR)
+# include <libayatana-appindicator/app-indicator.h>
+#elif defined(HAVE_UBUNTU_APPINDICATOR)
+# include <libappindicator/app-indicator.h>
 #endif
 
 #include "polkitmatelistener.h"
@@ -51,7 +52,7 @@ static PolkitSubject *session = NULL;
 /* the current set of temporary authorizations */
 static GList *current_temporary_authorizations = NULL;
 
-#ifdef HAVE_APPINDICATOR
+#if defined(HAVE_AYATANA_APPINDICATOR) || defined(HAVE_UBUNTU_APPINDICATOR)
 static AppIndicator *app_indicator = NULL;
 #else
 static GtkStatusIcon *status_icon = NULL;
@@ -90,7 +91,7 @@ revoke_tmp_authz (void)
                                                     NULL);
 }
 
-#ifdef HAVE_APPINDICATOR
+#if defined(HAVE_AYATANA_APPINDICATOR) || defined(HAVE_UBUNTU_APPINDICATOR)
 static void
 on_menu_item_activate (GtkMenuItem *menu_item,
                        gpointer     user_data)
@@ -151,7 +152,7 @@ update_temporary_authorization_icon_real (void)
   if (current_temporary_authorizations != NULL)
     {
       /* show icon */
-#ifdef HAVE_APPINDICATOR
+#if defined(HAVE_AYATANA_APPINDICATOR) || defined(HAVE_UBUNTU_APPINDICATOR)
       if (app_indicator == NULL)
         {
           GtkWidget *item, *menu;
@@ -199,7 +200,7 @@ update_temporary_authorization_icon_real (void)
   else
     {
       /* hide icon */
-#ifdef HAVE_APPINDICATOR
+#if defined(HAVE_AYATANA_APPINDICATOR) || defined(HAVE_UBUNTU_APPINDICATOR)
       if (app_indicator != NULL)
         {
           /* keep the app_indicator, hide the icon or it won't come back*/
