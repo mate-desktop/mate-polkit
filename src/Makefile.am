@@ -35,7 +35,8 @@ polkit_mate_authentication_agent_1_CFLAGS = 		\
 	$(GLIB_CFLAGS)					\
 	$(POLKIT_AGENT_CFLAGS)				\
 	$(POLKIT_GOBJECT_CFLAGS)			\
-	$(APPINDICATOR_CFLAGS)				\
+	$(AYATANA_APPINDICATOR_CFLAGS)			\
+	$(UBUNTU_APPINDICATOR_CFLAGS)			\
 	$(WARN_CFLAGS)					\
 	$(AM_CFLAGS)
 
@@ -47,7 +48,8 @@ polkit_mate_authentication_agent_1_LDADD = 		\
 	$(GLIB_LIBS)					\
 	$(POLKIT_AGENT_LIBS)				\
 	$(POLKIT_GOBJECT_LIBS)				\
-	$(APPINDICATOR_LIBS)
+	$(AYATANA_APPINDICATOR_LIBS)			\
+	$(UBUNTU_APPINDICATOR_LIBS)			
 
 EXTRA_DIST = \
 	polkit-mate-authentication-agent-1.desktop.in \

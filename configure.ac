@@ -111,8 +111,17 @@ AC_ARG_ENABLE([accountsservice],
 
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
 
-# Application indicator
-APPINDICATOR_PKG=appindicator3-0.1
+# Application Indicator (Ubuntu and Ayatana implementation)
+
+AYATANA_APPINDICATOR_PKG=ayatana-appindicator3-0.1
+UBUNTU_APPINDICATOR_PKG=appindicator3-0.1
+
+PKG_CHECK_EXISTS($AYATANA_APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED,
+		 [have_appindicator_ayatana="yes"],
+		 [have_appindicator_ayatana="no"])
+PKG_CHECK_EXISTS($UBUNTU_APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED,
+		 [have_appindicator_ubuntu="yes"],
+		 [have_appindicator_ubuntu="no"])
 
 AC_ARG_ENABLE([appindicator],
 	      AS_HELP_STRING([--enable-appindicator[=@<:@no/auto/yes@:>@]],[Build support for application indicators]),
@@ -120,21 +129,32 @@ AC_ARG_ENABLE([appindicator],
 	      [enable_appindicator="auto"])
 
 
-if test "x$enable_appindicator" = "xauto"; then
-	PKG_CHECK_EXISTS($APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED,
-			 [enable_appindicator="yes"],
-			 [enable_appindicator="no"])
+if  test "x$enable_appindicator" == "xauto" &&
+   (test "x$have_appindicator_ayatana" == "xyes" ||
+    test "x$have_appindicator_ubuntu" == "xyes"); then
+	AC_MSG_NOTICE([Enabling AppIndicator support (as --enable-appindicator=auto was used).])
+	enable_appindicator="yes"
 fi
 
-if test "x$enable_appindicator" = "xyes"; then
-	PKG_CHECK_MODULES(APPINDICATOR,
-			  [$APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED],
-			  [AC_DEFINE(HAVE_APPINDICATOR, 1, [Have AppIndicator])])
+if test "x$enable_appindicator" == "xyes"; then
+	if test "x$have_appindicator_ayatana" == "xyes"; then
+		AC_MSG_NOTICE([Buidling against Ayatana AppIndicator.])
+		PKG_CHECK_MODULES(AYATANA_APPINDICATOR,
+				  [$AYATANA_APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED],
+				  [AC_DEFINE(HAVE_AYATANA_APPINDICATOR, 1, [Have Ayatana AppIndicator])])
+		AC_SUBST(AYATANA_APPINDICATOR_CFLAGS)
+		AC_SUBST(AYATANA_APPINDICATOR_LIBS)
+	elif test "x$have_appindicator_ubuntu" == "xyes"; then
+		AC_MSG_NOTICE([Buidling against Ubuntu AppIndicator.])
+		PKG_CHECK_MODULES(UBUNTU_APPINDICATOR,
+				  [$UBUNTU_APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED],
+				  [AC_DEFINE(HAVE_UBUNTU_APPINDICATOR, 1, [Have Ubuntu AppIndicator])])
+		AC_SUBST(UBUNTU_APPINDICATOR_CFLAGS)
+		AC_SUBST(UBUNTU_APPINDICATOR_LIBS)
+	else
+		AC_MSG_ERROR([Neither Ayatana AppIndicator nor Ubuntu AppIndicator library is present, but you enabled AppIndicator support.])
+	fi
 fi
-
-AM_CONDITIONAL(HAVE_APPINDICATOR, test "x$enable_appindicator" = "xyes")
-AC_SUBST(APPINDICATOR_CFLAGS)
-AC_SUBST(APPINDICATOR_LIBS)
 
 # ********************
 # Internationalisation
@@ -183,6 +203,10 @@ Configure summary:
     Warning flags ............: ${WARN_CFLAGS}
 
     Accountsservice ..........: ${enable_accountsservice}
-    Application indicator ....: ${enable_appindicator}
+
+    AppIndicator enabled:              ${enable_appindicator}
+    Ayatana AppIndicator (preferred)   ${have_appindicator_ayatana}
+    Ubuntu AppIndicator (legacy)       ${have_appindicator_ubuntu}
+
     Maintainer mode ..........: ${USE_MAINTAINER_MODE}
 "
