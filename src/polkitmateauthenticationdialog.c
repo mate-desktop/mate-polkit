@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2009 Red Hat, Inc.
+ * Copyright (C) 2012-2021 MATE Developers
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -66,7 +67,7 @@ struct _PolkitMateAuthenticationDialogPrivate
   GtkListStore *store;
 };
 
-G_DEFINE_TYPE (PolkitMateAuthenticationDialog, polkit_mate_authentication_dialog, GTK_TYPE_DIALOG);
+G_DEFINE_TYPE_WITH_PRIVATE (PolkitMateAuthenticationDialog, polkit_mate_authentication_dialog, GTK_TYPE_DIALOG);
 
 enum {
   PROP_0,
@@ -276,7 +277,6 @@ create_user_combobox (PolkitMateAuthenticationDialog *dialog)
                       USERNAME_COL, NULL,
                       -1);
 
-
   /* For each user */
   for (i = 0, n = 0; dialog->priv->users[n] != NULL; n++)
   {
@@ -408,7 +408,6 @@ get_image (PolkitMateAuthenticationDialog *dialog)
       image = gtk_image_new_from_icon_name ("dialog-password", GTK_ICON_SIZE_DIALOG);
       goto out;
     }
-
 
   pixbuf = gtk_icon_theme_load_icon (gtk_icon_theme_get_default (),
                                      "dialog-password",
@@ -587,9 +586,7 @@ out:
 static void
 polkit_mate_authentication_dialog_init (PolkitMateAuthenticationDialog *dialog)
 {
-  dialog->priv = G_TYPE_INSTANCE_GET_PRIVATE (dialog,
-                                                   POLKIT_MATE_TYPE_AUTHENTICATION_DIALOG,
-                                                   PolkitMateAuthenticationDialogPrivate);
+  dialog->priv = polkit_mate_authentication_dialog_get_instance_private (dialog);
 }
 
 static void
@@ -617,6 +614,26 @@ polkit_mate_authentication_dialog_finalize (GObject *object)
     G_OBJECT_CLASS (polkit_mate_authentication_dialog_parent_class)->finalize (object);
 }
 
+static GtkWidget*
+polkit_mate_dialog_add_button (GtkDialog   *dialog,
+                               const gchar *button_text,
+                               const gchar *icon_name,
+                                     gint   response_id)
+{
+  GtkWidget *button;
+
+  button = gtk_button_new_with_mnemonic (button_text);
+  gtk_button_set_image (GTK_BUTTON (button), gtk_image_new_from_icon_name (icon_name, GTK_ICON_SIZE_BUTTON));
+
+  gtk_button_set_use_underline (GTK_BUTTON (button), TRUE);
+  gtk_style_context_add_class (gtk_widget_get_style_context (button), "text-button");
+  gtk_widget_set_can_default (button, TRUE);
+  gtk_widget_show (button);
+  gtk_dialog_add_action_widget (GTK_DIALOG (dialog), button, response_id);
+
+  return button;
+}
+
 static void
 polkit_mate_authentication_dialog_constructed (GObject *object)
 {
@@ -631,7 +648,6 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
   GtkWidget *label;
   GtkWidget *image;
   GtkWidget *content_area;
-  GtkWidget *action_area;
   gboolean have_user_combobox;
   gchar *s;
   guint rows;
@@ -643,21 +659,21 @@ polkit_mate_authentication_dialog_constructed (GObject *object)
 
   have_user_combobox = FALSE;
 
-  dialog->priv->cancel_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-                                                            GTK_STOCK_CANCEL,
-                                                            GTK_RESPONSE_CANCEL);
+  dialog->priv->cancel_button = polkit_mate_dialog_add_button (GTK_DIALOG (dialog),
+                                                               _("_Cancel"),
+                                                               "process-stop",
+                                                               GTK_RESPONSE_CANCEL);
+
   dialog->priv->auth_button = gtk_dialog_add_button (GTK_DIALOG (dialog),
-                                                          _("_Authenticate"),
-                                                          GTK_RESPONSE_OK);
+                                                     _("_Authenticate"),
+                                                     GTK_RESPONSE_OK);
+
   gtk_dialog_set_default_response (GTK_DIALOG (dialog), GTK_RESPONSE_OK);
 
   content_area = gtk_dialog_get_content_area (GTK_DIALOG (dialog));
-  action_area = gtk_dialog_get_action_area (GTK_DIALOG (dialog));
 
   gtk_container_set_border_width (GTK_CONTAINER (dialog), 5);
   gtk_box_set_spacing (GTK_BOX (content_area), 2); /* 2 * 5 + 2 = 12 */
-  gtk_container_set_border_width (GTK_CONTAINER (action_area), 5);
-  gtk_box_set_spacing (GTK_BOX (action_area), 6);
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
   gtk_window_set_icon_name (GTK_WINDOW (dialog), "dialog-password");
 
@@ -859,8 +875,6 @@ polkit_mate_authentication_dialog_class_init (PolkitMateAuthenticationDialogClas
 {
   GObjectClass *gobject_class = G_OBJECT_CLASS (klass);
 
-  g_type_class_add_private (klass, sizeof (PolkitMateAuthenticationDialogPrivate));
-
   gobject_class->finalize = polkit_mate_authentication_dialog_finalize;
   gobject_class->get_property = polkit_mate_authentication_dialog_get_property;
   gobject_class->set_property = polkit_mate_authentication_dialog_set_property;
@@ -925,7 +939,6 @@ polkit_mate_authentication_dialog_class_init (PolkitMateAuthenticationDialogClas
                                                         G_PARAM_STATIC_NAME |
                                                         G_PARAM_STATIC_NICK |
                                                         G_PARAM_STATIC_BLURB));
-
 
   g_object_class_install_property (gobject_class,
                                    PROP_MESSAGE,
@@ -1167,7 +1180,6 @@ polkit_mate_authentication_dialog_set_info_message (PolkitMateAuthenticationDial
 {
   gtk_label_set_markup (GTK_LABEL (dialog->priv->info_label), info_markup);
 }
-
 
 /**
  * polkit_mate_authentication_dialog_cancel:

@@ -2,14 +2,16 @@
 FULL_LIBEXECDIR=$(libexecdir)
 
 desktopdir = $(sysconfdir)/xdg/autostart
-desktop_DATA = polkit-mate-authentication-agent-1.desktop
-
-@INTLTOOL_DESKTOP_RULE@
+desktop_in_files = polkit-mate-authentication-agent-1.desktop.in
+desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 polkit-mate-authentication-agent-1.desktop.in : polkit-mate-authentication-agent-1.desktop.in.in Makefile
 	$(AM_V_GEN)sed \
 		-e "s|\@FULL_LIBEXECDIR\@|$(FULL_LIBEXECDIR)|" \
 		$< > $@
+
+$(desktop_DATA): $(desktop_in_files)
+	$(AM_V_GEN) $(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 libexec_PROGRAMS = polkit-mate-authentication-agent-1
 
@@ -46,9 +48,8 @@ polkit_mate_authentication_agent_1_LDADD = 		\
 	$(GLIB_LIBS)					\
 	$(POLKIT_AGENT_LIBS)				\
 	$(POLKIT_GOBJECT_LIBS)				\
-	$(AYATANA_APPINDICATOR_LIBS)			\
-	$(UBUNTU_APPINDICATOR_LIBS)			\
-	$(INTLLIBS)
+		$(AYATANA_APPINDICATOR_LIBS)			\
+	$(UBUNTU_APPINDICATOR_LIBS)			
 
 EXTRA_DIST = \
 	polkit-mate-authentication-agent-1.desktop.in \
@@ -56,3 +57,5 @@ EXTRA_DIST = \
 
 clean-local :
 	rm -f *~ polkit-mate-authentication-agent-1.desktop polkit-mate-authentication-agent-1.desktop.in
+
+-include $(top_srcdir)/git.mk

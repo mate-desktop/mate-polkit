@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-polkit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: mate-polkit 1.26.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
+"PO-Revision-Date: 2018-03-11 20:32+0000\n"
+"Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>, 2018\n"
+"Language-Team: English (Canada) (https://www.transifex.com/mate/teams/13566/en_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_CA\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/main.c:163
+msgid "Drop all elevated privileges"
+msgstr ""
+
+#: src/main.c:187
+msgid "Click the icon to drop all elevated privileges"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:276
+msgid "Select user..."
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:310
+#, c-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: src/polkitmateauthenticationdialog.c:663
+msgid "_Cancel"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:668
+msgid "_Authenticate"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:709
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as one of the users below is required to perform this action."
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:717
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication is required to perform this action."
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:723
+msgid ""
+"An application is attempting to perform an action that requires privileges. "
+"Authentication as the super user is required to perform this action."
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
+msgid "_Password:"
+msgstr "_Password:"
+
+#: src/polkitmateauthenticationdialog.c:777
+msgid "<small><b>_Details</b></small>"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:835
+msgid "<small><b>Action:</b></small>"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:838
+#, c-format
+msgid "Click to edit %s"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:855
+msgid "<small><b>Vendor:</b></small>"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:857
+#, c-format
+msgid "Click to open %s"
+msgstr ""
+
+#: src/polkitmateauthenticationdialog.c:1014
+msgid "Authenticate"
+msgstr ""
+
+#: src/polkitmateauthenticator.c:297
+#, c-format
+msgid "_Password for %s:"
+msgstr ""
+
+#: src/polkitmateauthenticator.c:460
+msgid "Your authentication attempt was unsuccessful. Please try again."
+msgstr ""
+
+#: src/polkitmatelistener.c:164
+msgid "Authentication dialog was dismissed by the user"
+msgstr ""
+
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:3
+msgid "PolicyKit Authentication Agent"
+msgstr ""
+
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:4
+msgid "PolicyKit Authentication Agent for the MATE Desktop"
+msgstr ""

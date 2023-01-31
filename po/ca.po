@@ -1,244 +1,124 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-polkit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# David Planella Molas <david.planella@gmail.com>, 2008, 2009
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2015-2016
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-19 13:38+0000\n"
-"Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
-"Language-Team: Catalan (http://www.transifex.com/mate/MATE/language/ca/)\n"
+"Project-Id-Version: mate-polkit 1.26.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
+"PO-Revision-Date: 2018-03-11 20:32+0000\n"
+"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2019\n"
+"Language-Team: Catalan (https://www.transifex.com/mate/teams/13566/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "Identificador de l'acció"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "L'identificador de l'acció a utilitzar per al botó"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "És autoritzat"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "Si el procés és autoritzat"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "És visible"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "Si l'estri és visible"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "Pot obtenir"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "Si es pot obtenir l'autorització"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "Text de desbloqueig"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "El text que es mostrarà a l'usuari per a desbloquejar."
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "Feu clic per a fer canvis"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "Indicador de funció per a desbloquejar"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "L'indicador de funció que es mostrarà a l'usuari per a desbloquejar."
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "Cal l'autenticació per a realitzar canvis."
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "Text de bloqueig"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "El text que es mostrarà a l'usuari per a bloquejar."
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "Feu clic per a evitar canvis"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "Indicador de funció per a bloquejar"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "L'indicador de funció que es mostrarà a l'usuari per bloquejar."
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "Per a evitar més canvis, feu clic a bloquejar."
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "Text de restricció"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "El text que es mostrarà a l'usuari per a restringir l'acció per a tots els usuaris."
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "Feu clic per a restringir"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "Indicador de funció per a restringir"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "L'indicador de funció que es mostrarà a l'usuari per a restringir l'acció per a tots els usuaris."
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "Per a evitar que els usuaris sense permisos d'administració facin canvis feu clic a restringir."
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "El text que es mostrarà a l'usuari quan no pugui obtenir l'autorització tot i autenticar-se."
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "No esteu autoritzat a fer canvis"
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "L'indicador de funció que es mostrarà a l'usuari quan no pugui obtenir l'autorització tot i autenticar-se."
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "La política del sistema impedeix fer canvis. Contacteu amb l'administrador del sistema."
-
-#: ../src/main.c:163
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Treu tots els privilegis elevats"
 
-#: ../src/main.c:187
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
-msgstr "Feu clic a la icona per a treure tots els privilegis"
+msgstr "Feu clic a la icona per treure tots els privilegis elevats"
 
-#: ../src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:276
 msgid "Select user..."
 msgstr "Seleccioneu l'usuari..."
 
-#: ../src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
-msgid "_Authenticate"
-msgstr "_Autentica"
+#: src/polkitmateauthenticationdialog.c:663
+msgid "_Cancel"
+msgstr "_Cancel·la"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: src/polkitmateauthenticationdialog.c:668
+msgid "_Authenticate"
+msgstr "_Autentifica"
+
+#: src/polkitmateauthenticationdialog.c:709
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Una aplicació està intentant realitzar una acció que requereix privilegis. Cal autenticar-se com a un dels usuaris d'aquí sota per a dur a terme l'acció."
+msgstr ""
+"Una aplicació està intentant realitzar una acció que requereix privilegis. "
+"Cal autenticar-se com a un dels usuaris d'aquí sota per a dur a terme "
+"l'acció."
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Una aplicació està intentant realitzar una acció que requereix privilegis. Cal autenticar-se per a dur a terme l'acció."
+msgstr ""
+"Una aplicació està intentant realitzar una acció que requereix privilegis. "
+"Cal autenticar-se per a dur a terme l'acció."
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: src/polkitmateauthenticationdialog.c:723
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Una aplicació està intentant realitzar una acció que requereix privilegis. Cal autenticar-se com a superusuari per a dur a terme l'acció."
+msgstr ""
+"Una aplicació està intentant realitzar una acció que requereix privilegis. "
+"Cal autenticar-se com a superusuari per a dur a terme l'acció."
 
-#: ../src/polkitmateauthenticationdialog.c:753
-#: ../src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Contrasenya:"
 
-#. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>_Detalls</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Acció:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: src/polkitmateauthenticationdialog.c:838
 #, c-format
 msgid "Click to edit %s"
-msgstr "Feu clic per a editar %s"
+msgstr "Feu clic per editar %s"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Proveïdor:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
-msgstr "Feu clic per a obrir %s"
+msgstr "Feu clic per obrir %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: src/polkitmateauthenticationdialog.c:1014
 msgid "Authenticate"
-msgstr "Autentica"
+msgstr "Autenticació"
 
-#: ../src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Contrasenya per a %s:"
 
-#: ../src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr "El vostre intent d'autenticació no va tenir èxit. Si us plau, torneu-ho a intentar."
+msgstr ""
+"El vostre intent d'autenticació no va tenir èxit. Torneu-ho a intentar."
 
-#: ../src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "El diàleg d'autenticació va ser acomiadat per l'usuari"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:3
 msgid "PolicyKit Authentication Agent"
 msgstr "Agent d'autenticació PolicyKit"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:4
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
 msgstr "Agent d'autenticació PolicyKit per a l'escriptori MATE"

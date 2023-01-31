@@ -1,3 +1,55 @@
+### mate-polkit 1.27.0
+
+  * tx: sync with transifex
+  * configure.ac: The macro 'AC_HELP_STRING' is obsolete
+  * tx: update resource
+  * tx: migrate config file
+  * ci: drop -Wunused-parameter compiler cflag from debian build
+  * build: show configure summary using a pretty format
+  * Use a blank line at most
+  * Fix segfault from gdk_x11_get_server_time if not on X11
+
+### mate-polkit 1.26.0
+
+  * Translations update
+  * update copyright to 2021
+
+### mate-polkit 1.25.0
+
+  * Translations update
+  * Remove USE_MATE2_MACROS from autogen.sh (legacy)
+  * add git.mk to generate .gitignore
+  * build: silent build warnings for distcheck
+
+### mate-polkit 1.24.0
+
+  * build: show warning flags on configure summary
+  * build: warning flags are already defined
+  * autoconf: AC_PROG_CC was called before AX_CHECK_ENABLE_DEBUG
+  * Translations update
+  * migrate from intltool to gettext
+
+### mate-polkit 1.23.0
+
+  * Translations update
+  * Migrate from GSimpleAsyncResult to GTask
+  * [ci] Add cppcheck html report
+  * drop deprecated gtk_dialog_get_action_area
+  * Avoid deprecated g_type_class_add_private
+  * polkitmateauthenticationdialog: avoid GtkStock
+  * Change url project's website
+  * [ci] Enable Clang Static Analyzer
+
+### mate-polkit 1.22.0
+
+  * Translations update
+  * Initialize Travis CI support
+
+### mate-polkit 1.21.0
+
+  * Translations update
+  * disable deprecation warnings for distcheck
+
 ### mate-polkit 1.20.0
 
   * Translations update

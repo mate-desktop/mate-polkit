@@ -1,246 +1,128 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR MATE Desktop Environment team
+# This file is distributed under the same license as the mate-polkit package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Dušan Kazik <prescott66@gmail.com>, 2015
-# Ján Ďanovský <dagsoftware@yahoo.com>, 2014,2016
-# Pavol Šimo <palo.simo@gmail.com>, 2008-2010
-# Tibor Kaputa <tibbbi2@gmail.com>, 2014
+# Ján Ďanovský <dagsoftware@yahoo.com>, 2018
+# Dušan Kazik <prescott66@gmail.com>, 2018
+# Stefano Karapetsas <stefano@karapetsas.com>, 2018
+# 32442f8bc5cc500b59f161d95078a28a_525ed04, 2018
+# Tibor Kaputa <tibbbi2@gmail.com>, 2018
+# peter, 2019
+# 
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-11-28 13:37+0100\n"
-"PO-Revision-Date: 2017-09-19 13:38+0000\n"
-"Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/mate/MATE/language/sk/)\n"
+"Project-Id-Version: mate-polkit 1.26.0\n"
+"Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
+"POT-Creation-Date: 2022-10-29 15:33+0200\n"
+"PO-Revision-Date: 2018-03-11 20:32+0000\n"
+"Last-Translator: peter, 2019\n"
+"Language-Team: Slovak (https://www.transifex.com/mate/teams/13566/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-#: ../polkitgtkmate/polkitlockbutton.c:451
-msgid "Action Identifier"
-msgstr "Identifikátor operácie"
-
-#: ../polkitgtkmate/polkitlockbutton.c:452
-msgid "The action identifier to use for the button"
-msgstr "Identifikátor operácie, ktorý sa použije pre tlačidlo"
-
-#: ../polkitgtkmate/polkitlockbutton.c:468
-msgid "Is Authorized"
-msgstr "Je oprávnený"
-
-#: ../polkitgtkmate/polkitlockbutton.c:469
-msgid "Whether the process is authorized"
-msgstr "Určuje, či je proces oprávnený"
-
-#: ../polkitgtkmate/polkitlockbutton.c:484
-msgid "Is Visible"
-msgstr "Je viditeľný"
-
-#: ../polkitgtkmate/polkitlockbutton.c:485
-msgid "Whether the widget is visible"
-msgstr "Určuje, či je ovládací prvok viditeľný"
-
-#: ../polkitgtkmate/polkitlockbutton.c:500
-msgid "Can Obtain"
-msgstr "Môže získať"
-
-#: ../polkitgtkmate/polkitlockbutton.c:501
-msgid "Whether authorization can be obtained"
-msgstr "Určuje, či môže byť oprávnenie získané"
-
-#: ../polkitgtkmate/polkitlockbutton.c:516
-#: ../polkitgtkmate/polkitlockbutton.c:618
-msgid "Unlock Text"
-msgstr "Text odomknutia"
-
-#: ../polkitgtkmate/polkitlockbutton.c:517
-msgid "The text to display when prompting the user to unlock."
-msgstr "Text, ktorý sa zobrazí pri výzve používateľa na odomknutie."
-
-#: ../polkitgtkmate/polkitlockbutton.c:518
-msgid "Click to make changes"
-msgstr "Kliknite, aby sa zmeny vykonali"
-
-#: ../polkitgtkmate/polkitlockbutton.c:533
-#: ../polkitgtkmate/polkitlockbutton.c:635
-msgid "Unlock Tooltip"
-msgstr "Bublinový popis odomknutia"
-
-#: ../polkitgtkmate/polkitlockbutton.c:534
-msgid "The tooltip to display when prompting the user to unlock."
-msgstr "Bublinový popis, ktorý sa zobrazí pri výzve používateľa na odomknutie."
-
-#: ../polkitgtkmate/polkitlockbutton.c:535
-msgid "Authentication is needed to make changes."
-msgstr "Na vykonanie zmien je potrebné overenie totožnosti."
-
-#: ../polkitgtkmate/polkitlockbutton.c:550
-msgid "Lock Text"
-msgstr "Text uzamknutia"
-
-#: ../polkitgtkmate/polkitlockbutton.c:551
-msgid "The text to display when prompting the user to lock."
-msgstr "Text, ktorý sa zobrazí pri výzve používateľa na uzamknutie."
-
-#: ../polkitgtkmate/polkitlockbutton.c:552
-msgid "Click to prevent changes"
-msgstr "Kliknite, aby sa zabránilo zmenám"
-
-#: ../polkitgtkmate/polkitlockbutton.c:567
-msgid "Lock Tooltip"
-msgstr "Bublinový popis uzamknutia"
-
-#: ../polkitgtkmate/polkitlockbutton.c:568
-msgid "The tooltip to display when prompting the user to lock."
-msgstr "Bublinový popis, ktorý sa zobrazí pri výzve používateľa na uzamknutie."
-
-#: ../polkitgtkmate/polkitlockbutton.c:569
-msgid "To prevent further changes, click the lock."
-msgstr "Na zabránenie ďalších zmien kliknite na zámok."
-
-#: ../polkitgtkmate/polkitlockbutton.c:584
-msgid "Lock Down Text"
-msgstr "Text zamedzenia"
-
-#: ../polkitgtkmate/polkitlockbutton.c:585
-msgid ""
-"The text to display when prompting the user to lock down the action for all "
-"users."
-msgstr "Text, ktorý sa zobrazí pri výzve používateľa na zamedzenie operácie pre všetkých používateľov."
-
-#: ../polkitgtkmate/polkitlockbutton.c:586
-msgid "Click to lock down"
-msgstr "Kliknite, aby sa vykonalo zamedzenie"
-
-#: ../polkitgtkmate/polkitlockbutton.c:601
-msgid "Lock Down Tooltip"
-msgstr "Bublinový popis zamedzenia"
-
-#: ../polkitgtkmate/polkitlockbutton.c:602
-msgid ""
-"The tooltip to display when prompting the user to lock down the action for "
-"all users."
-msgstr "Bublinový popis, ktorý sa zobrazí pri výzve používateľa na zamedzenie operácie pre všetkých používateľov."
-
-#: ../polkitgtkmate/polkitlockbutton.c:603
-msgid ""
-"To prevent users without administrative privileges from making changes, "
-"click the lock."
-msgstr "Na zabránenie vykonania zmien používateľmi bez správcovských práv kliknite na zámok."
-
-#: ../polkitgtkmate/polkitlockbutton.c:619
-msgid ""
-"The text to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Text, ktorý sa zobrazí, keď používateľ nemôže získať oprávnenie pomocou overenia totožnosti."
-
-#: ../polkitgtkmate/polkitlockbutton.c:620
-msgid "Not authorized to make changes"
-msgstr "Na vykonanie zmien nemáte oprávnenie"
-
-#: ../polkitgtkmate/polkitlockbutton.c:636
-msgid ""
-"The tooltip to display when the user cannot obtain authorization through "
-"authentication."
-msgstr "Bublinový popis, ktorý sa zobrazí, keď používateľ nemôže získať oprávnenie pomocou overenia totožnosti."
-
-#: ../polkitgtkmate/polkitlockbutton.c:637
-msgid "System policy prevents changes. Contact your system administator."
-msgstr "Systémová politika zabraňuje zmenám. Kontaktujte správcu vášho systému."
-
-#: ../src/main.c:163
+#: src/main.c:163
 msgid "Drop all elevated privileges"
 msgstr "Zahodiť všetky zvýšené práva"
 
-#: ../src/main.c:187
+#: src/main.c:187
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Kliknite na ikonu, aby sa zahodili zvýšené práva"
 
-#: ../src/polkitmateauthenticationdialog.c:275
+#: src/polkitmateauthenticationdialog.c:276
 msgid "Select user..."
 msgstr "Vybrať používateľa..."
 
-#: ../src/polkitmateauthenticationdialog.c:310
+#: src/polkitmateauthenticationdialog.c:310
 #, c-format
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: ../src/polkitmateauthenticationdialog.c:654
+#: src/polkitmateauthenticationdialog.c:663
+msgid "_Cancel"
+msgstr "_Zrušiť"
+
+#: src/polkitmateauthenticationdialog.c:668
 msgid "_Authenticate"
 msgstr "_Overiť totožnosť"
 
-#: ../src/polkitmateauthenticationdialog.c:700
+#: src/polkitmateauthenticationdialog.c:709
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "Program sa pokúša vykonať operáciu, ktorá vyžaduje práva. Na vykonanie tejto operácie je vyžadované overenie totožnosti niektorého z uvedených používateľov."
+msgstr ""
+"Program sa pokúša vykonať operáciu, ktorá vyžaduje práva. Na vykonanie tejto"
+" operácie je vyžadované overenie totožnosti niektorého z uvedených "
+"používateľov."
 
-#: ../src/polkitmateauthenticationdialog.c:708
+#: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "Program sa pokúša vykonať operáciu, ktorá vyžaduje práva. Na vykonanie tejto operácie je vyžadované overenie totožnosti."
+msgstr ""
+"Program sa pokúša vykonať operáciu, ktorá vyžaduje práva. Na vykonanie tejto"
+" operácie je vyžadované overenie totožnosti."
 
-#: ../src/polkitmateauthenticationdialog.c:714
+#: src/polkitmateauthenticationdialog.c:723
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as the super user is required to perform this action."
-msgstr "Program sa pokúša vykonať operáciu, ktorá vyžaduje práva. Na vykonanie tejto operácie je vyžadované overenie totožnosti superpoužívateľa."
+msgstr ""
+"Program sa pokúša vykonať operáciu, ktorá vyžaduje práva. Na vykonanie tejto"
+" operácie je vyžadované overenie totožnosti superpoužívateľa."
 
-#: ../src/polkitmateauthenticationdialog.c:753
-#: ../src/polkitmateauthenticator.c:301
+#: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
 msgstr "_Heslo:"
 
-#. Details
-#: ../src/polkitmateauthenticationdialog.c:771
+#: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
 msgstr "<small><b>Po_drobnosti</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:833
+#: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
 msgstr "<small><b>Operácia:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:836
+#: src/polkitmateauthenticationdialog.c:838
 #, c-format
 msgid "Click to edit %s"
 msgstr "Kliknite pre úpravu %s"
 
-#: ../src/polkitmateauthenticationdialog.c:855
+#: src/polkitmateauthenticationdialog.c:855
 msgid "<small><b>Vendor:</b></small>"
 msgstr "<small><b>Dodávateľ:</b></small>"
 
-#: ../src/polkitmateauthenticationdialog.c:857
+#: src/polkitmateauthenticationdialog.c:857
 #, c-format
 msgid "Click to open %s"
 msgstr "Kliknite pre otvorenie %s"
 
-#: ../src/polkitmateauthenticationdialog.c:1017
+#: src/polkitmateauthenticationdialog.c:1014
 msgid "Authenticate"
 msgstr "Overenie totožnosti"
 
-#: ../src/polkitmateauthenticator.c:297
+#: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
 msgstr "_Heslo používateľa %s:"
 
-#: ../src/polkitmateauthenticator.c:458
+#: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
-msgstr "Váš pokus o overenie totožnosti bol neúspešný. Prosím, skúste to znovu."
+msgstr ""
+"Váš pokus o overenie totožnosti bol neúspešný. Prosím, skúste to znovu."
 
-#: ../src/polkitmatelistener.c:164
+#: src/polkitmatelistener.c:164
 msgid "Authentication dialog was dismissed by the user"
 msgstr "Dialógové okno s overením totožnosti bolo zrušené používateľom."
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:1
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:3
 msgid "PolicyKit Authentication Agent"
 msgstr "Agent PolicyKit na overovanie totožnosti"
 
-#: ../src/polkit-mate-authentication-agent-1.desktop.in.in.h:2
+#: src/polkit-mate-authentication-agent-1.desktop.in.in:4
 msgid "PolicyKit Authentication Agent for the MATE Desktop"
 msgstr "PolicyKit Authentication Agent pre MATE Desktop"

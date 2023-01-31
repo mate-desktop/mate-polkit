@@ -1,4 +1,4 @@
-AC_INIT([polkit-mate],[1.20.0],[http://www.mate-desktop.org/],[mate-polkit])
+AC_INIT([polkit-mate],[1.27.0],[https://mate-desktop.org/],[mate-polkit])
 
 AM_INIT_AUTOMAKE([1.9 foreign dist-xz no-dist-gzip check-news])
 
@@ -21,6 +21,13 @@ AC_SUBST(LT_CURRENT)
 AC_SUBST(LT_REVISION)
 AC_SUBST(LT_AGE)
 
+# *****
+# MATE
+# *****
+
+MATE_DEBUG_CHECK
+MATE_COMPILE_WARNINGS
+
 AC_PROG_CC
 AC_HEADER_STDC
 
@@ -32,40 +39,6 @@ LT_INIT
 
 if test "x$GCC" = "xyes"; then
   changequote(,)dnl
-  case " $CFLAGS " in
-  *[\ \	]-Wall[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wall" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wchar-subscripts[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wchar-subscripts" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wmissing-declarations[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wmissing-declarations" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wnested-externs[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wnested-externs" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wpointer-arith[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wpointer-arith" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wcast-align[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wcast-align" ;;
-  esac
-
-  case " $CFLAGS " in
-  *[\ \	]-Wsign-compare[\ \	]*) ;;
-  *) CFLAGS="$CFLAGS -Wsign-compare" ;;
-  esac
 
   if test "x$enable_ansi" = "xyes"; then
     case " $CFLAGS " in
@@ -108,13 +81,6 @@ else
   fi
 fi
 
-# *****
-# MATE
-# *****
-
-MATE_DEBUG_CHECK
-MATE_COMPILE_WARNINGS([maximum])
-
 # ***************************
 # Check for required packages
 # ***************************
@@ -140,7 +106,7 @@ AC_SUBST(POLKIT_GOBJECT_CFLAGS)
 AC_SUBST(POLKIT_GOBJECT_LIBS)
 
 AC_ARG_ENABLE([accountsservice],
-	      AC_HELP_STRING([--enable-accountsservice], [Enable accountsservice]),,
+	      AS_HELP_STRING([--enable-accountsservice], [Enable accountsservice]),,
 	      [enable_accountsservice=yes])
 
 AM_CONDITIONAL([HAVE_ACCOUNTSSERVICE], [test "x$enable_accountsservice" = xyes])
@@ -158,9 +124,10 @@ PKG_CHECK_EXISTS($UBUNTU_APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED,
 		 [have_appindicator_ubuntu="no"])
 
 AC_ARG_ENABLE([appindicator],
-	      AS_HELP_STRING([--enable-appindicator[=@<:@no/auto/yes@:>@]],[Build support for AppIndicators]),
+	      AS_HELP_STRING([--enable-appindicator[=@<:@no/auto/yes@:>@]],[Build support for application indicators]),
 	      [enable_appindicator=$enableval],
 	      [enable_appindicator="auto"])
+
 
 if  test "x$enable_appindicator" == "xauto" &&
    (test "x$have_appindicator_ayatana" == "xyes" ||
@@ -192,12 +159,12 @@ fi
 # ********************
 # Internationalisation
 # ********************
-
-IT_PROG_INTLTOOL([0.35.0])
+AM_GNU_GETTEXT_VERSION([0.19.8])
+AM_GNU_GETTEXT_REQUIRE_VERSION([0.19.8])
+AM_GNU_GETTEXT([external])
 
 GETTEXT_PACKAGE=mate-polkit
 AC_SUBST([GETTEXT_PACKAGE])
-AM_GLIB_GNU_GETTEXT
 AC_DEFINE_UNQUOTED([GETTEXT_PACKAGE],["$GETTEXT_PACKAGE"],[gettext domain])
 
 # *************************************
@@ -216,27 +183,30 @@ src/Makefile
 AC_OUTPUT
 
 echo "
-                  polkit-mate $VERSION
-                =======================
+Configure summary:
 
-        prefix:                     ${prefix}
-        libdir:                     ${libdir}
-        libexecdir:                 ${libexecdir}
-        bindir:                     ${bindir}
-        sbindir:                    ${sbindir}
-        datadir:                    ${datadir}
-        sysconfdir:                 ${sysconfdir}
-        localstatedir:              ${localstatedir}
+    ${PACKAGE_STRING}
+    `echo $PACKAGE_STRING | sed "s/./=/g"`
 
-        compiler:                   ${CC}
-        cflags:                     ${CFLAGS}
-        cppflags:                   ${CPPFLAGS}
+    prefix ...................: ${prefix}
+    libdir ...................: ${libdir}
+    libexecdir ...............: ${libexecdir}
+    bindir ...................: ${bindir}
+    sbindir ..................: ${sbindir}
+    datadir ..................: ${datadir}
+    sysconfdir ...............: ${sysconfdir}
+    localstatedir ............: ${localstatedir}
 
-        Accountsservice:            ${enable_accountsservice}
+    compiler .................: ${CC}
+    cflags ...................: ${CFLAGS}
+    cppflags .................: ${CPPFLAGS}
+    Warning flags ............: ${WARN_CFLAGS}
 
-        AppIndicator enabled:              ${enable_appindicator}
-        Ayatana AppIndicator (preferred)   ${have_appindicator_ayatana}
-        Ubuntu AppIndicator (legacy)       ${have_appindicator_ubuntu}
+    Accountsservice ..........: ${enable_accountsservice}
 
-        Maintainer mode:            ${USE_MAINTAINER_MODE}
+    AppIndicator enabled:              ${enable_appindicator}
+    Ayatana AppIndicator (preferred)   ${have_appindicator_ayatana}
+    Ubuntu AppIndicator (legacy)       ${have_appindicator_ubuntu}
+
+    Maintainer mode ..........: ${USE_MAINTAINER_MODE}
 "

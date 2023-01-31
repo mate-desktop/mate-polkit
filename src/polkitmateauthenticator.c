@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2009 Red Hat, Inc.
+ * Copyright (C) 2012-2021 MATE Developers
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -18,7 +19,6 @@
  *
  * Author: David Zeuthen <davidz@redhat.com>
  */
-
 
 #include "config.h"
 
@@ -307,8 +307,12 @@ session_request (PolkitAgentSession *session,
     }
 
   gtk_widget_show_all (GTK_WIDGET (authenticator->dialog));
-  gtk_window_present_with_time (GTK_WINDOW (authenticator->dialog),
-                                gdk_x11_get_server_time (gtk_widget_get_window (GTK_WIDGET (authenticator->dialog))));
+  if (GDK_IS_X11_WINDOW (gtk_widget_get_window (GTK_WIDGET (authenticator->dialog))))
+    gtk_window_present_with_time (GTK_WINDOW (authenticator->dialog),
+                                  gdk_x11_get_server_time (gtk_widget_get_window (GTK_WIDGET (authenticator->dialog))));
+  else
+    gtk_window_present (GTK_WINDOW (authenticator->dialog));
+
   password = polkit_mate_authentication_dialog_run_until_response_for_prompt (POLKIT_MATE_AUTHENTICATION_DIALOG (authenticator->dialog),
                                                                                modified_request,
                                                                                echo_on,
@@ -360,7 +364,6 @@ session_show_info (PolkitAgentSession *session,
   gtk_window_present (GTK_WINDOW (authenticator->dialog));
 }
 
-
 static void
 session_completed (PolkitAgentSession *session,
                    gboolean            gained_authorization,
@@ -374,7 +377,6 @@ session_completed (PolkitAgentSession *session,
 
   g_main_loop_quit (authenticator->loop);
 }
-
 
 static gboolean
 do_initiate (gpointer user_data)
@@ -511,5 +513,4 @@ polkit_mate_authenticator_get_cookie (PolkitMateAuthenticator *authenticator)
 {
   return authenticator->cookie;
 }
-
 

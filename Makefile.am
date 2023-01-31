@@ -1,4 +1,8 @@
-SUBDIRS = src po
+SUBDIRS = po src
+
+DISTCHECK_CONFIGURE_FLAGS = \
+	--enable-compile-warnings=no \
+	CFLAGS='-Wno-deprecated-declarations'
 
 EXTRA_DIST = \
 	autogen.sh \
@@ -19,3 +23,4 @@ dist: ChangeLog
 
 .PHONY: ChangeLog
 
+-include $(top_srcdir)/git.mk
