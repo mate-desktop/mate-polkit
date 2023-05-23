@@ -1,0 +1,11 @@
+option('accountsservice',
+  type : 'boolean', 
+  value : true, 
+  description : 'Use libmagic to detect file type'
+)
+
+option('appindicator',
+  type : 'string',
+  value : 'auto',
+  description : 'Path to the cpio program'
+)
