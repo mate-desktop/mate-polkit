@@ -1,6 +1,12 @@
+### mate-polkit 1.27.1
+
+  * Translations update
+  * Add meson compilation support
+  * Prefer building against Ayatana AppIndicator, but also support legacy Ubuntu Appindicator
+
 ### mate-polkit 1.27.0
 
-  * tx: sync with transifex
+  * Translations update
   * configure.ac: The macro 'AC_HELP_STRING' is obsolete
   * tx: update resource
   * tx: migrate config file
