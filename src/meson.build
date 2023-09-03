@@ -27,13 +27,13 @@ executable('polkit-mate-authentication-agent-1',
   include_directories : config_inc,
   c_args : c_args + ['-DPOLKIT_AGENT_I_KNOW_API_IS_SUBJECT_TO_CHANGE'] + ['-DHAVE_CONFIG_H'],
   install : true,
-  install_dir: get_option('libexecdir')
+  install_dir: libexecdir
 )
 
 # .desktop file
 
 desktop_data = configuration_data()
-desktop_data.set('FULL_LIBEXECDIR', get_option('libexecdir'))
+desktop_data.set('FULL_LIBEXECDIR', libexecdir)
 desktop_in_file = configure_file(
   input : 'polkit-mate-authentication-agent-1.desktop.in.in',
   output : 'polkit-mate-authentication-agent-1.desktop.in',
