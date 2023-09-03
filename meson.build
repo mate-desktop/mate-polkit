@@ -15,6 +15,7 @@ gettext_package = meson.project_name()
 prefix = get_option('prefix')
 datadir = join_paths(prefix, get_option('datadir'))
 sysconfdir = join_paths(prefix, get_option('sysconfdir'))
+libexecdir = join_paths(prefix, get_option('libexecdir'))
 # Dependencies
 
 glib_dep = dependency('glib-2.0', version : glib_version)
