@@ -129,22 +129,22 @@ AC_ARG_ENABLE([appindicator],
 	      [enable_appindicator="auto"])
 
 
-if  test "x$enable_appindicator" == "xauto" &&
-   (test "x$have_appindicator_ayatana" == "xyes" ||
-    test "x$have_appindicator_ubuntu" == "xyes"); then
+if  test "x$enable_appindicator" = "xauto" &&
+   (test "x$have_appindicator_ayatana" = "xyes" ||
+    test "x$have_appindicator_ubuntu" = "xyes"); then
 	AC_MSG_NOTICE([Enabling AppIndicator support (as --enable-appindicator=auto was used).])
 	enable_appindicator="yes"
 fi
 
-if test "x$enable_appindicator" == "xyes"; then
-	if test "x$have_appindicator_ayatana" == "xyes"; then
+if test "x$enable_appindicator" = "xyes"; then
+	if test "x$have_appindicator_ayatana" = "xyes"; then
 		AC_MSG_NOTICE([Buidling against Ayatana AppIndicator.])
 		PKG_CHECK_MODULES(AYATANA_APPINDICATOR,
 				  [$AYATANA_APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED],
 				  [AC_DEFINE(HAVE_AYATANA_APPINDICATOR, 1, [Have Ayatana AppIndicator])])
 		AC_SUBST(AYATANA_APPINDICATOR_CFLAGS)
 		AC_SUBST(AYATANA_APPINDICATOR_LIBS)
-	elif test "x$have_appindicator_ubuntu" == "xyes"; then
+	elif test "x$have_appindicator_ubuntu" = "xyes"; then
 		AC_MSG_NOTICE([Buidling against Ubuntu AppIndicator.])
 		PKG_CHECK_MODULES(UBUNTU_APPINDICATOR,
 				  [$UBUNTU_APPINDICATOR_PKG >= $APPINDICATOR_REQUIRED],
