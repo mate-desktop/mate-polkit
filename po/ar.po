@@ -11,9 +11,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.26.0\n"
+"Project-Id-Version: mate-polkit 1.27.1\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2022-10-29 15:33+0200\n"
+"POT-Creation-Date: 2023-09-02 20:41+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Mosaab Alzoubi <moceap@hotmail.com>, 2019\n"
 "Language-Team: Arabic (https://app.transifex.com/mate/teams/13566/ar/)\n"
@@ -23,11 +23,11 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: src/main.c:163
+#: src/main.c:164
 msgid "Drop all elevated privileges"
 msgstr "اسقط كل الصلاحيات المرفوعة"
 
-#: src/main.c:187
+#: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
 msgstr "انقر على الرّمز لإسقاط كل الصلاحيات"
 

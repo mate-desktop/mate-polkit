@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.26.0\n"
+"Project-Id-Version: mate-polkit 1.27.1\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2022-10-29 15:33+0200\n"
+"POT-Creation-Date: 2023-09-02 20:41+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Mihail Varantsou <meequz@gmail.com>, 2019\n"
 "Language-Team: Belarusian (https://app.transifex.com/mate/teams/13566/be/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: be\n"
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
 
-#: src/main.c:163
+#: src/main.c:164
 msgid "Drop all elevated privileges"
 msgstr "Скінуць усе павышаныя прывілеі"
 
-#: src/main.c:187
+#: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Пстрыкніце па значку, каб скасаваць усе ўзнятыя прывілеі"
 

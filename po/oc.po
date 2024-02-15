@@ -9,9 +9,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.26.0\n"
+"Project-Id-Version: mate-polkit 1.27.1\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2022-10-29 15:33+0200\n"
+"POT-Creation-Date: 2023-09-02 20:41+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Cédric Valmary <cvalmary@yahoo.fr>, 2019\n"
 "Language-Team: Occitan (post 1500) (https://app.transifex.com/mate/teams/13566/oc/)\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Language: oc\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: src/main.c:163
+#: src/main.c:164
 msgid "Drop all elevated privileges"
 msgstr "Abandonar totes los privilègis obtenguts"
 
-#: src/main.c:187
+#: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Clicatz sus l'icòna per abandonar totes los privilègis obtenguts"
 

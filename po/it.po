@@ -5,14 +5,14 @@
 # 
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
-# Giuseppe Pignataro <rogepix@gmail.com>, 2018
+# Giuseppe Pignataro (Fastbyte01) <rogepix@gmail.com>, 2018
 # Alessandro Volturno <alelvb@inwind.it>, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: mate-polkit 1.26.0\n"
+"Project-Id-Version: mate-polkit 1.27.1\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
-"POT-Creation-Date: 2022-10-29 15:33+0200\n"
+"POT-Creation-Date: 2023-09-02 20:41+0200\n"
 "PO-Revision-Date: 2018-03-11 20:32+0000\n"
 "Last-Translator: Alessandro Volturno <alelvb@inwind.it>, 2022\n"
 "Language-Team: Italian (https://app.transifex.com/mate/teams/13566/it/)\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Language: it\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
-#: src/main.c:163
+#: src/main.c:164
 msgid "Drop all elevated privileges"
 msgstr "Ritira tutti i privilegi elevati"
 
-#: src/main.c:187
+#: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
 msgstr "Fare clic sull'icona per ritirare tutti i privilegi elevati"
 
