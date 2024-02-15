@@ -1,3 +1,9 @@
+### mate-polkit 1.28.0
+
+  * Translations update
+  * Fix meson build libexecdir to the correct path
+  * drop categories from desktop file
+
 ### mate-polkit 1.27.1
 
   * Translations update
