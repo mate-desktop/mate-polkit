@@ -8,6 +8,13 @@ EXTRA_DIST = \
 	autogen.sh \
 	HACKING
 
+# Distribute the Meson build system files as well
+EXTRA_DIST += \
+	meson.build		\
+	meson_options.txt	\
+	po/meson.build		\
+	src/meson.build
+
 ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 clean-local :
