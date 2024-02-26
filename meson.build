@@ -1,6 +1,6 @@
 project('mate-polkit', 'c',
   license : 'GPL2+',
-  version : '1.28.0',
+  version : '1.28.1',
   meson_version : '>=0.43'
 )
 
