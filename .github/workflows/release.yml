@@ -12,6 +12,8 @@ jobs:
   release:
     name: Release New Version
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Repository checkout
         uses: actions/checkout@v4
@@ -25,12 +27,13 @@ jobs:
         run: .github/workflows/builds.sh meson
 
       - name: Install GH CLI
-        uses: dev-hanz-ops/install-gh-cli-action@v0.1.0
+        uses: dev-hanz-ops/install-gh-cli-action@v0.2.1
         with:
-          gh-cli-version: 2.39.1
+          gh-cli-version: 2.72.0
 
       - name: Create github release
         run: |
-          gh release create ${{ github.ref_name }} --title ${{ github.ref_name }} --generate-notes _build/meson-dist/*
+          .github/workflows/release.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          API_SECRET: ${{ secrets.API_SECRET }}
