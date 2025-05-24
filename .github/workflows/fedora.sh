@@ -14,6 +14,7 @@ requires=(
 	meson  # Used for meson build
 )
 
+# https://src.fedoraproject.org/rpms/mate-polkit/blob/rawhide/f/mate-polkit.spec
 requires+=(
 	autoconf-archive
 	gcc

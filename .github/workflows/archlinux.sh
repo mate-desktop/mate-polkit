@@ -15,6 +15,7 @@ requires=(
 	meson  # Used for meson build
 )
 
+# https://gitlab.archlinux.org/archlinux/packaging/packages/mate-polkit/-/blob/main/PKGBUILD
 requires+=(
 	autoconf-archive
 	gcc
