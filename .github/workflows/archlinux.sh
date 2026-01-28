@@ -20,10 +20,13 @@ requires+=(
 	accountsservice
 	autoconf-archive
 	gcc
+	gettext
 	git
 	gobject-introspection
+	gtk3
 	make
 	mate-common
+	polkit
 	which
 )
 
