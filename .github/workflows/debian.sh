@@ -14,6 +14,7 @@ requires=(
 	meson  # Used for meson build
 )
 
+# https://salsa.debian.org/debian-mate-team/mate-polkit
 requires+=(
 	autoconf-archive
 	autopoint
