@@ -176,6 +176,7 @@ get_user_icon (char *username)
     {
       g_warning ("Accounts couldn't find user: %s", error->message);
       g_error_free (error);
+      g_object_unref (connection);
       return NULL;
     }
 
@@ -202,6 +203,7 @@ get_user_icon (char *username)
     {
       g_warning ("Accounts couldn't find user icon: %s", error->message);
       g_error_free (error);
+      g_object_unref (connection);
       return NULL;
     }
 
@@ -228,6 +230,7 @@ get_user_icon (char *username)
 
   g_variant_unref (icon_result_variant);
   g_variant_unref (get_icon_result);
+  g_object_unref (connection);
 
   return pixbuf;
 }
