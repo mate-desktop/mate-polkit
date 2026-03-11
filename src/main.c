@@ -369,6 +369,7 @@ register_client_to_gnome_session (void)
         if (! g_variant_is_of_type (res, G_VARIANT_TYPE ("(o)"))) {
                 g_warning ("RegisterClient returned unexpected type %s",
                            g_variant_get_type_string (res));
+                g_variant_unref (res);
                 return FALSE;
         }
 
