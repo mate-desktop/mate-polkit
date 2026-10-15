@@ -1,35 +1,37 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-polkit package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
 # Seong-ho Cho <darkcircle.0426@gmail.com>, 2018
 # Alan Lee <bkrhlim@aol.com>, 2018
 # 1763f4a4329a2376c933c5e919a36cbc_341ca53 <1f851310383599d03339229d772e1290_119292>, 2019
 # Junghee Lee <daemul72@gmail.com>, 2021
-# 
+# 김인수 <simmon@nplob.com>, 2026.
+#
+# Translators:
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-polkit 1.27.1\n"
 "Report-Msgid-Bugs-To: https://mate-desktop.org/\n"
 "POT-Creation-Date: 2023-09-02 20:41+0200\n"
-"PO-Revision-Date: 2018-03-11 20:32+0000\n"
-"Last-Translator: Junghee Lee <daemul72@gmail.com>, 2021\n"
-"Language-Team: Korean (https://app.transifex.com/mate/teams/13566/ko/)\n"
+"PO-Revision-Date: 2026-06-16 08:10+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/mate-"
+"desktop/mate-polkit/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ko\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #: src/main.c:164
 msgid "Drop all elevated privileges"
-msgstr "상승된 모든 권한을 해제합니다."
+msgstr "상승된 모든 권한을 해제합니다"
 
 #: src/main.c:188
 msgid "Click the icon to drop all elevated privileges"
-msgstr "아이콘을 클릭하여 모든 상승된 권한을 해제합니다."
+msgstr "아이콘을 눌러 모든 상승된 권한을 해제합니다"
 
 #: src/polkitmateauthenticationdialog.c:276
 msgid "Select user..."
@@ -52,13 +54,17 @@ msgstr "인증(_A)"
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication as one of the users below is required to perform this action."
-msgstr "프로그램에서 실행하려는 작동은 권한이 필요합니다.  아래의 사용자로 인증하여 이를 수행하세요."
+msgstr ""
+"응용프로그램은 권한이 필요한 동작을 수행하려고 시도 중입니다. 아래의 사용자 "
+"중의 인증은 이 동작을 수행하는 데 필요합니다."
 
 #: src/polkitmateauthenticationdialog.c:717
 msgid ""
 "An application is attempting to perform an action that requires privileges. "
 "Authentication is required to perform this action."
-msgstr "프로그램에서 실행하려는 작동은 권한이 필요합니다.  인증하여 이를 수행하세요."
+msgstr ""
+"응용프로그램은 권한이 필요한 동작을 수행하려고 시도 중입니다. 인증은 이 "
+"동작을 수행하는 데 필요합니다."
 
 #: src/polkitmateauthenticationdialog.c:723
 msgid ""
@@ -68,11 +74,11 @@ msgstr "프로그램에서 권한이 필요한 동작을 수행하려 합니다.
 
 #: src/polkitmateauthenticationdialog.c:759 src/polkitmateauthenticator.c:301
 msgid "_Password:"
-msgstr "암호(_P):"
+msgstr "비밀번호(_P):"
 
 #: src/polkitmateauthenticationdialog.c:777
 msgid "<small><b>_Details</b></small>"
-msgstr "<small><b>자세히(_D)</b></small>"
+msgstr "<small><b>_자세히</b></small>"
 
 #: src/polkitmateauthenticationdialog.c:835
 msgid "<small><b>Action:</b></small>"
@@ -99,7 +105,7 @@ msgstr "인증"
 #: src/polkitmateauthenticator.c:297
 #, c-format
 msgid "_Password for %s:"
-msgstr "%s의 암호(_P):"
+msgstr "%s의 비밀번호(_P):"
 
 #: src/polkitmateauthenticator.c:460
 msgid "Your authentication attempt was unsuccessful. Please try again."
